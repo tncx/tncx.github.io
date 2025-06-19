@@ -12,7 +12,7 @@
     body {
       padding: 2rem;
       background-color: #f8f9fa;
-      background-image: url('images/bg-image.jpg'); /* Site temana uygun arka plan */
+      background-image: url('images/bg-image.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
@@ -26,17 +26,33 @@
       border-radius: 10px;
       box-shadow: 0 0 15px rgba(0,0,0,0.2);
     }
+    .logo {
+      display: block;
+      margin: 0 auto 2rem;
+      max-width: 300px;
+    }
+    .footer-logo {
+      display: block;
+      margin: 3rem auto 1rem;
+      max-width: 300px;
+    }
   </style>
 </head>
 <body>
+  <!-- Üst Logo -->
+  <img src="images/logo-default-432x98.png" alt="Çankaya Uydu Logo" class="logo">
+
   <div class="container search-container">
-    <h1 class="mb-4">🔍 Site İçi Arama</h1>
+    <h1 class="mb-4 text-center">🔍 Site İçi Arama</h1>
     <div class="input-group mb-4">
       <input type="text" id="search-box" class="form-control" placeholder="Aramak istediğiniz kelimeyi yazın...">
       <button class="btn btn-primary" onclick="doSearch()">Ara</button>
     </div>
     <ul id="results" class="list-group"></ul>
   </div>
+
+  <!-- Alt Logo -->
+  <img src="images/logo-default-432x98.png" alt="Çankaya Uydu Footer Logo" class="footer-logo">
 
   <script>
     let idx;
