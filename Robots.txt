@@ -1,4 +1,8 @@
 User-agent: *
-Disallow:
+Disallow: /bat/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /junk/
+Allow: /
 
 Sitemap: https://cankayauydu.com/sitemap.xml
