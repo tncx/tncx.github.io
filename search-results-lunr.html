@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="tr">
+<head>
+    <!-- Site Title-->
+    <title>Çankaya Uydu Servisi, Çanak Anten Uydu Arıza ve Kurulum Servisi</title>
+    <meta name="keywords" content="Çanak anten, dikmen uyducu, ayrancı uyducu, öveçler uyducu, sokullu uyducu, balgat uyducu, çanak anten kurulum, çanak anten tamiri, televizyon tamiri, uydu aruza, çanak anten arıza, dikmen, ayrancı, öveçler," />
+    <meta name="description" content="Çanak Anten Uydu Sistemleri Arıza ve Kurulum İşlerinizi, Kaliteli Malzemeler ve Profosyonel İşçilik Hizmeti ile Çözüyoruz.." />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- HEADER AND NAVIGATION UNTOUCHED -->
+    <!-- ... existing header/nav code ... -->
+
+    <!-- Breadcrumbs -->
+    <!-- ... existing breadcrumbs ... -->
+
+    <section class="section-60 section-sm-110">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-xl-8 mx-auto">
+                    <!-- Search Form -->
+                    <form class="rd-search rd-search-style-1" action="#" method="GET">
+                        <div class="form-wrap">
+                            <label class="form-label" for="search-input">Arama...</label>
+                            <input class="form-input" id="search-input" type="text" name="s" autocomplete="off" placeholder="Aramak için yazın...">
+                        </div>
+                        <button class="btn btn-primary" type="button" id="search-button">Ara</button>
+                    </form>
+                    <div class="rd-search-results mt-4"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER UNTOUCHED -->
+    <!-- ... existing footer code ... -->
+
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const input = document.getElementById("search-input");
+        const button = document.getElementById("search-button");
+        const resultsEl = document.querySelector(".rd-search-results");
+
+        fetch("search-index.json")
+            .then(res => res.json())
+            .then(pages => {
+                const idx = lunr(function() {
+                    this.ref("id");
+                    this.field("title");
+                    this.field("content");
+                    pages.forEach(doc => this.add(doc), this);
+                });
+
+                function performSearch() {
+                    const query = input.value.trim();
+                    if (!query) {
+                        resultsEl.innerHTML = "";
+                        return;
+                    }
+                    const results = idx.search(query);
+                    if (results.length) {
+                        resultsEl.innerHTML = results.map(r => {
+                            const item = pages.find(p => p.id === r.ref);
+                            return '<div class="result-item mb-3"><h5><a href="' + item.url + '">' + item.title + '</a></h5><p>' + item.content.substring(0,150) + '...</p></div>';
+                        }).join("");
+                    } else {
+                        resultsEl.innerHTML = "<p>Sonuç bulunamadı.</p>";
+                    }
+                }
+
+                button.addEventListener("click", performSearch);
+                input.addEventListener("keyup", function(e) {
+                    if (e.key === "Enter") performSearch();
+                });
+            })
+            .catch(err => console.error("Index yükleme hatası:", err));
+    });
+    </script>
+
+    <style>
+    .rd-search-results .result-item { border-bottom: 1px solid #ccc; padding-bottom: 10px; }
+    .rd-search-results .result-item h5 { margin-bottom: 5px; }
+    </style>
+</body>
+</html>
