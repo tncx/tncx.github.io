@@ -1,82 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://cankayauydu.com/index.html</loc>
-<lastmod>2024-09-20</lastmod>
-</url>
-<url>
-<loc>https://cankayauydu.com/hizmetlerimiz.html</loc>
-<lastmod>2024-09-20</lastmod>
-</url>
-<url>
-<loc>https://cankayauydu.com/iletisim.html</loc>
-<lastmod>2024-09-20</lastmod>
-</url>
-<url>
-<loc>https://cankayauydu.com/canak-anten-nasil-ayarlanir.html</loc>
-<lastmod>2024-09-20</lastmod>
-</url>
-<url>
-<loc>https://cankayauydu.com/canak-anten-nedir.html</loc>
-<lastmod>2024-09-20</lastmod>
-</url>
-<url>
-<loc>https://cankayauydu.com/turksat-sebeke-arama-frekansi.html</loc>
-<lastmod>2024-09-20</lastmod>
-</url>
-<url>
-<loc>https://cankayauydu.com/faq.html</loc>
-<lastmod>2024-09-20</lastmod>
-</url>
-<url>
-<loc>https://cankayauydu.com/yardim.html</loc>
-<lastmod>2024-09-20</lastmod>
-</url>
-<url>
-<loc>https://cankayauydu.com/hakkimizda.html</loc>
-<lastmod>2024-09-20</lastmod>
-</url>
-<url>
-<loc>https://cankayauydu.com/404.html</loc>
-<lastmod>2024-09-20</lastmod>
-</url>
-<url>
-<loc>https://cankayauydu.com/appointment.html</loc>
-<lastmod>2024-09-20</lastmod>
-</url>
-<url>
-<loc>https://cankayauydu.com/careers.html</loc>
-<lastmod>2024-09-20</lastmod>
-</url>
-<url>
-<loc>https://cankayauydu.com/clients.html</loc>
-<lastmod>2024-09-20</lastmod>
-</url>
-<url>
-<loc>https://cankayauydu.com/gallery.html</loc>
-<lastmod>2024-09-20</lastmod>
-</url>
-<url>
-<loc>https://cankayauydu.com/partners.html</loc>
-<lastmod>2024-09-20</lastmod>
-</url>
-<url>
-<loc>https://cankayauydu.com/search-results.html</loc>
-<lastmod>2024-09-20</lastmod>
-</url>
-<url>
-<loc>https://cankayauydu.com/privacy-policy.html</loc>
-<lastmod>2024-09-20</lastmod>
-</url>
-<url>
-<loc>https://cankayauydu.com/team.html</loc>
-<lastmod>2024-09-20</lastmod>
-</url>
-<url>
-<loc>https://cankayauydu.com/team-member.html</loc>
-<lastmod>2024-09-20</lastmod>
-</url>
   <url>
-<loc>https://cankayauydu.com/digitürk-kanal-listesi.html</loc>
-<lastmod>2024-09-20</lastmod>
-</url>
+    <loc>https://cankayauydu.com/</loc>
+    <lastmod>2025-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://cankayauydu.com/hakkimizda.html</loc>
+    <lastmod>2025-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://cankayauydu.com/hizmetlerimiz.html</loc>
+    <lastmod>2025-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://cankayauydu.com/galeri.html</loc>
+    <lastmod>2025-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://cankayauydu.com/iletisim.html</loc>
+    <lastmod>2025-06-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cankayauydu.com/faq.html</loc>
+    <lastmod>2025-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://cankayauydu.com/yardim.html</loc>
+    <lastmod>2025-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://cankayauydu.com/canak-anten-nasil-ayarlanir.html</loc>
+    <lastmod>2025-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://cankayauydu.com/turksat-sebeke-arama-frekansi.html</loc>
+    <lastmod>2025-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://cankayauydu.com/digiturk-kanal-listesi.html</loc>
+    <lastmod>2025-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
 </urlset>
