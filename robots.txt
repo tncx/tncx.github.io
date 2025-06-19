@@ -1,4 +1,8 @@
 User-agent: *
 Disallow:
+Disallow: /404.html
+Disallow: /search-results.html
+Disallow: /clients.html 
+Disallow: /appointment.html
 
 Sitemap: https://cankayauydu.com/sitemap.xml
