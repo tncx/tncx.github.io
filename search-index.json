@@ -1,62 +1,32 @@
 window.siteData = [
   {
-    "id": "1",
-    "title": "Ana Sayfa",
-    "content": "Çankaya Uydu Servisi: Çanak anten kurulumu, uydu arıza çözümleri ve merkezi sistem kurulumları.",
+    "id": "index",
+    "title": "Ana Sayfa - Çankaya Uydu",
+    "content": "Çankaya bölgesinde uydu arıza ve kurulum hizmeti.",
     "url": "index.html"
   },
   {
-    "id": "2",
-    "title": "Hizmetlerimiz",
-    "content": "Bireysel çanak anten kurulumu, merkezi uydu sistemleri, TV montajı, uydu cihazı satışı ve destek hizmetleri.",
-    "url": "hizmetlerimiz.html"
-  },
-  {
-    "id": "3",
-    "title": "Hakkımızda",
-    "content": "Çankaya Uydu olarak profesyonel hizmet anlayışıyla yıllardır müşterilerimize hizmet veriyoruz.",
+    "id": "hakkimizda",
+    "title": "Hakkımızda - Çankaya Uydu",
+    "content": "Biz Tuncay Özer olarak 15 yıldır çanak anten sektöründe hizmet veriyoruz.",
     "url": "hakkimizda.html"
   },
   {
-    "id": "4",
-    "title": "İletişim",
-    "content": "Bize telefon, e-posta ya da adresimizden ulaşabilirsiniz. Hızlı servis ve teknik destek için iletişimde kalın.",
+    "id": "hizmetlerimiz",
+    "title": "Hizmetlerimiz - Çankaya Uydu",
+    "content": "Çanak anten kurulumu, uydu servisi, televizyon montajı gibi hizmetler sunuyoruz.",
+    "url": "hizmetlerimiz.html"
+  },
+  {
+    "id": "iletisim",
+    "title": "İletişim - Çankaya Uydu",
+    "content": "Bize ulaşmak için iletişim formunu kullanabilirsiniz. Telefon: 0553 450 20 33",
     "url": "iletisim.html"
   },
   {
-    "id": "5",
-    "title": "SSS",
-    "content": "Sık Sorulan Sorular sayfamızda uydu sistemleriyle ilgili aklınıza takılan her şeyi bulabilirsiniz.",
+    "id": "faq",
+    "title": "Sıkça Sorulan Sorular - Çankaya Uydu",
+    "content": "Çanak anten yönü nasıl ayarlanır? Uydu sinyali yok sorunu neden olur?",
     "url": "faq.html"
-  },
-  {
-    "id": "6",
-    "title": "Yardım",
-    "content": "Çanak anten kurulumu, sinyal ayarı, şebeke frekans ayarı gibi teknik konulara destek.",
-    "url": "yardim.html"
-  },
-  {
-    "id": "7",
-    "title": "Çanak Anten Nasıl Ayarlanır?",
-    "content": "Çanak anten ayarı yaparken dikkat edilmesi gerekenler, uydu yönü ve sinyal kalitesi artırma.",
-    "url": "canak-anten-nasil-ayarlanir.html"
-  },
-  {
-    "id": "8",
-    "title": "Türksat Şebeke Frekansı",
-    "content": "Türksat 4A şebeke arama frekansı ve kanal güncelleme işlemleri.",
-    "url": "turksat-sebeke-arama-frekansi.html"
-  },
-  {
-    "id": "9",
-    "title": "Digitürk Kanal Listesi 2024",
-    "content": "Güncel Digitürk kanal listesi, frekans bilgileri ve kanal güncellemeleri.",
-    "url": "digiturk-kanal-listesi.html"
-  },
-  {
-    "id": "10",
-    "title": "Galeri",
-    "content": "Hizmetlerimizden ve kurulumlarımızdan örnek görseller.",
-    "url": "gallery.html"
   }
-];
+]
