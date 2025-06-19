@@ -141,23 +141,101 @@
             </div>
         </header>
         <!-- Breadcrumbs-->
-        <section class="section-40 section-lg-64 bg-light-05">
-            <div class="breadcrumbs-wrap">
-                <div class="container text-center">
-                    <div class="wrap-sm-justify-horizontal">
-                        <div class="text-md-start">
-                            <h1 class="breadcrumbs-custom-title">Arama Sonuçları....</h1>
-                        </div>
-                        <div class="offset-top-22 offset-md-top-0 text-md-end">
-                            <ul class="breadcrumbs-custom">
-                                <li><a href="index.html">Ana Sayfa</a></li>
-                                <li class="active">Arama Sonuçları</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <!-- Breadcrumbs ve diğer bölümlerin altına ekleyebilirsiniz -->
+<section class="section-60 section-sm-110">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 col-xl-8">
+        <!-- Lunr.js Arama Kutusu -->
+        <form id="lunr-search-form" class="rd-search rd-search-style-1" autocomplete="off" onsubmit="return false;">
+          <div class="form-wrap">
+            <label class="form-label" for="lunr-search-input">Site içi arama...</label>
+            <input class="form-input" id="lunr-search-input" type="text" placeholder="Anahtar kelime yazın..." autocomplete="off" autofocus>
+          </div>
+        </form>
+        <div class="rd-search-results"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ...footer ve diğer kodlarınız değişmeden kalacak... -->
+
+<!-- Lunr.js ve search-index.json ekleyin -->
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="search-index.json"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const input = document.getElementById("lunr-search-input");
+    const resultsDiv = document.querySelector(".rd-search-results");
+    let idx, pages;
+
+    function doSearch(query) {
+      resultsDiv.innerHTML = "";
+      if (!query) return;
+      const results = idx.search(query);
+      if (results.length) {
+        results.forEach(res => {
+          const item = pages.find(p => p.id === res.ref);
+          if (item) {
+            const div = document.createElement("div");
+            div.className = "result-item";
+            div.innerHTML = `<a href="${item.url}">${item.title}</a><p>${item.content.substring(0,150)}...</p>`;
+            resultsDiv.appendChild(div);
+          }
+        });
+      } else {
+        resultsDiv.innerHTML = "<p>Sonuç bulunamadı.</p>";
+      }
+    }
+
+    function initializeLunr() {
+      pages = window.siteData;
+      idx = lunr(function () {
+        this.ref("id");
+        this.field("title");
+        this.field("content");
+        pages.forEach(doc => this.add(doc), this);
+      });
+    }
+
+    if (typeof window.siteData !== "undefined") {
+      initializeLunr();
+    } else {
+      // search-index.json dosyası yüklenmeden input aktif olmasın
+      input.disabled = true;
+      let tries = 0;
+      const interval = setInterval(() => {
+        if (typeof window.siteData !== "undefined") {
+          clearInterval(interval);
+          input.disabled = false;
+          initializeLunr();
+        } else if (++tries > 10) {
+          clearInterval(interval);
+          resultsDiv.innerHTML = "<p>Arama indeksi yüklenemedi.</p>";
+        }
+      }, 500);
+    }
+
+    input.addEventListener("input", function() {
+      doSearch(input.value.trim());
+    });
+
+    // Eğer ?s= parametresi varsa otomatik arama yap
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("s")) {
+      input.value = params.get("s");
+      setTimeout(() => doSearch(input.value.trim()), 700);
+    }
+  });
+</script>
+<style>
+  .rd-search-results { margin-top: 20px; }
+  .result-item { padding: 10px; border-bottom: 1px solid #e0e0e0; }
+  .result-item a { font-size: 18px; color: #007bff; text-decoration: none; }
+  .result-item a:hover { text-decoration: underline; }
+</style>
+
         <section class="section-60 section-sm-110">
             <div class="container">
                 <div class="row">
