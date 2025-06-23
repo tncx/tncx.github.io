@@ -374,13 +374,15 @@ function showResults(keyword) {
     resultsDiv.innerHTML = "<p class='text-center text-danger'>Sonuç bulunamadı.</p>";
     return;
   }
-  results.forEach(item => {
-    resultsDiv.innerHTML += `
-      <div class="search-result mb-3">
-        <a href="${item.url}">${item.title}</a>
-        <div class="mt-1 text-secondary" style="font-size:0.98em;">${item.description}</div>
-      </div>`;
-  });
+results.forEach(item => {
+  resultsDiv.innerHTML += `
+    <div class="search-result mb-3">
+      <a href="${item.url}">${item.title}</a>
+      <div class="mt-1 text-secondary" style="font-size:0.98em;">${item.description}</div>
+      <div class="mt-1 text-muted" style="font-size:0.96em;">${item.content ? item.content.substring(0, 120) + "..." : ""}</div>
+    </div>
+  `;
+});
 }
 
 document.getElementById("search-form").onsubmit = e => {
