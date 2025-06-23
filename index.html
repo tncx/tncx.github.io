@@ -53,9 +53,24 @@ html, body {
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Çankaya Uydu Teknik Servis",
+  "url": "https://cankayauydu.com/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://cankayauydu.com/search-results.html?s={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "inLanguage": "tr"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Çankaya Uydu Servisi",
-  "description": "Çankaya çanak anten kurulumu, merkezi uydu sistemi arıza ve kurulum servisi. Hızlı ve yerinde çözüm.",
+  "name": "Çankaya Uydu Teknik Servis",
+  "description": "Ankara Çankaya bölgesinde çanak anten kurulumu, uydu arıza tespiti ve merkezi uydu sistemleri servisi.",
   "url": "https://cankayauydu.com/",
   "telephone": "+905534502033",
   "address": {
@@ -68,17 +83,69 @@ html, body {
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": "39.8999",
-    "longitude": "32.8597"
+    "latitude": 39.8999,
+    "longitude": 32.8597
   },
   "image": "https://cankayauydu.com/images/logo-default-432x98.png",
   "areaServed": "Ankara, Çankaya",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "11:00",
+      "closes": "18:00"
+    }
+  ],
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+905534502033",
     "contactType": "customer service"
   }
 }
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Çanak Anten Nasıl Kurulur?",
+  "description": "Çanak antenin kurulum mantığı, ipuçları ve dikkat edilmesi gerekenler.",
+  "datePublished": "2025-06-23",
+  "dateModified": "2025-06-23",
+  "author": {
+    "@type": "Person",
+    "name": "Tuncay Özer"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Çankaya Uydu Teknik Servis",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cankayauydu.com/images/logo-default-432x98.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cankayauydu.com/canak-anten-nasil-ayarlanir.html"
+  }
+}
+</script>
+
 </script>
 <script>
   if (window.location.pathname === "/index.html") {
