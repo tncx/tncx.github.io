@@ -571,6 +571,7 @@
 </style>
 
 <style>
+<style>
 /* Sayaçları her zaman yatay ve ortalı tut */
 .counters-row {
   display: flex;
@@ -593,8 +594,20 @@
 }
 
 /* Gerekirse küçük ekranda da yan yana tutmak için */
-@media (max-width: 700px)
-
+@media (max-width: 700px) {
+  .counters-row {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    /* Hafif boşluk ver */
+    padding: 0 2vw;
+  }
+  .counters-row > div {
+    min-width: 180px;
+    max-width: 200px;
+    flex: 0 0 auto;
+  }
+}
+</style>
 
 </body>
 </html>
