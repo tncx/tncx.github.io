@@ -39,24 +39,20 @@ html, body {
   .rd-navbar-brand {
     width: 100vw !important;
     max-width: 100vw !important;
+    padding: 0 !important;
+    margin: 0 auto !important;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 !important;
-    margin: 0 auto !important;
   }
   .rd-navbar-brand img {
-    width: 100vw !important;
-    max-width: 100vw !important;
-    height: auto !important;
+    width: 95vw !important;    /* %100 yerine %95 önerilir */
+    max-width: 330px !important;  /* Maksimum genişlik limitli */
+    height: auto !important;   /* Orantıyı bozmadan */
+    max-height: 62px !important;  /* Logo yüksekliği sabitlenir */
     display: block;
     object-fit: contain;
   }
-  .rd-navbar-panel {
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-}
 </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16706495413"></script>
