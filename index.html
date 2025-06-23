@@ -573,87 +573,65 @@
 }
 </style>
 
-<style>
-/* Masaüstünde değişiklik yok, sadece mobil optimize */
-@media (max-width: 700px) {
-  .section-80, .section-md-110, .container {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-    background: transparent !important;
-  }
-  .counters-row {
-    display: flex !important;
-    flex-wrap: nowrap !important;
-    justify-content: space-between !important;
-    align-items: stretch !important;
-    gap: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 100vw !important;
-    max-width: 100vw !important;
-    background: #fff !important;
-    box-shadow: none !important;
-    overflow-x: hidden !important;
-    border-radius: 0 !important;
-  }
-  .counters-row > div {
-    flex: 1 1 0;
-    min-width: 0;
-    max-width: none;
-    margin: 0 !important;
-    padding: 0 !important;
-    background: #fff !important;
-    border-radius: 0 !important;
-    box-shadow: none !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    height: 56px !important;
-    border-right: 1px solid #f0f0f0;
-  }
-  .counters-row > div:last-child {
-    border-right: none !important;
-  }
-  .counter-wrap {
-    background: #fff !important;
-    border-radius: 0 !important;
-    box-shadow: none !important;
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center !important;
-    height: 56px !important;
-    width: 100% !important;
-    min-width: 0 !important;
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-  .counter-wrap .icon {
-    font-size: 1.2rem !important;
-    width: 20px !important;
-    height: 20px !important;
-    margin-bottom: 1px !important;
-  }
-  .counter-value .h3, .counter-value p.h3 {
-    font-size: 0.91rem !important;
-    margin: 1px 0 0 0 !important;
-    font-weight: bold;
-  }
-  .counter-text, .text-style-2 {
-    font-size: 0.67rem !important;
-    text-align: center !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    line-height: 1.1 !important;
-    color: #444 !important;
-  }
-  .divider-center, .divider-md {
-    display: none !important;
-  }
+/* Masaüstü için: Kutular yan yana */
+.counters-row {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 0;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1100px;
+  width: 100%;
 }
-</style>
+.counters-row > div {
+  flex: 1 1 0%;
+  min-width: 170px;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 8px;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 16px;
+  margin: 4px;
+  box-shadow: 0 2px 8px rgba(180,180,180,0.03);
+  height: 110px;
+}
+.counter-wrap {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 0;
+  box-shadow: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.counter-wrap .icon {
+  font-size: 2rem;
+  margin-bottom: 2px;
+}
+.counter-value .h3, .counter-value p.h3 {
+  font-size: 1.36rem;
+  margin: 0 0 4px 0;
+  font-weight: bold;
+}
+.counter-text, .text-style-2 {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+.divider-center, .divider-md {
+  display: none;
+}
+
         
 
 </body>
