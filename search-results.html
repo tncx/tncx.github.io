@@ -149,22 +149,46 @@
     
 
 
-<div class="d-flex justify-content-center align-items-center" style="min-height:55vh;">
-  <form id="search-form" class="d-flex gap-2" autocomplete="off">
-    <input type="text" id="search-input"
-           class="form-control"
-           placeholder="Anahtar kelimeyle arayın..."
-           style="width: 180px; border-radius: 1.8rem;">
-    <button type="submit" id="search-button"
-            class="btn btn-primary px-4"
-            style="border-radius: 1.5rem; background: #27496d; border: none;">
-      Ara
-    </button>
+<!-- ARAMA KUTUSU -->
+<div class="d-flex justify-content-center align-items-start" style="min-height:32vh;">
+  <form id="search-form" class="d-flex align-items-center gap-2" autocomplete="off">
+    <input
+      type="text"
+      id="search-input"
+      class="form-control"
+      placeholder="Anahtar kelimeyle arayın..."
+      style="
+        width: 280px;
+        height: 52px;
+        border-radius: 18px;
+        font-size: 1.16rem;
+        font-weight: 500;
+        padding: 0 18px;
+        box-shadow: 0 2px 7px rgba(50,80,110,0.05);
+      "
+    >
+    <button
+      type="submit"
+      id="search-button"
+      class="btn btn-primary"
+      style="
+        border-radius: 18px;
+        background: #27496d;
+        border: none;
+        height: 52px;
+        width: 85px;
+        font-size: 1.13rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+      "
+    >ARA</button>
   </form>
 </div>
 <div class="d-flex justify-content-center">
-  <div id="results" style="margin-top: 24px; width: 260px;"></div>
+  <div id="results" style="margin-top: 24px; width: 320px;"></div>
 </div>
+
+<!-- SONUÇ STİLİ -->
 <style>
 #results .search-result {
   background: #f5f9fc;
@@ -172,61 +196,71 @@
   margin-bottom: 10px;
   border-radius: 12px;
   box-shadow: 0 2px 5px rgba(60,60,90,0.04);
+  transition: box-shadow 0.2s;
 }
 #results .search-result a {
   color: #27496d;
   font-weight: 600;
   text-decoration: none;
+  font-size: 1.1em;
+}
+#results .search-result:hover {
+  box-shadow: 0 4px 14px rgba(39,73,109,0.10);
 }
 </style>
+
+<!-- ARAMA JS KODU -->
 <script>
 const searchData = [
-  {title:"Bireysel Çanak Anten Kurulumu", description:"Çankaya'da bireysel çanak anten kurulumu ve servis.", url:"/hizmetlerimiz.html#bireysel"},
-  {title:"Merkezi Uydu Sistemleri", description:"Apartmanlar için merkezi uydu sistemleri kurulumu.", url:"/hizmetlerimiz.html#merkezi"},
-  {title:"Teknik Destek", description:"Çanak anten arızası ve teknik destek.", url:"/iletisim.html"},
-  {title:"Çanak Anten Fiyatları", description:"Güncel fiyat listemiz burada.", url:"/fiyatlar.html"}
+  { title: "Çankaya Uydu Servisi, Çanak Anten Uydu Arıza ve Kurulum Servisi", description: "Anasayfaya yönlendirir", url: "/" },
+  { title: "Hakkımızda - Çankaya Uydu",         description: "Hakkımızda sayfası",                url: "/hakkimizda.html" },
+  { title: "Hizmetlerimiz - Çankaya Uydu",      description: "Sunduğumuz hizmetler",              url: "/hizmetlerimiz.html" },
+  { title: "Galeri - Çankaya Uydu",             description: "Çalışmalarımızdan örnekler",         url: "/gallery.html" },
+  { title: "Yardım - Çankaya Uydu",             description: "Sık sorulan sorular ve bilgilendirme", url: "/yardim.html" },
+  { title: "İletişim - Çankaya Uydu",           description: "Bize ulaşmak için sayfa",           url: "/iletisim.html" },
+  { title: "SSS - Çankaya Uydu",                description: "Sıkça Sorulan Sorular",             url: "/faq.html" },
+  { title: "Çanak Anten Nasıl Ayarlanır?",      description: "Yardım sayfasında bilgi",           url: "/canak-anten-nasil-ayarlanir.html" },
+  { title: "Türksat Şebeke Frekansı Ayarlama", description: "Yardım sayfasında frekans bilgisi", url: "/turksat-sebeke-arama-frekansi.html" },
+  { title: "Digitürk Kanal Listesi 2024",       description: "Yardım sayfasında kanal listesi",    url: "/digitürk-kanal-listesi.html" }
 ];
 
 function showResults(keyword) {
-    const resultsDiv = document.getElementById("results");
-    resultsDiv.innerHTML = "";
-    if (!keyword || keyword.trim() === "") {
-        resultsDiv.innerHTML = "<p class='text-secondary text-center'>Lütfen bir anahtar kelime girin.</p>";
-        return;
-    }
-    const results = searchData.filter(item =>
-        item.title.toLowerCase().includes(keyword.toLowerCase()) ||
-        item.description.toLowerCase().includes(keyword.toLowerCase())
-    );
-    if (results.length === 0) {
-        resultsDiv.innerHTML = "<p class='text-danger text-center'>Sonuç bulunamadı.</p>";
-        return;
-    }
-    results.forEach(item => {
-        resultsDiv.innerHTML += 
-            <div class="search-result mb-3">
-                <a href="${item.url}" target="_blank">${item.title}</a>
-                <div class="mt-1 text-secondary" style="font-size:0.98em;">${item.description}</div>
-            </div>
-        ;
-    });
+  const resultsDiv = document.getElementById("results");
+  resultsDiv.innerHTML = "";
+  if (!keyword.trim()) {
+    resultsDiv.innerHTML = "<p class='text-center text-secondary'>Anahtar kelime girin.</p>";
+    return;
+  }
+  const results = searchData.filter(item =>
+    item.title.toLowerCase().includes(keyword.toLowerCase()) ||
+    item.description.toLowerCase().includes(keyword.toLowerCase())
+  );
+  if (results.length === 0) {
+    resultsDiv.innerHTML = "<p class='text-center text-danger'>Sonuç bulunamadı.</p>";
+    return;
+  }
+  results.forEach(item => {
+    resultsDiv.innerHTML += `
+      <div class="search-result mb-3">
+        <a href="${item.url}" target="_blank">${item.title}</a>
+        <div class="mt-1 text-secondary" style="font-size:0.98em;">${item.description}</div>
+      </div>`;
+  });
 }
 
-document.getElementById("search-form").onsubmit = function(e) {
-    e.preventDefault();
-    const keyword = document.getElementById("search-input").value;
-    showResults(keyword);
+document.getElementById("search-form").onsubmit = e => {
+  e.preventDefault();
+  showResults(document.getElementById("search-input").value);
 };
-window.onload = function() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const query = urlParams.get('q');
-    if (query) {
-        document.getElementById("search-input").value = query;
-        showResults(query);
-    }
+
+window.onload = () => {
+  const q = new URLSearchParams(location.search).get("q");
+  if (q) {
+    document.getElementById("search-input").value = q;
+    showResults(q);
+  }
 };
 </script>
-
 
 
 
