@@ -429,7 +429,20 @@ window.onload = () => {
   box-shadow: 0 6px 16px rgba(39,73,109,0.12);
 }
 </style>
-
+<style>
+@media (max-width: 600px) {
+  #search-form {
+    flex-direction: column !important;
+  }
+  #search-form > div {
+    width: 100% !important;
+  }
+  #search-button, #search-input {
+    border-radius: 2rem !important;
+    margin-bottom: 8px;
+  }
+}
+</style>
 
 </body>
 </html>
