@@ -283,39 +283,64 @@
   #hero-main strong { font-weight: 900 !important; }
 </style>
     <!-- Counters-->
-    <!-- Sayaçlar Alanı: YENİ KOD, sadece bunu ekle! -->
-<section class="counters-section">
-  <div class="counters-row">
-    <div class="counter-box">
-      <span class="icon icon-lg icon-gray-600 linecons-like"></span>
-      <div class="counter-value">
-        <p class="h3"><span class="counter" data-from="0" data-to="100">100%</span></p>
-      </div>
-      <div class="counter-text">Müşteri Memnuniyeti</div>
-    </div>
-    <div class="counter-box">
-      <span class="icon icon-lg icon-gray-600 linecons-small58"></span>
-      <div class="counter-value">
-        <p class="h3"><span class="counter" data-from="0" data-to="16">16</span></p>
-      </div>
-      <div class="counter-text">Tecrübe Yıl</div>
-    </div>
-    <div class="counter-box">
-      <span class="icon icon-lg icon-gray-600 linecons-user12"></span>
-      <div class="counter-value">
-        <p class="h3"><span class="counter" data-from="0" data-to="10000">10 000</span></p>
-      </div>
-      <div class="counter-text">Mutlu Müşteriler</div>
-    </div>
-    <div class="counter-box">
-      <span class="icon icon-lg-variant-1 icon-gray-600 linecons-tv1"></span>
-      <div class="counter-value">
-        <p class="h3"><span class="counter" data-from="0" data-to="10000">10 000</span></p>
-      </div>
-      <div class="counter-text">Tamamlanan Projeler</div>
-    </div>
-  </div>
-</section>
+    <section class="section-80 section-md-110">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-md-3">
+                    <!-- CountTo-->
+                    <div class="counter-wrap">
+                        <span class="icon icon-lg icon-gray-600 linecons-like"></span>
+                        <div class="counter-value">
+                            <p class="h3"><span class="counter" data-from="0" data-to="100">100%</span><span class="symbol">%</span></p>
+                        </div>
+                        <div class="divider-center divider-md divider-primary"></div>
+                        <div class="counter-text">
+                            <p class="text-style-2">Müşteri Memnuniyeti</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3 offset-top-45 offset-xs-top-0">
+                    <!-- CountTo-->
+                    <div class="counter-wrap">
+                        <span class="icon icon-lg icon-gray-600 linecons-small58"></span>
+                        <div class="counter-value">
+                            <p class="h3"><span class="counter" data-from="0" data-to="16">10</span></p>
+                        </div>
+                        <div class="divider-center divider-md divider-primary"></div>
+                        <div class="counter-text">
+                            <p class="text-style-2">Tecrübe Yıl</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3 offset-top-45 offset-md-top-0">
+                    <!-- CountTo-->
+                    <div class="counter-wrap">
+                        <span class="icon icon-lg icon-gray-600 linecons-user12"></span>
+                        <div class="counter-value">
+                            <p class="h3"><span class="counter" data-from="0" data-to="+10000">2 954</span></p>
+                        </div>
+                        <div class="divider-center divider-md divider-primary"></div>
+                        <div class="counter-text">
+                            <p class="text-style-2">Mutlu Müşteriler</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3 offset-top-45 offset-md-top-0">
+                    <!-- CountTo-->
+                    <div class="counter-wrap">
+                        <span class="icon icon-lg-variant-1 icon-gray-600 linecons-tv1"></span>
+                        <div class="counter-value">
+                            <p class="h3"><span class="counter" data-from="0" data-to="+10000">+10000</span></p>
+                        </div>
+                        <div class="divider-center divider-md divider-primary"></div>
+                        <div class="counter-text">
+                            <p class="text-style-2">Tamamlanan Projeler</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Latest Blog Posts-->
     <section class="section-60 section-sm-110 bg-light">
         <div class="container">
@@ -541,93 +566,7 @@
 }
 </style>
 
-<style>
-  .counters-section {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  background: transparent;
-}
-.counters-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: stretch;
-  gap: 0;
-  width: 100%;
-  margin: 1px 0;
-  padding: 1px 0;
-}
-.counter-box {
-  flex: 1 1 0;
-  background: #fff;
-  margin: 0 1px;
-  padding: 0;
-  border-radius: 12px;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 105px;
-  box-shadow: 0 1px 5px rgba(110,150,180,0.06);
-  border: 1px solid #f3f3f3;
-}
-.counter-box .icon {
-  font-size: 2.1rem !important;
-  margin-bottom: 2px;
-}
-.counter-value .h3, .counter-value p.h3 {
-  font-size: 1.25rem !important;
-  font-weight: 700;
-  margin: 0 0 2px 0;
-  line-height: 1.2;
-}
-.counter-text {
-  font-size: 1rem;
-  color: #222;
-  text-align: center;
-  font-weight: 600;
-  line-height: 1.15;
-  margin: 0;
-  padding: 0;
-}
-@media (max-width: 700px) {
-  .counters-row {
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 0;
-    margin: 1px 0;
-    padding: 1px 0;
-    width: 100vw;
-    min-width: 100vw;
-    overflow-x: hidden;
-  }
-  .counter-box {
-    height: 74px;
-    font-size: 0.97rem;
-    padding: 0;
-    border-radius: 8px;
-    margin: 0 1px;
-    min-width: 0;
-  }
-  .counter-box .icon {
-    font-size: 1.2rem !important;
-    margin-bottom: 1px;
-  }
-  .counter-value .h3, .counter-value p.h3 {
-    font-size: 0.91rem !important;
-    margin: 0;
-  }
-  .counter-text {
-    font-size: 0.73rem !important;
-    padding: 0 2px;
-    font-weight: 600;
-  }
-}
-  
-</style>
-        
+
 
 </body>
 </html>
