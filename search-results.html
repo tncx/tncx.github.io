@@ -315,5 +315,129 @@
     <!-- Javascript-->
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+
+<script>
+const searchData = [
+  {
+    title: "Çanak Anten Arıza ve Kurulum Hizmetleri",
+    description: "Sunduğumuz hizmetler",
+    url: "/hizmetlerimiz.html",
+    content: `
+      Bireysel çanak anten kurulumu ve montajı, çanak anten tamiri, ayarı ve sinyal ölçümü.
+      Merkezi uydu sistemi kurulumu (apartman, site, işyeri). Tüm marka ve modeller için uydu cihazı satışı.
+      Duvara TV montajı, kablo çekme, TV askı aparatı kurulumu, estetik ve güvenli montaj çözümleri.
+      İnternet kablo çekme, modem bağlantısı, ethernet altyapısı kurulumları.
+      Hızlı servis, garantili işçilik, ekonomik fiyatlar, ücretsiz keşif.
+      LNB değişimi, kablo yenileme, çanak anten taşıma ve yeniden ayar.
+      Çankaya, Dikmen, Ayrancı, Öveçler, İncek, Bahçelievler ve Ankara'nın tüm bölgelerine servis.
+      Merkezi uydu sistemlerinde arıza tespiti ve onarımı, merkezi santral değişimi, multiswitch, priz ve soket montajı.
+      Sıkça Sorulan Sorular: Çanak anten nasıl kurulur? Çanak anten fiyatları nelerdir? En iyi uydu servisi kimdir?`
+  },
+  {
+    title: "Hakkımızda",
+    description: "Firmamız ve tecrübemiz hakkında bilgiler",
+    url: "/hakkimizda.html",
+    content: `
+      Çankaya Uydu Servisi olarak, 15 yıllık tecrübe ve uzman kadromuzla Ankara'nın en güvenilir çanak anten ve uydu sistemleri servisiyiz.
+      Müşteri memnuniyetini ön planda tutan, hızlı ve kaliteli hizmet sunan firmamız, profesyonel ekip ve son teknoloji ekipmanlarla çalışır.
+      Yerinde arıza tespiti, kaliteli malzeme kullanımı, her bütçeye uygun ekonomik çözümler.
+      Misyonumuz: Müşterilerimize en iyi uydu ve çanak anten hizmetini sunmak, güvenilirlik ve kaliteyi ön planda tutmaktır.`
+  },
+  {
+    title: "Galeri",
+    description: "Çalışmalarımızdan fotoğraf ve örnekler",
+    url: "/gallery.html",
+    content: `
+      Gerçekleştirdiğimiz çanak anten kurulumları, merkezi uydu sistemleri, TV montajları ve diğer işlerimizden seçilmiş fotoğraflar.
+      Müşteri memnuniyetine önem verdiğimiz için tüm işlerimizde önce güven ve kalite.`
+  },
+  {
+    title: "İletişim",
+    description: "Bize ulaşın",
+    url: "/iletisim.html",
+    content: `
+      Adres: Dikmen, Çankaya / ANKARA. Telefon: 0553 450 20 33. E-mail: tuncay-ozer@outlook.com
+      İletişim formu üzerinden 7/24 ulaşabilir, hızlı servis talep edebilirsiniz.
+      Whatsapp destek hattımız da mevcuttur.`
+  },
+  {
+    title: "SSS - Sıkça Sorulan Sorular",
+    description: "En çok merak edilen sorular ve cevapları",
+    url: "/faq.html",
+    content: `
+      Çanak anten kurulumu nasıl yapılır? Merkezi uydu sistemi nedir? LNB değişimi ne zaman gerekir?
+      Sinyal yok hatası neden olur? Uydu ayarı ve kanal tarama işlemleri hakkında detaylı bilgiler.
+      Sorularınız için bize hemen ulaşabilirsiniz!`
+  },
+  {
+    title: "Çanak Anten Nasıl Ayarlanır?",
+    description: "Çanak anten ayarı hakkında bilgilendirme",
+    url: "/canak-anten-nasil-ayarlanir.html",
+    content: `
+      Çanak anten ayarının püf noktaları, sinyal bulucu ile ayar, en iyi sinyal gücü için dikkat edilmesi gerekenler,
+      LNB ayarı ve uydu cihazı ayarları hakkında pratik bilgiler.
+      Uydu kurulumunda yön ve eğim açısının önemi, Türksat uydusu için ideal ayarlar.`
+  },
+  {
+    title: "Türksat Şebeke Frekansı Ayarlama",
+    description: "Türksat şebeke arama frekans ayarı",
+    url: "/turksat-sebeke-arama-frekansi.html",
+    content: `
+      Türksat uydusu için güncel şebeke arama frekansı, otomatik kanal arama adımları,
+      uydu cihazı ayarları, frekans ve sembol oranı değerleri.
+      Kolay kurulum ve frekans güncelleme işlemleri.`
+  },
+  {
+    title: "Digitürk Kanal Listesi 2024",
+    description: "Güncel Digitürk kanal listesi ve frekanslar",
+    url: "/digitürk-kanal-listesi.html",
+    content: `
+      Digitürk 2024 güncel kanal listesi, kanal isimleri, uydu frekans bilgileri ve güncelleme adımları.
+      Yeni eklenen ve değişen kanalların tam listesi.
+      Kanal silme ve ekleme işlemleri için rehber.`
+  }
+];
+
+function showResults(keyword) {
+  const resultsDiv = document.getElementById("results");
+  resultsDiv.innerHTML = "";
+  if (!keyword.trim()) {
+    resultsDiv.innerHTML = "<p class='text-center text-secondary'>Anahtar kelime girin.</p>";
+    return;
+  }
+  const results = searchData.filter(item =>
+    item.title.toLowerCase().includes(keyword.toLowerCase()) ||
+    item.description.toLowerCase().includes(keyword.toLowerCase()) ||
+    (item.content && item.content.toLowerCase().includes(keyword.toLowerCase()))
+  );
+  if (results.length === 0) {
+    resultsDiv.innerHTML = "<p class='text-center text-danger'>Sonuç bulunamadı.</p>";
+    return;
+  }
+  results.forEach(item => {
+    resultsDiv.innerHTML += `
+      <div class="search-result mb-3">
+        <a href="${item.url}">${item.title}</a>
+        <div class="mt-1 text-secondary" style="font-size:0.98em;">${item.description}</div>
+      </div>`;
+  });
+}
+
+document.getElementById("search-form").onsubmit = e => {
+  e.preventDefault();
+  showResults(document.getElementById("search-input").value);
+};
+
+window.onload = () => {
+  const q = new URLSearchParams(location.search).get("q");
+  if (q) {
+    document.getElementById("search-input").value = q;
+    showResults(q);
+  }
+};
+</script>
+
+
+
 </body>
 </html>
