@@ -541,7 +541,107 @@
 }
 </style>
 
+<style>
+.counters-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+  background: transparent;
+}
 
+.counters-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 0;
+  width: 100%;
+  max-width: 750px;   /* Masaüstünde daha geniş ve tam ortalanmış */
+  margin: 12px auto 0 auto;
+  padding: 1px 0;
+}
+
+.counter-box {
+  flex: 1 1 0;
+  background: #fff;
+  margin: 0 10px;
+  padding: 0;
+  border-radius: 16px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 130px;          /* Büyük kutu */
+  box-shadow: 0 1px 7px rgba(110,150,180,0.09);
+  border: 1px solid #f3f3f3;
+  transition: box-shadow 0.18s;
+}
+.counter-box .icon {
+  font-size: 2.3rem !important;
+  margin-bottom: 3px;
+}
+.counter-value .h3, .counter-value p.h3 {
+  font-size: 1.38rem !important;
+  font-weight: 800;
+  margin: 0 0 2px 0;
+  line-height: 1.2;
+  color: #263238;
+}
+.counter-text {
+  font-size: 1.12rem;
+  color: #222;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.01em;
+}
+
+@media (max-width: 700px) {
+  .counters-section {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+  .counters-row {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+    overflow-x: auto; /* scroll önlenir, otomatik sığdır */
+    justify-content: center;
+  }
+  .counter-box {
+    height: 70px;
+    font-size: 0.97rem;
+    padding: 0;
+    border-radius: 7px;
+    margin: 0 3px;
+    min-width: 0;
+  }
+  .counter-box .icon {
+    font-size: 1.2rem !important;
+    margin-bottom: 1px;
+  }
+  .counter-value .h3, .counter-value p.h3 {
+    font-size: 0.91rem !important;
+    margin: 0;
+  }
+  .counter-text {
+    font-size: 0.78rem !important;
+    padding: 0 2px;
+    font-weight: 600;
+  }
+}
+
+</style>
 
 </body>
 </html>
