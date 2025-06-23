@@ -34,38 +34,41 @@ html, body {
 <style>
 @media (max-width: 700px) {
   .rd-navbar-panel {
-    min-height: 92px !important;             /* LOGO ALANINI BİRAZ DAHA BÜYÜT */
+    min-height: 102px !important;             /* LOGO ALANINI BÜYÜT */
     padding: 0 !important;
     background: #fff !important;
     display: flex;
     align-items: center;
-    justify-content: flex-start;             /* SOLA HİZALA */
+    justify-content: center;                  /* ORTALA! */
     position: relative;
   }
   .rd-navbar-toggle {
-    margin-right: 10px;
-    margin-left: 0;
+    margin-left: 8px;
+    margin-right: 0;
     order: 1;
+    z-index: 2;
   }
   .rd-navbar-brand {
     flex: 1 1 auto;
-    text-align: left;                       /* LOGO YAZI HİZASI */
+    text-align: center;                       /* LOGO METNİNİ ORTALA */
     order: 2;
     width: auto;
     padding: 0 !important;
     margin: 0 !important;
     display: flex;
+    justify-content: center;                  /* LOGOYU ORTALA */
     align-items: center;
   }
   .rd-navbar-brand img {
-    max-height: 70px !important;           /* LOGO BOYUTU BİRAZ KÜÇÜK */
+    max-height: 84px !important;             /* LOGOYU BÜYÜT (eski 70px idi) */
     width: auto;
-    margin: 18px 0 6px 8px !important;     /* ÜSTTEN BOŞLUK EKLE, ALTTAN AZALT, SOLDAN BOŞLUK */
+    margin: 15px 0 12px 0 !important;        /* Daha dengeli üst-alt boşluk, soldan boşluk kaldırıldı */
     display: block;
     object-fit: contain;
   }
 }
-</style>    
+</style>
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16706495413"></script>
     <script>
