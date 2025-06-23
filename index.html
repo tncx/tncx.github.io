@@ -608,6 +608,7 @@
   .counters-section {
     margin-top: 0 !important;
     padding-top: 0 !important;
+    overflow-x: hidden !important;
   }
   .counters-row {
     flex-direction: row;
@@ -618,34 +619,32 @@
     width: 100vw;
     min-width: 100vw;
     max-width: 100vw;
-    overflow-x: hidden; /* scroll önlenir, otomatik sığdır */
+    overflow-x: hidden;
     justify-content: center;
   }
   .counter-box {
-    height: 70px;
-    font-size: 0.97rem;
+    height: 64px;
+    font-size: 0.89rem;
     padding: 0;
     border-radius: 7px;
-    margin: 0 3px;
+    margin: 0 2px;
     min-width: 0;
+    max-width: 23vw;
+    flex-basis: 23vw;
   }
   .counter-box .icon {
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
     margin-bottom: 1px;
   }
   .counter-value .h3, .counter-value p.h3 {
-    font-size: 0.91rem !important;
+    font-size: 0.82rem !important;
     margin: 0;
   }
   .counter-text {
-    font-size: 0.78rem !important;
+    font-size: 0.67rem !important;
     padding: 0 2px;
     font-weight: 600;
   }
-.counter-box:hover {
-  box-shadow: 0 8px 30px rgba(80,130,180,0.13);
-  transform: translateY(-4px) scale(1.025);
-}
 }
 </style>
 
