@@ -613,11 +613,16 @@ html, body {
 }
 
 @media (max-width: 700px) {
-  .counters-section {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-    overflow-x: hidden !important;
+  .counters-section, .counter-fullscreen {
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100vw !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
     box-sizing: border-box;
   }
     .counters-row {
