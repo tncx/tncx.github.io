@@ -149,20 +149,38 @@
         </section>
 
 <!-- ARAMA KUTUSU -->
-<div class="d-flex justify-content-center align-items-start" style="min-height:32vh;">
-  <form id="search-form" class="d-flex align-items-center gap-2" autocomplete="off">
-    <input type="text" id="search-input" class="form-control"
-           placeholder="Anahtar kelimeyle arayın..."
-           style="width: 280px; height: 52px; border-radius: 18px; font-size: 1.16rem; font-weight: 500; padding: 0 18px; box-shadow: 0 2px 7px rgba(50,80,110,0.05);">
-    <button type="submit" id="search-button" class="btn btn-primary"
-            style="border-radius: 18px; background: #27496d; border: none; height: 52px; width: 85px; font-size: 1.13rem; font-weight: bold; letter-spacing: 1px;">
-      ARA
-    </button>
-  </form>
+
+<div class="container my-5 d-flex justify-content-center">
+  <div class="card shadow-lg border-0" style="max-width: 460px; width: 100%;">
+    <div class="card-body py-4">
+      <form id="search-form" class="d-flex flex-column flex-sm-row gap-2" autocomplete="off">
+        <input
+          type="text"
+          id="search-input"
+          class="form-control form-control-lg rounded-pill"
+          placeholder="Anahtar kelimeyle arayın..."
+          style="font-size: 1.09rem; font-weight: 500;"
+        >
+        <button
+          type="submit"
+          id="search-button"
+          class="btn btn-lg btn-primary rounded-pill px-4 fw-bold"
+          style="background: #27496d; border: none; letter-spacing: 1px;"
+        >
+          ARA
+        </button>
+      </form>
+    </div>
+  </div>
 </div>
 <div class="d-flex justify-content-center">
-  <div id="results" style="margin-top: 24px; width: 320px;"></div>
+  <div id="results" style="margin-top: 24px; width: 340px;"></div>
 </div>
+
+
+
+
+
 <style>
 #results .search-result {
   background: #f5f9fc;
