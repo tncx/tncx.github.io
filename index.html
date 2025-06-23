@@ -54,34 +54,35 @@ html, body {
   }
 @media (max-width: 700px) {
   .rd-navbar-panel {
-    min-height: 86px !important;
-    padding-top: 8px !important;
-    padding-bottom: 8px !important;
+    min-height: 76px !important;
+    padding: 4px 0 4px 0 !important;
     background: #fff !important;
     display: flex;
     align-items: center;
-    /* justify-content: center;  // BU SATIRI SİL YA DA YORUMA AL */
-    justify-content: flex-start; /* MENÜ SOLDA KALSIN */
+    justify-content: flex-start;
     position: relative;
-  }
-  .rd-navbar-toggle {
-    margin-right: 10px;
-    margin-left: 0;
-    order: 1;
   }
   .rd-navbar-brand {
     flex: 1 1 auto;
     text-align: center;
     order: 2;
     width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
   }
   .rd-navbar-brand img {
-    max-height: 70px !important;
-    margin: 0 auto;
+    max-height: 56px !important;   /* LOGO DAHA KÜÇÜK */
+    width: auto;
+    margin: 0 auto !important;
     display: block;
+    object-fit: contain;           /* Görsel taşmasın */
+  }
+  .rd-navbar-toggle {
+    margin-right: 10px;
+    margin-left: 0;
+    order: 1;
   }
 }
-
 }
 </style>
 
