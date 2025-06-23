@@ -109,6 +109,18 @@
                                         <a class="rd-nav-link" href="faq.html">SSS</a>
                                     </li>
                                 </ul>
+                                <div class="rd-navbar-search">
+                                    <!-- RD Search-->
+                                    <form class="rd-search" action="search-results.html" method="GET" data-search-live="rd-search-results-live">
+                                        <div class="form-wrap">
+                                            <label class="form-label" for="rd-search-form-input">Search...</label>
+                                            <input class="form-input" id="rd-search-form-input" type="text" name="s" autocomplete="off">
+                                            <div class="rd-search-results-live" id="rd-search-results-live"></div>
+                                            <button class="rd-navbar-search-submit" type="submit"></button>
+                                        </div>
+                                    </form>
+                                    <button class="rd-navbar-search-toggle" data-rd-navbar-toggle=".rd-navbar-search"></button>
+                                </div>
                             </div>
                             <div class="rd-navbar-top-panel">
                                 <div class="rd-navbar-top-panel-inner">
@@ -149,7 +161,8 @@
     
 
 
-<!-- Ortalanmış ve kısa arama kutusu -->
+<!-- ... HEADER VE MENÜ KISMIN SONRASINA, İSTEDİĞİN YERE ... -->
+
 <div class="d-flex justify-content-center align-items-center" style="min-height:55vh;">
   <form id="search-form" class="d-flex gap-2" autocomplete="off">
     <input type="text" id="search-input"
@@ -167,7 +180,6 @@
   <div id="results" style="margin-top: 24px; width: 260px;"></div>
 </div>
 
-<!-- Sonuçlar için stil -->
 <style>
 #results .search-result {
   background: #f5f9fc;
@@ -183,7 +195,6 @@
 }
 </style>
 
-<!-- Arama JS kodu (aynı) -->
 <script>
 const searchData = [
   {title:"Bireysel Çanak Anten Kurulumu", description:"Çankaya'da bireysel çanak anten kurulumu ve servis.", url:"/hizmetlerimiz.html#bireysel"},
@@ -222,7 +233,6 @@ document.getElementById("search-form").onsubmit = function(e) {
     const keyword = document.getElementById("search-input").value;
     showResults(keyword);
 };
-// Otomatik url ile başlat
 window.onload = function() {
     const urlParams = new URLSearchParams(window.location.search);
     const query = urlParams.get('q');
@@ -232,6 +242,7 @@ window.onload = function() {
     }
 };
 </script>
+
 
 
 
@@ -328,9 +339,6 @@ window.onload = function() {
     <!-- Javascript-->
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
-
-    <script src="https://unpkg.com/lunr/lunr.js"></script>
-<script src="search-index.json"></script>
 <script>
   let idx;
   let pages;
