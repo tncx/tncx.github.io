@@ -46,19 +46,28 @@
 	}
 
 	/**
-	* @todo Description
-	*/
-	function procMenu ( menu, parent ) {
-		menu.forEach( function( item ) {
-			if ( parent ) item._parent = parent;
-			if ( !(item instanceof Array) && item.title && !item.link && typeof( item.link ) === 'undefined' ) item.link = genLink( item.title );
+ * Recursively processes menu data, adds a generated link if missing,
+ * and attaches parent references to each menu item for navigation building.
+ *
+ * @param {Array} menu - Menu items array
+ * @param {Object} parent - (Optional) Parent menu item
+ */
+function procMenu(menu, parent) {
+    menu.forEach(function(item) {
+        if (parent) item._parent = parent;
+        if (!(item instanceof Array) && item.title && typeof(item.link) === 'undefined')
+            item.link = genLink(item.title);
 
-			if ( item.dropdown ) procMenu( item.dropdown, item );
-			else if ( item.megamenu ) procMenu( item.megamenu, item );
-			else if ( item.list ) procMenu( item.list, item );
-			else if ( item instanceof Array ) procMenu( item, item );
-		});
-	}
+        if (item.dropdown)
+            procMenu(item.dropdown, item);
+        else if (item.megamenu)
+            procMenu(item.megamenu, item);
+        else if (item.list)
+            procMenu(item.list, item);
+        else if (item instanceof Array)
+            procMenu(item, item);
+    });
+}
 
 	function directMenuPass ( menu, cb ) {
 		for( var i = 0; i < menu.length; i++ ) {
