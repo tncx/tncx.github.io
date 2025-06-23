@@ -327,42 +327,6 @@ window.onload = function() {
     <!-- Javascript-->
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
-<script>
-  let idx;
-  let pages;
-  window.addEventListener("DOMContentLoaded", function () {
-    pages = window.siteData;
-    idx = lunr(function () {
-      this.ref('id');
-      this.field('title');
-      this.field('content');
-      pages.forEach(function (doc) {
-        this.add(doc);
-      }, this);
-    });
-
-    const input = document.getElementById('rd-search-form-input-1');
-    const resultContainer = document.querySelector('.rd-search-results');
-
-    input.addEventListener('input', function () {
-      const query = input.value.trim();
-      const results = idx.search(query);
-      resultContainer.innerHTML = '';
-
-      if (results.length > 0) {
-        results.forEach(result => {
-          const item = pages.find(p => p.id === result.ref);
-          const div = document.createElement('div');
-          div.className = 'result-item';
-          div.innerHTML = `<a href="${item.url}">${item.title}</a><p>${item.content.substring(0, 150)}...</p>`;
-          resultContainer.appendChild(div);
-        });
-      } else {
-        resultContainer.innerHTML = '<p>Sonuç bulunamadı.</p>';
-      }
-    });
-  });
-</script>
 
 <style>
   .rd-search-results {
