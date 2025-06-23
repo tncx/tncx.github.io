@@ -21,6 +21,16 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
 
+<style>
+html, body {
+  overflow-x: hidden !important; /* Sadece yatay scroll'u kapat */
+  box-sizing: border-box;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+</style>
+
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16706495413"></script>
@@ -318,10 +328,10 @@
     <section class="section-60 section-sm-110 bg-light">
         <div class="container">
             <div class="row">
-                <div class="yardim-baslik">
-  <h3>Yardım Konuları...</h3>
-  <div class="divider divider-md divider-primary"></div>
-</div>
+                <div class="col-12 text-center">
+                    <h3>Yardım Konuları...</h3>
+                    <div class="divider divider-md divider-primary"></div>
+                </div>
             </div>
             <div class="isotope-wrap offset-top-35 offset-md-top-55">
                 <div class="row isotope isotope-spacing-1" data-isotope-layout="masonry">
@@ -647,16 +657,6 @@
   align-items: center;
   justify-content: center;
   background: transparent;
-}
-.yardim-baslik {
-  margin-top: 2px !important;
-  margin-bottom: 2px !important;
-  padding: 0 !important;
-}
-.yardim-baslik h3 {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-  padding: 0 !important;
 }
 }
 </style>
