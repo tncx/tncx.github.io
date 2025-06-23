@@ -150,78 +150,17 @@
 
 
 <!-- ARAMA KUTUSU -->
-<div class="d-flex justify-content-center align-items-start" style="min-height:32vh;">
-  <form id="search-form" class="d-flex align-items-center gap-2" autocomplete="off">
-    <input
-      type="text"
-      id="search-input"
-      class="form-control"
-      placeholder="Anahtar kelimeyle arayın..."
-      style="
-        width: 280px;
-        height: 52px;
-        border-radius: 18px;
-        font-size: 1.16rem;
-        font-weight: 500;
-        padding: 0 18px;
-        box-shadow: 0 2px 7px rgba(50,80,110,0.05);
-      "
-    >
-    <button
-      type="submit"
-      id="search-button"
-      class="btn btn-primary"
-      style="
-        border-radius: 18px;
-        background: #27496d;
-        border: none;
-        height: 52px;
-        width: 85px;
-        font-size: 1.13rem;
-        font-weight: bold;
-        letter-spacing: 1px;
-      "
-    >ARA</button>
-  </form>
-</div>
-<div class="d-flex justify-content-center">
-  <div id="results" style="margin-top: 24px; width: 320px;"></div>
-</div>
 
-<!-- SONUÇ STİLİ -->
-<style>
-#results .search-result {
-  background: #f5f9fc;
-  padding: 12px 18px;
-  margin-bottom: 10px;
-  border-radius: 12px;
-  box-shadow: 0 2px 5px rgba(60,60,90,0.04);
-  transition: box-shadow 0.2s;
-}
-#results .search-result a {
-  color: #27496d;
-  font-weight: 600;
-  text-decoration: none;
-  font-size: 1.1em;
-}
-#results .search-result:hover {
-  box-shadow: 0 4px 14px rgba(39,73,109,0.10);
-}
-</style>
 
-<!-- ARAMA JS KODU -->
-<script>
+
 const searchData = [
-  { title: "Çankaya Uydu Servisi, Çanak Anten Uydu Arıza ve Kurulum Servisi", description: "Ana sayfamız. Çanak anten kurulum, arıza ve uydu sistemlerinde uzman servis.", url: "/" },
-  { title: "İletişime Geç", description: "Bizimle iletişime geçmek için sayfa.", url: "/iletisim.html" },
-  { title: "Çanak Anten Arıza ve Kurulum Hizmetleri", description: "Bireysel ve merkezi çanak anten arıza/kumlum servisleri.", url: "/hizmetlerimiz.html" },
-  { title: "Merkezi Uydu Sistemleri", description: "Apartman ve siteler için merkezi uydu sistemleri kurulumu ve bakımı.", url: "/hizmetlerimiz.html" },
-  { title: "Uydu Cihazı Satışı", description: "Farklı marka ve modellerde uydu cihazı satışı.", url: "/hizmetlerimiz.html" },
-  { title: "Duvara TV Montajı", description: "Televizyonunuzun duvara profesyonel şekilde montajı.", url: "/hizmetlerimiz.html" },
-  { title: "İnternet Kablo Çekme", description: "Ev ve işyerleri için internet kablolama hizmeti.", url: "/hizmetlerimiz.html" },
-  { title: "Çanak Anten Nasıl Ayarlanır?", description: "Çanak anten ayarı hakkında detaylı bilgi.", url: "/canak-anten-nasil-ayarlanir.html" },
-  { title: "Türksat Şebeke Frekansı Ayarlama", description: "Türksat şebeke frekansı nasıl ayarlanır?", url: "/turksat-sebeke-arama-frekansi.html" },
-  { title: "Digitürk Kanal Listesi 2025", description: "Güncel Digitürk kanal listesi ve frekansları.", url: "/digitürk-kanal-listesi.html" }
+  {
+    title: "Çanak Anten Arıza ve Kurulum Hizmetleri",
+    description: "Sunduğumuz hizmetler",
+    url: "/hizmetlerimiz.html",
+    content: "Bireysel çanak anten kurulumu, apartmanlar için merkezi uydu sistemleri, uydu cihazı satışı, duvara TV montajı, internet kablo çekme, çanak anten tamiri, hızlı servis, garantili işçilik, ekonomik fiyatlar, ücretsiz keşif, tamir, bakım, montaj, merkezi sistem, apartman uydu kurulumu, yeni çanak, çanak ayarı, sinyal ölçümü, LNB değişimi, merkezi uydu sistemi, teknik destek, arıza onarım..."
+  },
+  // Diğer sayfalar...
 ];
 
 function showResults(keyword) {
@@ -233,7 +172,8 @@ function showResults(keyword) {
   }
   const results = searchData.filter(item =>
     item.title.toLowerCase().includes(keyword.toLowerCase()) ||
-    item.description.toLowerCase().includes(keyword.toLowerCase())
+    item.description.toLowerCase().includes(keyword.toLowerCase()) ||
+    (item.content && item.content.toLowerCase().includes(keyword.toLowerCase()))
   );
   if (results.length === 0) {
     resultsDiv.innerHTML = "<p class='text-center text-danger'>Sonuç bulunamadı.</p>";
@@ -242,27 +182,11 @@ function showResults(keyword) {
   results.forEach(item => {
     resultsDiv.innerHTML += `
       <div class="search-result mb-3">
-        <a href="${item.url}" target="_blank">${item.title}</a>
+        <a href="${item.url}">${item.title}</a>
         <div class="mt-1 text-secondary" style="font-size:0.98em;">${item.description}</div>
       </div>`;
   });
 }
-
-document.getElementById("search-form").onsubmit = e => {
-  e.preventDefault();
-  showResults(document.getElementById("search-input").value);
-};
-
-window.onload = () => {
-  const q = new URLSearchParams(location.search).get("q");
-  if (q) {
-    document.getElementById("search-input").value = q;
-    showResults(q);
-  }
-};
-</script>
-
-
 
 
 
