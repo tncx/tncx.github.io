@@ -986,3 +986,168 @@ img.product-img {
 	border-radius: 14px !important;
 	box-shadow: var(--cu-shadow);
 }
+
+/* ================= Arama kutuları ================= */
+/* Yer tutucu metin kullanılıyor; şablonun kayan etiketi yazıyla çakışıyordu */
+.rd-search .form-label {
+	position: absolute !important;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	white-space: nowrap;
+}
+.rd-search input::placeholder {
+	color: #8a98a8;
+	opacity: 1;
+}
+/* Mobil menüde ve yan menüde anlık sonuçlar */
+.rd-navbar-fixed .rd-navbar-search .rd-search {
+	height: auto;
+}
+.rd-navbar-fixed .rd-search-results-live.active,
+.rd-search-style-1 .rd-search-results-live.active {
+	display: block;
+	position: static;
+	margin: 8px 0 0;
+	padding: 12px 14px;
+	opacity: 1;
+	visibility: visible;
+	border-radius: 12px;
+	box-shadow: var(--cu-shadow);
+}
+.rd-search-style-1 .form-wrap {
+	position: relative;
+}
+.rd-search-style-1 .rd-search-results-live.active {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	z-index: 20;
+	margin-top: 6px;
+	box-shadow: 0 14px 34px rgba(13, 44, 79, .18);
+}
+
+/* Ana sayfa arama kutusu */
+.home-search {
+	position: relative;
+	z-index: 3;
+	max-width: 760px;
+	margin: 0 auto 30px;
+	padding: 20px 22px;
+	background: #fff;
+	border: 1px solid var(--cu-line);
+	border-radius: 16px;
+	box-shadow: var(--cu-shadow);
+}
+.home-search label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 17px;
+	font-weight: 800;
+	color: var(--cu-navy);
+}
+.home-search-row {
+	position: relative;
+	display: flex;
+	gap: 10px;
+}
+.home-search-row input {
+	flex: 1;
+	min-width: 0;
+	height: 52px;
+	padding: 0 18px;
+	font-size: 16px;
+	color: var(--cu-text);
+	background: var(--cu-soft);
+	border: 1px solid #d4dee8;
+	border-radius: 12px;
+}
+.home-search-row input:focus {
+	border-color: var(--cu-blue);
+	outline: none;
+	box-shadow: 0 0 0 3px rgba(21, 101, 192, .15);
+}
+.home-search-row button {
+	height: 52px;
+	padding: 0 26px;
+	font-size: 16px;
+	font-weight: 800;
+	color: #fff;
+	background: var(--cu-red);
+	border: 0;
+	border-radius: 12px;
+	cursor: pointer;
+}
+.home-search-row button:hover {
+	background: var(--cu-red-dark);
+}
+.home-search .rd-search-results-live {
+	display: none;
+}
+.home-search .rd-search-results-live.active {
+	display: block;
+	position: absolute;
+	top: 58px;
+	left: 0;
+	right: 0;
+	z-index: 20;
+	margin: 0;
+	padding: 12px 16px;
+	opacity: 1;
+	visibility: visible;
+	border-radius: 12px;
+	box-shadow: 0 14px 34px rgba(13, 44, 79, .18);
+}
+.home-search-popular {
+	margin: 12px 0 0;
+	font-size: 14px;
+	color: var(--cu-muted);
+}
+.home-search-popular a {
+	font-weight: 700;
+	color: var(--cu-blue);
+}
+.home-intro .home-search + .row,
+.home-intro .turksat-notice + .home-search {
+	margin-top: 0;
+}
+
+/* Mobil menüde seçili sayfa */
+.rd-navbar-fixed .rd-navbar-nav > li.active > a,
+.rd-navbar-fixed .rd-navbar-nav > li.opened > a,
+.rd-navbar-fixed .rd-navbar-nav > li > a:hover {
+	color: #fff !important;
+	background: var(--cu-navy) !important;
+}
+
+/* Arama sonuçları sayfasındaki kutu */
+#search-form {
+	gap: 10px;
+}
+#search-form > div {
+	width: auto !important;
+}
+#search-form > div:first-child {
+	flex: 1;
+}
+#search-input {
+	height: 52px !important;
+	padding: 0 18px;
+	font-size: 16px !important;
+	background: var(--cu-soft);
+	border: 1px solid #d4dee8;
+	border-radius: 12px !important;
+}
+#search-button {
+	height: 52px !important;
+	padding: 0 28px;
+	background: var(--cu-red) !important;
+	border-radius: 12px !important;
+}
+@media (max-width: 600px) {
+	#search-form > div {
+		width: 100% !important;
+	}
+}
