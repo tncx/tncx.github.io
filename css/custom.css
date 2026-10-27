@@ -1,24 +1,167 @@
 /* Çankaya Uydu - şablonun üzerine eklenen site geneli stiller */
 
 :root {
-	--cu-green: #25d366;
-	--cu-green-dark: #1da851;
-	--cu-dark: #1b222c;
+	--cu-navy: #0d2c4f;
+	--cu-navy-2: #143d6b;
 	--cu-blue: #1565c0;
-	--cu-soft: #f5f9fc;
+	--cu-blue-light: #64b5f6;
+	--cu-amber: #ffb300;
+	--cu-red: #e53a27;
+	--cu-red-dark: #c92e1d;
+	--cu-red-light: #ff8a7a;
+	--cu-text: #263238;
+	--cu-muted: #5f7286;
+	--cu-line: #e3eaf1;
+	--cu-soft: #f4f7fa;
+	--cu-dark: var(--cu-navy);
+	--cu-green: #178f47;
+	--cu-green-dark: #12733a;
+	--cu-radius: 12px;
+	--cu-shadow: 0 6px 22px rgba(13, 44, 79, .10);
+	--ico-phone: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'/%3E%3C/svg%3E");
+	--ico-wa: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M13.6 2.33A7.95 7.95 0 0 0 8 0C3.58 0 0 3.58 0 8c0 1.39.36 2.72 1.04 3.89L0 16l4.21-1.1A7.98 7.98 0 0 0 8 16c4.42 0 8-3.58 8-8a7.95 7.95 0 0 0-2.4-5.67zM8 14.54a6.6 6.6 0 0 1-3.52-1l-.25-.15-2.5.65.67-2.43-.17-.25A6.55 6.55 0 0 1 1.07 8c0-3.84 3.13-6.97 6.93-6.97 3.87 0 7 3.13 7 6.97 0 3.84-3.13 6.54-7 6.54zm3.62-4.58c-.2-.1-1.18-.58-1.36-.65-.18-.07-.32-.1-.45.1-.13.2-.51.65-.63.78-.12.13-.23.15-.43.05-.2-.1-.85-.31-1.61-.99-.6-.53-1-1.18-1.12-1.38-.12-.2-.01-.31.09-.41.09-.09.2-.23.3-.35.1-.12.13-.2.2-.33.07-.13.03-.25-.02-.35-.05-.1-.45-1.08-.62-1.48-.16-.39-.33-.34-.45-.34h-.38c-.12 0-.31.04-.47.2-.16.16-.62.6-.62 1.46 0 .86.63 1.69.72 1.81.09.12 1.25 1.91 3.03 2.6.42.15.75.23 1.01.3.43.1.81.09 1.12.05.34-.04 1.18-.48 1.34-.95.17-.46.17-.86.12-.94-.05-.08-.18-.13-.38-.23z'/%3E%3C/svg%3E");
 }
 
-/* --- WhatsApp & arama düğmeleri --- */
+body {
+	color: var(--cu-text);
+}
+
+/* Satır içi SVG simgeler */
+.ico {
+	display: inline-block;
+	width: 1.15em;
+	height: 1.15em;
+	flex: none;
+	vertical-align: -.2em;
+}
+.ico-lg {
+	width: 28px;
+	height: 28px;
+}
+
+/* ================= Logo ================= */
+.brand {
+	display: inline-flex !important;
+	align-items: center;
+	gap: 12px;
+	text-decoration: none !important;
+	white-space: nowrap;
+}
+.brand > * {
+	display: block;
+}
+.brand-mark {
+	width: auto;
+	height: 52px;
+	flex: none;
+}
+.brand-text {
+	display: flex !important;
+	flex-direction: column;
+	line-height: 1;
+}
+.brand-name,
+.rd-navbar-brand .brand-name {
+	font-size: 24px;
+	font-weight: 800;
+	text-transform: none;
+	letter-spacing: -.015em;
+	color: var(--cu-red);
+}
+.brand-name b {
+	font-weight: 800;
+	color: #1b2733;
+}
+.brand-sub {
+	margin-top: 6px;
+	font-size: 10.5px;
+	font-weight: 700;
+	letter-spacing: .24em;
+	color: var(--cu-muted);
+}
+.brand--light .brand-name {
+	color: var(--cu-red-light);
+}
+.brand--light .brand-name b {
+	color: #fff;
+}
+.brand--light .brand-sub {
+	color: #9fb3c8;
+}
+.page-foot .logo .brand-mark {
+	height: 46px;
+}
+.rd-navbar-fixed .rd-navbar-brand.brand {
+	top: 8px;
+}
+.rd-navbar-fixed .brand-mark {
+	width: auto;
+	height: 38px;
+}
+.rd-navbar-fixed .brand-name {
+	font-size: 18px;
+}
+.rd-navbar-fixed .brand-sub {
+	margin-top: 4px;
+	font-size: 8.5px;
+}
+
+/* ================= Butonlar ================= */
+.btn {
+	border-radius: 10px;
+	font-weight: 700;
+	letter-spacing: .02em;
+	text-transform: none;
+	transition: background-color .2s, border-color .2s, box-shadow .2s, transform .15s;
+}
+.btn:hover {
+	transform: translateY(-1px);
+}
+.btn-primary,
+.btn-primary:focus {
+	color: #fff;
+	background: var(--cu-navy);
+	border-color: var(--cu-navy);
+	box-shadow: 0 4px 14px rgba(13, 44, 79, .22);
+}
+.btn-primary:hover,
+.btn-primary:active {
+	color: #fff;
+	background: var(--cu-blue);
+	border-color: var(--cu-blue);
+}
 .btn-wa,
 .btn-wa:focus {
 	color: #fff;
 	background: var(--cu-green);
 	border-color: var(--cu-green);
+	box-shadow: 0 4px 14px rgba(23, 143, 71, .25);
 }
-.btn-wa:hover {
+.btn-wa:hover,
+.btn-wa:active {
 	color: #fff;
 	background: var(--cu-green-dark);
 	border-color: var(--cu-green-dark);
+}
+.btn-light:hover {
+	color: var(--cu-navy);
+}
+/* Telefon ve WhatsApp düğmelerine simge */
+.btn[href^="tel:"]::before,
+.btn-wa::before {
+	content: "";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	margin-right: 8px;
+	vertical-align: -3px;
+	background: currentColor;
+	-webkit-mask: var(--ico-phone) center / contain no-repeat;
+	mask: var(--ico-phone) center / contain no-repeat;
+}
+.btn-wa::before {
+	-webkit-mask-image: var(--ico-wa);
+	mask-image: var(--ico-wa);
 }
 .footer-cta {
 	display: flex;
@@ -26,38 +169,90 @@
 	gap: 10px;
 }
 .footer-cta .btn {
+	min-width: 0;
 	margin: 0;
+	padding: 10px 18px;
+	font-size: 15px;
 }
 .page .icon-filled-whatsapp {
 	background: var(--cu-green);
 }
 
+/* Ana sayfadaki büyük iki satırlı düğmeler */
+.btn-cu {
+	display: inline-flex;
+	align-items: center;
+	gap: 14px;
+	min-width: 270px;
+	padding: 14px 24px;
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 1.15;
+	text-align: left;
+	color: #fff !important;
+	text-decoration: none !important;
+	border-radius: 14px;
+	transition: background-color .2s, transform .15s, box-shadow .2s;
+}
+.btn-cu .ico {
+	width: 30px;
+	height: 30px;
+}
+.btn-cu-text small {
+	display: block;
+	margin-bottom: 3px;
+	font-size: 12.5px;
+	font-weight: 600;
+	letter-spacing: .02em;
+	opacity: .85;
+}
+.btn-cu:hover {
+	transform: translateY(-2px);
+}
+.btn-cu-call {
+	background: var(--cu-red);
+	box-shadow: 0 8px 24px rgba(229, 58, 39, .35);
+}
+.btn-cu-call:hover {
+	background: var(--cu-red-dark);
+}
+.btn-cu-wa {
+	background: var(--cu-green);
+	box-shadow: 0 8px 24px rgba(23, 143, 71, .35);
+}
+.btn-cu-wa:hover {
+	background: var(--cu-green-dark);
+}
+
+/* Sağ alttaki WhatsApp düğmesi */
 #whatsapp-btn {
 	position: fixed;
-	right: 20px;
-	bottom: 20px;
+	right: 22px;
+	bottom: 22px;
 	z-index: 9999;
 	display: flex;
 	align-items: center;
 	gap: 10px;
-	height: 58px;
-	padding: 0 18px 0 10px;
+	height: 54px;
+	padding: 0 20px 0 8px;
 	font-weight: 700;
-	font-size: 1.14rem;
+	font-size: 16px;
 	color: #fff;
 	text-decoration: none;
 	background: var(--cu-green);
-	border-radius: 30px;
-	box-shadow: 0 6px 24px rgba(50, 70, 70, .2);
-	transition: box-shadow .19s, transform .13s;
+	border-radius: 28px;
+	box-shadow: 0 8px 26px rgba(13, 44, 79, .25);
+	transition: box-shadow .2s, transform .15s, background-color .2s;
 }
 #whatsapp-btn:hover {
 	color: #fff;
-	transform: scale(1.05);
-	box-shadow: 0 8px 34px rgba(40, 70, 40, .32);
+	background: var(--cu-green-dark);
+	transform: translateY(-2px);
 }
 #whatsapp-btn svg {
 	display: block;
+	width: 38px;
+	height: 38px;
 }
 
 /* Mobilde ekranın altında sabit "Ara / WhatsApp" çubuğu */
@@ -75,28 +270,39 @@
 		bottom: 0;
 		z-index: 9999;
 		display: flex;
-		box-shadow: 0 -2px 12px rgba(0, 0, 0, .15);
+		gap: 8px;
+		padding: 8px 10px calc(8px + env(safe-area-inset-bottom));
+		background: rgba(255, 255, 255, .96);
+		box-shadow: 0 -4px 18px rgba(13, 44, 79, .14);
 	}
 	.mobile-cta a {
+		display: flex;
 		flex: 1;
-		padding: 14px 8px calc(14px + env(safe-area-inset-bottom));
-		font-size: 17px;
+		align-items: center;
+		justify-content: center;
+		gap: 8px;
+		padding: 12px 8px;
+		font-size: 16px;
 		font-weight: 700;
-		text-align: center;
 		color: #fff;
 		text-decoration: none;
+		border-radius: 10px;
+	}
+	.mobile-cta .ico {
+		width: 19px;
+		height: 19px;
 	}
 	.mobile-cta-call {
-		background: var(--cu-blue);
+		background: var(--cu-navy);
 	}
 	.mobile-cta-wa {
 		background: var(--cu-green);
 	}
 	body {
-		padding-bottom: 56px;
+		padding-bottom: 66px;
 	}
 	.ui-to-top {
-		bottom: 70px !important;
+		bottom: 80px !important;
 	}
 }
 
@@ -327,17 +533,390 @@ h1.breadcrumbs-custom-title {
 	display: inline;
 }
 
-/* Mobilde sayaç yazıları okunur olsun */
-@media (max-width: 700px) {
-	.counter-box {
-		height: 72px !important;
+
+
+/* ================= Genel görünüm ================= */
+
+/* Üst bilgi alanı */
+.rd-navbar-static.rd-navbar-corporate {
+	background: #fff;
+	box-shadow: 0 1px 0 var(--cu-line);
+}
+.rd-navbar .rd-navbar-top-panel {
+	background: var(--cu-navy) !important;
+}
+.rd-navbar-static .rd-navbar-aside-content .block-wrap-list {
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+.rd-navbar-static .rd-navbar-outer-panel {
+	border-top: 1px solid var(--cu-line);
+}
+.rd-navbar-static .rd-navbar-nav > li > .rd-nav-link {
+	font-weight: 700;
+	color: var(--cu-navy);
+}
+.rd-navbar-static .rd-navbar-nav > li.active > .rd-nav-link,
+.rd-navbar-static .rd-navbar-nav > li > .rd-nav-link:hover {
+	color: var(--cu-blue);
+}
+.rd-navbar-static .rd-navbar-nav > li.active > .rd-nav-link {
+	box-shadow: inset 0 -3px 0 var(--cu-red);
+}
+.page-head .icon-primary-filled {
+	background: var(--cu-navy);
+}
+.rd-navbar-static .contact-info a,
+.rd-navbar-static .contact-info span {
+	color: var(--cu-navy);
+}
+.rd-navbar-static.rd-navbar--is-stuck,
+.rd-navbar-static.rd-navbar--is-clone {
+	background: #fff;
+	box-shadow: 0 4px 18px rgba(13, 44, 79, .12);
+}
+.rd-navbar-dropdown {
+	border-radius: 0 0 var(--cu-radius) var(--cu-radius);
+	box-shadow: var(--cu-shadow);
+}
+.rd-navbar-fixed .rd-navbar-panel {
+	background: #fff;
+	box-shadow: 0 2px 14px rgba(13, 44, 79, .10);
+}
+
+/* İç sayfaların başlık bandı */
+.bg-light-05 {
+	background: linear-gradient(120deg, var(--cu-navy) 0%, var(--cu-navy-2) 60%, var(--cu-blue) 100%) !important;
+}
+.bg-light-05 .breadcrumbs-custom-title {
+	color: #fff;
+}
+.bg-light-05 .breadcrumbs-custom li,
+.bg-light-05 .breadcrumbs-custom li.active,
+.bg-light-05 .breadcrumbs-custom li::after {
+	color: #c6d6e8;
+}
+.bg-light-05 .breadcrumbs-custom a {
+	color: #fff;
+}
+.bg-light-05 .breadcrumbs-custom a:hover {
+	color: var(--cu-red-light);
+}
+
+/* Ana sayfa üst bölümü */
+.hero {
+	position: relative;
+	padding: 64px 0 72px;
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+	background:
+		radial-gradient(circle at 85% 15%, rgba(229, 58, 39, .20) 0, rgba(229, 58, 39, 0) 34%),
+		radial-gradient(circle at 10% 90%, rgba(100, 181, 246, .18) 0, rgba(100, 181, 246, 0) 38%),
+		linear-gradient(125deg, var(--cu-navy) 0%, var(--cu-navy-2) 55%, var(--cu-blue) 100%);
+}
+.hero::after {
+	content: "";
+	position: absolute;
+	right: -60px;
+	top: 50%;
+	width: 380px;
+	height: 380px;
+	transform: translateY(-50%);
+	background: url("../images/logo-mark.svg") center / contain no-repeat;
+	opacity: .06;
+	filter: grayscale(1) brightness(3);
+	pointer-events: none;
+}
+.hero-inner {
+	position: relative;
+	z-index: 1;
+	max-width: 860px;
+	margin: 0 auto;
+}
+.hero-eyebrow {
+	display: inline-block;
+	margin-bottom: 18px;
+	padding: 6px 14px;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: .14em;
+	text-transform: uppercase;
+	color: #ffd0c9;
+	background: rgba(255, 255, 255, .08);
+	border: 1px solid rgba(255, 255, 255, .16);
+	border-radius: 20px;
+}
+.hero .hero-title {
+	margin: 0;
+	font-size: clamp(26px, 4vw, 44px);
+	font-weight: 800;
+	line-height: 1.18;
+	letter-spacing: -.01em;
+	color: #fff;
+}
+.hero .hero-sub {
+	margin: 16px 0 0;
+	font-size: clamp(16px, 2vw, 20px);
+	font-weight: 600;
+	line-height: 1.4;
+	color: #c6d6e8;
+}
+.hero-actions {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 16px;
+	margin-top: 32px;
+}
+.hero-trust {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px 26px;
+	margin-top: 28px;
+}
+.hero-trust li {
+	display: flex !important;
+	align-items: center;
+	gap: 8px;
+	font-size: 15px;
+	font-weight: 600;
+	color: #e3ecf5;
+}
+.hero-trust .ico {
+	padding: 3px;
+	width: 22px;
+	height: 22px;
+	color: #fff;
+	background: var(--cu-red);
+	border-radius: 50%;
+	stroke-width: 3;
+}
+.hero-person {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	margin-top: 22px;
+	font-size: 14px;
+	color: #9fb3c8;
+}
+
+.home-intro {
+	padding: 0 0 50px;
+	background: var(--cu-soft);
+}
+.home-intro .turksat-notice {
+	position: relative;
+	z-index: 2;
+	margin: -26px auto 30px;
+	box-shadow: var(--cu-shadow);
+}
+.service-cards > div {
+	margin-bottom: 20px;
+}
+.service-card {
+	display: block;
+	height: 100%;
+	padding: 28px 28px 24px;
+	text-decoration: none !important;
+	background: #fff;
+	border: 1px solid var(--cu-line);
+	border-radius: 16px;
+	box-shadow: var(--cu-shadow);
+	transition: transform .2s, box-shadow .2s, border-color .2s;
+}
+.service-card:hover {
+	transform: translateY(-4px);
+	border-color: #bcd3ea;
+	box-shadow: 0 14px 34px rgba(13, 44, 79, .14);
+}
+.service-icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 56px;
+	height: 56px;
+	margin-bottom: 16px;
+	color: var(--cu-blue);
+	background: #e8f1fb;
+	border-radius: 14px;
+}
+.service-card h3 {
+	margin: 0 0 8px;
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 1.3;
+	color: var(--cu-navy);
+}
+.service-card p {
+	margin: 0;
+	font-size: 15px;
+	line-height: 1.6;
+	color: var(--cu-muted);
+}
+.service-more {
+	display: inline-block;
+	margin-top: 14px;
+	font-size: 14px;
+	font-weight: 700;
+	color: var(--cu-blue);
+}
+.home-intro-text {
+	max-width: 820px;
+	margin: 18px auto 0;
+	font-size: 15.5px;
+	line-height: 1.7;
+	text-align: center;
+	color: var(--cu-muted);
+}
+.home-intro-text strong {
+	color: var(--cu-navy);
+}
+
+/* Sayaçlar */
+.stats {
+	padding: 10px 0 40px;
+	background: var(--cu-soft);
+}
+.stats-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 16px;
+	max-width: 980px;
+	margin: 0 auto;
+}
+.stat {
+	padding: 22px 16px;
+	text-align: center;
+	background: #fff;
+	border: 1px solid var(--cu-line);
+	border-radius: 14px;
+}
+.stat-icon {
+	display: inline-flex;
+	color: var(--cu-blue);
+}
+.stat-value {
+	margin: 8px 0 2px;
+	font-size: 28px;
+	font-weight: 800;
+	line-height: 1.1;
+	color: var(--cu-navy);
+}
+.stat-value .counter {
+	display: inline;
+}
+.stat-label {
+	margin: 0;
+	font-size: 14px;
+	font-weight: 600;
+	color: var(--cu-muted);
+}
+@media (max-width: 767.98px) {
+	.hero {
+		padding: 44px 0 56px;
 	}
-	.counter-value .h3,
-	.counter-value p.h3 {
-		font-size: .95rem !important;
+	.hero::after {
+		display: none;
 	}
-	.counter-text {
-		font-size: .72rem !important;
-		line-height: 1.1 !important;
+	.btn-cu {
+		width: 100%;
+		min-width: 0;
 	}
+	.hero-trust {
+		flex-direction: column;
+		align-items: center;
+	}
+	.stats-grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 12px;
+	}
+	.stat-value {
+		font-size: 24px;
+	}
+}
+
+/* Kartlar (yardım konuları, ilgili yazılar) */
+.help-list .post,
+.related-posts .post {
+	height: 100%;
+	overflow: hidden;
+	background: #fff;
+	border: 1px solid var(--cu-line);
+	border-radius: 14px;
+	box-shadow: 0 4px 16px rgba(13, 44, 79, .06);
+	transition: transform .2s, box-shadow .2s;
+}
+.help-list .post:hover,
+.related-posts .post:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 12px 28px rgba(13, 44, 79, .12);
+}
+.help-list .post-body,
+.related-posts .post-body {
+	padding: 16px 18px 18px;
+}
+.help-list .post-header a,
+.related-posts .post-header a {
+	color: var(--cu-navy);
+}
+.help-list .post-header a:hover,
+.related-posts .post-header a:hover {
+	color: var(--cu-blue);
+}
+.list-tags-variant-1 a {
+	font-weight: 700;
+	color: var(--cu-blue);
+}
+
+/* Yan menü */
+.aside-list-group .list-item h5 {
+	font-weight: 800;
+	color: var(--cu-navy);
+}
+.list-marked-variant-2 a {
+	color: var(--cu-text);
+}
+.list-marked-variant-2 a:hover {
+	color: var(--cu-blue);
+}
+
+/* Alt bilgi */
+.page-foot.bg-gray-dark {
+	background: #0a1f38;
+}
+.page-foot .h5-variant-1 {
+	color: #fff;
+}
+.page-foot hr {
+	border-color: rgba(255, 255, 255, .12);
+}
+.page-foot .contact-info a:hover,
+.page-foot .rights a:hover {
+	color: var(--cu-red-light);
+}
+
+/* Eski "100vw" genişlik ayarı kaydırma çubuğu kadar taşırıyordu */
+html,
+body {
+	width: auto !important;
+	max-width: 100%;
+}
+.rd-navbar-static .rd-navbar-middle-panel {
+	padding-right: 15px;
+}
+
+/* Koyu zeminde açık düğme */
+.page-foot .btn-light,
+.page-foot .btn-light:focus {
+	color: var(--cu-navy);
+	background: #fff;
+	border-color: #fff;
+}
+.page-foot .btn-light:hover {
+	color: #fff;
+	background: var(--cu-red);
+	border-color: var(--cu-red);
 }
