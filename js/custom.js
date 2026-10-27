@@ -480,3 +480,55 @@
 		}
 	});
 })();
+
+// Hizmetlerimiz: a menu link like hizmetlerimiz.html#tv-montaji opens that tab (accordion on phones)
+(function () {
+	var SERVICES = ['canak-anten', 'merkezi-uydu-sistemi', 'internet-kablo', 'tv-montaji', 'uydu-cihazi', 'servis-destek'];
+	var tabs = document.querySelector('.responsive-tabs');
+	if (!tabs) return;
+
+	function openFromHash(tries) {
+		var index = SERVICES.indexOf(window.location.hash.slice(1).split('|')[0]);
+		if (index < 0) return;
+		var items = tabs.querySelectorAll('.resp-tab-item');
+		var headers = tabs.querySelectorAll('.resp-accordion');
+		// the template initialises the tabs plugin on load, wait for it
+		if (!items.length || !headers.length) {
+			if (tries < 40) setTimeout(function () { openFromHash(tries + 1); }, 100);
+			return;
+		}
+		var item = items[index];
+		var header = headers[index];
+		var phone = item.offsetParent === null;
+		var target = phone ? header : item;
+		if (!target.classList.contains('resp-tab-active')) window.jQuery(target).trigger('click');
+		// the tabs plugin appends its own "|..." part to the address, keep it clean
+		if (window.history && history.replaceState) history.replaceState(null, '', '#' + SERVICES[index]);
+		// scroll after the template's own load-time scrolling has finished
+		// the template scrolls <body>, not the window, so let the browser find the scroller
+		setTimeout(function () {
+			var navbar = document.querySelector('.rd-navbar-fixed .rd-navbar-panel, .rd-navbar-static');
+			var el = phone ? header : tabs;
+			el.style.scrollMarginTop = (navbar ? navbar.getBoundingClientRect().height + 16 : 100) + 'px';
+			el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+		}, 350);
+		// close the phone menu if the link was picked from it while already on this page
+		var toggle = document.querySelector('.rd-navbar-toggle.active');
+		if (toggle) toggle.click();
+	}
+
+	window.addEventListener('load', function () { openFromHash(0); });
+	window.addEventListener('hashchange', function () { openFromHash(0); });
+})();
+
+// Phone menu: tapping "Hizmetlerimiz" or "Yardım" opens its sub-topics under it instead of leaving the page
+(function () {
+	document.addEventListener('click', function (e) {
+		var link = e.target.closest && e.target.closest('.rd-navbar-fixed .rd-navbar-submenu > .rd-nav-link');
+		if (!link) return;
+		var toggle = link.parentNode.querySelector(':scope > .rd-navbar-submenu-toggle');
+		if (!toggle) return;
+		e.preventDefault();
+		toggle.click();
+	}, true);
+})();
