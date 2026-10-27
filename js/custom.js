@@ -269,7 +269,7 @@
   "text": "Uydu \"Sinyal Yok\" Hatası Neden Olur, Nasıl Çözülür? 1. Önce Basit Kontroller 2. Kablo ve Konnektör Kontrolü 3. Çanak Anten Yönü Kaymış Olabilir 4. LNB Arızası 5. Apartmanda Merkezi Sistem Varsa Ne Zaman Teknik Servis Çağırmalı? Sık Sorulan Sorular Uydu sinyal yok hatası neden olur? Sadece bazı kanallarda sinyal yok, neden? Yağmurda sinyal gidiyor, sonra geliyor. Bu arıza mı?"
  },
  {
-  "title": "Uydudan Radyo Nasıl Dinlenir? Türksat Radyo Kanalları",
+  "title": "Uydudan Radyo Nasıl Dinlenir? Türksat Radyoları",
   "url": "uydudan-radyo-dinleme.html",
   "desc": "Televizyondan veya uydu alıcısından Türksat radyo kanalları nasıl dinlenir? Radyo kanallarını arama, radyo listesine geçme ve bulunamayan radyolar için çözüm.",
   "text": "Uydudan Radyo Nasıl Dinlenir? Türksat Radyo Kanalları Radyo Kanallarına Nasıl Geçilir? Radyolar Listede Yoksa Belirli Bir Radyonun Frekansı Sık Sorulan Sorular Televizyondan uydu radyosu nasıl dinlenir? Uydu radyo kanalları listede yok, ne yapmalıyım? Uydu radyo frekanslarını nereden bulurum?"

@@ -10,6 +10,8 @@
 - [Hizmet bölgeleri](https://cankayauydu.com/hizmet-bolgeleri.html)
 - [İletişim](https://cankayauydu.com/iletisim.html)
 - [Sıkça sorulan sorular](https://cankayauydu.com/faq.html)
+- [Hakkımızda](https://cankayauydu.com/hakkimizda.html)
+- [Yardım rehberleri (tüm konular)](https://cankayauydu.com/yardim.html)
 
 ## Rehberler
 - [Türksat Uydu Değişikliği 2026](https://cankayauydu.com/turksat-uydu-degisikligi-2026.html)
