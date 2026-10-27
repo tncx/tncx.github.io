@@ -1,0 +1,55 @@
+# Çankaya Uydu Sistemleri
+
+> Ankara Çankaya (Dikmen) merkezli çanak anten kurulum, uydu arıza, merkezi uydu sistemi ve TV montaj servisi. Teknisyen: Tuncay Özer. Telefon / WhatsApp: +90 553 450 20 33. Çalışma saatleri: hafta içi 09:00-20:00, hafta sonu 11:00-18:00. Hizmet bölgeleri: Dikmen, Ayrancı, Öveçler, Sokullu, Balgat, Emek, Bahçelievler, İncek.
+
+Önemli bilgi (Ekim 2026): Türksat 3A'daki TV ve radyo yayınları 15-16 Ağustos 2026 gecesi aynı konumdaki (42° Doğu) yeni Türksat uydularına taşındı; çanak ayarı değişmez, kanal listesi TKGS veya şebeke aramasıyla yenilenir. Şebeke arama değeri (Türksat resmî, Türkiye-Batı): 12380 MHz Dikey, sembol oranı 27500, FEC 3/4; yedek 12423 MHz Dikey 27500. LNB: Üniversal 9750/10600.
+
+## İşletme
+- [Ana sayfa](https://cankayauydu.com/)
+- [Hizmetlerimiz](https://cankayauydu.com/hizmetlerimiz.html)
+- [Hizmet bölgeleri](https://cankayauydu.com/hizmet-bolgeleri.html)
+- [İletişim](https://cankayauydu.com/iletisim.html)
+- [Sıkça sorulan sorular](https://cankayauydu.com/faq.html)
+
+## Rehberler
+- [Türksat Uydu Değişikliği 2026](https://cankayauydu.com/turksat-uydu-degisikligi-2026.html)
+- [Şebeke Arama Nasıl Yapılır?](https://cankayauydu.com/sebeke-arama-nasil-yapilir.html)
+- [TKGS Nedir, Nasıl Açılır?](https://cankayauydu.com/tkgs-nedir.html)
+- [TV'de Uydu Kanal Arama (Markalara Göre)](https://cankayauydu.com/tv-uydu-kanal-arama.html)
+- [Uydu Kanalları Gitti, Ne Yapmalı?](https://cankayauydu.com/uydu-kanallari-gitti.html)
+- [Kanal Sıralaması Bozuldu](https://cankayauydu.com/kanal-siralamasi-bozuldu.html)
+- [Uydu "Sinyal Yok" Hatası Çözümü](https://cankayauydu.com/uydu-sinyal-yok-hatasi.html)
+- [Rüzgârdan Çanak Anten Kaydı](https://cankayauydu.com/ruzgar-canak-anten-kaydi.html)
+- [Çanak Anten Nedir?](https://cankayauydu.com/canak-anten-nedir.html)
+- [Çanak Anten Nasıl Ayarlanır?](https://cankayauydu.com/canak-anten-nasil-ayarlanir.html)
+- [Ankara Çanak Anten Açısı (Türksat)](https://cankayauydu.com/ankara-canak-anten-acisi.html)
+- [LNB Nedir, Arızası Nasıl Anlaşılır?](https://cankayauydu.com/lnb-nedir.html)
+- [LNB Frekansı Kaç Olmalı?](https://cankayauydu.com/lnb-frekansi-kac-olmali.html)
+- [Uydu Alıcısı Kurulumu](https://cankayauydu.com/uydu-alicisi-kurulumu.html)
+- [TV'de Uydu Alıcısı Var mı? (DVB-S2)](https://cankayauydu.com/tv-uydu-alicisi-var-mi.html)
+- [Merkezi Uydu Sistemi Nedir?](https://cankayauydu.com/merkezi-uydu-sistemi-nedir.html)
+- [Merkezi Uydu Sisteminde TV Kurulumu](https://cankayauydu.com/merkezi-uydu-tv-kurulumu.html)
+- [Uydu Kablosu Nasıl Bağlanır?](https://cankayauydu.com/uydu-kablosu-nasil-baglanir.html)
+- [Uydu Sinyal Güçlendirici İşe Yarar mı?](https://cankayauydu.com/uydu-sinyal-guclendirici.html)
+- [Yağmurda ve Karda Uydu Neden Donar?](https://cankayauydu.com/yagmurda-uydu-sinyali.html)
+- [Uydudan Radyo Nasıl Dinlenir?](https://cankayauydu.com/uydudan-radyo-dinleme.html)
+- [TV Duvar Montajı: Yükseklik ve Aparat](https://cankayauydu.com/tv-duvar-montaji.html)
+- [Türksat Şebeke Arama Frekansı](https://cankayauydu.com/turksat-sebeke-arama-frekansi.html)
+- [Digitürk Kanal Listesi](https://cankayauydu.com/digiturk-kanal-listesi.html)
+
+## TV markalarına göre kanal arama
+- [Samsung TV uydu kanal arama](https://cankayauydu.com/samsung-tv-uydu-kanal-arama.html)
+- [LG TV uydu kanal arama](https://cankayauydu.com/lg-tv-uydu-kanal-arama.html)
+- [Vestel TV uydu kanal arama](https://cankayauydu.com/vestel-tv-uydu-kanal-arama.html)
+- [Arçelik TV uydu kanal arama](https://cankayauydu.com/arcelik-tv-uydu-kanal-arama.html)
+- [Beko TV uydu kanal arama](https://cankayauydu.com/beko-tv-uydu-kanal-arama.html)
+- [Grundig TV uydu kanal arama](https://cankayauydu.com/grundig-tv-uydu-kanal-arama.html)
+- [Philips TV uydu kanal arama](https://cankayauydu.com/philips-tv-uydu-kanal-arama.html)
+- [Sony TV uydu kanal arama](https://cankayauydu.com/sony-tv-uydu-kanal-arama.html)
+- [TCL TV uydu kanal arama](https://cankayauydu.com/tcl-tv-uydu-kanal-arama.html)
+- [Regal TV uydu kanal arama](https://cankayauydu.com/regal-tv-uydu-kanal-arama.html)
+- [Toshiba TV uydu kanal arama](https://cankayauydu.com/toshiba-tv-uydu-kanal-arama.html)
+- [Altus TV uydu kanal arama](https://cankayauydu.com/altus-tv-uydu-kanal-arama.html)
+- [Hisense TV uydu kanal arama](https://cankayauydu.com/hisense-tv-uydu-kanal-arama.html)
+- [Xiaomi TV uydu kanal arama](https://cankayauydu.com/xiaomi-tv-uydu-kanal-arama.html)
+- [Hi-Level, Axen, Telefunken, Onvo, Sunny](https://cankayauydu.com/diger-marka-tv-uydu-kanal-arama.html)

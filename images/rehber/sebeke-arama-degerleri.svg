@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-label="Türksat şebeke arama değerleri: 12380 MHz Dikey 27500, yedek 12423 MHz Dikey 27500" font-family="'Open Sans', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d2c4f"/>
+      <stop offset="1" stop-color="#1565c0"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="400" rx="24" fill="url(#bg)"/>
+  <text x="40" y="62" font-size="15" font-weight="700" letter-spacing="3" fill="#ffb4a8">TÜRKSAT 42°E · AĞUSTOS 2026 SONRASI</text>
+  <text x="40" y="104" font-size="32" font-weight="800" fill="#ffffff">Şebeke Arama Değerleri</text>
+  <g>
+    <rect x="40" y="134" width="306" height="150" rx="16" fill="#ffffff"/>
+    <text x="64" y="170" font-size="14" font-weight="700" fill="#5f7286">1. DEĞER</text>
+    <text x="64" y="214" font-size="40" font-weight="800" fill="#0d2c4f">12380</text>
+    <text x="196" y="214" font-size="20" font-weight="700" fill="#0d2c4f">MHz</text>
+    <text x="64" y="252" font-size="18" font-weight="700" fill="#e53a27">Dikey (V) · SR 27500 · 3/4</text>
+  </g>
+  <g>
+    <rect x="374" y="134" width="306" height="150" rx="16" fill="#ffffff" fill-opacity=".92"/>
+    <text x="398" y="170" font-size="14" font-weight="700" fill="#5f7286">2. DEĞER (YEDEK)</text>
+    <text x="398" y="214" font-size="40" font-weight="800" fill="#0d2c4f">12423</text>
+    <text x="530" y="214" font-size="20" font-weight="700" fill="#0d2c4f">MHz</text>
+    <text x="398" y="252" font-size="18" font-weight="700" fill="#e53a27">Dikey (V) · SR 27500 · 3/4</text>
+  </g>
+  <text x="40" y="326" font-size="17" font-weight="600" fill="#ffffff">LNB: Üniversal 9750 / 10600 · LNB gücü: Açık · Şebeke (Ağ) Arama: AÇIK</text>
+  <text x="40" y="366" font-size="15" font-weight="700" fill="#c6d6e8">cankayauydu.com · 0553 450 20 33</text>
+</svg>

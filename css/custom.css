@@ -920,3 +920,39 @@ body {
 	background: var(--cu-red);
 	border-color: var(--cu-red);
 }
+
+/* Kısa cevap kutusu (yapay zekâ ve öne çıkan snippet için) */
+.quick-answer {
+	margin: 0 0 1.2em;
+	padding: 14px 18px;
+	font-size: 16px;
+	line-height: 1.6;
+	color: var(--cu-navy);
+	background: #eef5fc;
+	border-left: 4px solid var(--cu-blue);
+	border-radius: 8px;
+}
+.quick-answer strong {
+	color: var(--cu-blue);
+}
+
+/* Menü yolu görselleri */
+.menu-diagram {
+	margin: 1.2em 0 1.6em;
+	text-align: center;
+}
+.menu-diagram img {
+	width: 100%;
+	max-width: 720px;
+	height: auto;
+	border-radius: 14px;
+	box-shadow: var(--cu-shadow);
+}
+.menu-diagram figcaption {
+	margin-top: 8px;
+	font-size: 13px;
+	color: var(--cu-muted);
+}
+.values-table td:first-child {
+	white-space: nowrap;
+}

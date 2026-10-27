@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 418" role="img" aria-label="Toshiba TV TV TKGS güncellemesi menü yolu" font-family="'Open Sans', Arial, sans-serif">
+  <defs>
+    <linearGradient id="scr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#143d6b"/>
+      <stop offset="1" stop-color="#0a1f38"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="10" width="680" height="368" rx="22" fill="#1b1f24"/>
+  <rect x="40" y="30" width="640" height="328" rx="10" fill="url(#scr)"/>
+  <text x="70" y="72" font-size="22" font-weight="800" fill="#ffffff">Toshiba TV</text>
+  <text x="70" y="98" font-size="15" font-weight="600" fill="#ffb4a8">TKGS güncellemesi</text>
+  <text x="650" y="72" text-anchor="end" font-size="13" fill="#9fb3c8">temsili menü</text>
+  <g>
+    <rect x="70" y="118" width="580" height="40" rx="9" fill="#ffffff" fill-opacity=".08"/>
+    <circle cx="96" cy="138" r="13" fill="#1565c0"/>
+    <text x="96" y="143" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">1</text>
+    <text x="122" y="144" font-size="17" font-weight="600" fill="#ffffff">Menü</text>
+    <text x="628" y="144" text-anchor="end" font-size="18" fill="#9fb3c8">›</text>
+  </g>
+  <g>
+    <rect x="70" y="168" width="580" height="40" rx="9" fill="#ffffff" fill-opacity=".08"/>
+    <circle cx="96" cy="188" r="13" fill="#1565c0"/>
+    <text x="96" y="193" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">2</text>
+    <text x="122" y="194" font-size="17" font-weight="600" fill="#ffffff">Kurulum</text>
+    <text x="628" y="194" text-anchor="end" font-size="18" fill="#9fb3c8">›</text>
+  </g>
+  <g>
+    <rect x="70" y="218" width="580" height="40" rx="9" fill="#ffffff" fill-opacity=".08"/>
+    <circle cx="96" cy="238" r="13" fill="#1565c0"/>
+    <text x="96" y="243" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">3</text>
+    <text x="122" y="244" font-size="17" font-weight="600" fill="#ffffff">TKGS Kurulumu</text>
+    <text x="628" y="244" text-anchor="end" font-size="18" fill="#9fb3c8">›</text>
+  </g>
+  <g>
+    <rect x="70" y="268" width="580" height="40" rx="9" fill="#e53a27" fill-opacity="1"/>
+    <circle cx="96" cy="288" r="13" fill="#ffffff"/>
+    <text x="96" y="293" text-anchor="middle" font-size="14" font-weight="700" fill="#e53a27">4</text>
+    <text x="122" y="294" font-size="17" font-weight="700" fill="#ffffff">Güncelleme Başlat</text>
+    
+  </g>
+  
+  <path d="M300 378 280 398H440L420 378Z" fill="#2b3138"/>
+  <rect x="240" y="396" width="240" height="10" rx="5" fill="#2b3138"/>
+</svg>
