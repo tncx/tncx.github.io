@@ -956,3 +956,33 @@ body {
 .values-table td:first-child {
 	white-space: nowrap;
 }
+
+/* Hizmetlerimiz: başlık kutusu ve görseller */
+.box-custom-variant-1 .box-header {
+	background: linear-gradient(120deg, var(--cu-navy), var(--cu-blue)) !important;
+	border-radius: 14px 14px 0 0;
+}
+.box-custom-variant-1 .box-header::before {
+	background: linear-gradient(120deg, var(--cu-navy), var(--cu-blue)) !important;
+	border-radius: 14px;
+}
+.box-custom-variant-1 .box-header h3 {
+	position: relative;
+	color: #fff;
+}
+.tab figure img,
+.tabs-custom figure img {
+	width: 100%;
+	height: auto;
+	border-radius: 14px;
+	box-shadow: var(--cu-shadow);
+}
+img.product-img {
+	max-width: 320px;
+	padding: 16px;
+	object-fit: contain;
+	background: #fff;
+	border: 1px solid var(--cu-line);
+	border-radius: 14px !important;
+	box-shadow: var(--cu-shadow);
+}

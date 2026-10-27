@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Çanak anten ve uydu illüstrasyonu" font-family="'Open Sans', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a2340"/>
+      <stop offset=".6" stop-color="#123a66"/>
+      <stop offset="1" stop-color="#1565c0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".78" cy=".22" r=".55">
+      <stop offset="0" stop-color="#e53a27" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#e53a27" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="#ffffff" fill-opacity=".07"/>
+    </pattern>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c9d6e3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect width="1200" height="675" fill="url(#glow)"/>
+  <rect width="1200" height="675" fill="url(#dots)"/>
+  <path d="M0 610 360 520 720 610V675H0Z" fill="#081a30"/>
+  <path d="M0 610 360 520 720 610" stroke="#1e4d82" stroke-width="6" fill="none"/>  <g transform="translate(420 360) scale(1.25)">
+    <path d="M-38 70 -58 168M-96 172h90" stroke="#dfe8f1" stroke-width="16" stroke-linecap="round" fill="none"/>
+    <g transform="rotate(40)">
+      <path d="M-120 0A120 92 0 0 0 120 0Z" fill="url(#metal)"/>
+      <path d="M-120 0A120 92 0 0 0 120 0" fill="none" stroke="#9fb3c8" stroke-width="5"/>
+      <path d="M0 0V-108" stroke="#dfe8f1" stroke-width="11" stroke-linecap="round"/>
+      <rect x="-19" y="-150" width="38" height="44" rx="8" fill="#e53a27"/>
+    </g>
+  </g>  <g transform="translate(930 170) rotate(-20) scale(0.95)">
+    <rect x="-150" y="-28" width="105" height="56" rx="4" fill="#64b5f6" fill-opacity=".9"/>
+    <path d="M-150 -9h105M-150 9h105M-115 -28v56M-80 -28v56" stroke="#0a2340" stroke-width="3" opacity=".55"/>
+    <rect x="45" y="-28" width="105" height="56" rx="4" fill="#64b5f6" fill-opacity=".9"/>
+    <path d="M45 -9h105M45 9h105M80 -28v56M115 -28v56" stroke="#0a2340" stroke-width="3" opacity=".55"/>
+    <rect x="-45" y="-6" width="90" height="12" fill="#c9d6e3"/>
+    <rect x="-34" y="-46" width="68" height="92" rx="10" fill="url(#metal)"/>
+    <rect x="-34" y="-12" width="68" height="10" fill="#e53a27"/>
+    <path d="M-20 46q20 34 40 0" fill="#ffffff"/>
+  </g>  <g transform="translate(700 290) rotate(45)"><path d="M-32.2 -32.2A46 46 0 0 1 32.2 -32.2" fill="none" stroke="#e53a27" stroke-width="12" stroke-linecap="round" opacity="1.00"/><path d="M-56.0 -56.0A80 80 0 0 1 56.0 -56.0" fill="none" stroke="#e53a27" stroke-width="12" stroke-linecap="round" opacity="0.75"/><path d="M-79.8 -79.8A114 114 0 0 1 79.8 -79.8" fill="none" stroke="#e53a27" stroke-width="12" stroke-linecap="round" opacity="0.50"/></g>
+  <defs>
+    <mask id="cu-wrench" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="110">
+      <rect width="100" height="110" fill="#fff"/>
+      <circle cx="49" cy="46" r="18.5" fill="#000"/>
+      <path d="M58 36.6 101 34.6V54.6L58 53.4Z" fill="#000"/>
+      <path d="M29 38.8H45.2L50.4 46 45.2 53.2H29Z" fill="#fff"/>
+    </mask>
+  </defs>
+  <g transform="translate(1100 580) scale(.62)" opacity=".95">
+    <g mask="url(#cu-wrench)" fill="#e53a27"><circle cx="50" cy="47" r="45"/><path d="M38 86 50 107 62 86Z"/></g>
+  </g>
+</svg>
