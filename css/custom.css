@@ -1287,3 +1287,15 @@ img.product-img {
     border-radius: 0;
   }
 }
+
+/* SSS: category nav and groups */
+.faq-intro { margin-bottom: 18px; }
+.faq-cats { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }
+.faq-cats a {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 7px 14px; border: 1px solid var(--cu-line); border-radius: 999px;
+  background: #fff; color: var(--cu-navy); font-size: 14px; font-weight: 600; text-decoration: none;
+}
+.faq-cats a:hover, .faq-cats a:focus { border-color: var(--cu-blue); color: var(--cu-blue); }
+.faq-cats a span { padding: 0 7px; border-radius: 999px; background: var(--cu-soft); color: var(--cu-blue); font-size: 12px; }
+.faq-group { margin-top: 44px; scroll-margin-top: 90px; }

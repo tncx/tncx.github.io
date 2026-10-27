@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <!-- Site Title-->
-    <title>Sıkça Sorulan Sorular (SSS) | Çankaya Uydu Sistemleri</title>
-    <meta name="description" content="Çanak anten, LNB, uydu alıcısı, merkezi sistem ve Digitürk arızaları hakkında sık sorulan sorular ve kısa, anlaşılır cevaplar. Çankaya Uydu Sistemleri.">
+    <title>Çanak Anten ve Uydu Sık Sorulan Sorular | Çankaya Uydu</title>
+    <meta name="description" content="89 soru-cevap: Türksat kanal arama ve TKGS, çanak anten ayarı, sinyal yok arızası, LNB, DiSEqC, merkezi uydu sistemi ve Digitürk. Çankaya Uydu, Ankara.">
     <meta name="geo.region" content="TR-06">
     <meta name="geo.placename" content="Çankaya, Ankara">
     <meta name="geo.position" content="39.8999;32.8597">
@@ -12,8 +12,8 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Çankaya Uydu">
     <meta property="og:locale" content="tr_TR">
-    <meta property="og:title" content="Sıkça Sorulan Sorular (SSS) | Çankaya Uydu Sistemleri">
-    <meta property="og:description" content="Çanak anten, LNB, uydu alıcısı, merkezi sistem ve Digitürk arızaları hakkında sık sorulan sorular ve kısa, anlaşılır cevaplar. Çankaya Uydu Sistemleri.">
+    <meta property="og:title" content="Çanak Anten ve Uydu Sık Sorulan Sorular | Çankaya Uydu">
+    <meta property="og:description" content="89 soru-cevap: Türksat kanal arama ve TKGS, çanak anten ayarı, sinyal yok arızası, LNB, DiSEqC, merkezi uydu sistemi ve Digitürk. Çankaya Uydu, Ankara.">
     <meta property="og:url" content="https://cankayauydu.com/faq.html">
     <meta property="og:image" content="https://cankayauydu.com/images/logo-full.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/custom.css?v=20261027r">
+    <link rel="stylesheet" href="css/custom.css?v=20261027s">
 
 
     <!-- Google tag (gtag.js) -->
@@ -57,10 +57,90 @@
     },
     {
       "@type": "Question",
-      "name": "Çanak antenin boyutu görüntü kalitesini etkiler mi?",
+      "name": "Uydu neden değişti, çanağımı yeniden ayarlatmam gerekir mi?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Dijital yayında görüntü kalitesi çanak boyutuna bağlı değildir; sinyal yeterliyse görüntü aynıdır. Büyük çanak daha fazla sinyal toplar ve özellikle yağmurlu, karlı havada donma ve kesilme riskini azaltır."
+        "text": "Ömrünü dolduran Türksat 3A'nın yayınları, aynı 42° Doğu yörüngesindeki yeni Türksat uydularına aktarıldı. Konum değişmediği için çanağın yönü de değişmez; yalnızca televizyonda veya uydu alıcısında kanal listesinin yenilenmesi (TKGS güncellemesi veya şebeke araması) gerekir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Türksat şebeke arama frekansı nedir (2026)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ankara ve Türkiye'nin batısı için Türksat'ın verdiği şebeke arama değeri 12380 MHz, Dikey (V), sembol oranı 27500, FEC 3/4'tür. Yedek olarak 12423 MHz Dikey 27500 veya 12458 MHz Dikey 30000 kullanılabilir. 12423 MHz Yatay 30000 değeri Türkiye-Doğu kapsaması içindir; Ankara'da yedek olarak önermiyoruz."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Şebeke arama nedir, açık mı olmalı kapalı mı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Şebeke araması, cihazın tek bir frekanstan uydudaki tüm yayın listesini (NIT tablosu) okuyup bütün frekansları kendisi bulmasını sağlar. Tüm kanalları bulmak için kanal arama ekranında Şebeke Arama seçeneği Açık olmalıdır; kapalıysa cihaz yalnızca girdiğiniz frekanstaki kanalları bulur."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "TKGS nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "TKGS, Türksat Kanal Güncelleme Sistemi'dir. Türksat uydusundaki kanal listesini destekleyen televizyon ve uydu alıcılarına otomatik aktarır, frekans değişikliklerini kendiliğinden işler ve ulusal kanalları her cihazda aynı standart numaralara dizer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "TKGS güncellemesi nasıl yapılır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kurulum veya kanal ayarları menüsünde TKGS (TKGS Kurulumu, Türksat TKGS ayarları) seçeneğini bulun, modu açık yapın ve güncellemeyi başlatın. Vestel ve Regal'de genellikle Menü → Kurulum → TKGS Kurulumu, Arçelik grubunda Menü → Ayarlar → Kaynak Ayarları → Türksat TKGS ayarları yolundadır; menü adları modele göre değişebilir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "TKGS'yi kapatmalı mıyım?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Genelde açık kalması önerilir; frekans değişikliklerini otomatik takip eder. Bazı markalarda (ör. Vestel ve Arçelik grubu) elle kanal araması veya kanal sıralamasını düzenlemek için TKGS'nin kapalı olması gerekir. Bu durumda işlemi bitirdikten sonra TKGS'yi tekrar açın."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kanal araması yaptım ama az kanal buldu, neden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Şebeke araması kapalıysa yalnızca tek frekanstaki kanallar bulunur. LNB tipi Üniversal 9750/10600 değilse veya 22 kHz kapalıysa kanalların yaklaşık yarısı gelmez; sadece yatay ya da sadece dikey kanallar geliyorsa LNB veya LNB gücünden şüphelenin. Yanlış DiSEqC portu ve düşük sinyal kalitesi de eksik kanala yol açar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kanal sıralaması neden bozuldu, neden 1'den başlamıyor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kanal araması kanalları bulduğu sırayla listeye ekler; TKGS kapalıyken yapılan aramalardan sonra TRT 1, ATV gibi ulusal kanallar alışık olduğunuz numaralarda olmaz. TKGS'yi açıp güncelleme başlatmak standart sıraya döndürür; dilerseniz kanal düzenleme menüsünden elle de sıralayabilirsiniz."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Aynı kanallar listede iki kez görünüyor, nasıl düzeltirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Eski kayıtlar silinmeden yeni arama yapıldığında kanallar çift görünür. Kanal listesini silip aramayı baştan yapmak ya da aramada mevcut kanalları koruma seçeneğini kapatmak tekrarları temizler."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kanallarda “şifreli” veya “kodlu” yazıyor, neden açılmıyor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Türksat'taki kanalların bir kısmı ücretli platformlara (ör. Digitürk, D-Smart) aittir ve şifreli yayın yapar. Bu kanallar ilgili platformun aboneliği ve cihazı olmadan açılmaz; ulusal kanallar ise şifresizdir. Ulusal bir kanalda bu yazıyı görüyorsanız kanal listesini TKGS veya şebeke aramasıyla yenileyin."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Uydudan radyo dinlenebilir mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet. Türksat'tan TV kanallarının yanında yüzlerce radyo kanalı da yayınlanır (Ağustos 2026 itibarıyla 215 radyo). Kanal aramasında radyo kanallarının da aranmasını seçin; televizyonda veya uydu alıcısında TV/Radyo tuşuyla radyo listesine geçebilirsiniz."
       }
     },
     {
@@ -73,10 +153,42 @@
     },
     {
       "@type": "Question",
-      "name": "Çanak antenle internet kullanabilir miyim?",
+      "name": "Çanak anten hangi yöne bakmalı?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hayır, evdeki TV çanağıyla internete bağlanılamaz. Uydu interneti; ayrı çanak, iki yönlü verici-alıcı ünite ve modem gerektiren, abonelikle sunulan ayrı bir hizmettir ve genellikle altyapının olmadığı kırsal bölgelerde kullanılır. Şehir içinde fiber veya VDSL çok daha hızlı ve ekonomiktir."
+        "text": "Türkiye'den Türksat 42° Doğu'ya bakan çanak güneydoğu yönüne çevrilir. Ankara'da açı gerçek kuzeye göre yaklaşık 166°, pusulada yaklaşık 160°'tir (tam güney değil, biraz doğusu). Çanağın önünde bina, ağaç gibi engel olmamalıdır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Çanak anten kaç derece olmalı (Ankara)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ankara'da Türksat 42° Doğu uydusu ufkun yaklaşık 43° üzerindedir (elevasyon), yön açısı pusulada yaklaşık 160°'tir ve LNB yaklaşık 11° döndürülür. Ofset çanaklarda odak aşağıda olduğu için çanak yüzeyi neredeyse dik görünür; bu normaldir. Son ayar her zaman sinyal kalitesine bakılarak yapılır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Çanak anten neden kıbleyi gösterir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Göstermez, yalnızca yakın bir yöne bakar. Türkiye'den bakıldığında hem Türksat uydusu (42° Doğu) hem Kâbe güney-güneydoğu yönünde kalır. Ankara'da kıble gerçek kuzeye göre yaklaşık 160°, Türksat yaklaşık 166°'dir; bu birkaç derecelik fark yüzünden çanak kıble bulmak için kullanılmamalıdır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Çanak anten kaç cm olmalı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Türksat Türkiye'yi güçlü kapsadığı için Ankara'da tek daire için genellikle 60–80 cm çanak yeterlidir. Yağmurda ve karda kesinti riskini azaltmak veya birden çok daireyi beslemek (merkezi sistem) için daha büyük çanak tercih edilir. Çok küçük çanaklar kötü havada daha çabuk sinyal kaybeder."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Çanak antenin boyutu görüntü kalitesini etkiler mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dijital yayında görüntü kalitesi çanak boyutuna bağlı değildir; sinyal yeterliyse görüntü aynıdır. Büyük çanak daha fazla sinyal toplar ve özellikle yağmurlu, karlı havada donma ve kesilme riskini azaltır."
       }
     },
     {
@@ -105,46 +217,6 @@
     },
     {
       "@type": "Question",
-      "name": "Çanak anten sinyali neden kaybolur?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sinyal kaybı genellikle antenin yönünün bozulması, kablolarda sorun, LNB arızası ya da olumsuz hava koşullarından kaynaklanır. Bu durumlarda anten, kablo ve bağlantılar kontrol edilmeli, gerekirse uzman desteği alınmalıdır."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Çanak anten bakım gerektirir mi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Çanak antenin uzun süre sorunsuz çalışması için zaman zaman kontrol edilmesi iyi olur. Özellikle LNB ve kabloların durumu, bağlantıların sıkılığı ve çanağın yönünün korunup korunmadığı kontrol edilmelidir."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Çanak anten fiyatları neye göre değişir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Fiyatlar çanağın boyutu ve malzemesi, LNB türü, kablo uzunluğu ve kurulum yerine göre değişir. Net fiyat için işin yerinde görülmesi gerekir; bizi arayarak bilgi alabilirsiniz."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Çanak anten kurmak için izin gerekir mi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Apartman ve sitelerde çanak anten kurulumu için bina yönetiminin onayı gerekebilir. Ortak alanlara (çatı, cephe) montaj yapmadan önce yönetim planını ve bina kurallarını kontrol etmenizi öneririz."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Uydu alıcım çalışmıyor, ne yapmalıyım?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Önce güç kablosunun ve adaptörün takılı olduğundan emin olun. Ardından çanaktan gelen kablonun bağlantısını, LNB ayarlarını ve sinyal göstergesini kontrol edin. Sorun devam ederse cihaz veya anten tarafının servis tarafından incelenmesi gerekir."
-      }
-    },
-    {
-      "@type": "Question",
       "name": "Çanak anteni kendim ayarlayabilir miyim?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -161,10 +233,34 @@
     },
     {
       "@type": "Question",
-      "name": "Çanak antenim fırtınada zarar gördü, ne yapmalıyım?",
+      "name": "Sinyal seviyesi ve sinyal kalitesi farkı nedir, kaç olmalı?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Fırtına çanağın yönünü kaydırabilir, LNB'yi veya kabloyu bozabilir. Çatıya çıkmak tehlikeli olabileceği için kontrol ve onarımı bir teknisyene yaptırmanızı öneririz."
+        "text": "Seviye, kabloya gelen toplam sinyal gücünü; kalite ise uydunun yayınının ne kadar temiz alındığını gösterir. Çanak yanlış uyduya bakarken bile seviye yüksek görünebilir, bu yüzden ayar kaliteye göre yapılır. Kalite ne kadar yüksekse kötü havada kesinti o kadar az olur; yüzde değerleri markadan markaya farklı hesaplandığı için tek bir doğru rakam yoktur."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Çanak anteni balkona kurabilir miyim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Balkonunuz güneydoğu yönünde gökyüzünü engelsiz görüyorsa evet. Üst kat balkonu, karşı bina veya ağaç uyduyu kapatıyorsa sinyal gelmez. Bina cephesine yapılacak montajlar için yönetim kurallarına da bakın."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Çanak anten kurmak için izin gerekir mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Apartman ve sitelerde çanak anten kurulumu için bina yönetiminin onayı gerekebilir. Ortak alanlara (çatı, cephe) montaj yapmadan önce yönetim planını ve bina kurallarını kontrol etmenizi öneririz."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Taşınırken çanak anteni söküp yeni evde kullanabilir miyim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet. Çanak, LNB ve braket sağlamsa yeni adreste kullanılabilir; ancak yeni yerde yön, açı ve LNB eğimi baştan ayarlanmalıdır. Paslanmış bağlantı parçalarını ve güneşten yıpranmış kabloyu taşıma sırasında yenilemek iyi olur."
       }
     },
     {
@@ -177,114 +273,34 @@
     },
     {
       "@type": "Question",
-      "name": "Digitürk cihazı “RA” yazısında kaldı, ne yapmalıyım?",
+      "name": "Çanak antenle internet kullanabilir miyim?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Ön ekranda “RA” yazısında kalan Digitürk cihazlarında sorun çoğunlukla güç adaptöründen kaynaklanır. Aynı voltaj ve amper değerinde uyumlu bir adaptörle deneyin; düzelmezse cihazın Digitürk tarafından değiştirilmesi gerekir."
+        "text": "Hayır, evdeki TV çanağıyla internete bağlanılamaz. Uydu interneti; ayrı çanak, iki yönlü verici-alıcı ünite ve modem gerektiren, abonelikle sunulan ayrı bir hizmettir ve genellikle altyapının olmadığı kırsal bölgelerde kullanılır. Şehir içinde fiber veya VDSL çok daha hızlı ve ekonomiktir."
       }
     },
     {
       "@type": "Question",
-      "name": "Digitürk'te “Sinyal seviyesinde azalma var” hatası",
+      "name": "Uydu “sinyal yok” diyor, ne yapmalıyım?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bu hata cihaza çanaktan sinyal gelmediğini gösterir. Kablonun ucundaki F konnektörde ortadaki bakır telin kenardaki ince örgü tellere değmediğinden emin olun. F konnektörde sorun yoksa kablonun veya çanağın uzman tarafından kontrol edilmesi gerekir."
+        "text": "Önce televizyonun doğru kaynakta (uydu veya alıcının bağlı olduğu HDMI) olduğunu kontrol edin, uydu alıcısının fişini 1–2 dakika çekip tekrar takın. Ardından alıcının arkasındaki kablonun ve F konnektörün sıkı olduğuna bakın. Sorun sürerse sert rüzgârla kaymış çanak, arızalı LNB veya apartmanda merkezi sistem arızası olabilir."
       }
     },
     {
       "@type": "Question",
-      "name": "Digitürk'te “Uydu sinyal kablonuzda kısa devre olmuş olabilir” hatası",
+      "name": "Çanak anten sinyali neden kaybolur?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Çatıdan gelen kabloyu cihazın arkasından çıkardığınızda hata kayboluyorsa kabloda kısa devre vardır. F konnektörün içinde ortadaki kalın bakır telin, kenardaki ince örgü tellere değmediğinden emin olun; kabloda ek varsa ek yerlerini de aynı şekilde kontrol edin. Hata kablo çıkarıldığında da sürüyorsa cihaz arızalı olabilir (bazı eski modellerde, ör. 9104, bu arıza sık görülür); Digitürk'ü arayarak değişim talep edin."
+        "text": "Sinyal kaybı genellikle antenin yönünün bozulması, kablolarda sorun, LNB arızası ya da olumsuz hava koşullarından kaynaklanır. Bu durumlarda anten, kablo ve bağlantılar kontrol edilmeli, gerekirse uzman desteği alınmalıdır."
       }
     },
     {
       "@type": "Question",
-      "name": "Çanak antenin sinyal gücünü artırmak için ne yapabilirim?",
+      "name": "Bazı kanallar var, bazıları sinyal yok diyor; neden?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Önce çanağın yönünü ve açısını kalite göstergesine bakarak yeniden ayarlayın. Eskiyen LNB'yi ve yıpranmış kabloyu yenilemek de sinyali iyileştirir. Çanağın önünde ağaç, bina gibi engel olmamalıdır."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Birden fazla televizyon için tek çanak anten kullanılabilir mi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Evet. Çok çıkışlı bir LNB (ikili, dörtlü, sekizli) ile her televizyona ayrı kablo çekilir; her televizyonun kendi uydu alıcısı (dahili veya harici) olmalıdır. Daha fazla daire için merkezi uydu sistemi kurulur."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Sinyal güçlendirici (hat amplifikatörü) işe yarar mı?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Amplifikatör yalnızca uzun kablo hatlarında ve merkezi sistemlerde kayıpları telafi etmek için işe yarar. Çanak yanlış ayarlıysa, LNB arızalıysa veya kablo bozuksa sorunu çözmez; gürültüyü de yükselttiği için durumu kötüleştirebilir."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Çanak antenler sağlığa veya çevreye zarar verir mi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Çanak anten yalnızca alıcıdır; herhangi bir yayın ya da ışıma yapmaz, bu nedenle sağlığa zararı yoktur. Dikkat edilmesi gereken, montajın sağlam yapılması ve rüzgârda düşme riskinin önlenmesidir."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Çanak antenin ömrü ne kadardır?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Kaliteli bir çanak anten uzun yıllar kullanılabilir. Dış hava koşulları nedeniyle zamanla paslanma veya aşınma olabileceğinden çanak, bağlantı parçaları ve LNB ara ara kontrol edilmelidir."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Çanak anten kablosunun ömrü ne kadardır?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Kablonun ömrü kalitesine ve güneşe maruz kalmasına bağlıdır. Dış kılıfı çatlayan veya içine su alan kablo sinyal kaybına yol açar. UV dayanımlı kaliteli dış ortam kablosu uzun yıllar sorunsuz çalışır; ucuz kablolar birkaç yılda yıpranabilir."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Çanak antenle kablosuz televizyon izlenebilir mi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Çanak antenden uydu alıcısına bağlantı kabloyla yapılır. Bazı uydu alıcıları Wi-Fi ile internete bağlanabilir, ancak bu uydu yayınının kendisini kablosuz hale getirmez."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Merkezi uydu sisteminin avantajları nelerdir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Merkezi uydu sistemi, apartmandaki tüm dairelerin tek çanaktan yayın almasını sağlar. Her daireye ayrı çanak gerekmez, bina cephesi düzenli kalır ve arızalar tek noktadan giderilir."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Çanak antenim neden parazit yapıyor?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Görüntüde donma ve kare kare bozulma çoğunlukla zayıf sinyal, bozuk kablo veya konnektör, arızalı LNB ya da kaymış çanaktan kaynaklanır. Kötü hava da geçici donmalara yol açabilir. Kalıcıysa anten ve bağlantılar kontrol edilmelidir."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Digitürk DMDU LNB nedir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Digitürk DMDU LNB, apartman ve sitelerde (MDU: çok daireli bina) tek çanaktan birden fazla daireye Digitürk yayını dağıtmak için kullanılan LNB türüdür."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Digitürk cihazı bekleme (standby) modunda kaldı, ne yapmalıyım?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Cihaz bekleme modunda takılı kaldıysa genellikle kilitlenmiştir. Elektrik fişini çekip 5 saniye bekleyin ve geri takın. Sorun devam ederse Digitürk'ü arayıp cihaz değişim kaydı açtırmanız gerekir."
+        "text": "Sadece birkaç kanal gittiyse genellikle o kanalların frekansı değişmiştir; TKGS güncellemesi veya şebeke araması yeterlidir. Belirli bir gruptaki kanalların hepsi (ör. tüm yatay ya da tüm dikey yayınlar) gidiyorsa LNB, LNB gücü veya merkezi sistemde multiswitch girişi arızası olabilir."
       }
     },
     {
@@ -297,10 +313,26 @@
     },
     {
       "@type": "Question",
+      "name": "Karda çanak anten neden çekmez?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Çanağın içinde veya LNB'nin üzerinde biriken kar sinyali keser. Ulaşılabiliyorsa karı yumuşak bir fırçayla, çanağın yönünü bozmadan temizleyin. Çatıya çıkmak tehlikeliyse bunu denemeyin; kar eridiğinde sinyal genellikle kendiliğinden döner."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Anten yönü bozulmuş olabilir mi, nasıl kontrol edebilirim?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sinyal kalitesi düştüyse veya tamamen kaybolduysa antenin yönü değişmiş olabilir. TV'nin sinyal menüsünde kalite değerine bakın; çanağı milimetrik hareketlerle oynatarak en yüksek kaliteyi bulun veya teknisyen çağırın."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Çanak antenim fırtınada zarar gördü, ne yapmalıyım?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fırtına çanağın yönünü kaydırabilir, LNB'yi veya kabloyu bozabilir. Çatıya çıkmak tehlikeli olabileceği için kontrol ve onarımı bir teknisyene yaptırmanızı öneririz."
       }
     },
     {
@@ -321,10 +353,410 @@
     },
     {
       "@type": "Question",
+      "name": "Çanak antenim neden parazit yapıyor, görüntü neden donuyor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Görüntüde donma ve kare kare bozulma çoğunlukla zayıf sinyal, bozuk kablo veya konnektör, arızalı LNB ya da kaymış çanaktan kaynaklanır. Kötü hava da geçici donmalara yol açabilir. Kalıcıysa anten ve bağlantılar kontrol edilmelidir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Çanak antenin sinyal gücünü artırmak için ne yapabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Önce çanağın yönünü ve açısını kalite göstergesine bakarak yeniden ayarlayın. Eskiyen LNB'yi ve yıpranmış kabloyu yenilemek de sinyali iyileştirir. Çanağın önünde ağaç, bina gibi engel olmamalıdır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Sinyal güçlendirici (hat amplifikatörü) işe yarar mı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Amplifikatör yalnızca uzun kablo hatlarında ve merkezi sistemlerde kayıpları telafi etmek için işe yarar. Çanak yanlış ayarlıysa, LNB arızalıysa veya kablo bozuksa sorunu çözmez; gürültüyü de yükselttiği için durumu kötüleştirebilir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Uydu alıcım çalışmıyor, ne yapmalıyım?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Önce güç kablosunun ve adaptörün takılı olduğundan emin olun. Ardından çanaktan gelen kablonun bağlantısını, LNB ayarlarını ve sinyal göstergesini kontrol edin. Sorun devam ederse cihaz veya anten tarafının servis tarafından incelenmesi gerekir."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Anten kurulumunu kendi başıma yapabilir miyim?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Temel teknik bilginiz varsa yapabilirsiniz; ancak çatıda çalışmak tehlikeli olabilir ve hassas ayar ölçü aleti gerektirir. Güvenli ve kalıcı sonuç için uzman desteği almanızı öneririz."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "LNB nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "LNB, çanağın önündeki kol üzerinde duran, çanağın topladığı uydu sinyalini yükseltip kabloyla taşınabilecek frekansa çeviren parçadır. Evlerde neredeyse her zaman üniversal LNB kullanılır; çıkış sayısı (tekli, ikili, dörtlü, sekizli) kaç cihaz bağlanabileceğini belirler."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "LNB frekansı kaç olmalı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Üniversal LNB için alt frekans 9750 MHz, üst frekans 10600 MHz olmalıdır. 22 kHz otomatik, LNB gücü açık seçilir. Bu değerler Türksat ve Türkiye'de kullanılan LNB'lerin neredeyse tamamı için standarttır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "LNB tipi ne olmalı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cihazın kurulum menüsünde LNB tipi olarak Üniversal (Universal, 9750/10600) seçilir. Apartmanlarda quattro LNB ve multiswitch kullanılsa da cihazdaki ayar yine Üniversal'dır. Yalnızca tek kablolu (Unicable / SCR) sistemlerde, sistemi kuranın verdiği bant numarası ve frekansla Unicable seçilir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "LNB gücü açık mı olmalı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet. LNB'yi besleyen elektrik ve yatay-dikey yayın seçimi bu voltajla (13/18V) yapılır; kapalıysa LNB çalışmaz ve hiç kanal bulunmaz. Multiswitch'li merkezi sistemlerde de LNB gücü açık olmalıdır, çünkü multiswitch dairenize hangi bandı göndereceğini bu sinyale göre seçer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "DiSEqC nedir, ne olmalı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DiSEqC, birden fazla çanak veya LNB arasında seçim yapmak için alıcının gönderdiği komuttur. Tek çanak ve tek LNB kullanıyorsanız DiSEqC kapalı (veya 1. port / A) olmalıdır. Türksat'ın yanında başka bir uyduya da bakan sistemlerde, her uydu için kurulumu yapanın belirttiği port (DiSEqC 1.0'da A–D) seçilir; yanlış port seçilirse hiç kanal bulunmaz."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Uydu kablosu nasıl bağlanır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kablonun dış kılıfı yaklaşık 1 cm soyulur, örgü teller ve folyo geriye kıvrılır, iç yalıtkan ortadaki bakır tel açıkta kalacak şekilde kesilir ve F konnektör kabloya sıkıca çevrilerek takılır. Ortadaki bakır telin örgü tellere değmemesi ve konnektörden 1–2 mm taşması gerekir; değerse kısa devre olur ve sinyal gelmez."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Uydu kablosuna ek yapılır mı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gerekirse yapılır, ama bant sarılarak değil: iki ucuna F konnektör takılıp araya F-F ek parçası (ek manşonu) konur. Dış ortamdaki ek yeri su almaması için korunmalıdır. Her ek bir miktar kayıp ve arıza riski getirdiğinden mümkünse kablonun tek parça çekilmesi daha iyidir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Bir uydu kablosu iki televizyona bölünebilir mi (çoğaltıcı)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Önerilmez. Uydu alıcıları LNB'ye hangi bandı ve yönü (yatay/dikey) istediklerini kablo üzerinden söyler; aynı kablodaki iki cihaz birbirinin seçimini bozar ve biri çalışırken diğeri donar. Her televizyon veya alıcı için çok çıkışlı LNB'den ayrı kablo çekilmeli, daha fazla nokta için multiswitch kullanılmalıdır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Birden fazla televizyon için tek çanak anten kullanılabilir mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet. Çok çıkışlı bir LNB (ikili, dörtlü, sekizli) ile her televizyona ayrı kablo çekilir; her televizyonun kendi uydu alıcısı (dahili veya harici) olmalıdır. Daha fazla daire için merkezi uydu sistemi kurulur."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Uydu kablosu uzunluğu sinyali etkiler mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet. Kablo uzadıkça sinyal zayıflar; kaliteli bir uydu kablosuyla ev içi mesafeler sorun olmaz, ama çok uzun hatlarda ve merkezi sistemlerde kayıp hesaba katılır. İnce, ucuz veya güneşten yıpranmış kablo kaybı belirgin şekilde artırır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Çanak anten kablosunun ömrü ne kadardır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kablonun ömrü kalitesine ve güneşe maruz kalmasına bağlıdır. Dış kılıfı çatlayan veya içine su alan kablo sinyal kaybına yol açar. UV dayanımlı kaliteli dış ortam kablosu uzun yıllar sorunsuz çalışır; ucuz kablolar birkaç yılda yıpranabilir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Çanak antenle kablosuz televizyon izlenebilir mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Çanak antenden uydu alıcısına bağlantı kabloyla yapılır. Bazı uydu alıcıları Wi-Fi ile internete bağlanabilir, ancak bu uydu yayınının kendisini kablosuz hale getirmez."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Merkezi uydu sistemi nedir, avantajları nelerdir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Merkezi uydu sistemi, apartmandaki tüm dairelerin çatıdaki ortak çanaktan yayın almasını sağlar. Her daireye ayrı çanak gerekmez, bina cephesi düzenli kalır ve arızalar tek noktadan giderilir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Merkezi uydu sistemi televizyona nasıl bağlanır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dairedeki uydu prizinin SAT yazan vidalı (F tipi) çıkışından gelen kablo, televizyonun uydu (Satellite) girişine veya uydu alıcısının LNB IN girişine takılır. Ardından uydu Türksat 42°E, LNB tipi Üniversal 9750/10600, 22 kHz otomatik, LNB gücü açık, DiSEqC kapalı seçilip kanal araması yapılır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Merkezi sistemde sadece bizim dairede sinyal yok, neden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Komşularda yayın varsa sorun büyük ihtimalle dairenizdedir: televizyonda LNB gücünün kapalı olması, yanlış giriş, gevşek priz bağlantısı veya kablonun ezilmesi en sık nedenlerdir. Aynı kabloyu ikiye bölmek de sorun çıkarır. Bunlar doğruysa dairenize giden multiswitch çıkışı veya hat kontrol edilmelidir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Binanın tamamında yayın yok, ne yapılmalı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tüm dairelerde aynı anda yayın gittiyse sorun ortak noktadadır: çanağın yönü, LNB, multiswitch, amplifikatör veya bunların elektrik beslemesi. Bu durumda bina yönetiminin merkezi sistemi teknisyene kontrol ettirmesi gerekir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Multiswitch nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Multiswitch, çanaktaki quattro LNB'den gelen dört bandı (yatay/dikey, alt/üst) apartmandaki her daireye dağıtan cihazdır. Her daire kendi kablosundan, cihazının gönderdiği 13/18V ve 22 kHz komutuna göre ihtiyaç duyduğu bandı alır; böylece daireler birbirinden bağımsız kanal izler."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Merkezi sistemde kanal araması nasıl yapılır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Multiswitch'li sistemlerde ayarlar evdeki tek çanakla aynıdır: Türksat 42°E, Üniversal 9750/10600, 22 kHz otomatik, LNB gücü açık, DiSEqC kapalı. Ardından otomatik kanal araması veya 12380 MHz Dikey 27500 ile şebeke araması yapılır. Tek kablolu (Unicable) sistemlerde ise kurulumu yapanın verdiği bant numarası girilir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Merkezi sistemde iki televizyonu aynı prize bağlayabilir miyim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bir priz çıkışına tek cihaz bağlanabilir; ayırıcıyla (splitter) ikiye bölmek iki cihazın da çalışmasını bozar. İkinci televizyon için multiswitch'ten ayrı bir hat çekilmesi gerekir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Digitürk DMDU LNB nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Digitürk DMDU LNB, apartman ve sitelerde (MDU: çok daireli bina) tek çanaktan birden fazla daireye Digitürk yayını dağıtmak için kullanılan LNB türüdür."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Televizyonumda uydu alıcısı var mı, nasıl anlarım?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Televizyonun arkasında LNB IN, SAT veya Satellite yazan vidalı bir giriş varsa ve kurulum menüsünde Uydu (DVB-S2) seçeneği bulunuyorsa dahili uydu alıcısı vardır. Model adında veya kutusunda S2 ifadesi de bunu gösterir. Yoksa ayrı bir uydu alıcısı gerekir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Uydu alıcısı mı, televizyonun dahili uydusu mu daha iyi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dahili uydu alıcısı ayrı cihaz ve kumanda gerektirmediği için pratiktir. Harici uydu alıcısı ise eski veya uydusuz televizyonlarda, ikinci bir odada ya da farklı özellikler (kayıt, farklı menü) istendiğinde kullanılır. Görüntü kalitesi sinyal yeterliyse ikisinde de aynıdır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Eski televizyona uydu alıcısı bağlanabilir mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet. HDMI girişi olmayan eski televizyonlar için SCART veya AV çıkışlı uydu alıcısı modelleri vardır. Alıcıyı televizyona bu kabloyla bağlayıp çanaktan gelen kabloyu alıcının LNB IN girişine takmanız yeterlidir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Android Box ile uydu yayını izlenir mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standart Android Box internet üzerinden çalışır; çanaktan gelen uydu yayınını alamaz. Uydu yayını için uydu girişi (DVB-S2 tuner) olan bir uydu alıcısı veya televizyon gerekir. Hem uydu hem Android özelliği olan birleşik (combo) cihazlar da bulunur."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Uydu alıcısı kanal araması nasıl yapılır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Menü → Kurulum bölümünde uydu olarak Türksat 42°E'yi seçin, LNB ayarlarını Üniversal 9750/10600, 22 kHz otomatik, LNB gücü açık, DiSEqC kapalı yapın. Ardından otomatik arama ya da 12380 MHz Dikey 27500 ile şebeke araması başlatın. Cihazınız TKGS destekliyorsa TKGS güncellemesi de kanalları standart sırayla getirir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Uydu alıcısının yazılımını güncellemek gerekir mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gerekmedikçe şart değildir; ancak üreticinin yayınladığı güncellemeler TKGS ve menü sorunlarını giderebilir. Güncellemeyi yalnızca üreticinin kendi menüsünden veya resmî sitesinden yapın, işlem sırasında cihazın elektriğini kesmeyin."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Digitürk için ayrı çanak gerekir mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Digitürk de Türksat 42° Doğu'dan yayın yaptığı için Türksat'a ayarlı çanak kullanılabilir. Digitürk kanallarını izlemek için Digitürk aboneliği ve Digitürk cihazı gerekir; her cihaz için LNB'den ayrı bir kablo çekilmelidir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Digitürk'te “Sinyal seviyesinde azalma var” hatası",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bu hata cihaza çanaktan sinyal gelmediğini gösterir. Kablonun ucundaki F konnektörde ortadaki bakır telin kenardaki ince örgü tellere değmediğinden emin olun. F konnektörde sorun yoksa kablonun veya çanağın uzman tarafından kontrol edilmesi gerekir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Digitürk'te “Uydu sinyal kablonuzda kısa devre olmuş olabilir” hatası",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Çatıdan gelen kabloyu cihazın arkasından çıkardığınızda hata kayboluyorsa kabloda kısa devre vardır. F konnektörün içinde ortadaki kalın bakır telin, kenardaki ince örgü tellere değmediğinden emin olun; kabloda ek varsa ek yerlerini de aynı şekilde kontrol edin. Hata kablo çıkarıldığında da sürüyorsa cihaz arızalı olabilir (bazı eski modellerde, ör. 9104, bu arıza sık görülür); Digitürk'ü arayarak değişim talep edin."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Digitürk cihazı “RA” yazısında kaldı, ne yapmalıyım?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ön ekranda “RA” yazısında kalan Digitürk cihazlarında sorun çoğunlukla güç adaptöründen kaynaklanır. Aynı voltaj ve amper değerinde uyumlu bir adaptörle deneyin; düzelmezse cihazın Digitürk tarafından değiştirilmesi gerekir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Digitürk cihazı bekleme (standby) modunda kaldı, ne yapmalıyım?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cihaz bekleme modunda takılı kaldıysa genellikle kilitlenmiştir. Elektrik fişini çekip 5 saniye bekleyin ve geri takın. Sorun devam ederse Digitürk'ü arayıp cihaz değişim kaydı açtırmanız gerekir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Çanak anten bakım gerektirir mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Çanak antenin uzun süre sorunsuz çalışması için zaman zaman kontrol edilmesi iyi olur. Özellikle LNB ve kabloların durumu, bağlantıların sıkılığı ve çanağın yönünün korunup korunmadığı kontrol edilmelidir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Çanak antenin ömrü ne kadardır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kaliteli bir çanak anten uzun yıllar kullanılabilir. Dış hava koşulları nedeniyle zamanla paslanma veya aşınma olabileceğinden çanak, bağlantı parçaları ve LNB ara ara kontrol edilmelidir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Çanak anten neden paslanır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Çanağın yüzeyindeki boya ve galvaniz kaplama çizildiğinde veya zamanla aşındığında açıkta kalan metal yağmur ve nemle paslanır. Kaliteli kaplamalı çanak ve paslanmaz bağlantı parçaları kullanmak ömrü uzatır; paslanan vida ve kelepçeler zamanında değiştirilmelidir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Çanak anten boyanabilir mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Paslanmayı önlemek için boyanabilir. Metal tozu içeren (metalik, simli) boyalar sinyali bozabileceği için kullanılmamalı, ince ve düz bir kat yeterlidir. LNB'nin üzeri boyanmamalı ve boyama sırasında çanağın yönü kaydırılmamalıdır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Çanak antenler sağlığa veya çevreye zarar verir mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Çanak anten yalnızca alıcıdır; herhangi bir yayın ya da ışıma yapmaz, bu nedenle sağlığa zararı yoktur. Dikkat edilmesi gereken, montajın sağlam yapılması ve rüzgârda düşme riskinin önlenmesidir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Rüzgârda çanak anten yönünün kaymasını nasıl önlerim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Çanağın sağlam bir duvara veya direğe, uygun dübel ve cıvatalarla monte edilmesi, tüm somunların sıkılması ve çanağın gereğinden büyük seçilmemesi kaymayı önler. Sık kayıyorsa braketin ve montaj yerinin değiştirilmesi gerekebilir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Hangi bölgelere servis veriyorsunuz?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Çankaya Uydu Sistemleri olarak Dikmen merkezli çalışıyoruz; Çankaya ve çevresinde Dikmen, Ayrancı, Öveçler, Sokullu, Balgat, Emek, Bahçelievler ve İncek'e çanak anten kurulum, arıza ve merkezi uydu sistemi servisi veriyoruz."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Çalışma saatleriniz nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hafta içi 09:00–20:00, hafta sonu 11:00–18:00 arası hizmet veriyoruz. 0553 450 20 33 numarasından arayabilir veya WhatsApp'tan yazabilirsiniz."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Size nasıl ulaşabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "0553 450 20 33 numarasını arayabilir ya da aynı numaradan WhatsApp'tan yazabilirsiniz. Arızanın veya çanağın fotoğrafını WhatsApp'tan göndermeniz sorunu anlatmanızı kolaylaştırır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Arıza tespitini yerinde yapıyor musunuz?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet, arıza tespitini yerinde yapıyoruz. Çanak, LNB, kablo, priz ve cihaz ayarlarını sırayla kontrol edip sorunun kaynağını bulduktan sonra çözümü anlatıyoruz."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Çanak anten fiyatları neye göre değişir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fiyatlar çanağın boyutu ve malzemesi, LNB türü, kablo uzunluğu ve kurulum yerine göre değişir. Net fiyat için işin yerinde görülmesi gerekir; bizi arayarak bilgi alabilirsiniz."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Merkezi uydu sistemi kurulumu ve arızasına bakıyor musunuz?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet. Apartman ve sitelerde merkezi uydu sistemi kurulumu, multiswitch ve LNB değişimi ile tek daire veya binanın tamamında yaşanan yayın sorunlarının giderilmesi hizmetlerimiz arasındadır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Televizyonu duvara montaj yapıyor musunuz?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet. Televizyonu boyutuna ve VESA ölçüsüne uygun askı aparatıyla, duvar tipine göre doğru dübel ve vidayla asıyoruz; montajdan önce duvardaki tesisat hatlarını kontrol ediyor, kabloları kablo kanalıyla gizliyoruz."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "İnternet kablosu çekimi yapıyor musunuz?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet. Bina girişindeki Krone (telefon dağıtım) kutusundan dairenize CAT6 kabloyla yeni internet hattı çekiyor, modemden odalara kablo ve priz döşüyoruz. Eski ve yıpranmış telefon kablosu internet hızını düşürebilir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Uydu alıcısı satıyor musunuz?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet. TKGS uyumlu HD ve 4K uydu alıcıları ile Android TV Box satıyor, kurulumunu ve kanal ayarını yerinde yapıyoruz."
       }
     }
   ]
@@ -501,137 +933,466 @@
 
 
         
-<!-- Accordion-->
-        <section class="section-top-60 section-sm-top-90">
+<!-- SSS:start -->
+        <section class="section-top-60 section-sm-top-90 section-60 section-sm-bottom-110">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 col-xl-8">
-                        <h2 class="h5">Genel Sorular</h2>
-                        <hr>
-                        <!-- Responsive-tabs-->
-                        <div class="responsive-tabs responsive-tabs-horizontal" data-type="accordion">
-                            <ul class="resp-tabs-list">
-                                <li>16 Ağustos 2026'dan sonra kanallarım gitti, ne yapmalıyım?</li>
-                                <li>Çanak antenin boyutu görüntü kalitesini etkiler mi?</li>
-                                <li>Çanak anteni hangi uyduya ayarlamalıyım?</li>
-                                <li>Çanak antenle internet kullanabilir miyim?</li>
-                                <li>HD yayın için özel bir çanak anten gerekir mi?</li>
-                                <li>Çanak anten nedir, nasıl çalışır?</li>
-                                <li>Çanak anten kurulumu nasıl yapılır?</li>
-                                <li>Çanak anten sinyali neden kaybolur?</li>
-                                <li>Çanak anten bakım gerektirir mi?</li>
-                                <li>Çanak anten fiyatları neye göre değişir?</li>
-                                <li>Çanak anten kurmak için izin gerekir mi?</li>
-                                <li>Uydu alıcım çalışmıyor, ne yapmalıyım?</li>
-                                <li>Çanak anteni kendim ayarlayabilir miyim?</li>
-                                <li>Çanak antenin doğru ayarlandığını nasıl anlarım?</li>
-                                <li>Çanak antenim fırtınada zarar gördü, ne yapmalıyım?</li>
-                                <li>Motorlu çanak anten nedir?</li>
-                                <li>Digitürk cihazı “RA” yazısında kaldı, ne yapmalıyım?</li>
-                                <li>Digitürk'te “Sinyal seviyesinde azalma var” hatası</li>
-                                <li>Digitürk'te “Uydu sinyal kablonuzda kısa devre olmuş olabilir” hatası</li>
-                                <li>Çanak antenin sinyal gücünü artırmak için ne yapabilirim?</li>
-                                <li>Birden fazla televizyon için tek çanak anten kullanılabilir mi?</li>
-                                <li>Sinyal güçlendirici (hat amplifikatörü) işe yarar mı?</li>
-                                <li>Çanak antenler sağlığa veya çevreye zarar verir mi?</li>
-                                <li>Çanak antenin ömrü ne kadardır?</li>
-                                <li>Çanak anten kablosunun ömrü ne kadardır?</li>
-                                <li>Çanak antenle kablosuz televizyon izlenebilir mi?</li>
-                                <li>Merkezi uydu sisteminin avantajları nelerdir?</li>
-                                <li>Çanak antenim neden parazit yapıyor?</li>
-                                <li>Digitürk DMDU LNB nedir?</li>
-                                <li>Digitürk cihazı bekleme (standby) modunda kaldı, ne yapmalıyım?</li>
-                            </ul>
-                            <div class="resp-tabs-container">
-                                <div class="animated fadeIn">
-                                    <p>Türksat 3A'daki yayınlar 15–16 Ağustos 2026 gecesi aynı 42° Doğu konumundaki yeni Türksat uydularına taşındı; çanak ayarınızı değiştirmeniz gerekmez. Televizyonunuzda veya uydu alıcınızda TKGS güncellemesi ya da şebeke araması yapın: 12380 MHz, Dikey (V), sembol oranı 27500, FEC 3/4; LNB 9750/10600, LNB gücü açık. Kanallar gelmezse 12423 MHz Dikey 27500 veya 12458 MHz Dikey 30000 ile tekrar deneyin.</p>
+                        <p class="faq-intro">Çanak anten, Türksat kanal arama, TKGS, LNB, merkezi uydu sistemi ve Digitürk hakkında 89 soru ve cevap. Aradığınızı bulamazsanız <a href="tel:+905534502033">0553 450 20 33</a> numarasından bize ulaşın.</p>
+                        <nav class="faq-cats" aria-label="Soru kategorileri">
+                            <a href="#sss-kanal-arama">Türksat, Kanal Arama ve TKGS <span>12</span></a>
+                            <a href="#sss-kurulum">Çanak Anten Kurulumu ve Ayarı <span>17</span></a>
+                            <a href="#sss-sinyal">Sinyal Yok ve Arızalar <span>14</span></a>
+                            <a href="#sss-lnb-kablo">LNB, Kablo ve Bağlantılar <span>12</span></a>
+                            <a href="#sss-merkezi">Merkezi Uydu Sistemi <span>8</span></a>
+                            <a href="#sss-tv-alici">Televizyon ve Uydu Alıcısı <span>6</span></a>
+                            <a href="#sss-digiturk">Digitürk <span>5</span></a>
+                            <a href="#sss-bakim">Bakım ve Ömür <span>6</span></a>
+                            <a href="#sss-servis">Servis ve Hizmetlerimiz <span>9</span></a>
+                        </nav>
+                        <div class="faq-group" id="sss-kanal-arama">
+                            <h2 class="h5">Türksat, Kanal Arama ve TKGS</h2>
+                            <hr>
+                            <div class="responsive-tabs responsive-tabs-horizontal" data-type="accordion">
+                                <ul class="resp-tabs-list">
+                                    <li>16 Ağustos 2026'dan sonra kanallarım gitti, ne yapmalıyım?</li>
+                                    <li>Uydu neden değişti, çanağımı yeniden ayarlatmam gerekir mi?</li>
+                                    <li>Türksat şebeke arama frekansı nedir (2026)?</li>
+                                    <li>Şebeke arama nedir, açık mı olmalı kapalı mı?</li>
+                                    <li>TKGS nedir?</li>
+                                    <li>TKGS güncellemesi nasıl yapılır?</li>
+                                    <li>TKGS'yi kapatmalı mıyım?</li>
+                                    <li>Kanal araması yaptım ama az kanal buldu, neden?</li>
+                                    <li>Kanal sıralaması neden bozuldu, neden 1'den başlamıyor?</li>
+                                    <li>Aynı kanallar listede iki kez görünüyor, nasıl düzeltirim?</li>
+                                    <li>Kanallarda “şifreli” veya “kodlu” yazıyor, neden açılmıyor?</li>
+                                    <li>Uydudan radyo dinlenebilir mi?</li>
+                                </ul>
+                                <div class="resp-tabs-container">
+                                    <div class="animated fadeIn">
+                                        <p>Türksat 3A'daki yayınlar 15–16 Ağustos 2026 gecesi aynı 42° Doğu konumundaki yeni Türksat uydularına taşındı; çanak ayarınızı değiştirmeniz gerekmez. Televizyonunuzda veya uydu alıcınızda TKGS güncellemesi ya da şebeke araması yapın: 12380 MHz, Dikey (V), sembol oranı 27500, FEC 3/4; LNB 9750/10600, LNB gücü açık. Kanallar gelmezse 12423 MHz Dikey 27500 veya 12458 MHz Dikey 30000 ile tekrar deneyin.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Ömrünü dolduran Türksat 3A'nın yayınları, aynı 42° Doğu yörüngesindeki yeni Türksat uydularına aktarıldı. Konum değişmediği için çanağın yönü de değişmez; yalnızca televizyonda veya uydu alıcısında kanal listesinin yenilenmesi (TKGS güncellemesi veya şebeke araması) gerekir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Ankara ve Türkiye'nin batısı için Türksat'ın verdiği şebeke arama değeri 12380 MHz, Dikey (V), sembol oranı 27500, FEC 3/4'tür. Yedek olarak 12423 MHz Dikey 27500 veya 12458 MHz Dikey 30000 kullanılabilir. 12423 MHz Yatay 30000 değeri Türkiye-Doğu kapsaması içindir; Ankara'da yedek olarak önermiyoruz.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Şebeke araması, cihazın tek bir frekanstan uydudaki tüm yayın listesini (NIT tablosu) okuyup bütün frekansları kendisi bulmasını sağlar. Tüm kanalları bulmak için kanal arama ekranında Şebeke Arama seçeneği Açık olmalıdır; kapalıysa cihaz yalnızca girdiğiniz frekanstaki kanalları bulur.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>TKGS, Türksat Kanal Güncelleme Sistemi'dir. Türksat uydusundaki kanal listesini destekleyen televizyon ve uydu alıcılarına otomatik aktarır, frekans değişikliklerini kendiliğinden işler ve ulusal kanalları her cihazda aynı standart numaralara dizer.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Kurulum veya kanal ayarları menüsünde TKGS (TKGS Kurulumu, Türksat TKGS ayarları) seçeneğini bulun, modu açık yapın ve güncellemeyi başlatın. Vestel ve Regal'de genellikle Menü → Kurulum → TKGS Kurulumu, Arçelik grubunda Menü → Ayarlar → Kaynak Ayarları → Türksat TKGS ayarları yolundadır; menü adları modele göre değişebilir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Genelde açık kalması önerilir; frekans değişikliklerini otomatik takip eder. Bazı markalarda (ör. Vestel ve Arçelik grubu) elle kanal araması veya kanal sıralamasını düzenlemek için TKGS'nin kapalı olması gerekir. Bu durumda işlemi bitirdikten sonra TKGS'yi tekrar açın.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Şebeke araması kapalıysa yalnızca tek frekanstaki kanallar bulunur. LNB tipi Üniversal 9750/10600 değilse veya 22 kHz kapalıysa kanalların yaklaşık yarısı gelmez; sadece yatay ya da sadece dikey kanallar geliyorsa LNB veya LNB gücünden şüphelenin. Yanlış DiSEqC portu ve düşük sinyal kalitesi de eksik kanala yol açar.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Kanal araması kanalları bulduğu sırayla listeye ekler; TKGS kapalıyken yapılan aramalardan sonra TRT 1, ATV gibi ulusal kanallar alışık olduğunuz numaralarda olmaz. TKGS'yi açıp güncelleme başlatmak standart sıraya döndürür; dilerseniz kanal düzenleme menüsünden elle de sıralayabilirsiniz.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Eski kayıtlar silinmeden yeni arama yapıldığında kanallar çift görünür. Kanal listesini silip aramayı baştan yapmak ya da aramada mevcut kanalları koruma seçeneğini kapatmak tekrarları temizler.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Türksat'taki kanalların bir kısmı ücretli platformlara (ör. Digitürk, D-Smart) aittir ve şifreli yayın yapar. Bu kanallar ilgili platformun aboneliği ve cihazı olmadan açılmaz; ulusal kanallar ise şifresizdir. Ulusal bir kanalda bu yazıyı görüyorsanız kanal listesini TKGS veya şebeke aramasıyla yenileyin.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Evet. Türksat'tan TV kanallarının yanında yüzlerce radyo kanalı da yayınlanır (Ağustos 2026 itibarıyla 215 radyo). Kanal aramasında radyo kanallarının da aranmasını seçin; televizyonda veya uydu alıcısında TV/Radyo tuşuyla radyo listesine geçebilirsiniz.</p>
+                                    </div>
                                 </div>
-                                <div class="animated fadeIn">
-                                    <p>Dijital yayında görüntü kalitesi çanak boyutuna bağlı değildir; sinyal yeterliyse görüntü aynıdır. Büyük çanak daha fazla sinyal toplar ve özellikle yağmurlu, karlı havada donma ve kesilme riskini azaltır.</p>
+                            </div>
+                        </div>
+                        <div class="faq-group" id="sss-kurulum">
+                            <h2 class="h5">Çanak Anten Kurulumu ve Ayarı</h2>
+                            <hr>
+                            <div class="responsive-tabs responsive-tabs-horizontal" data-type="accordion">
+                                <ul class="resp-tabs-list">
+                                    <li>Çanak anteni hangi uyduya ayarlamalıyım?</li>
+                                    <li>Çanak anten hangi yöne bakmalı?</li>
+                                    <li>Çanak anten kaç derece olmalı (Ankara)?</li>
+                                    <li>Çanak anten neden kıbleyi gösterir?</li>
+                                    <li>Çanak anten kaç cm olmalı?</li>
+                                    <li>Çanak antenin boyutu görüntü kalitesini etkiler mi?</li>
+                                    <li>HD yayın için özel bir çanak anten gerekir mi?</li>
+                                    <li>Çanak anten nedir, nasıl çalışır?</li>
+                                    <li>Çanak anten kurulumu nasıl yapılır?</li>
+                                    <li>Çanak anteni kendim ayarlayabilir miyim?</li>
+                                    <li>Çanak antenin doğru ayarlandığını nasıl anlarım?</li>
+                                    <li>Sinyal seviyesi ve sinyal kalitesi farkı nedir, kaç olmalı?</li>
+                                    <li>Çanak anteni balkona kurabilir miyim?</li>
+                                    <li>Çanak anten kurmak için izin gerekir mi?</li>
+                                    <li>Taşınırken çanak anteni söküp yeni evde kullanabilir miyim?</li>
+                                    <li>Motorlu çanak anten nedir?</li>
+                                    <li>Çanak antenle internet kullanabilir miyim?</li>
+                                </ul>
+                                <div class="resp-tabs-container">
+                                    <div class="animated fadeIn">
+                                        <p>Ulusal kanalların büyük çoğunluğu 42° Doğu'daki Türksat uydularından yayın yapar; çanağınızı bu konuma ayarlamanız yeterlidir. Ağustos 2026'daki uydu değişikliğinde konum değişmediği için çanak yönü de aynı kaldı, yalnızca kanal araması gerekir. Yabancı kanallar için Hotbird (13° Doğu) veya Astra (19,2° Doğu) gibi uydulara ek LNB ya da ayrı çanakla bakılabilir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Türkiye'den Türksat 42° Doğu'ya bakan çanak güneydoğu yönüne çevrilir. Ankara'da açı gerçek kuzeye göre yaklaşık 166°, pusulada yaklaşık 160°'tir (tam güney değil, biraz doğusu). Çanağın önünde bina, ağaç gibi engel olmamalıdır.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Ankara'da Türksat 42° Doğu uydusu ufkun yaklaşık 43° üzerindedir (elevasyon), yön açısı pusulada yaklaşık 160°'tir ve LNB yaklaşık 11° döndürülür. Ofset çanaklarda odak aşağıda olduğu için çanak yüzeyi neredeyse dik görünür; bu normaldir. Son ayar her zaman sinyal kalitesine bakılarak yapılır.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Göstermez, yalnızca yakın bir yöne bakar. Türkiye'den bakıldığında hem Türksat uydusu (42° Doğu) hem Kâbe güney-güneydoğu yönünde kalır. Ankara'da kıble gerçek kuzeye göre yaklaşık 160°, Türksat yaklaşık 166°'dir; bu birkaç derecelik fark yüzünden çanak kıble bulmak için kullanılmamalıdır.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Türksat Türkiye'yi güçlü kapsadığı için Ankara'da tek daire için genellikle 60–80 cm çanak yeterlidir. Yağmurda ve karda kesinti riskini azaltmak veya birden çok daireyi beslemek (merkezi sistem) için daha büyük çanak tercih edilir. Çok küçük çanaklar kötü havada daha çabuk sinyal kaybeder.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Dijital yayında görüntü kalitesi çanak boyutuna bağlı değildir; sinyal yeterliyse görüntü aynıdır. Büyük çanak daha fazla sinyal toplar ve özellikle yağmurlu, karlı havada donma ve kesilme riskini azaltır.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Hayır, HD yayın almak için özel bir çanak antene gerek yoktur. Standart çanak antenler HD sinyalleri alabilir; HD yayını çözebilen bir uydu alıcısı veya uydu alıcılı televizyon yeterlidir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Çanak anten, uydudan gelen zayıf sinyali çanak yüzeyiyle toplayıp önündeki LNB'ye odaklar. LNB sinyali yükseltir ve kabloyla taşınabilecek frekansa çevirerek televizyona veya uydu alıcısına iletir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Çanak, uyduyu engelsiz görecek sağlam bir noktaya monte edilir; yön ve açı ayarı yapılıp sinyal kalitesi ölçü aletiyle en yükseğe getirilir. Ardından kablo ve F konnektörler bağlanır ve kanal araması yapılır. Montajın sağlam olması rüzgârda yönün kaymaması için önemlidir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Mümkündür, ancak çanağın uyduya bakış açısı çok hassastır; birkaç milimetrelik kayma sinyali kaybettirebilir. Ankara için yaklaşık değerler: elevasyon 43°, pusulada 160°. Ayarı yaparken TV'deki sinyal kalitesini izleyin; sonuç alamazsanız profesyonel destek alın.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Uydu alıcınızın veya televizyonunuzun sinyal menüsünde seviye değil kalite değerine bakın; kalite yüksekse ve görüntü yağmurlu havada da kesilmiyorsa çanak doğru ayarlanmıştır.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Seviye, kabloya gelen toplam sinyal gücünü; kalite ise uydunun yayınının ne kadar temiz alındığını gösterir. Çanak yanlış uyduya bakarken bile seviye yüksek görünebilir, bu yüzden ayar kaliteye göre yapılır. Kalite ne kadar yüksekse kötü havada kesinti o kadar az olur; yüzde değerleri markadan markaya farklı hesaplandığı için tek bir doğru rakam yoktur.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Balkonunuz güneydoğu yönünde gökyüzünü engelsiz görüyorsa evet. Üst kat balkonu, karşı bina veya ağaç uyduyu kapatıyorsa sinyal gelmez. Bina cephesine yapılacak montajlar için yönetim kurallarına da bakın.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Apartman ve sitelerde çanak anten kurulumu için bina yönetiminin onayı gerekebilir. Ortak alanlara (çatı, cephe) montaj yapmadan önce yönetim planını ve bina kurallarını kontrol etmenizi öneririz.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Evet. Çanak, LNB ve braket sağlamsa yeni adreste kullanılabilir; ancak yeni yerde yön, açı ve LNB eğimi baştan ayarlanmalıdır. Paslanmış bağlantı parçalarını ve güneşten yıpranmış kabloyu taşıma sırasında yenilemek iyi olur.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Motorlu çanak anten, birden fazla uyduyu tek çanakla izlemek için kullanılır. Anten motoru, alıcıdan gelen komutla (DiSEqC 1.2 / USALS) farklı uydulara döner.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Hayır, evdeki TV çanağıyla internete bağlanılamaz. Uydu interneti; ayrı çanak, iki yönlü verici-alıcı ünite ve modem gerektiren, abonelikle sunulan ayrı bir hizmettir ve genellikle altyapının olmadığı kırsal bölgelerde kullanılır. Şehir içinde fiber veya VDSL çok daha hızlı ve ekonomiktir.</p>
+                                    </div>
                                 </div>
-                                <div class="animated fadeIn">
-                                    <p>Ulusal kanalların büyük çoğunluğu 42° Doğu'daki Türksat uydularından yayın yapar; çanağınızı bu konuma ayarlamanız yeterlidir. Ağustos 2026'daki uydu değişikliğinde konum değişmediği için çanak yönü de aynı kaldı, yalnızca kanal araması gerekir. Yabancı kanallar için Hotbird (13° Doğu) veya Astra (19,2° Doğu) gibi uydulara ek LNB ya da ayrı çanakla bakılabilir.</p>
+                            </div>
+                        </div>
+                        <div class="faq-group" id="sss-sinyal">
+                            <h2 class="h5">Sinyal Yok ve Arızalar</h2>
+                            <hr>
+                            <div class="responsive-tabs responsive-tabs-horizontal" data-type="accordion">
+                                <ul class="resp-tabs-list">
+                                    <li>Uydu “sinyal yok” diyor, ne yapmalıyım?</li>
+                                    <li>Çanak anten sinyali neden kaybolur?</li>
+                                    <li>Bazı kanallar var, bazıları sinyal yok diyor; neden?</li>
+                                    <li>Çanak antenim yağmurlu havalarda neden sinyal kaybı yaşıyor?</li>
+                                    <li>Karda çanak anten neden çekmez?</li>
+                                    <li>Anten yönü bozulmuş olabilir mi, nasıl kontrol edebilirim?</li>
+                                    <li>Çanak antenim fırtınada zarar gördü, ne yapmalıyım?</li>
+                                    <li>LNB arızasını nasıl anlarım?</li>
+                                    <li>Kablo veya konnektörler anten arızasına neden olabilir mi?</li>
+                                    <li>Çanak antenim neden parazit yapıyor, görüntü neden donuyor?</li>
+                                    <li>Çanak antenin sinyal gücünü artırmak için ne yapabilirim?</li>
+                                    <li>Sinyal güçlendirici (hat amplifikatörü) işe yarar mı?</li>
+                                    <li>Uydu alıcım çalışmıyor, ne yapmalıyım?</li>
+                                    <li>Anten kurulumunu kendi başıma yapabilir miyim?</li>
+                                </ul>
+                                <div class="resp-tabs-container">
+                                    <div class="animated fadeIn">
+                                        <p>Önce televizyonun doğru kaynakta (uydu veya alıcının bağlı olduğu HDMI) olduğunu kontrol edin, uydu alıcısının fişini 1–2 dakika çekip tekrar takın. Ardından alıcının arkasındaki kablonun ve F konnektörün sıkı olduğuna bakın. Sorun sürerse sert rüzgârla kaymış çanak, arızalı LNB veya apartmanda merkezi sistem arızası olabilir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Sinyal kaybı genellikle antenin yönünün bozulması, kablolarda sorun, LNB arızası ya da olumsuz hava koşullarından kaynaklanır. Bu durumlarda anten, kablo ve bağlantılar kontrol edilmeli, gerekirse uzman desteği alınmalıdır.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Sadece birkaç kanal gittiyse genellikle o kanalların frekansı değişmiştir; TKGS güncellemesi veya şebeke araması yeterlidir. Belirli bir gruptaki kanalların hepsi (ör. tüm yatay ya da tüm dikey yayınlar) gidiyorsa LNB, LNB gücü veya merkezi sistemde multiswitch girişi arızası olabilir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Yoğun yağmur ve kar, uydudan gelen sinyali zayıflatır (yağmur sönümlemesi). Çanak tam ayarlıysa kesinti kısa sürer; sık oluyorsa çanak ayarı, LNB ve kablo kontrol edilmeli, gerekirse daha büyük çanak kullanılmalıdır.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Çanağın içinde veya LNB'nin üzerinde biriken kar sinyali keser. Ulaşılabiliyorsa karı yumuşak bir fırçayla, çanağın yönünü bozmadan temizleyin. Çatıya çıkmak tehlikeliyse bunu denemeyin; kar eridiğinde sinyal genellikle kendiliğinden döner.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Sinyal kalitesi düştüyse veya tamamen kaybolduysa antenin yönü değişmiş olabilir. TV'nin sinyal menüsünde kalite değerine bakın; çanağı milimetrik hareketlerle oynatarak en yüksek kaliteyi bulun veya teknisyen çağırın.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Fırtına çanağın yönünü kaydırabilir, LNB'yi veya kabloyu bozabilir. Çatıya çıkmak tehlikeli olabileceği için kontrol ve onarımı bir teknisyene yaptırmanızı öneririz.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Sinyal tamamen yoksa veya yalnızca yatay ya da yalnızca dikey kanallar geliyorsa LNB'den şüphelenin. Kesin sonuç için çalıştığı bilinen başka bir LNB ile denemek gerekir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Evet. Kablo ve konnektörlerde oksitlenme, kopukluk veya gevşek bağlantılar sinyal kaybına yol açar. Tüm bağlantıları kontrol edin ve kablolarda fiziksel hasar olup olmadığına bakın.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Görüntüde donma ve kare kare bozulma çoğunlukla zayıf sinyal, bozuk kablo veya konnektör, arızalı LNB ya da kaymış çanaktan kaynaklanır. Kötü hava da geçici donmalara yol açabilir. Kalıcıysa anten ve bağlantılar kontrol edilmelidir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Önce çanağın yönünü ve açısını kalite göstergesine bakarak yeniden ayarlayın. Eskiyen LNB'yi ve yıpranmış kabloyu yenilemek de sinyali iyileştirir. Çanağın önünde ağaç, bina gibi engel olmamalıdır.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Amplifikatör yalnızca uzun kablo hatlarında ve merkezi sistemlerde kayıpları telafi etmek için işe yarar. Çanak yanlış ayarlıysa, LNB arızalıysa veya kablo bozuksa sorunu çözmez; gürültüyü de yükselttiği için durumu kötüleştirebilir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Önce güç kablosunun ve adaptörün takılı olduğundan emin olun. Ardından çanaktan gelen kablonun bağlantısını, LNB ayarlarını ve sinyal göstergesini kontrol edin. Sorun devam ederse cihaz veya anten tarafının servis tarafından incelenmesi gerekir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Temel teknik bilginiz varsa yapabilirsiniz; ancak çatıda çalışmak tehlikeli olabilir ve hassas ayar ölçü aleti gerektirir. Güvenli ve kalıcı sonuç için uzman desteği almanızı öneririz.</p>
+                                    </div>
                                 </div>
-                                <div class="animated fadeIn">
-                                    <p>Hayır, evdeki TV çanağıyla internete bağlanılamaz. Uydu interneti; ayrı çanak, iki yönlü verici-alıcı ünite ve modem gerektiren, abonelikle sunulan ayrı bir hizmettir ve genellikle altyapının olmadığı kırsal bölgelerde kullanılır. Şehir içinde fiber veya VDSL çok daha hızlı ve ekonomiktir.</p>
+                            </div>
+                        </div>
+                        <div class="faq-group" id="sss-lnb-kablo">
+                            <h2 class="h5">LNB, Kablo ve Bağlantılar</h2>
+                            <hr>
+                            <div class="responsive-tabs responsive-tabs-horizontal" data-type="accordion">
+                                <ul class="resp-tabs-list">
+                                    <li>LNB nedir?</li>
+                                    <li>LNB frekansı kaç olmalı?</li>
+                                    <li>LNB tipi ne olmalı?</li>
+                                    <li>LNB gücü açık mı olmalı?</li>
+                                    <li>DiSEqC nedir, ne olmalı?</li>
+                                    <li>Uydu kablosu nasıl bağlanır?</li>
+                                    <li>Uydu kablosuna ek yapılır mı?</li>
+                                    <li>Bir uydu kablosu iki televizyona bölünebilir mi (çoğaltıcı)?</li>
+                                    <li>Birden fazla televizyon için tek çanak anten kullanılabilir mi?</li>
+                                    <li>Uydu kablosu uzunluğu sinyali etkiler mi?</li>
+                                    <li>Çanak anten kablosunun ömrü ne kadardır?</li>
+                                    <li>Çanak antenle kablosuz televizyon izlenebilir mi?</li>
+                                </ul>
+                                <div class="resp-tabs-container">
+                                    <div class="animated fadeIn">
+                                        <p>LNB, çanağın önündeki kol üzerinde duran, çanağın topladığı uydu sinyalini yükseltip kabloyla taşınabilecek frekansa çeviren parçadır. Evlerde neredeyse her zaman üniversal LNB kullanılır; çıkış sayısı (tekli, ikili, dörtlü, sekizli) kaç cihaz bağlanabileceğini belirler.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Üniversal LNB için alt frekans 9750 MHz, üst frekans 10600 MHz olmalıdır. 22 kHz otomatik, LNB gücü açık seçilir. Bu değerler Türksat ve Türkiye'de kullanılan LNB'lerin neredeyse tamamı için standarttır.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Cihazın kurulum menüsünde LNB tipi olarak Üniversal (Universal, 9750/10600) seçilir. Apartmanlarda quattro LNB ve multiswitch kullanılsa da cihazdaki ayar yine Üniversal'dır. Yalnızca tek kablolu (Unicable / SCR) sistemlerde, sistemi kuranın verdiği bant numarası ve frekansla Unicable seçilir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Evet. LNB'yi besleyen elektrik ve yatay-dikey yayın seçimi bu voltajla (13/18V) yapılır; kapalıysa LNB çalışmaz ve hiç kanal bulunmaz. Multiswitch'li merkezi sistemlerde de LNB gücü açık olmalıdır, çünkü multiswitch dairenize hangi bandı göndereceğini bu sinyale göre seçer.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>DiSEqC, birden fazla çanak veya LNB arasında seçim yapmak için alıcının gönderdiği komuttur. Tek çanak ve tek LNB kullanıyorsanız DiSEqC kapalı (veya 1. port / A) olmalıdır. Türksat'ın yanında başka bir uyduya da bakan sistemlerde, her uydu için kurulumu yapanın belirttiği port (DiSEqC 1.0'da A–D) seçilir; yanlış port seçilirse hiç kanal bulunmaz.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Kablonun dış kılıfı yaklaşık 1 cm soyulur, örgü teller ve folyo geriye kıvrılır, iç yalıtkan ortadaki bakır tel açıkta kalacak şekilde kesilir ve F konnektör kabloya sıkıca çevrilerek takılır. Ortadaki bakır telin örgü tellere değmemesi ve konnektörden 1–2 mm taşması gerekir; değerse kısa devre olur ve sinyal gelmez.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Gerekirse yapılır, ama bant sarılarak değil: iki ucuna F konnektör takılıp araya F-F ek parçası (ek manşonu) konur. Dış ortamdaki ek yeri su almaması için korunmalıdır. Her ek bir miktar kayıp ve arıza riski getirdiğinden mümkünse kablonun tek parça çekilmesi daha iyidir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Önerilmez. Uydu alıcıları LNB'ye hangi bandı ve yönü (yatay/dikey) istediklerini kablo üzerinden söyler; aynı kablodaki iki cihaz birbirinin seçimini bozar ve biri çalışırken diğeri donar. Her televizyon veya alıcı için çok çıkışlı LNB'den ayrı kablo çekilmeli, daha fazla nokta için multiswitch kullanılmalıdır.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Evet. Çok çıkışlı bir LNB (ikili, dörtlü, sekizli) ile her televizyona ayrı kablo çekilir; her televizyonun kendi uydu alıcısı (dahili veya harici) olmalıdır. Daha fazla daire için merkezi uydu sistemi kurulur.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Evet. Kablo uzadıkça sinyal zayıflar; kaliteli bir uydu kablosuyla ev içi mesafeler sorun olmaz, ama çok uzun hatlarda ve merkezi sistemlerde kayıp hesaba katılır. İnce, ucuz veya güneşten yıpranmış kablo kaybı belirgin şekilde artırır.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Kablonun ömrü kalitesine ve güneşe maruz kalmasına bağlıdır. Dış kılıfı çatlayan veya içine su alan kablo sinyal kaybına yol açar. UV dayanımlı kaliteli dış ortam kablosu uzun yıllar sorunsuz çalışır; ucuz kablolar birkaç yılda yıpranabilir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Çanak antenden uydu alıcısına bağlantı kabloyla yapılır. Bazı uydu alıcıları Wi-Fi ile internete bağlanabilir, ancak bu uydu yayınının kendisini kablosuz hale getirmez.</p>
+                                    </div>
                                 </div>
-                                <div class="animated fadeIn">
-                                    <p>Hayır, HD yayın almak için özel bir çanak antene gerek yoktur. Standart çanak antenler HD sinyalleri alabilir; HD yayını çözebilen bir uydu alıcısı veya uydu alıcılı televizyon yeterlidir.</p>
+                            </div>
+                        </div>
+                        <div class="faq-group" id="sss-merkezi">
+                            <h2 class="h5">Merkezi Uydu Sistemi</h2>
+                            <hr>
+                            <div class="responsive-tabs responsive-tabs-horizontal" data-type="accordion">
+                                <ul class="resp-tabs-list">
+                                    <li>Merkezi uydu sistemi nedir, avantajları nelerdir?</li>
+                                    <li>Merkezi uydu sistemi televizyona nasıl bağlanır?</li>
+                                    <li>Merkezi sistemde sadece bizim dairede sinyal yok, neden?</li>
+                                    <li>Binanın tamamında yayın yok, ne yapılmalı?</li>
+                                    <li>Multiswitch nedir?</li>
+                                    <li>Merkezi sistemde kanal araması nasıl yapılır?</li>
+                                    <li>Merkezi sistemde iki televizyonu aynı prize bağlayabilir miyim?</li>
+                                    <li>Digitürk DMDU LNB nedir?</li>
+                                </ul>
+                                <div class="resp-tabs-container">
+                                    <div class="animated fadeIn">
+                                        <p>Merkezi uydu sistemi, apartmandaki tüm dairelerin çatıdaki ortak çanaktan yayın almasını sağlar. Her daireye ayrı çanak gerekmez, bina cephesi düzenli kalır ve arızalar tek noktadan giderilir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Dairedeki uydu prizinin SAT yazan vidalı (F tipi) çıkışından gelen kablo, televizyonun uydu (Satellite) girişine veya uydu alıcısının LNB IN girişine takılır. Ardından uydu Türksat 42°E, LNB tipi Üniversal 9750/10600, 22 kHz otomatik, LNB gücü açık, DiSEqC kapalı seçilip kanal araması yapılır.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Komşularda yayın varsa sorun büyük ihtimalle dairenizdedir: televizyonda LNB gücünün kapalı olması, yanlış giriş, gevşek priz bağlantısı veya kablonun ezilmesi en sık nedenlerdir. Aynı kabloyu ikiye bölmek de sorun çıkarır. Bunlar doğruysa dairenize giden multiswitch çıkışı veya hat kontrol edilmelidir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Tüm dairelerde aynı anda yayın gittiyse sorun ortak noktadadır: çanağın yönü, LNB, multiswitch, amplifikatör veya bunların elektrik beslemesi. Bu durumda bina yönetiminin merkezi sistemi teknisyene kontrol ettirmesi gerekir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Multiswitch, çanaktaki quattro LNB'den gelen dört bandı (yatay/dikey, alt/üst) apartmandaki her daireye dağıtan cihazdır. Her daire kendi kablosundan, cihazının gönderdiği 13/18V ve 22 kHz komutuna göre ihtiyaç duyduğu bandı alır; böylece daireler birbirinden bağımsız kanal izler.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Multiswitch'li sistemlerde ayarlar evdeki tek çanakla aynıdır: Türksat 42°E, Üniversal 9750/10600, 22 kHz otomatik, LNB gücü açık, DiSEqC kapalı. Ardından otomatik kanal araması veya 12380 MHz Dikey 27500 ile şebeke araması yapılır. Tek kablolu (Unicable) sistemlerde ise kurulumu yapanın verdiği bant numarası girilir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Bir priz çıkışına tek cihaz bağlanabilir; ayırıcıyla (splitter) ikiye bölmek iki cihazın da çalışmasını bozar. İkinci televizyon için multiswitch'ten ayrı bir hat çekilmesi gerekir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Digitürk DMDU LNB, apartman ve sitelerde (MDU: çok daireli bina) tek çanaktan birden fazla daireye Digitürk yayını dağıtmak için kullanılan LNB türüdür.</p>
+                                    </div>
                                 </div>
-                                <div class="animated fadeIn">
-                                    <p>Çanak anten, uydudan gelen zayıf sinyali çanak yüzeyiyle toplayıp önündeki LNB'ye odaklar. LNB sinyali yükseltir ve kabloyla taşınabilecek frekansa çevirerek televizyona veya uydu alıcısına iletir.</p>
+                            </div>
+                        </div>
+                        <div class="faq-group" id="sss-tv-alici">
+                            <h2 class="h5">Televizyon ve Uydu Alıcısı</h2>
+                            <hr>
+                            <div class="responsive-tabs responsive-tabs-horizontal" data-type="accordion">
+                                <ul class="resp-tabs-list">
+                                    <li>Televizyonumda uydu alıcısı var mı, nasıl anlarım?</li>
+                                    <li>Uydu alıcısı mı, televizyonun dahili uydusu mu daha iyi?</li>
+                                    <li>Eski televizyona uydu alıcısı bağlanabilir mi?</li>
+                                    <li>Android Box ile uydu yayını izlenir mi?</li>
+                                    <li>Uydu alıcısı kanal araması nasıl yapılır?</li>
+                                    <li>Uydu alıcısının yazılımını güncellemek gerekir mi?</li>
+                                </ul>
+                                <div class="resp-tabs-container">
+                                    <div class="animated fadeIn">
+                                        <p>Televizyonun arkasında LNB IN, SAT veya Satellite yazan vidalı bir giriş varsa ve kurulum menüsünde Uydu (DVB-S2) seçeneği bulunuyorsa dahili uydu alıcısı vardır. Model adında veya kutusunda S2 ifadesi de bunu gösterir. Yoksa ayrı bir uydu alıcısı gerekir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Dahili uydu alıcısı ayrı cihaz ve kumanda gerektirmediği için pratiktir. Harici uydu alıcısı ise eski veya uydusuz televizyonlarda, ikinci bir odada ya da farklı özellikler (kayıt, farklı menü) istendiğinde kullanılır. Görüntü kalitesi sinyal yeterliyse ikisinde de aynıdır.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Evet. HDMI girişi olmayan eski televizyonlar için SCART veya AV çıkışlı uydu alıcısı modelleri vardır. Alıcıyı televizyona bu kabloyla bağlayıp çanaktan gelen kabloyu alıcının LNB IN girişine takmanız yeterlidir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Standart Android Box internet üzerinden çalışır; çanaktan gelen uydu yayınını alamaz. Uydu yayını için uydu girişi (DVB-S2 tuner) olan bir uydu alıcısı veya televizyon gerekir. Hem uydu hem Android özelliği olan birleşik (combo) cihazlar da bulunur.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Menü → Kurulum bölümünde uydu olarak Türksat 42°E'yi seçin, LNB ayarlarını Üniversal 9750/10600, 22 kHz otomatik, LNB gücü açık, DiSEqC kapalı yapın. Ardından otomatik arama ya da 12380 MHz Dikey 27500 ile şebeke araması başlatın. Cihazınız TKGS destekliyorsa TKGS güncellemesi de kanalları standart sırayla getirir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Gerekmedikçe şart değildir; ancak üreticinin yayınladığı güncellemeler TKGS ve menü sorunlarını giderebilir. Güncellemeyi yalnızca üreticinin kendi menüsünden veya resmî sitesinden yapın, işlem sırasında cihazın elektriğini kesmeyin.</p>
+                                    </div>
                                 </div>
-                                <div class="animated fadeIn">
-                                    <p>Çanak, uyduyu engelsiz görecek sağlam bir noktaya monte edilir; yön ve açı ayarı yapılıp sinyal kalitesi ölçü aletiyle en yükseğe getirilir. Ardından kablo ve F konnektörler bağlanır ve kanal araması yapılır. Montajın sağlam olması rüzgârda yönün kaymaması için önemlidir.</p>
+                            </div>
+                        </div>
+                        <div class="faq-group" id="sss-digiturk">
+                            <h2 class="h5">Digitürk</h2>
+                            <hr>
+                            <div class="responsive-tabs responsive-tabs-horizontal" data-type="accordion">
+                                <ul class="resp-tabs-list">
+                                    <li>Digitürk için ayrı çanak gerekir mi?</li>
+                                    <li>Digitürk'te “Sinyal seviyesinde azalma var” hatası</li>
+                                    <li>Digitürk'te “Uydu sinyal kablonuzda kısa devre olmuş olabilir” hatası</li>
+                                    <li>Digitürk cihazı “RA” yazısında kaldı, ne yapmalıyım?</li>
+                                    <li>Digitürk cihazı bekleme (standby) modunda kaldı, ne yapmalıyım?</li>
+                                </ul>
+                                <div class="resp-tabs-container">
+                                    <div class="animated fadeIn">
+                                        <p>Digitürk de Türksat 42° Doğu'dan yayın yaptığı için Türksat'a ayarlı çanak kullanılabilir. Digitürk kanallarını izlemek için Digitürk aboneliği ve Digitürk cihazı gerekir; her cihaz için LNB'den ayrı bir kablo çekilmelidir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Bu hata cihaza çanaktan sinyal gelmediğini gösterir. Kablonun ucundaki F konnektörde ortadaki bakır telin kenardaki ince örgü tellere değmediğinden emin olun. F konnektörde sorun yoksa kablonun veya çanağın uzman tarafından kontrol edilmesi gerekir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Çatıdan gelen kabloyu cihazın arkasından çıkardığınızda hata kayboluyorsa kabloda kısa devre vardır. F konnektörün içinde ortadaki kalın bakır telin, kenardaki ince örgü tellere değmediğinden emin olun; kabloda ek varsa ek yerlerini de aynı şekilde kontrol edin. Hata kablo çıkarıldığında da sürüyorsa cihaz arızalı olabilir (bazı eski modellerde, ör. 9104, bu arıza sık görülür); Digitürk'ü arayarak değişim talep edin.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Ön ekranda “RA” yazısında kalan Digitürk cihazlarında sorun çoğunlukla güç adaptöründen kaynaklanır. Aynı voltaj ve amper değerinde uyumlu bir adaptörle deneyin; düzelmezse cihazın Digitürk tarafından değiştirilmesi gerekir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Cihaz bekleme modunda takılı kaldıysa genellikle kilitlenmiştir. Elektrik fişini çekip 5 saniye bekleyin ve geri takın. Sorun devam ederse Digitürk'ü arayıp cihaz değişim kaydı açtırmanız gerekir.</p>
+                                    </div>
                                 </div>
-                                <div class="animated fadeIn">
-                                    <p>Sinyal kaybı genellikle antenin yönünün bozulması, kablolarda sorun, LNB arızası ya da olumsuz hava koşullarından kaynaklanır. Bu durumlarda anten, kablo ve bağlantılar kontrol edilmeli, gerekirse uzman desteği alınmalıdır.</p>
+                            </div>
+                        </div>
+                        <div class="faq-group" id="sss-bakim">
+                            <h2 class="h5">Bakım ve Ömür</h2>
+                            <hr>
+                            <div class="responsive-tabs responsive-tabs-horizontal" data-type="accordion">
+                                <ul class="resp-tabs-list">
+                                    <li>Çanak anten bakım gerektirir mi?</li>
+                                    <li>Çanak antenin ömrü ne kadardır?</li>
+                                    <li>Çanak anten neden paslanır?</li>
+                                    <li>Çanak anten boyanabilir mi?</li>
+                                    <li>Çanak antenler sağlığa veya çevreye zarar verir mi?</li>
+                                    <li>Rüzgârda çanak anten yönünün kaymasını nasıl önlerim?</li>
+                                </ul>
+                                <div class="resp-tabs-container">
+                                    <div class="animated fadeIn">
+                                        <p>Çanak antenin uzun süre sorunsuz çalışması için zaman zaman kontrol edilmesi iyi olur. Özellikle LNB ve kabloların durumu, bağlantıların sıkılığı ve çanağın yönünün korunup korunmadığı kontrol edilmelidir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Kaliteli bir çanak anten uzun yıllar kullanılabilir. Dış hava koşulları nedeniyle zamanla paslanma veya aşınma olabileceğinden çanak, bağlantı parçaları ve LNB ara ara kontrol edilmelidir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Çanağın yüzeyindeki boya ve galvaniz kaplama çizildiğinde veya zamanla aşındığında açıkta kalan metal yağmur ve nemle paslanır. Kaliteli kaplamalı çanak ve paslanmaz bağlantı parçaları kullanmak ömrü uzatır; paslanan vida ve kelepçeler zamanında değiştirilmelidir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Paslanmayı önlemek için boyanabilir. Metal tozu içeren (metalik, simli) boyalar sinyali bozabileceği için kullanılmamalı, ince ve düz bir kat yeterlidir. LNB'nin üzeri boyanmamalı ve boyama sırasında çanağın yönü kaydırılmamalıdır.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Çanak anten yalnızca alıcıdır; herhangi bir yayın ya da ışıma yapmaz, bu nedenle sağlığa zararı yoktur. Dikkat edilmesi gereken, montajın sağlam yapılması ve rüzgârda düşme riskinin önlenmesidir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Çanağın sağlam bir duvara veya direğe, uygun dübel ve cıvatalarla monte edilmesi, tüm somunların sıkılması ve çanağın gereğinden büyük seçilmemesi kaymayı önler. Sık kayıyorsa braketin ve montaj yerinin değiştirilmesi gerekebilir.</p>
+                                    </div>
                                 </div>
-                                <div class="animated fadeIn">
-                                    <p>Çanak antenin uzun süre sorunsuz çalışması için zaman zaman kontrol edilmesi iyi olur. Özellikle LNB ve kabloların durumu, bağlantıların sıkılığı ve çanağın yönünün korunup korunmadığı kontrol edilmelidir.</p>
-                                </div>
-                                <div class="animated fadeIn">
-                                    <p>Fiyatlar çanağın boyutu ve malzemesi, LNB türü, kablo uzunluğu ve kurulum yerine göre değişir. Net fiyat için işin yerinde görülmesi gerekir; bizi arayarak bilgi alabilirsiniz.</p>
-                                </div>
-                                <div class="animated fadeIn">
-                                    <p>Apartman ve sitelerde çanak anten kurulumu için bina yönetiminin onayı gerekebilir. Ortak alanlara (çatı, cephe) montaj yapmadan önce yönetim planını ve bina kurallarını kontrol etmenizi öneririz.</p>
-                                </div>
-                                <div class="animated fadeIn">
-                                    <p>Önce güç kablosunun ve adaptörün takılı olduğundan emin olun. Ardından çanaktan gelen kablonun bağlantısını, LNB ayarlarını ve sinyal göstergesini kontrol edin. Sorun devam ederse cihaz veya anten tarafının servis tarafından incelenmesi gerekir.</p>
-                                </div>
-                                <div class="animated fadeIn">
-                                    <p>Mümkündür, ancak çanağın uyduya bakış açısı çok hassastır; birkaç milimetrelik kayma sinyali kaybettirebilir. Ankara için yaklaşık değerler: elevasyon 43°, pusulada 160°. Ayarı yaparken TV'deki sinyal kalitesini izleyin; sonuç alamazsanız profesyonel destek alın.</p>
-                                </div>
-                                <div class="animated fadeIn">
-                                    <p>Uydu alıcınızın veya televizyonunuzun sinyal menüsünde seviye değil kalite değerine bakın; kalite yüksekse ve görüntü yağmurlu havada da kesilmiyorsa çanak doğru ayarlanmıştır.</p>
-                                </div>
-                                <div class="animated fadeIn">
-                                    <p>Fırtına çanağın yönünü kaydırabilir, LNB'yi veya kabloyu bozabilir. Çatıya çıkmak tehlikeli olabileceği için kontrol ve onarımı bir teknisyene yaptırmanızı öneririz.</p>
-                                </div>
-                                <div class="animated fadeIn">
-                                    <p>Motorlu çanak anten, birden fazla uyduyu tek çanakla izlemek için kullanılır. Anten motoru, alıcıdan gelen komutla (DiSEqC 1.2 / USALS) farklı uydulara döner.</p>
-                                </div>
-                                <div class="animated fadeIn">
-                                    <p>Ön ekranda “RA” yazısında kalan Digitürk cihazlarında sorun çoğunlukla güç adaptöründen kaynaklanır. Aynı voltaj ve amper değerinde uyumlu bir adaptörle deneyin; düzelmezse cihazın Digitürk tarafından değiştirilmesi gerekir.</p>
-                                </div>
-                                <div class="animated fadeIn">
-                                    <p>Bu hata cihaza çanaktan sinyal gelmediğini gösterir. Kablonun ucundaki F konnektörde ortadaki bakır telin kenardaki ince örgü tellere değmediğinden emin olun. F konnektörde sorun yoksa kablonun veya çanağın uzman tarafından kontrol edilmesi gerekir.</p>
-                                </div>
-                                <div class="animated fadeIn">
-                                    <p>Çatıdan gelen kabloyu cihazın arkasından çıkardığınızda hata kayboluyorsa kabloda kısa devre vardır. F konnektörün içinde ortadaki kalın bakır telin, kenardaki ince örgü tellere değmediğinden emin olun; kabloda ek varsa ek yerlerini de aynı şekilde kontrol edin. Hata kablo çıkarıldığında da sürüyorsa cihaz arızalı olabilir (bazı eski modellerde, ör. 9104, bu arıza sık görülür); Digitürk'ü arayarak değişim talep edin.</p>
-                                </div>
-                                <div class="animated fadeIn">
-                                    <p>Önce çanağın yönünü ve açısını kalite göstergesine bakarak yeniden ayarlayın. Eskiyen LNB'yi ve yıpranmış kabloyu yenilemek de sinyali iyileştirir. Çanağın önünde ağaç, bina gibi engel olmamalıdır.</p>
-                                </div>
-                                <div class="animated fadeIn">
-                                    <p>Evet. Çok çıkışlı bir LNB (ikili, dörtlü, sekizli) ile her televizyona ayrı kablo çekilir; her televizyonun kendi uydu alıcısı (dahili veya harici) olmalıdır. Daha fazla daire için merkezi uydu sistemi kurulur.</p>
-                                </div>
-                                <div class="animated fadeIn">
-                                    <p>Amplifikatör yalnızca uzun kablo hatlarında ve merkezi sistemlerde kayıpları telafi etmek için işe yarar. Çanak yanlış ayarlıysa, LNB arızalıysa veya kablo bozuksa sorunu çözmez; gürültüyü de yükselttiği için durumu kötüleştirebilir.</p>
-                                </div>
-                                <div class="animated fadeIn">
-                                    <p>Çanak anten yalnızca alıcıdır; herhangi bir yayın ya da ışıma yapmaz, bu nedenle sağlığa zararı yoktur. Dikkat edilmesi gereken, montajın sağlam yapılması ve rüzgârda düşme riskinin önlenmesidir.</p>
-                                </div>
-                                <div class="animated fadeIn">
-                                    <p>Kaliteli bir çanak anten uzun yıllar kullanılabilir. Dış hava koşulları nedeniyle zamanla paslanma veya aşınma olabileceğinden çanak, bağlantı parçaları ve LNB ara ara kontrol edilmelidir.</p>
-                                </div>
-                                <div class="animated fadeIn">
-                                    <p>Kablonun ömrü kalitesine ve güneşe maruz kalmasına bağlıdır. Dış kılıfı çatlayan veya içine su alan kablo sinyal kaybına yol açar. UV dayanımlı kaliteli dış ortam kablosu uzun yıllar sorunsuz çalışır; ucuz kablolar birkaç yılda yıpranabilir.</p>
-                                </div>
-                                <div class="animated fadeIn">
-                                    <p>Çanak antenden uydu alıcısına bağlantı kabloyla yapılır. Bazı uydu alıcıları Wi-Fi ile internete bağlanabilir, ancak bu uydu yayınının kendisini kablosuz hale getirmez.</p>
-                                </div>
-                                <div class="animated fadeIn">
-                                    <p>Merkezi uydu sistemi, apartmandaki tüm dairelerin tek çanaktan yayın almasını sağlar. Her daireye ayrı çanak gerekmez, bina cephesi düzenli kalır ve arızalar tek noktadan giderilir.</p>
-                                </div>
-                                <div class="animated fadeIn">
-                                    <p>Görüntüde donma ve kare kare bozulma çoğunlukla zayıf sinyal, bozuk kablo veya konnektör, arızalı LNB ya da kaymış çanaktan kaynaklanır. Kötü hava da geçici donmalara yol açabilir. Kalıcıysa anten ve bağlantılar kontrol edilmelidir.</p>
-                                </div>
-                                <div class="animated fadeIn">
-                                    <p>Digitürk DMDU LNB, apartman ve sitelerde (MDU: çok daireli bina) tek çanaktan birden fazla daireye Digitürk yayını dağıtmak için kullanılan LNB türüdür.</p>
-                                </div>
-                                <div class="animated fadeIn">
-                                    <p>Cihaz bekleme modunda takılı kaldıysa genellikle kilitlenmiştir. Elektrik fişini çekip 5 saniye bekleyin ve geri takın. Sorun devam ederse Digitürk'ü arayıp cihaz değişim kaydı açtırmanız gerekir.</p>
+                            </div>
+                        </div>
+                        <div class="faq-group" id="sss-servis">
+                            <h2 class="h5">Servis ve Hizmetlerimiz</h2>
+                            <hr>
+                            <div class="responsive-tabs responsive-tabs-horizontal" data-type="accordion">
+                                <ul class="resp-tabs-list">
+                                    <li>Hangi bölgelere servis veriyorsunuz?</li>
+                                    <li>Çalışma saatleriniz nedir?</li>
+                                    <li>Size nasıl ulaşabilirim?</li>
+                                    <li>Arıza tespitini yerinde yapıyor musunuz?</li>
+                                    <li>Çanak anten fiyatları neye göre değişir?</li>
+                                    <li>Merkezi uydu sistemi kurulumu ve arızasına bakıyor musunuz?</li>
+                                    <li>Televizyonu duvara montaj yapıyor musunuz?</li>
+                                    <li>İnternet kablosu çekimi yapıyor musunuz?</li>
+                                    <li>Uydu alıcısı satıyor musunuz?</li>
+                                </ul>
+                                <div class="resp-tabs-container">
+                                    <div class="animated fadeIn">
+                                        <p>Çankaya Uydu Sistemleri olarak Dikmen merkezli çalışıyoruz; Çankaya ve çevresinde Dikmen, Ayrancı, Öveçler, Sokullu, Balgat, Emek, Bahçelievler ve İncek'e çanak anten kurulum, arıza ve merkezi uydu sistemi servisi veriyoruz.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Hafta içi 09:00–20:00, hafta sonu 11:00–18:00 arası hizmet veriyoruz. 0553 450 20 33 numarasından arayabilir veya WhatsApp'tan yazabilirsiniz.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>0553 450 20 33 numarasını arayabilir ya da aynı numaradan WhatsApp'tan yazabilirsiniz. Arızanın veya çanağın fotoğrafını WhatsApp'tan göndermeniz sorunu anlatmanızı kolaylaştırır.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Evet, arıza tespitini yerinde yapıyoruz. Çanak, LNB, kablo, priz ve cihaz ayarlarını sırayla kontrol edip sorunun kaynağını bulduktan sonra çözümü anlatıyoruz.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Fiyatlar çanağın boyutu ve malzemesi, LNB türü, kablo uzunluğu ve kurulum yerine göre değişir. Net fiyat için işin yerinde görülmesi gerekir; bizi arayarak bilgi alabilirsiniz.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Evet. Apartman ve sitelerde merkezi uydu sistemi kurulumu, multiswitch ve LNB değişimi ile tek daire veya binanın tamamında yaşanan yayın sorunlarının giderilmesi hizmetlerimiz arasındadır.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Evet. Televizyonu boyutuna ve VESA ölçüsüne uygun askı aparatıyla, duvar tipine göre doğru dübel ve vidayla asıyoruz; montajdan önce duvardaki tesisat hatlarını kontrol ediyor, kabloları kablo kanalıyla gizliyoruz.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Evet. Bina girişindeki Krone (telefon dağıtım) kutusundan dairenize CAT6 kabloyla yeni internet hattı çekiyor, modemden odalara kablo ve priz döşüyoruz. Eski ve yıpranmış telefon kablosu internet hızını düşürebilir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Evet. TKGS uyumlu HD ve 4K uydu alıcıları ile Android TV Box satıyor, kurulumunu ve kanal ayarını yerinde yapıyoruz.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -639,39 +1400,7 @@
                 </div>
             </div>
         </section>
-
-        <!-- Some of Your Questions-->
-        <section class="section-60 section-sm-top-90 section-sm-bottom-110">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10 col-xl-8">
-                        <h2 class="h5">Sinyal Sorunları</h2>
-                        <hr>
-                        <p class="offset-top-18">Çanak antenin sinyal almamasının birkaç nedeni olabilir:</p>
-                        <div class="inset-md-left-18 offset-top-10">
-                            <ul class="list-marked-variant-2">
-                                <li>Antenin yönü değişmiş olabilir.</li>
-                                <li>LNB arızalı olabilir.</li>
-                                <li>Kablo bağlantıları gevşemiş veya zarar görmüş olabilir.</li>
-                                <li>Hava koşulları (yoğun yağmur, kar) sinyali zayıflatıyor olabilir.</li>
-                            </ul>
-                        </div>
-                        <dl class="list-terms-variant-1 offset-top-35 offset-md-top-60">
-                            <dt class="h6" id="q1">Çanak antenim yağmurlu havalarda neden sinyal kaybı yaşıyor?</dt>
-                            <dd>Yoğun yağmur ve kar, uydudan gelen sinyali zayıflatır (yağmur sönümlemesi). Çanak tam ayarlıysa kesinti kısa sürer; sık oluyorsa çanak ayarı, LNB ve kablo kontrol edilmeli, gerekirse daha büyük çanak kullanılmalıdır.</dd>
-                            <dt class="h6" id="q2">Anten yönü bozulmuş olabilir mi, nasıl kontrol edebilirim?</dt>
-                            <dd>Sinyal kalitesi düştüyse veya tamamen kaybolduysa antenin yönü değişmiş olabilir. TV'nin sinyal menüsünde kalite değerine bakın; çanağı milimetrik hareketlerle oynatarak en yüksek kaliteyi bulun veya teknisyen çağırın.</dd>
-                            <dt class="h6" id="q3">LNB arızasını nasıl anlarım?</dt>
-                            <dd>Sinyal tamamen yoksa veya yalnızca yatay ya da yalnızca dikey kanallar geliyorsa LNB'den şüphelenin. Kesin sonuç için çalıştığı bilinen başka bir LNB ile denemek gerekir.</dd>
-                            <dt class="h6" id="q4">Kablo veya konnektörler anten arızasına neden olabilir mi?</dt>
-                            <dd>Evet. Kablo ve konnektörlerde oksitlenme, kopukluk veya gevşek bağlantılar sinyal kaybına yol açar. Tüm bağlantıları kontrol edin ve kablolarda fiziksel hasar olup olmadığına bakın.</dd>
-                            <dt class="h6" id="q5">Anten kurulumunu kendi başıma yapabilir miyim?</dt>
-                            <dd>Temel teknik bilginiz varsa yapabilirsiniz; ancak çatıda çalışmak tehlikeli olabilir ve hassas ayar ölçü aleti gerektirir. Güvenli ve kalıcı sonuç için uzman desteği almanızı öneririz.</dd>
-                        </dl>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <!-- SSS:end -->
     
 
         <!-- Page Footer-->
@@ -755,6 +1484,6 @@
   <a class="mobile-cta-call" href="tel:+905534502033"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>Hemen Ara</span></a>
   <a class="mobile-cta-wa" href="https://wa.me/905534502033" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true" fill="currentColor"><path d="M13.6 2.33A7.95 7.95 0 0 0 8 0C3.58 0 0 3.58 0 8c0 1.39.36 2.72 1.04 3.89L0 16l4.21-1.1A7.98 7.98 0 0 0 8 16c4.42 0 8-3.58 8-8a7.95 7.95 0 0 0-2.4-5.67zM8 14.54a6.6 6.6 0 0 1-3.52-1l-.25-.15-2.5.65.67-2.43-.17-.25A6.55 6.55 0 0 1 1.07 8c0-3.84 3.13-6.97 6.93-6.97 3.87 0 7 3.13 7 6.97 0 3.84-3.13 6.54-7 6.54zm3.62-4.58c-.2-.1-1.18-.58-1.36-.65-.18-.07-.32-.1-.45.1-.13.2-.51.65-.63.78-.12.13-.23.15-.43.05-.2-.1-.85-.31-1.61-.99-.6-.53-1-1.18-1.12-1.38-.12-.2-.01-.31.09-.41.09-.09.2-.23.3-.35.1-.12.13-.2.2-.33.07-.13.03-.25-.02-.35-.05-.1-.45-1.08-.62-1.48-.16-.39-.33-.34-.45-.34h-.38c-.12 0-.31.04-.47.2-.16.16-.62.6-.62 1.46 0 .86.63 1.69.72 1.81.09.12 1.25 1.91 3.03 2.6.42.15.75.23 1.01.3.43.1.81.09 1.12.05.34-.04 1.18-.48 1.34-.95.17-.46.17-.86.12-.94-.05-.08-.18-.13-.38-.23z"/></svg><span>WhatsApp</span></a>
 </div>
-<script src="js/custom.js?v=20261027t"></script>
+<script src="js/custom.js?v=20261027v"></script>
 </body>
 </html>

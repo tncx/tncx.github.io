@@ -65,10 +65,10 @@
   "text": "Digitürk Kanal Listesi Film Kanalları Dizi Kanalları Yaşam ve Belgesel Kanalları Ulusal Kanallar Spor Kanalları Müzik Kanalları Yabancı Ulusal Kanallar Mekke ve Medine Kanalları Eba Kanalları Çizgi Film Kanalları Belgesel Kanalları Box Office Kanalları Taraftar Kanalları Euro Kanalları 4K Çözünürlüklü Kanalları Türkçe Radyo Kanalları Yabancı Radyo Kanalları Yerel ve Bölgesel Kanallar"
  },
  {
-  "title": "Sıkça Sorulan Sorular (SSS)",
+  "title": "Çanak Anten ve Uydu Sık Sorulan Sorular",
   "url": "faq.html",
-  "desc": "Çanak anten, LNB, uydu alıcısı, merkezi sistem ve Digitürk arızaları hakkında sık sorulan sorular ve kısa, anlaşılır cevaplar. Çankaya Uydu Sistemleri.",
-  "text": "Sıkça Sorulan Sorular (SSS) Genel Sorular Sinyal Sorunları"
+  "desc": "89 soru-cevap: Türksat kanal arama ve TKGS, çanak anten ayarı, sinyal yok arızası, LNB, DiSEqC, merkezi uydu sistemi ve Digitürk. Çankaya Uydu, Ankara.",
+  "text": "Sıkça Sorulan Sorular (SSS) Türksat, Kanal Arama ve TKGS Çanak Anten Kurulumu ve Ayarı Sinyal Yok ve Arızalar LNB, Kablo ve Bağlantılar Merkezi Uydu Sistemi Televizyon ve Uydu Alıcısı Digitürk Bakım ve Ömür Servis ve Hizmetlerimiz"
  },
  {
   "title": "Galeri: Çanak Anten ve Uydu İşlerimiz",
@@ -539,4 +539,25 @@
 		e.preventDefault();
 		toggle.click();
 	}, true);
+})();
+
+// SSS: the tab plugin opens the first answer of every category; keep only the first category's open
+(function () {
+	if (!document.querySelector('.faq-group')) return;
+	window.addEventListener('load', function () {
+		var groups = document.querySelectorAll('.faq-group');
+		for (var i = 1; i < groups.length; i++) {
+			var head = groups[i].querySelector('.resp-accordion.resp-tab-active');
+			var body = groups[i].querySelector('.resp-tab-content-active');
+			if (head) head.classList.remove('resp-tab-active');
+			if (body) { body.classList.remove('resp-tab-content-active'); body.style.display = 'none'; }
+		}
+	});
+	// the plugin writes "#undefinedN" into the address on every click; drop it
+	document.addEventListener('click', function (e) {
+		if (!e.target.closest || !e.target.closest('.faq-group .resp-accordion')) return;
+		setTimeout(function () {
+			if (/^#undefined/.test(location.hash) && window.history && history.replaceState) history.replaceState(null, '', location.pathname + location.search);
+		}, 0);
+	});
 })();
