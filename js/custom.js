@@ -59,6 +59,12 @@
   "text": "Hakkımızda Merhaba, ben Tuncay Özer Teknisyen"
  },
  {
+  "title": "Hizmet Bölgelerimiz: Dikmen, Ayrancı, Balgat, Öveçler ve Çankaya",
+  "url": "hizmet-bolgeleri.html",
+  "desc": "Çankaya Uydu Sistemleri; Dikmen, Ayrancı, Öveçler, Sokullu, Balgat, Emek, Bahçelievler ve İncek'te çanak anten kurulum, arıza ve merkezi uydu sistemi servisi verir.",
+  "text": "Hizmet Bölgelerimiz: Dikmen, Ayrancı, Balgat, Öveçler ve Çankaya Dikmen Ayrancı Öveçler ve Sokullu Balgat ve Emek Bahçelievler ve İncek Çalışma Saatlerimiz Sık Sorulan Sorular Hangi semtlere servis veriyorsunuz? Çalışma saatleriniz nedir?"
+ },
+ {
   "title": "Hizmetlerimiz",
   "url": "hizmetlerimiz.html",
   "desc": "Çankaya Uydu Servisi olarak Ankara'da çanak anten kurulumu, merkezi uydu sistemleri, arıza tespiti ve onarım hizmetleri sunuyoruz. Profesyonel ve yerinde çözüm!",
@@ -69,6 +75,12 @@
   "url": "iletisim.html",
   "desc": "Ankara Çankaya'da profesyonel çanak anten ve uydu servisi için bize ulaşın. Telefon: 0553 450 20 33 – Tuncay Özer",
   "text": "Çankaya Uydu Teknik Servis İletişim"
+ },
+ {
+  "title": "LNB Frekansı Kaç Olmalı? Doğru LNB Ayarları (9750/10600)",
+  "url": "lnb-frekansi-kac-olmali.html",
+  "desc": "LNB frekansı kaç olmalı? Üniversal LNB için 9750/10600 MHz, 22 kHz otomatik, LNB gücü açık. LNB ayarlarının anlamı ve yanlış ayarın belirtileri.",
+  "text": "LNB Frekansı Kaç Olmalı? Doğru LNB Ayarları (9750/10600) Kısa Cevap: Türkiye'de Doğru Değerler Bu Değerler Ne Anlama Geliyor? Yanlış Ayarın Belirtileri Merkezi Sistemlerde Dikkat Sık Sorulan Sorular LNB frekansı kaç olmalı? LNB gücü açık mı kapalı mı olmalı? 22 kHz ne işe yarar?"
  },
  {
   "title": "LNB Nedir? Çeşitleri ve LNB Arızası Nasıl Anlaşılır?",
@@ -83,6 +95,12 @@
   "text": "Merkezi Uydu Sistemi Nedir? Apartmanlarda Nasıl Çalışır? Merkezi Sistemin Parçaları Kaç Daireye Göre Kurulur? Avantajları Sık Görülen Arızalar Sık Sorulan Sorular Merkezi uydu sistemi nedir? Merkezi sistemde tüm dairelerde yayın yok, neden? Multiswitch nedir?"
  },
  {
+  "title": "Merkezi Uydu Sisteminde TV Kurulumu ve Kanal Arama",
+  "url": "merkezi-uydu-tv-kurulumu.html",
+  "desc": "Merkezi uydu sistemi TV'ye nasıl bağlanır? Uydu prizinden televizyona bağlantı, LNB ve unicable ayarları, kanal arama ve 'sinyal yok' sorununun çözümü.",
+  "text": "Merkezi Uydu Sisteminde TV Kurulumu ve Kanal Arama 1. Doğru Prize ve Doğru Girişe Bağlayın 2. Ayarları Seçin Tek Kablolu (Unicable) Sistemler 3. Kanal Araması Merkezi Sistemde \"Sinyal Yok\" Diyorsa Sık Sorulan Sorular Merkezi uydu sistemi TV'ye nasıl bağlanır? Merkezi sistemde LNB ayarı ne olmalı? Merkezi sistemde iki televizyonu aynı prize bağlayabilir miyim?"
+ },
+ {
   "title": "Gizlilik Politikası",
   "url": "privacy-policy.html",
   "desc": "Çanak Anten Uydu Sistemleri Arıza ve Kurulum İşlerinizi, Kaliteli Malzemeler ve Profesyonel İşçilik Hizmeti ile Çözüyoruz..",
@@ -93,6 +111,36 @@
   "url": "turksat-sebeke-arama-frekansi.html",
   "desc": "Türksat 4A uydusu şebeke arama frekansları: frekans, polarizasyon, sembol oranı ve FEC değerleri ile uydu alıcısında kanal arama nasıl yapılır.",
   "text": "Türksat 4A Uydusu Şebeke Arama Frekansları 1. Batı (West) Yönü - Türkiye ve Avrupa Kapsama Alanı 2. Doğu (East) Yönü - Orta Asya ve Orta Doğu Kapsama Alanı 3. Doğu Yönü - Türkiye ve Orta Doğu Kapsama Alanı Orta Asya ve Afrika Beam"
+ },
+ {
+  "title": "TV Duvar Montajı: Doğru Yükseklik, Aparat Seçimi ve VESA Ölçüsü",
+  "url": "tv-duvar-montaji.html",
+  "desc": "Televizyon duvara kaç cm yükseğe asılır? VESA ölçüsüne göre TV duvar montaj aparatı seçimi, duvar tipine göre vidalama ve kabloların gizlenmesi.",
+  "text": "TV Duvar Montajı: Doğru Yükseklik, Aparat Seçimi ve VESA Ölçüsü Televizyon Kaç cm Yükseğe Asılmalı? VESA Ölçüsü ve Aparat Seçimi Duvar Tipine Göre Montaj Kabloları Gizlemek Sık Sorulan Sorular Televizyon duvara kaç cm yükseğe asılmalı? VESA ölçüsü nedir? Alçıpan duvara televizyon asılır mı?"
+ },
+ {
+  "title": "Televizyonda Uydu Kanal Arama: Samsung, LG, Vestel, Arçelik, Beko",
+  "url": "tv-uydu-kanal-arama.html",
+  "desc": "Samsung, LG, Vestel, Arçelik ve Beko televizyonlarda uydu kanal arama nasıl yapılır? Türksat ayarları, LNB değerleri ve sık yapılan hatalar.",
+  "text": "Televizyonda Uydu Kanal Arama: Samsung, LG, Vestel, Arçelik, Beko Tüm Markalarda Geçerli Ayarlar Samsung LG Vestel, Arçelik, Beko, Grundig Sık Yapılan Hatalar Sık Sorulan Sorular Televizyonda uydu kanal arama nasıl yapılır? Uydu cihazı olmadan televizyonda kanal izlenir mi? Kanal aramada hiç kanal bulunmuyor, neden?"
+ },
+ {
+  "title": "Uydu Anten Kablosu Nasıl Bağlanır? F Konnektör Takma ve Ek Yapma",
+  "url": "uydu-kablosu-nasil-baglanir.html",
+  "desc": "Uydu anten kablosu nasıl bağlanır, F konnektör nasıl takılır, kablo nasıl ek yapılır? Doğru kablo seçimi ve sinyal kaybına yol açan hatalar.",
+  "text": "Uydu Anten Kablosu Nasıl Bağlanır? F Konnektör Takma ve Ek Yapma Doğru Kablo Seçimi F Konnektör Nasıl Takılır? Kablo Nasıl Ek Yapılır? Sinyal Kaybettiren Hatalar Sık Sorulan Sorular Uydu kablosu nasıl ek yapılır? Uydu için hangi kablo kullanılır? F konnektör takınca neden sinyal yok?"
+ },
+ {
+  "title": "Uydu Kanalları Gitti, Ne Yapmalıyım? Adım Adım Çözüm",
+  "url": "uydu-kanallari-gitti.html",
+  "desc": "Uydu kanalları gitti mi? Frekans değişikliği, TKGS güncellemesi ve kanal arama ile kaybolan kanalları geri getirmenin yolları. Hangi durumda servis gerekir?",
+  "text": "Uydu Kanalları Gitti, Ne Yapmalıyım? Adım Adım Çözüm Önce Şunu Belirleyin: Hepsi mi Gitti, Bazıları mı? 1. TKGS ile Otomatik Güncelleme 2. Otomatik Kanal Arama 3. Kanal Sıralaması Bozulduysa 4. Hâlâ Gelmiyorsa Sık Sorulan Sorular Uydu kanalları neden gider? TKGS nedir? Kanal arama yaptım ama hiç kanal bulunmadı, neden?"
+ },
+ {
+  "title": "Uydu Sinyal Güçlendirici ve Sinyal Bulucu İşe Yarar mı?",
+  "url": "uydu-sinyal-guclendirici.html",
+  "desc": "Uydu sinyal güçlendirici ve sinyal bulucu ne işe yarar, ne zaman gerekir? Hangi sorunları çözer, hangilerini çözmez? Profesyonel ölçüm cihazı farkı.",
+  "text": "Uydu Sinyal Güçlendirici ve Sinyal Bulucu İşe Yarar mı? Uydu Sinyal Güçlendirici (Hat Yükseltici) Nedir? Ne Zaman İşe Yarar? Ne Zaman İşe Yaramaz? Uydu Sinyal Bulucu Sık Sorulan Sorular Uydu sinyal güçlendirici işe yarar mı? Uydu sinyal bulucu nasıl kullanılır? Sinyal seviyesi yüksek ama görüntü donuyor, neden?"
  },
  {
   "title": "Uydu \"Sinyal Yok\" Hatası Neden Olur, Nasıl Çözülür?",
@@ -130,19 +178,44 @@
 		page.nAll = normalize(page.title + ' ' + page.desc + ' ' + page.text);
 	});
 
-	/** Tüm kelimeleri içeren sayfaları, başlıkta geçenler önde olacak şekilde döndürür. */
+	/**
+	 * Kelimeyi metinde arar; bulamazsa sondaki ekleri (en fazla 3 harf) kırparak
+	 * tekrar dener: "uyducu" -> "uydu", "ayarları" -> "ayar".
+	 */
+	function findStem(text, word) {
+		var min = Math.max(4, word.length - 3);
+		for (var len = word.length; len >= min; len--) {
+			if (text.indexOf(word.slice(0, len)) !== -1) return word.slice(0, len);
+		}
+		return text.indexOf(word) !== -1 ? word : null;
+	}
+
+	// Kısaltmalar ve günlük kullanım: aramada karşılığıyla birlikte aranır
+	var SYNONYMS = { tv: 'televizyon', uyducu: 'uydu servis', cihaz: 'alici', cihazi: 'alici' };
+
+	/**
+	 * Kelimelerin çoğunu içeren sayfaları döndürür (3+ kelimelik aramalarda bir
+	 * kelime eksik olabilir); başlıkta geçen ve tam eşleşen kelimeler önde.
+	 */
 	function search(query) {
 		var words = normalize(query).split(' ').filter(function (w) { return w.length > 1; });
 		if (!words.length) return [];
+		var needed = words.length <= 2 ? words.length : Math.ceil(words.length * 0.6);
 
 		return PAGES
 			.map(function (page) {
-				var score = 0;
+				var score = 0, matched = 0;
 				for (var i = 0; i < words.length; i++) {
-					if (page.nAll.indexOf(words[i]) === -1) return null;
-					score += page.nTitle.indexOf(words[i]) !== -1 ? 3 : 1;
+					var stem = findStem(page.nAll, words[i]);
+					if (!stem && SYNONYMS[words[i]]) {
+						stem = SYNONYMS[words[i]].split(' ').map(function (w) { return findStem(page.nAll, w); }).filter(Boolean)[0] || null;
+					}
+					if (!stem) continue;
+					matched++;
+					score += page.nTitle.indexOf(stem) !== -1 ? 3 : 1;
+					if (stem === words[i]) score += 1;
 				}
-				return { page: page, score: score };
+				return matched >= needed ? { page: page, score: score + matched * 4 } : null;
 			})
 			.filter(Boolean)
 			.sort(function (a, b) { return b.score - a.score; })
