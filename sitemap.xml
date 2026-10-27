@@ -1,243 +1,291 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://cankayauydu.com/altus-tv-uydu-kanal-arama.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-altus.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/ankara-canak-anten-acisi.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-sinyal-olcum.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/arcelik-tv-uydu-kanal-arama.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-arcelik.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/beko-tv-uydu-kanal-arama.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-beko.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/canak-anten-nasil-ayarlanir.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-canak-anten.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/canak-anten-nedir.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-canak-anten.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/diger-marka-tv-uydu-kanal-arama.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-kanal-arama.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/digiturk-kanal-listesi.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-kanal-arama.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/faq.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/logo-full.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/gallery.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/logo-full.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/grundig-tv-uydu-kanal-arama.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-grundig.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/hakkimizda.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/logo-full.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/hisense-tv-uydu-kanal-arama.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-hisense.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/hizmet-bolgeleri.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-canak-anten.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/hizmetlerimiz.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/logo-full.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/iletisim.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/logo-full.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>1.00</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/logo-full.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/kanal-siralamasi-bozuldu.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-kanal-arama.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/lg-tv-uydu-kanal-arama.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-lg.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/lnb-frekansi-kac-olmali.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-lnb.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/lnb-nedir.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-lnb.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/merkezi-uydu-sistemi-nedir.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-merkezi-sistem.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/merkezi-uydu-tv-kurulumu.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-merkezi-sistem.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/philips-tv-uydu-kanal-arama.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-philips.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/privacy-policy.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.70</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/logo-full.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/regal-tv-uydu-kanal-arama.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-regal.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/ruzgar-canak-anten-kaydi.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-canak-anten.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/samsung-tv-uydu-kanal-arama.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-samsung.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/sebeke-arama-nasil-yapilir.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-turksat.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/sony-tv-uydu-kanal-arama.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-sony.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/tcl-tv-uydu-kanal-arama.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-tcl.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/tkgs-nedir.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-kanal-arama.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/toshiba-tv-uydu-kanal-arama.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-toshiba.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/turksat-sebeke-arama-frekansi.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-turksat.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/turksat-uydu-degisikligi-2026.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-turksat.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/tv-duvar-montaji.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-montaj.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/tv-uydu-alicisi-var-mi.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-uydu-alicisi.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/tv-uydu-kanal-arama.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-kanal-arama.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/uydu-alicisi-kurulumu.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-uydu-alicisi.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/uydu-kablosu-nasil-baglanir.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-kablo.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/uydu-kanallari-gitti.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-kanal-arama.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/uydu-sinyal-guclendirici.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-sinyal-olcum.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/uydu-sinyal-yok-hatasi.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-sinyal-olcum.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/uydudan-radyo-dinleme.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-turksat.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/vestel-tv-uydu-kanal-arama.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-vestel.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/xiaomi-tv-uydu-kanal-arama.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-xiaomi.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/yagmurda-uydu-sinyali.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-yagmur-kar.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/yardim.html</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/logo-full.png</image:loc></image:image>
   </url>
 </urlset>
