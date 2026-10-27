@@ -501,17 +501,25 @@
 		var header = headers[index];
 		var phone = item.offsetParent === null;
 		var target = phone ? header : item;
-		if (!target.classList.contains('resp-tab-active')) window.jQuery(target).trigger('click');
+		if (!target.classList.contains('resp-tab-active')) {
+			// switch without the slide animation, so the layout is final before we scroll
+			var $ = window.jQuery;
+			var fxOff = $.fx.off;
+			$.fx.off = true;
+			$(target).trigger('click');
+			$.fx.off = fxOff;
+		}
 		// the tabs plugin appends its own "|..." part to the address, keep it clean
 		if (window.history && history.replaceState) history.replaceState(null, '', '#' + SERVICES[index]);
-		// scroll after the template's own load-time scrolling has finished
-		// the template scrolls <body>, not the window, so let the browser find the scroller
+		// scroll after the template's own load-time scrolling; scrollIntoView finds the
+		// right scroller (the template scrolls <html> or <body>)
 		setTimeout(function () {
-			var navbar = document.querySelector('.rd-navbar-fixed .rd-navbar-panel, .rd-navbar-static');
+			// phones: fixed top bar; desktop: the slim sticky menu that appears after scrolling
+			var panel = document.querySelector('.rd-navbar-fixed .rd-navbar-panel');
 			var el = phone ? header : tabs;
-			el.style.scrollMarginTop = (navbar ? navbar.getBoundingClientRect().height + 16 : 100) + 'px';
-			el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-		}, 350);
+			el.style.scrollMarginTop = (panel ? panel.getBoundingClientRect().height + 16 : 90) + 'px';
+			el.scrollIntoView({ block: 'start' });
+		}, 300);
 		// close the phone menu if the link was picked from it while already on this page
 		var toggle = document.querySelector('.rd-navbar-toggle.active');
 		if (toggle) toggle.click();
