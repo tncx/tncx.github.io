@@ -1,0 +1,295 @@
+/* Çankaya Uydu - şablonun üzerine eklenen site geneli stiller */
+
+:root {
+	--cu-green: #25d366;
+	--cu-green-dark: #1da851;
+	--cu-dark: #1b222c;
+	--cu-blue: #1565c0;
+	--cu-soft: #f5f9fc;
+}
+
+/* --- WhatsApp & arama düğmeleri --- */
+.btn-wa,
+.btn-wa:focus {
+	color: #fff;
+	background: var(--cu-green);
+	border-color: var(--cu-green);
+}
+.btn-wa:hover {
+	color: #fff;
+	background: var(--cu-green-dark);
+	border-color: var(--cu-green-dark);
+}
+.footer-cta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+.footer-cta .btn {
+	margin: 0;
+}
+.page .icon-filled-whatsapp {
+	background: var(--cu-green);
+}
+
+#whatsapp-btn {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 9999;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	height: 58px;
+	padding: 0 18px 0 10px;
+	font-weight: 700;
+	font-size: 1.14rem;
+	color: #fff;
+	text-decoration: none;
+	background: var(--cu-green);
+	border-radius: 30px;
+	box-shadow: 0 6px 24px rgba(50, 70, 70, .2);
+	transition: box-shadow .19s, transform .13s;
+}
+#whatsapp-btn:hover {
+	color: #fff;
+	transform: scale(1.05);
+	box-shadow: 0 8px 34px rgba(40, 70, 40, .32);
+}
+#whatsapp-btn svg {
+	display: block;
+}
+
+/* Mobilde ekranın altında sabit "Ara / WhatsApp" çubuğu */
+.mobile-cta {
+	display: none;
+}
+@media (max-width: 767.98px) {
+	#whatsapp-btn {
+		display: none;
+	}
+	.mobile-cta {
+		position: fixed;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 9999;
+		display: flex;
+		box-shadow: 0 -2px 12px rgba(0, 0, 0, .15);
+	}
+	.mobile-cta a {
+		flex: 1;
+		padding: 14px 8px calc(14px + env(safe-area-inset-bottom));
+		font-size: 17px;
+		font-weight: 700;
+		text-align: center;
+		color: #fff;
+		text-decoration: none;
+	}
+	.mobile-cta-call {
+		background: var(--cu-blue);
+	}
+	.mobile-cta-wa {
+		background: var(--cu-green);
+	}
+	body {
+		padding-bottom: 56px;
+	}
+	.ui-to-top {
+		bottom: 70px !important;
+	}
+}
+
+/* Sayfa başlığı (breadcrumb alanındaki H1) uzun başlıklarda taşmasın */
+h1.breadcrumbs-custom-title {
+	font-size: clamp(24px, 3.2vw, 38px);
+	line-height: 1.2;
+}
+
+/* --- Yazı (yardım) sayfaları --- */
+.article-body {
+	font-size: 16px;
+	line-height: 1.7;
+	color: #3a3f45;
+}
+.article-body h2 {
+	margin: 1.6em 0 .5em;
+	font-size: 22px;
+	line-height: 1.3;
+	font-weight: 700;
+	color: var(--cu-dark);
+}
+.article-body h3 {
+	margin: 1.2em 0 .3em;
+	font-size: 17px;
+	font-weight: 700;
+	color: var(--cu-dark);
+}
+.article-body p {
+	margin: 0 0 .8em;
+}
+.article-body ul,
+.article-body ol {
+	margin: 0 0 1em;
+	padding-left: 1.4em;
+}
+.article-body ul li {
+	display: list-item;
+	list-style: disc;
+	margin-bottom: .35em;
+}
+.article-body ol li {
+	display: list-item;
+	list-style: decimal;
+	margin-bottom: .35em;
+}
+.article-body a {
+	color: var(--cu-blue);
+	text-decoration: underline;
+}
+.article-body .table {
+	font-size: 15px;
+}
+.article-body .table th {
+	background: var(--cu-soft);
+}
+.article-note {
+	margin: 1.4em 0;
+	padding: 14px 18px;
+	background: #fff8e1;
+	border-left: 4px solid #ffb300;
+	border-radius: 6px;
+}
+.faq-item {
+	padding: 4px 0 6px;
+	border-bottom: 1px solid #eceff1;
+}
+.article-cta {
+	margin: 2em 0 0;
+	padding: 20px 22px;
+	background: var(--cu-soft);
+	border: 1px solid #dbe7f0;
+	border-radius: 12px;
+}
+.article-cta .btn {
+	margin: 6px 8px 0 0;
+}
+.article-cta a.btn {
+	text-decoration: none;
+}
+.post-single .post-meta span + span,
+.post-single .post-meta time + span {
+	margin-left: 10px;
+}
+.help-list .post-image img,
+.related-posts .post-image img {
+	width: 100%;
+	height: auto;
+	aspect-ratio: 370 / 245;
+	object-fit: cover;
+}
+.related-posts .post-text p {
+	font-size: 14px;
+}
+.help-list .post-header .h6 {
+	margin: 0;
+	font-size: 16px;
+}
+.lead-text {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+/* --- WhatsApp iletişim formu --- */
+.wa-form-note {
+	margin-top: 10px;
+	font-size: 13px;
+	color: #7b7e82;
+}
+.wa-form-invalid .form-input:invalid {
+	border-color: #e53935;
+}
+
+/* --- Hakkımızda --- */
+.about-photo img {
+	width: 100%;
+	max-height: 520px;
+	object-fit: cover;
+	object-position: center 30%;
+	border-radius: 12px;
+}
+.about-list {
+	margin-top: 16px;
+}
+.about-list li {
+	position: relative;
+	padding-left: 24px;
+	margin-bottom: 6px;
+}
+.about-list li:before {
+	content: "✓";
+	position: absolute;
+	left: 0;
+	font-weight: 700;
+	color: #2e7d32;
+}
+
+/* --- Arama sonuçları --- */
+#results {
+	width: 100%;
+	max-width: 640px;
+	margin: 24px auto 0;
+}
+#results .search-result {
+	margin-bottom: 12px;
+	padding: 14px 20px;
+	background: var(--cu-soft);
+	border-radius: 14px;
+	box-shadow: 0 2px 8px rgba(50, 80, 110, .08);
+}
+#results .search-result a {
+	font-size: 1.1em;
+	font-weight: 600;
+	color: #27496d;
+}
+#results .search-result p {
+	margin-top: 4px;
+	color: #6b7177;
+}
+#results .search-count,
+#results .search-empty {
+	text-align: center;
+	color: #6b7177;
+}
+@media (max-width: 600px) {
+	#search-form {
+		flex-direction: column !important;
+	}
+	#search-form > div {
+		width: 100% !important;
+	}
+	#search-button,
+	#search-input {
+		margin-bottom: 8px;
+		border-radius: 2rem !important;
+	}
+}
+
+.counter-value .counter {
+	display: inline;
+}
+
+/* Mobilde sayaç yazıları okunur olsun */
+@media (max-width: 700px) {
+	.counter-box {
+		height: 72px !important;
+	}
+	.counter-value .h3,
+	.counter-value p.h3 {
+		font-size: .95rem !important;
+	}
+	.counter-text {
+		font-size: .72rem !important;
+		line-height: 1.1 !important;
+	}
+}

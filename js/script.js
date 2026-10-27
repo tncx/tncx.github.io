@@ -1078,8 +1078,9 @@ $document.ready(function () {
 	/**
 	 * RD Search
 	 * @description Enables search
+	 * GitHub Pages PHP çalıştırmaz; arama js/custom.js içinde yapılıyor.
 	 */
-	if (plugins.search.length || plugins.searchResults) {
+	if (false) {
 		var handler = "bat/rd-search.php";
 		var defaultTemplate = '<h6 class="search_title"><a target="_top" href="#{href}" class="search_link">#{title}</a></h6>' +
 			'<p>...#{token}...</p>' +
