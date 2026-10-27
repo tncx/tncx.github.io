@@ -23,6 +23,18 @@
   "text": "Ankara Çanak Anten Açısı: Türksat 42° Doğu Ayar Değerleri Ankara İçin Türksat 42°E Ayar Değerleri Elevasyon Açısı Nasıl Ayarlanır? Azimut (Yön) Nasıl Bulunur? LNB Açısı (Skew) Adım Adım Ayar Sık Sorulan Sorular Ankara'da çanak anten hangi yöne bakmalı? Ankara'da çanak anten elevasyon açısı kaç derece? Çanak anten açısı biraz kayarsa ne olur?"
  },
  {
+  "title": "Arçelik TV Uydu Kanal Arama ve TKGS Ayarı (Türksat 2026)",
+  "url": "arcelik-tv-uydu-kanal-arama.html",
+  "desc": "Arçelik televizyonda uydu kanal arama nasıl yapılır? 16 Ağustos 2026 Türksat değişikliğinden sonra kanalları TKGS, otomatik arama ve şebeke araması ile geri getirmenin adımları.",
+  "text": "Arçelik TV Uydu Kanal Arama ve TKGS Ayarı (Türksat 2026) Başlamadan Önce Yöntem 1: TKGS ile Otomatik Güncelleme Yöntem 2: Otomatik Kanal Arama Yöntem 3: Manuel Şebeke Araması Arçelik TV'de Sık Karşılaşılan Sorunlar Sık Sorulan Sorular Arçelik TV'de uydu kanal arama nasıl yapılır? Arçelik TV'de kanallar Türksat değişikliğinden sonra gelmiyor, ne yapmalı? Arçelik Google TV'de kanal tarama nerede?"
+ },
+ {
+  "title": "Beko TV Uydu Kanal Arama ve TKGS Ayarı (Türksat 2026)",
+  "url": "beko-tv-uydu-kanal-arama.html",
+  "desc": "Beko televizyonda uydu kanal arama nasıl yapılır? 16 Ağustos 2026 Türksat değişikliğinden sonra kanalları TKGS, otomatik arama ve şebeke araması ile geri getirmenin adımları.",
+  "text": "Beko TV Uydu Kanal Arama ve TKGS Ayarı (Türksat 2026) Başlamadan Önce Yöntem 1: TKGS ile Otomatik Güncelleme Yöntem 2: Otomatik Kanal Arama Yöntem 3: Manuel Şebeke Araması Beko TV'de Sık Karşılaşılan Sorunlar Sık Sorulan Sorular Beko TV'de kanal kurulumu nasıl yapılır? Beko kendinden uydulu TV'de manuel arama nasıl yapılır? Beko TV'de mevcut kanalları korumalı mıyım?"
+ },
+ {
   "title": "Çanak Anten Nasıl Ayarlanır?",
   "url": "canak-anten-nasil-ayarlanir.html",
   "desc": "Çanak anten ayarı nasıl yapılır? Ankara Çankaya'da profesyonel çanak anten kurulum ve uydu ayar servisi. Sinyal alma ve yönlendirme işlemlerinin püf noktaları burada!",
@@ -53,6 +65,12 @@
   "text": "Galeri Çanak Anten ve Uydu Sistemleri"
  },
  {
+  "title": "Grundig TV Uydu Kanal Arama ve TKGS Ayarı (Türksat 2026)",
+  "url": "grundig-tv-uydu-kanal-arama.html",
+  "desc": "Grundig televizyonda uydu kanal arama nasıl yapılır? 16 Ağustos 2026 Türksat değişikliğinden sonra kanalları TKGS, otomatik arama ve şebeke araması ile geri getirmenin adımları.",
+  "text": "Grundig TV Uydu Kanal Arama ve TKGS Ayarı (Türksat 2026) Başlamadan Önce Yöntem 1: TKGS ile Otomatik Güncelleme Yöntem 2: Otomatik Kanal Arama Yöntem 3: Manuel Şebeke Araması Grundig TV'de Sık Karşılaşılan Sorunlar Sık Sorulan Sorular Grundig TV'de uydu kanal arama nasıl yapılır? Grundig ve Arçelik menüleri aynı mı? Grundig Google TV'de kanal tarama nerede?"
+ },
+ {
   "title": "Hakkımızda",
   "url": "hakkimizda.html",
   "desc": "Çankaya Uydu Servisi: Ankara/Çankaya’da çanak anten ve uydu sistemleri konusunda 15 yılı aşkın tecrübe. Profesyonel, hızlı ve garantili servis! 0553 450 20 33",
@@ -75,6 +93,12 @@
   "url": "iletisim.html",
   "desc": "Ankara Çankaya'da profesyonel çanak anten ve uydu servisi için bize ulaşın. Telefon: 0553 450 20 33 – Tuncay Özer",
   "text": "Çankaya Uydu Teknik Servis İletişim"
+ },
+ {
+  "title": "LG TV Uydu Kanal Arama ve TKGS Ayarı (Türksat 2026)",
+  "url": "lg-tv-uydu-kanal-arama.html",
+  "desc": "LG televizyonda uydu kanal arama nasıl yapılır? 16 Ağustos 2026 Türksat değişikliğinden sonra kanalları TKGS, otomatik arama ve şebeke araması ile geri getirmenin adımları.",
+  "text": "LG TV Uydu Kanal Arama ve TKGS Ayarı (Türksat 2026) Başlamadan Önce Yöntem 1: TKGS ile Otomatik Güncelleme Yöntem 2: Otomatik Kanal Arama Yöntem 3: Manuel Şebeke Araması LG TV'de Sık Karşılaşılan Sorunlar Sık Sorulan Sorular LG TV'de uydu kanal arama nasıl yapılır? LG TV'de kanallar Türksat değişikliğinden sonra gitti, neden? LG TV'de kanal ayarları menüsü nerede?"
  },
  {
   "title": "LNB Frekansı Kaç Olmalı? Doğru LNB Ayarları (9750/10600)",
@@ -101,16 +125,52 @@
   "text": "Merkezi Uydu Sisteminde TV Kurulumu ve Kanal Arama 1. Doğru Prize ve Doğru Girişe Bağlayın 2. Ayarları Seçin Tek Kablolu (Unicable) Sistemler 3. Kanal Araması Merkezi Sistemde \"Sinyal Yok\" Diyorsa Sık Sorulan Sorular Merkezi uydu sistemi TV'ye nasıl bağlanır? Merkezi sistemde LNB ayarı ne olmalı? Merkezi sistemde iki televizyonu aynı prize bağlayabilir miyim?"
  },
  {
+  "title": "Philips TV Uydu Kanal Arama ve TKGS Ayarı (Türksat 2026)",
+  "url": "philips-tv-uydu-kanal-arama.html",
+  "desc": "Philips televizyonda uydu kanal arama nasıl yapılır? 16 Ağustos 2026 Türksat değişikliğinden sonra kanalları TKGS, otomatik arama ve şebeke araması ile geri getirmenin adımları.",
+  "text": "Philips TV Uydu Kanal Arama ve TKGS Ayarı (Türksat 2026) Başlamadan Önce Yöntem 1: Otomatik Kanal Arama Yöntem 2: Manuel Şebeke Araması Philips TV'de Sık Karşılaşılan Sorunlar Sık Sorulan Sorular Philips TV'de uydu kanal arama nasıl yapılır? Philips TV Türksat'ı buluyor ama kanal getirmiyor, neden? Philips TV'de manuel transponder nasıl girilir?"
+ },
+ {
   "title": "Gizlilik Politikası",
   "url": "privacy-policy.html",
   "desc": "Çanak Anten Uydu Sistemleri Arıza ve Kurulum İşlerinizi, Kaliteli Malzemeler ve Profesyonel İşçilik Hizmeti ile Çözüyoruz..",
   "text": "Gizlilik Politikası"
  },
  {
-  "title": "Türksat 4A Şebeke Arama Frekansları",
+  "title": "Regal TV Uydu Kanal Arama ve TKGS Ayarı (Türksat 2026)",
+  "url": "regal-tv-uydu-kanal-arama.html",
+  "desc": "Regal televizyonda uydu kanal arama nasıl yapılır? 16 Ağustos 2026 Türksat değişikliğinden sonra kanalları TKGS, otomatik arama ve şebeke araması ile geri getirmenin adımları.",
+  "text": "Regal TV Uydu Kanal Arama ve TKGS Ayarı (Türksat 2026) Başlamadan Önce Yöntem 1: TKGS ile Otomatik Güncelleme Yöntem 2: Otomatik Kanal Arama Yöntem 3: Manuel Şebeke Araması Regal TV'de Sık Karşılaşılan Sorunlar Sık Sorulan Sorular Regal TV'de kanal arama nasıl yapılır? Regal ve Vestel menüleri aynı mı? Regal TV TKGS destekliyor mu?"
+ },
+ {
+  "title": "Samsung TV Uydu Kanal Arama ve TKGS Ayarı (Türksat 2026)",
+  "url": "samsung-tv-uydu-kanal-arama.html",
+  "desc": "Samsung televizyonda uydu kanal arama nasıl yapılır? 16 Ağustos 2026 Türksat değişikliğinden sonra kanalları TKGS, otomatik arama ve şebeke araması ile geri getirmenin adımları.",
+  "text": "Samsung TV Uydu Kanal Arama ve TKGS Ayarı (Türksat 2026) Başlamadan Önce Yöntem 1: TKGS ile Otomatik Güncelleme Yöntem 2: Otomatik Kanal Arama Yöntem 3: Manuel Şebeke Araması Samsung TV'de Sık Karşılaşılan Sorunlar Sık Sorulan Sorular Samsung TV'de uydu kanal arama nasıl yapılır? Samsung TV'de Uzman Ayarları şifresi nedir? Samsung TV'de Türksat değişikliğinden sonra kanallar gelmiyor, ne yapmalıyım?"
+ },
+ {
+  "title": "Sony TV Uydu Kanal Arama ve TKGS Ayarı (Türksat 2026)",
+  "url": "sony-tv-uydu-kanal-arama.html",
+  "desc": "Sony televizyonda uydu kanal arama nasıl yapılır? 16 Ağustos 2026 Türksat değişikliğinden sonra kanalları TKGS, otomatik arama ve şebeke araması ile geri getirmenin adımları.",
+  "text": "Sony TV Uydu Kanal Arama ve TKGS Ayarı (Türksat 2026) Başlamadan Önce Yöntem 1: Otomatik Kanal Arama Yöntem 2: Manuel Şebeke Araması Sony TV'de Sık Karşılaşılan Sorunlar Sık Sorulan Sorular Sony TV'de uydu kanal arama nasıl yapılır? Sony Bravia'da Türksat değişikliğinden sonra kanallar gitti, ne yapmalıyım? Sony TV'de kanallar nerede görünür?"
+ },
+ {
+  "title": "TCL TV Uydu Kanal Arama ve TKGS Ayarı (Türksat 2026)",
+  "url": "tcl-tv-uydu-kanal-arama.html",
+  "desc": "TCL televizyonda uydu kanal arama nasıl yapılır? 16 Ağustos 2026 Türksat değişikliğinden sonra kanalları TKGS, otomatik arama ve şebeke araması ile geri getirmenin adımları.",
+  "text": "TCL TV Uydu Kanal Arama ve TKGS Ayarı (Türksat 2026) Başlamadan Önce Yöntem 1: Otomatik Kanal Arama Yöntem 2: Manuel Şebeke Araması TCL TV'de Sık Karşılaşılan Sorunlar Sık Sorulan Sorular TCL TV'de uydu kanal arama nasıl yapılır? TCL Google TV'de uydu kanalları nerede? TCL TV'de Türksat kanalları eksik geliyor, ne yapmalı?"
+ },
+ {
+  "title": "Türksat Şebeke Arama Frekansları (Ağustos 2026 Güncel)",
   "url": "turksat-sebeke-arama-frekansi.html",
-  "desc": "Türksat 4A uydusu şebeke arama frekansları: frekans, polarizasyon, sembol oranı ve FEC değerleri ile uydu alıcısında kanal arama nasıl yapılır.",
-  "text": "Türksat 4A Uydusu Şebeke Arama Frekansları 1. Batı (West) Yönü - Türkiye ve Avrupa Kapsama Alanı 2. Doğu (East) Yönü - Orta Asya ve Orta Doğu Kapsama Alanı 3. Doğu Yönü - Türkiye ve Orta Doğu Kapsama Alanı Orta Asya ve Afrika Beam"
+  "desc": "Türksat 42°E şebeke arama frekansları (Ağustos 2026 güncel): 12380 MHz Dikey 27500 ve 12423 MHz Yatay 30000, FEC 3/4. Şebeke araması nasıl yapılır?",
+  "text": "Türksat Şebeke Arama Frekansları (2026) Türksat 42°E Şebeke Arama Değerleri Şebeke Araması Nasıl Yapılır? Polarizasyona Dikkat"
+ },
+ {
+  "title": "Türksat Uydu Değişikliği (16 Ağustos 2026): Kanallar Nasıl Geri Gelir?",
+  "url": "turksat-uydu-degisikligi-2026.html",
+  "desc": "Türksat 3A'daki yayınlar 16 Ağustos 2026'da yeni uydulara taşındı. Kanallarınız gittiyse TKGS veya şebeke araması ile geri getirin. Samsung, LG, Vestel ve diğer markalar için rehberler.",
+  "text": "Türksat Uydu Değişikliği (16 Ağustos 2026): Kanallar Nasıl Geri Gelir? Ne Değişti? Çanak Antenimi Değiştirmem Gerekiyor mu? Kanallar Nasıl Geri Gelir? 1. TKGS destekli cihazlar 2. TKGS olmayan cihazlar: Şebeke araması Televizyon Markanıza Göre Adım Adım Ayrı Uydu Alıcısı Kullanıyorsanız Hâlâ Kanal Gelmiyorsa Sık Sorulan Sorular Türksat uydu değişikliği ne zaman oldu? Uydu değişikliği için çanak antenimi çevirmem gerekiyor mu? Uydu değişikliğinden sonra kanallar nasıl geri gelir?"
  },
  {
   "title": "TV Duvar Montajı: Doğru Yükseklik, Aparat Seçimi ve VESA Ölçüsü",
@@ -122,7 +182,7 @@
   "title": "Televizyonda Uydu Kanal Arama: Samsung, LG, Vestel, Arçelik, Beko",
   "url": "tv-uydu-kanal-arama.html",
   "desc": "Samsung, LG, Vestel, Arçelik ve Beko televizyonlarda uydu kanal arama nasıl yapılır? Türksat ayarları, LNB değerleri ve sık yapılan hatalar.",
-  "text": "Televizyonda Uydu Kanal Arama: Samsung, LG, Vestel, Arçelik, Beko Tüm Markalarda Geçerli Ayarlar Samsung LG Vestel, Arçelik, Beko, Grundig Sık Yapılan Hatalar Sık Sorulan Sorular Televizyonda uydu kanal arama nasıl yapılır? Uydu cihazı olmadan televizyonda kanal izlenir mi? Kanal aramada hiç kanal bulunmuyor, neden?"
+  "text": "Televizyonda Uydu Kanal Arama: Samsung, LG, Vestel, Arçelik, Beko Tüm Markalarda Geçerli Ayarlar Markanıza Özel Ayrıntılı Rehberler Samsung LG Vestel, Arçelik, Beko, Grundig Sık Yapılan Hatalar Sık Sorulan Sorular Televizyonda uydu kanal arama nasıl yapılır? Uydu cihazı olmadan televizyonda kanal izlenir mi? Kanal aramada hiç kanal bulunmuyor, neden?"
  },
  {
   "title": "Uydu Anten Kablosu Nasıl Bağlanır? F Konnektör Takma ve Ek Yapma",
@@ -149,6 +209,12 @@
   "text": "Uydu \"Sinyal Yok\" Hatası Neden Olur, Nasıl Çözülür? 1. Önce Basit Kontroller 2. Kablo ve Konnektör Kontrolü 3. Çanak Anten Yönü Kaymış Olabilir 4. LNB Arızası 5. Apartmanda Merkezi Sistem Varsa Ne Zaman Teknik Servis Çağırmalı? Sık Sorulan Sorular Uydu sinyal yok hatası neden olur? Sadece bazı kanallarda sinyal yok, neden? Yağmurda sinyal gidiyor, sonra geliyor. Bu arıza mı?"
  },
  {
+  "title": "Vestel TV Uydu Kanal Arama ve TKGS Ayarı (Türksat 2026)",
+  "url": "vestel-tv-uydu-kanal-arama.html",
+  "desc": "Vestel televizyonda uydu kanal arama nasıl yapılır? 16 Ağustos 2026 Türksat değişikliğinden sonra kanalları TKGS, otomatik arama ve şebeke araması ile geri getirmenin adımları.",
+  "text": "Vestel TV Uydu Kanal Arama ve TKGS Ayarı (Türksat 2026) Başlamadan Önce Yöntem 1: TKGS ile Otomatik Güncelleme Yöntem 2: Otomatik Kanal Arama Yöntem 3: Manuel Şebeke Araması Vestel TV'de Sık Karşılaşılan Sorunlar Sık Sorulan Sorular Vestel TV'de TKGS güncellemesi nasıl yapılır? Vestel TV'de kanal arama nasıl yapılır? Vestel TV'de kanal sıralaması bozuldu, nasıl düzelir?"
+ },
+ {
   "title": "Yağmurda ve Karda Uydu Neden Donar? Çözüm Önerileri",
   "url": "yagmurda-uydu-sinyali.html",
   "desc": "Yağmur yağınca veya kar yağınca uydu yayını neden donar, sinyal neden gider? Nedenleri ve kalıcı çözüm için yapılması gerekenler.",
@@ -158,7 +224,7 @@
   "title": "Yardım",
   "url": "yardim.html",
   "desc": "Çanak anten kurulumu, uydu arızası, merkezi sistemler ve TV kurulumu hakkında sık sorulan sorular ve pratik yardım rehberleri. Ankara Çankaya Uydu Servisi ile destek alın.",
-  "text": "Yardım ve Sık Sorulan Sorular - Çankaya Uydu Servisi"
+  "text": "Yardım ve Sık Sorulan Sorular - Çankaya Uydu Servisi TV Markanıza Göre Kanal Arama (Türksat 2026)"
  }
 ];
 

@@ -200,6 +200,54 @@ h1.breadcrumbs-custom-title {
 	margin-bottom: 10px;
 }
 
+/* --- Marka rehberleri ve Türksat 2026 duyurusu --- */
+.brand-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin: 12px 0 18px;
+}
+.brand-grid .brand-link {
+	padding: 9px 18px;
+	font-weight: 700;
+	color: var(--cu-dark);
+	text-decoration: none;
+	background: var(--cu-soft);
+	border: 1px solid #dbe7f0;
+	border-radius: 22px;
+}
+.brand-grid .brand-link:hover {
+	color: #fff;
+	background: var(--cu-blue);
+	border-color: var(--cu-blue);
+}
+.brand-section {
+	margin-bottom: 10px;
+	padding: 18px 20px;
+	border: 1px solid #dbe7f0;
+	border-radius: 12px;
+}
+.turksat-notice {
+	max-width: 760px;
+	margin: 0 auto 22px;
+	padding: 12px 18px;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #5d4037;
+	background: #fff8e1;
+	border: 1px solid #ffe082;
+	border-radius: 12px;
+}
+.turksat-notice a {
+	font-weight: 700;
+	color: var(--cu-blue);
+	text-decoration: underline;
+}
+.small-note {
+	font-size: 13px;
+	color: #7b7e82;
+}
+
 /* --- WhatsApp iletişim formu --- */
 .wa-form-note {
 	margin-top: 10px;
