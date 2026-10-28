@@ -71,10 +71,10 @@
   "text": "Sıkça Sorulan Sorular (SSS) Türksat, Kanal Arama ve TKGS Çanak Anten Kurulumu ve Ayarı Sinyal Yok ve Arızalar LNB, Kablo ve Bağlantılar Merkezi Uydu Sistemi Televizyon ve Uydu Alıcısı Digitürk Bakım ve Ömür Servis ve Hizmetlerimiz"
  },
  {
-  "title": "Galeri: Çanak Anten ve Uydu İşlerimiz",
+  "title": "Galeri: Çanak Anten Kurulumu ve Ürünler",
   "url": "gallery.html",
-  "desc": "Çankaya ve çevresinde yaptığımız çanak anten kurulumu, yön ayarı, sinyal ölçümü, merkezi uydu sistemi ve kablo işlerinden fotoğraflar.",
-  "text": "Galeri Yaptığımız İşlerden Örnekler"
+  "desc": "Çanak anten kurulumu ile kullandığımız ürünler: merkezi uydu sistemi (multiswitch), çanak ve LNB, uydu alıcısı, internet kablosu ve Android TV Box.",
+  "text": "Galeri Kurulumlar ve Kullandığımız Ürünler"
  },
  {
   "title": "Grundig TV Uydu Kanal Arama (Türksat 2026)",
@@ -110,7 +110,7 @@
   "title": "İletişim: 0553 450 20 33",
   "url": "iletisim.html",
   "desc": "Çankaya Uydu Sistemleri, Dikmen/Çankaya. Telefon ve WhatsApp: 0553 450 20 33. Hafta içi 09:00–20:00, hafta sonu 11:00–18:00. Arızanın fotoğrafını gönderin.",
-  "text": "İletişim"
+  "text": "İletişim Bize Ulaşın Mesaj Gönderin Adres Çalışma Saatleri Hizmet Bölgeleri Sosyal Medya"
  },
  {
   "title": "Kanal Sıralaması Bozuldu: Nasıl Düzeltilir?",
@@ -559,5 +559,52 @@
 		setTimeout(function () {
 			if (/^#undefined/.test(location.hash) && window.history && history.replaceState) history.replaceState(null, '', location.pathname + location.search);
 		}, 0);
+	});
+})();
+
+// İletişim: çalışma saatlerine göre (Ankara saati) "şu an açık/kapalı" bilgisi
+(function () {
+	var el = document.querySelector('[data-open-status]');
+	if (!el || !window.Intl) return;
+	var HOURS = { weekday: [9, 20], weekend: [11, 18] };
+	var DAYS = ['Pazar', 'Pazartesi', 'Salı', 'Çarşamba', 'Perşembe', 'Cuma', 'Cumartesi'];
+	function update() {
+		var parts = {};
+		new Intl.DateTimeFormat('en-US', { timeZone: 'Europe/Istanbul', weekday: 'short', hour: 'numeric', minute: 'numeric', hour12: false })
+			.formatToParts(new Date()).forEach(function (p) { parts[p.type] = p.value; });
+		var day = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].indexOf(parts.weekday);
+		var minutes = (parseInt(parts.hour, 10) % 24) * 60 + parseInt(parts.minute, 10);
+		var range = function (d) { return (d === 0 || d === 6) ? HOURS.weekend : HOURS.weekday; };
+		var today = range(day);
+		if (minutes >= today[0] * 60 && minutes < today[1] * 60) {
+			el.className = 'open-status is-open';
+			el.textContent = 'Şu an çalışma saatlerimiz içindeyiz (bugün ' + today[1] + ':00\'e kadar)';
+		} else {
+			var nextDay = minutes < today[0] * 60 ? day : (day + 1) % 7;
+			var when = nextDay === day ? 'bugün' : (nextDay === (day + 1) % 7 ? 'yarın' : DAYS[nextDay]);
+			el.className = 'open-status is-closed';
+			el.textContent = 'Şu an çalışma saatlerimiz dışındayız. Açılış: ' + when + ' ' + ('0' + range(nextDay)[0]).slice(-2) + ':00. WhatsApp\'tan mesaj bırakabilirsiniz.';
+		}
+		el.hidden = false;
+	}
+	update();
+	setInterval(update, 60000);
+})();
+
+// İletişim: harita yalnızca istenince Google'dan yüklenir
+(function () {
+	Array.prototype.forEach.call(document.querySelectorAll('.map-embed[data-map-src]'), function (box) {
+		var btn = box.querySelector('.map-embed-btn');
+		if (!btn) return;
+		btn.addEventListener('click', function () {
+			var frame = document.createElement('iframe');
+			frame.src = box.getAttribute('data-map-src');
+			frame.title = 'Çankaya Uydu Sistemleri harita konumu';
+			frame.loading = 'lazy';
+			frame.referrerPolicy = 'no-referrer-when-downgrade';
+			box.innerHTML = '';
+			box.appendChild(frame);
+			box.classList.add('is-loaded');
+		});
 	});
 })();

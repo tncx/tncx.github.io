@@ -1,0 +1,16 @@
+{
+  "name": "Çankaya Uydu Sistemleri",
+  "short_name": "Çankaya Uydu",
+  "description": "Ankara Çankaya'da çanak anten kurulum, arıza ve merkezi uydu sistemi servisi.",
+  "lang": "tr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#0d2c4f",
+  "icons": [
+    { "src": "/images/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/images/logo-mark-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/images/logo-pin.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
