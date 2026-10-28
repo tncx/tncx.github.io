@@ -1323,3 +1323,27 @@ img.product-img {
 .map-embed-btn { padding: 10px 20px; border: 0; border-radius: 999px; background: var(--cu-navy); color: #fff; font-weight: 600; cursor: pointer; }
 .map-embed-btn:hover, .map-embed-btn:focus { background: var(--cu-blue); }
 .map-embed-note { margin: 0; font-size: 13px; color: #5a6b7d; }
+
+/* SSS: cevabın altındaki rehber linki */
+.faq-more { display: inline-block; margin-top: 6px; font-weight: 600; white-space: nowrap; }
+
+/* Rehber tabloları: telefonda metin alt satıra insin, ikinci sütun ekranda kalsın */
+.article-body .table-responsive > .table > thead > tr > th,
+.article-body .table-responsive > .table > tbody > tr > th,
+.article-body .table-responsive > .table > tbody > tr > td { white-space: normal; }
+@media (max-width: 575.98px) {
+  .article-body .table > :not(caption) > * > * { padding: 10px 8px; font-size: 15px; }
+}
+
+/* Şebeke arama değer tablosu: telefonda her satır bir kart */
+@media (max-width: 575.98px) {
+  .values-table-ready thead { display: none; }
+  .values-table-ready, .values-table-ready tbody, .values-table-ready tr, .values-table-ready td { display: block; width: 100%; }
+  .article-body .table-responsive > .values-table-ready > tbody > tr > td { white-space: normal; }
+  .values-table-ready tr { margin-bottom: 12px; border: 1px solid var(--cu-line); border-radius: 12px; overflow: hidden; background: #fff; }
+  .values-table-ready td { display: flex; justify-content: space-between; gap: 12px; padding: 8px 14px !important; border: 0 !important; border-bottom: 1px solid var(--cu-line) !important; }
+  .values-table-ready td:last-child { border-bottom: 0 !important; }
+  .values-table-ready td::before { content: attr(data-label); color: #5a6b7d; font-weight: 400; }
+  .values-table-ready td:first-child { background: var(--cu-soft); font-weight: 700; color: var(--cu-navy); }
+  .values-table-ready td:first-child::before { content: none; }
+}

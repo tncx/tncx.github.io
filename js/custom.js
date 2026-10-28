@@ -41,6 +41,12 @@
   "text": "Beko TV Uydu Kanal Arama ve Şebeke Arama (Türksat 2026) Başlamadan Önce Menü Yolu (Görselli) Yöntem 1: TKGS ile Otomatik Güncelleme Yöntem 2: Otomatik Kanal Arama Yöntem 3: Şebeke Araması (Manuel) Menünüz Hangisi? (Arçelik Grubu Menü Tipleri) Beko TV'de Sık Karşılaşılan Sorunlar Diğer Markalar Sık Sorulan Sorular Beko TV'de uydu kanal arama nasıl yapılır? Beko kendinden uydulu TV'de manuel arama nasıl yapılır? Beko TV'de mevcut kanalları korumalı mıyım?"
  },
  {
+  "title": "Çanak Anten Kaç cm Olmalı? Doğru Boyut Seçimi",
+  "url": "canak-anten-kac-cm-olmali.html",
+  "desc": "Çanak anten kaç cm olmalı? Ankara'da Türksat için tek dairede genellikle 60–80 cm yeterli. Merkezi sistem, ikinci uydu ve yağmurda kesinti için doğru boyut seçimi.",
+  "text": "Çanak Anten Kaç cm Olmalı? Ankara İçin Doğru Boyut Ankara İçin Hangi Boyut? Büyük Çanağın Avantajı ve Dezavantajı Küçük Çanak Yeterli mi? Merkezi Sistemde Neden Daha Büyük Çanak? Boyuttan Önce Ayar Sık Sorulan Sorular Çanak anten kaç cm olmalı? Çanak anten büyüdükçe görüntü kalitesi artar mı? En küçük çanak anten kaç cm? Merkezi uydu sistemi için kaç cm çanak gerekir?"
+ },
+ {
   "title": "Çanak Anten Nasıl Ayarlanır? Adım Adım",
   "url": "canak-anten-nasil-ayarlanir.html",
   "desc": "Çanak anten nasıl kurulur ve ayarlanır? Gerekli malzemeler, yer seçimi, Türksat 42°E için açı ve yön ayarı, LNB açısı ve kanal araması adım adım.",
@@ -63,6 +69,12 @@
   "url": "digiturk-kanal-listesi.html",
   "desc": "Digitürk kanal listesi: film, dizi, spor, belgesel, çocuk, haber ve radyo kanalları kategorilere göre. Kanal numaraları Digitürk tarafından değiştirilebilir.",
   "text": "Digitürk Kanal Listesi Film Kanalları Dizi Kanalları Yaşam ve Belgesel Kanalları Ulusal Kanallar Spor Kanalları Müzik Kanalları Yabancı Ulusal Kanallar Mekke ve Medine Kanalları Eba Kanalları Çizgi Film Kanalları Belgesel Kanalları Box Office Kanalları Taraftar Kanalları Euro Kanalları 4K Çözünürlüklü Kanalları Türkçe Radyo Kanalları Yabancı Radyo Kanalları Yerel ve Bölgesel Kanallar"
+ },
+ {
+  "title": "DiSEqC Nedir, Ne Olmalı? 1.0, 1.1 ve Port Ayarı",
+  "url": "diseqc-nedir.html",
+  "desc": "DiSEqC nedir, ne olmalı? Tek çanakta kapalı, DiSEqC anahtarlı sistemde Türksat'ın bağlı olduğu port. DiSEqC 1.0, 1.1, 1.2 farkları ve yanlış ayarın belirtileri.",
+  "text": "DiSEqC Nedir, Ne Olmalı? DiSEqC 1.0, 1.1 ve Port Ayarı DiSEqC Ne Zaman Gerekir? DiSEqC Ne Olmalı? (Duruma Göre Ayar) DiSEqC 1.0, 1.1 ve 1.2 Farkı Yanlış DiSEqC Ayarının Belirtileri Merkezi Uydu Sisteminde DiSEqC Sık Sorulan Sorular DiSEqC ne olmalı? DiSEqC 1.0 ile 1.1 arasındaki fark nedir? Yanlış DiSEqC portu seçilirse ne olur? Merkezi uydu sisteminde DiSEqC açık mı olmalı?"
  },
  {
   "title": "Çanak Anten ve Uydu Sık Sorulan Sorular",
@@ -606,5 +618,18 @@
 			box.appendChild(frame);
 			box.classList.add('is-loaded');
 		});
+	});
+})();
+
+// Değer tabloları: telefonda kart görünümü için her hücreye sütun başlığını yaz
+(function () {
+	Array.prototype.forEach.call(document.querySelectorAll('table.values-table'), function (table) {
+		var heads = Array.prototype.map.call(table.querySelectorAll('thead th'), function (th) { return th.textContent.trim(); });
+		Array.prototype.forEach.call(table.querySelectorAll('tbody tr'), function (tr) {
+			Array.prototype.forEach.call(tr.children, function (td, i) {
+				if (heads[i]) td.setAttribute('data-label', heads[i]);
+			});
+		});
+		table.classList.add('values-table-ready');
 	});
 })();

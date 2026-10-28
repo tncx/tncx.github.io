@@ -25,6 +25,12 @@
     <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-beko.png</image:loc></image:image>
   </url>
   <url>
+    <loc>https://cankayauydu.com/canak-anten-kac-cm-olmali.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-canak-anten.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://cankayauydu.com/canak-anten-nasil-ayarlanir.html</loc>
     <lastmod>2026-10-29</lastmod>
     <priority>0.80</priority>
@@ -47,6 +53,12 @@
     <lastmod>2026-10-29</lastmod>
     <priority>0.80</priority>
     <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-tv-kanal-arama.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://cankayauydu.com/diseqc-nedir.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <priority>0.80</priority>
+    <image:image><image:loc>https://cankayauydu.com/images/kapak/kapak-lnb.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://cankayauydu.com/faq.html</loc>

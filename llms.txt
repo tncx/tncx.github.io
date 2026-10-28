@@ -4,6 +4,15 @@
 
 Önemli bilgi (Ekim 2026): Türksat 3A'daki TV ve radyo yayınları 15-16 Ağustos 2026 gecesi aynı konumdaki (42° Doğu) yeni Türksat uydularına taşındı; çanak ayarı değişmez, kanal listesi TKGS veya şebeke aramasıyla yenilenir. Şebeke arama değeri (Türksat resmî, Türkiye-Batı): 12380 MHz Dikey, sembol oranı 27500, FEC 3/4; yedek 12423 MHz Dikey 27500. LNB: Üniversal 9750/10600.
 
+## Hızlı bilgiler (Ankara, Türksat 42° Doğu)
+- Çanak yönü: gerçek kuzeye göre yaklaşık 166°, pusulada yaklaşık 160° (güneyin ~14° doğusu); yükseliş (elevasyon) yaklaşık 43°; LNB eğimi yaklaşık 11°. Son ayar sinyal seviyesine değil sinyal kalitesine bakılarak yapılır.
+- LNB ayarı: Üniversal, 9750/10600 MHz, 22 kHz otomatik, LNB gücü açık.
+- DiSEqC: tek çanak ve tek LNB'de kapalı (veya 1. port); DiSEqC anahtarlı sistemde Türksat'ın bağlı olduğu port seçilir.
+- Çanak boyutu: Ankara'da tek daire için genellikle 60-80 cm yeterli; merkezi sistemlerde genellikle 90 cm ve üzeri. Dijital yayında görüntü kalitesi çanak boyutuna bağlı değildir.
+- TKGS (Türksat Kanal Güncelleme Sistemi) kanal listesini otomatik günceller ve ulusal kanalları standart sıraya dizer.
+- 12423 MHz Yatay 30000 değeri Türkiye-Doğu kapsamasıdır; Ankara için yedek değer olarak kullanılmamalıdır.
+- Evdeki TV çanağıyla internete bağlanılamaz; uydu interneti ayrı bir hizmettir.
+
 ## İşletme
 - [Ana sayfa](https://cankayauydu.com/)
 - [Hizmetlerimiz](https://cankayauydu.com/hizmetlerimiz.html)
@@ -24,9 +33,11 @@
 - [Rüzgârdan Çanak Anten Kaydı](https://cankayauydu.com/ruzgar-canak-anten-kaydi.html)
 - [Çanak Anten Nedir?](https://cankayauydu.com/canak-anten-nedir.html)
 - [Çanak Anten Nasıl Ayarlanır?](https://cankayauydu.com/canak-anten-nasil-ayarlanir.html)
+- [Çanak Anten Kaç cm Olmalı?](https://cankayauydu.com/canak-anten-kac-cm-olmali.html)
 - [Ankara Çanak Anten Açısı (Türksat)](https://cankayauydu.com/ankara-canak-anten-acisi.html)
 - [LNB Nedir, Arızası Nasıl Anlaşılır?](https://cankayauydu.com/lnb-nedir.html)
 - [LNB Frekansı Kaç Olmalı?](https://cankayauydu.com/lnb-frekansi-kac-olmali.html)
+- [DiSEqC Nedir, Ne Olmalı?](https://cankayauydu.com/diseqc-nedir.html)
 - [Uydu Alıcısı Kurulumu](https://cankayauydu.com/uydu-alicisi-kurulumu.html)
 - [TV'de Uydu Alıcısı Var mı? (DVB-S2)](https://cankayauydu.com/tv-uydu-alicisi-var-mi.html)
 - [Merkezi Uydu Sistemi Nedir?](https://cankayauydu.com/merkezi-uydu-sistemi-nedir.html)
