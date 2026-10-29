@@ -1347,3 +1347,9 @@ img.product-img {
   .values-table-ready td:first-child { background: var(--cu-soft); font-weight: 700; color: var(--cu-navy); }
   .values-table-ready td:first-child::before { content: none; }
 }
+
+/* Rehber fotoğrafları ve lisans satırı */
+.photo-credit { margin: 24px 0; }
+.photo-credit img { width: 100%; height: auto; border-radius: 12px; }
+.photo-credit figcaption { margin-top: 8px; font-size: 14px; color: #5a6b7d; }
+.photo-credit .credit { display: block; margin-top: 2px; font-size: 12px; }
