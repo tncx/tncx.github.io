@@ -91,19 +91,32 @@ body {
 .page-foot .logo .brand-mark {
 	height: 46px;
 }
+/* Telefonda logo bilgisayardakiyle aynı boyutta; üst çubuk buna göre 68px */
+.rd-navbar-fixed .rd-navbar-panel {
+	height: 68px;
+}
+html.rd-navbar-fixed-linked .page {
+	padding-top: 68px;
+}
 .rd-navbar-fixed .rd-navbar-brand.brand {
 	top: 8px;
+	gap: 10px;
 }
 .rd-navbar-fixed .brand-mark {
 	width: auto;
-	height: 38px;
+	height: 52px;
 }
 .rd-navbar-fixed .brand-name {
-	font-size: 18px;
+	font-size: 24px;
 }
 .rd-navbar-fixed .brand-sub {
-	margin-top: 4px;
-	font-size: 8.5px;
+	margin-top: 6px;
+	font-size: 10.5px;
+}
+@media (max-width: 359.98px) {
+	.rd-navbar-fixed .brand-mark { height: 44px; }
+	.rd-navbar-fixed .brand-name { font-size: 20px; }
+	.rd-navbar-fixed .brand-sub { font-size: 9px; }
 }
 
 /* ================= Butonlar ================= */
@@ -1389,3 +1402,29 @@ img.product-img {
 .area-chips a { display: inline-block; padding: 7px 14px; border: 1px solid var(--cu-line); border-radius: 999px; background: #fff; color: var(--cu-navy); font-weight: 600; font-size: 15px; text-decoration: none; }
 .area-chips a:hover, .area-chips a:focus { border-color: var(--cu-blue); color: var(--cu-blue); }
 @media (min-width: 992px) { .home-section-title { font-size: 28px; } }
+
+/* Logo boyutu (kullanıcı isteği 2026-10-30): masaüstünde üst bölümü dolduran büyük logo, telefonda 52px */
+.rd-navbar-fixed .rd-navbar-panel .rd-navbar-brand img.brand-mark { height: 52px; width: auto; }
+@media (max-width: 359.98px) {
+  .rd-navbar-fixed .rd-navbar-panel .rd-navbar-brand img.brand-mark { height: 44px; }
+}
+@media (min-width: 992px) {
+  .rd-navbar-static.rd-navbar-corporate .rd-navbar-middle-panel { padding: 18px 0; }
+  .rd-navbar-static .rd-navbar-brand.brand { gap: 14px; }
+  .rd-navbar-static .brand-mark { height: 76px; }
+  .rd-navbar-static .brand-name { font-size: 32px; }
+  .rd-navbar-static .brand-sub { margin-top: 7px; font-size: 13px; }
+  .rd-navbar-static .block-wrap-list { white-space: nowrap; }
+  .rd-navbar-static .block-wrap-list li + li { margin-left: 18px; }
+}
+@media (min-width: 1200px) {
+  .rd-navbar-static .block-wrap-list li + li { margin-left: 26px; }
+  .rd-navbar-static .brand-mark { height: 120px; }
+  .rd-navbar-static .brand-name { font-size: 50px; }
+  .rd-navbar-static .brand-sub { margin-top: 10px; font-size: 20px; }
+}
+/* kaydırınca beliren sabit menüde logo normal boyutta */
+.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-middle-panel { padding: 10px 0; }
+.rd-navbar-static.rd-navbar--is-stuck .brand-mark { height: 52px; }
+.rd-navbar-static.rd-navbar--is-stuck .brand-name { font-size: 24px; }
+.rd-navbar-static.rd-navbar--is-stuck .brand-sub { margin-top: 6px; font-size: 10.5px; }
