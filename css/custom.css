@@ -1428,3 +1428,31 @@ img.product-img {
 .rd-navbar-static.rd-navbar--is-stuck .brand-mark { height: 52px; }
 .rd-navbar-static.rd-navbar--is-stuck .brand-name { font-size: 24px; }
 .rd-navbar-static.rd-navbar--is-stuck .brand-sub { margin-top: 6px; font-size: 10.5px; }
+
+/* Masaüstü menü: temaya uygun yuvarlak düğmeler (2026-10-30) */
+@media (min-width: 992px) {
+  .rd-navbar-static.rd-navbar-corporate .rd-navbar-nav-wrap { border-top: 1px solid var(--cu-line); padding: 10px 0; }
+  .rd-navbar-static .rd-navbar-nav { display: flex; align-items: center; gap: 6px; }
+  .rd-navbar-static.rd-navbar-corporate .rd-navbar-nav-wrap .rd-navbar-nav > li {
+    display: inline-flex; align-items: center; gap: 4px;
+    padding: 10px 16px; border-radius: 10px;
+    transition: background-color .2s, color .2s, box-shadow .2s;
+  }
+  .rd-navbar-static .rd-navbar-nav > li > .rd-nav-link { color: var(--cu-navy); box-shadow: none !important; white-space: nowrap; }
+  .rd-navbar-static .rd-navbar-nav > li:hover,
+  .rd-navbar-static .rd-navbar-nav > li.focus { background: var(--cu-soft); }
+  .rd-navbar-static .rd-navbar-nav > li:hover > .rd-nav-link,
+  .rd-navbar-static .rd-navbar-nav > li.focus > .rd-nav-link,
+  .rd-navbar-static .rd-navbar-nav > li:hover > .rd-navbar-submenu-toggle { color: var(--cu-blue); }
+  .rd-navbar-static .rd-navbar-nav > li.active {
+    background: var(--cu-navy);
+    box-shadow: 0 4px 12px rgba(13, 44, 79, .22);
+  }
+  .rd-navbar-static .rd-navbar-nav > li.active > .rd-nav-link,
+  .rd-navbar-static .rd-navbar-nav > li.active > .rd-navbar-submenu-toggle,
+  .rd-navbar-static .rd-navbar-nav > li.active:hover > .rd-nav-link { color: #fff; }
+  .rd-navbar-static .rd-navbar-nav > li.active:hover { background: var(--cu-blue); }
+  .rd-navbar-static .rd-navbar-nav > li > .rd-navbar-dropdown { top: 100%; margin-top: 6px; margin-left: 0; }
+  .rd-navbar-static .rd-navbar-nav > li > .rd-navbar-submenu-toggle::after { color: inherit; font-size: 18px; }
+  .rd-navbar-static .rd-navbar-nav > li > .rd-navbar-submenu-toggle { color: var(--cu-navy); }
+}
