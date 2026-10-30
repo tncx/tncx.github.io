@@ -639,3 +639,12 @@
 		table.classList.add('values-table-ready');
 	});
 })();
+
+// "Başa dön" düğmesine ekran okuyucu etiketi
+(function () {
+	var tries = 0, t = setInterval(function () {
+		var b = document.getElementById('ui-to-top');
+		if (b) { b.setAttribute('aria-label', 'Sayfanın başına dön'); b.setAttribute('title', 'Sayfanın başına dön'); clearInterval(t); }
+		if (++tries > 20) clearInterval(t);
+	}, 250);
+})();
