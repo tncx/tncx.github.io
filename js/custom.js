@@ -14,7 +14,7 @@
   "title": "Çankaya Uydu",
   "url": "index.html",
   "desc": "Dikmen merkezli çanak anten kurulumu, bireysel ve merkezi uydu sistemi arızası, internet kablosu çekimi. Ayrancı, Balgat, Öveçler, Emek: 0553 450 20 33",
-  "text": "Çankaya'da Çanak Anten Kurulumu ve Uydu Arıza Servisi Merkezi Uydu Sistemi Arıza & Kurulum Bireysel Çanak Anten Arıza & Kurulum Yardım Konuları"
+  "text": "Çankaya'da Çanak Anten Kurulumu ve Uydu Arıza Servisi Çankaya'da Çanak Anten ve Uydu Hizmetlerimiz Bireysel Çanak Anten Kurulum ve Arıza Merkezi Uydu Sistemi Arıza ve Kurulum İnternet Kablosu Çekimi Hizmet Bölgelerimiz Yardım Konuları"
  },
  {
   "title": "Altus TV Uydu Kanal Arama (Türksat 2026)",
@@ -80,13 +80,13 @@
   "title": "Çanak Anten ve Uydu Sık Sorulan Sorular",
   "url": "faq.html",
   "desc": "103 soru-cevap: Türksat kanal arama, TKGS, çanak anten ayarı, sinyal yok, LNB, DiSEqC, merkezi sistem, Digitürk DMDU LNB ve hata kodları. Çankaya Uydu, Ankara.",
-  "text": "Sıkça Sorulan Sorular (SSS) Türksat, Kanal Arama ve TKGS Çanak Anten Kurulumu ve Ayarı Sinyal Yok ve Arızalar LNB, Kablo ve Bağlantılar Merkezi Uydu Sistemi Televizyon ve Uydu Alıcısı Digitürk Bakım ve Ömür Servis ve Hizmetlerimiz"
+  "text": "Çanak Anten ve Uydu: Sıkça Sorulan Sorular Türksat, Kanal Arama ve TKGS Çanak Anten Kurulumu ve Ayarı Sinyal Yok ve Arızalar LNB, Kablo ve Bağlantılar Merkezi Uydu Sistemi Televizyon ve Uydu Alıcısı Digitürk Bakım ve Ömür Servis ve Hizmetlerimiz"
  },
  {
   "title": "Galeri: Çanak Anten Kurulumu ve Ürünler",
   "url": "gallery.html",
   "desc": "Çanak anten kurulumu ile kullandığımız ürünler: merkezi uydu sistemi (multiswitch), çanak ve LNB, uydu alıcısı, internet kablosu ve Android TV Box.",
-  "text": "Galeri Kurulumlar ve Kullandığımız Ürünler"
+  "text": "Galeri: Çanak Anten Kurulumu ve Ürünler Kurulumlar ve Kullandığımız Ürünler"
  },
  {
   "title": "Grundig TV Uydu Kanal Arama (Türksat 2026)",
@@ -98,7 +98,7 @@
   "title": "Hakkımızda: Tuncay Özer",
   "url": "hakkimizda.html",
   "desc": "Tuncay Özer 2008'den beri elektrik-elektronik alanında; Çankaya ve çevresinde çanak anten, merkezi uydu sistemi ve TV montajı işlerini bizzat yapıyor.",
-  "text": "Hakkımızda Merhaba, ben Tuncay Özer Teknisyen"
+  "text": "Hakkımızda: Tuncay Özer, Çankaya Uydu Sistemleri Merhaba, ben Tuncay Özer Teknisyen"
  },
  {
   "title": "Hisense TV Uydu Kanal Arama (Türksat 2026)",
@@ -116,13 +116,13 @@
   "title": "Çanak Anten, Merkezi Uydu ve İnternet Kablosu",
   "url": "hizmetlerimiz.html",
   "desc": "Çanak anten kurulumu, bireysel ve merkezi uydu sistemi arızası, internet kablosu çekimi. Dikmen, Ayrancı, Balgat, Öveçler, Emek ve Çankaya geneli.",
-  "text": "Hizmetlerimiz Bireysel Çanak Anten Kurulum ve Arıza Servisi Neler sunuyoruz? Neden Çankaya Uydu? Merkezi Uydu Sistemleri Neler sunuyoruz? Avantajları Nerelerde kullanılır? İnternet Kablo Çekimi Neler sunuyoruz? Duvara TV Montajı Montajda dikkat ettiklerimiz Uydu Alıcısı ve Android Box Satışı Ürünler Hizmet Sonrası Destek ve Garanti Garanti kapsamı İletişime Geçin"
+  "text": "Hizmetlerimiz: Çanak Anten, Merkezi Uydu ve İnternet Kablosu Bireysel Çanak Anten Kurulum ve Arıza Servisi Neler sunuyoruz? Neden Çankaya Uydu? Merkezi Uydu Sistemi Kurulum ve Arıza Neler sunuyoruz? Avantajları Nerelerde kullanılır? İnternet Kablosu Çekimi Neler sunuyoruz? Duvara TV Montajı Montajda dikkat ettiklerimiz Uydu Alıcısı ve Android Box Satışı Ürünler Hizmet Sonrası Destek ve Garanti Garanti kapsamı İletişime Geçin"
  },
  {
   "title": "İletişim: 0553 450 20 33",
   "url": "iletisim.html",
   "desc": "Çankaya Uydu Sistemleri, Dikmen/Çankaya. Telefon ve WhatsApp: 0553 450 20 33. Hafta içi 09:00–20:00, hafta sonu 11:00–18:00. Arızanın fotoğrafını gönderin.",
-  "text": "İletişim Bize Ulaşın Mesaj Gönderin Adres Çalışma Saatleri Hizmet Bölgeleri Sosyal Medya"
+  "text": "İletişim: Çanak Anten Servisi, Dikmen / Çankaya Bize Ulaşın Mesaj Gönderin Adres Çalışma Saatleri Hizmet Bölgeleri Sosyal Medya"
  },
  {
   "title": "İnternet Kablosu Çekimi: Krone Kutusundan Daireye",
@@ -314,7 +314,7 @@
   "title": "Yardım: Uydu ve Çanak Anten Rehberleri",
   "url": "yardim.html",
   "desc": "Türksat 2026 değişikliği, şebeke arama, TKGS, marka marka kanal arama, sinyal yok hatası ve LNB ayarları için adım adım rehberler.",
-  "text": "Yardım ve Rehberler TV Markanıza Göre Kanal Arama (Türksat 2026)"
+  "text": "Uydu ve Çanak Anten Yardım Rehberleri TV Markanıza Göre Kanal Arama (Türksat 2026)"
  }
 ];
 

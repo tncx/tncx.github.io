@@ -1381,3 +1381,11 @@ img.product-img {
 @media (max-width: 767.98px) {
   .ui-to-top { right: 14px !important; bottom: 84px !important; }
 }
+
+/* Ana sayfa bölüm başlıkları ve semt listesi */
+.home-section-title { margin: 36px 0 18px; text-align: center; font-size: 24px; color: var(--cu-navy); }
+.home-areas-lead { margin-top: 0; text-align: center; }
+.area-chips { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 14px 0 0; padding: 0; list-style: none; }
+.area-chips a { display: inline-block; padding: 7px 14px; border: 1px solid var(--cu-line); border-radius: 999px; background: #fff; color: var(--cu-navy); font-weight: 600; font-size: 15px; text-decoration: none; }
+.area-chips a:hover, .area-chips a:focus { border-color: var(--cu-blue); color: var(--cu-blue); }
+@media (min-width: 992px) { .home-section-title { font-size: 28px; } }
