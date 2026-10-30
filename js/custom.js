@@ -79,7 +79,7 @@
  {
   "title": "Çanak Anten ve Uydu Sık Sorulan Sorular",
   "url": "faq.html",
-  "desc": "90 soru-cevap: Türksat kanal arama ve TKGS, çanak anten ayarı, sinyal yok arızası, LNB, DiSEqC, merkezi uydu sistemi ve Digitürk. Çankaya Uydu, Ankara.",
+  "desc": "103 soru-cevap: Türksat kanal arama, TKGS, çanak anten ayarı, sinyal yok, LNB, DiSEqC, merkezi sistem, Digitürk DMDU LNB ve hata kodları. Çankaya Uydu, Ankara.",
   "text": "Sıkça Sorulan Sorular (SSS) Türksat, Kanal Arama ve TKGS Çanak Anten Kurulumu ve Ayarı Sinyal Yok ve Arızalar LNB, Kablo ve Bağlantılar Merkezi Uydu Sistemi Televizyon ve Uydu Alıcısı Digitürk Bakım ve Ömür Servis ve Hizmetlerimiz"
  },
  {

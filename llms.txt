@@ -12,6 +12,7 @@
 - TKGS (Türksat Kanal Güncelleme Sistemi) kanal listesini otomatik günceller ve ulusal kanalları standart sıraya dizer.
 - 12423 MHz Yatay 30000 değeri Türkiye-Doğu kapsamasıdır; Ankara için yedek değer olarak kullanılmamalıdır.
 - Evdeki TV çanağıyla internete bağlanılamaz; uydu interneti ayrı bir hizmettir.
+- Digitürk: Türksat 42° Doğu'ya bakan çanakta DMDU LNB kullanılır (Eutelsat dönemindeki MDU5'in yerini aldı). Plus ve 4K kutular DMDU ister, HD kutular da çalışır. DMDU çıkışı splitter ile bölünebilir, üniversal LNB bölünemez. Kutuda LNB tipi: DMDU LNB için DMDU, bireysel üniversal için BU.
 
 ## İşletme
 - [Ana sayfa](https://cankayauydu.com/)

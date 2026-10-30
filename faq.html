@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <!-- Site Title-->
     <title>Çanak Anten ve Uydu Sık Sorulan Sorular | Çankaya Uydu</title>
-    <meta name="description" content="90 soru-cevap: Türksat kanal arama ve TKGS, çanak anten ayarı, sinyal yok arızası, LNB, DiSEqC, merkezi uydu sistemi ve Digitürk. Çankaya Uydu, Ankara.">
+    <meta name="description" content="103 soru-cevap: Türksat kanal arama, TKGS, çanak anten ayarı, sinyal yok, LNB, DiSEqC, merkezi sistem, Digitürk DMDU LNB ve hata kodları. Çankaya Uydu, Ankara.">
     <meta name="geo.region" content="TR-06">
     <meta name="geo.placename" content="Çankaya, Ankara">
     <meta name="geo.position" content="39.8999;32.8597">
@@ -13,7 +13,7 @@
     <meta property="og:site_name" content="Çankaya Uydu">
     <meta property="og:locale" content="tr_TR">
     <meta property="og:title" content="Çanak Anten ve Uydu Sık Sorulan Sorular | Çankaya Uydu">
-    <meta property="og:description" content="90 soru-cevap: Türksat kanal arama ve TKGS, çanak anten ayarı, sinyal yok arızası, LNB, DiSEqC, merkezi uydu sistemi ve Digitürk. Çankaya Uydu, Ankara.">
+    <meta property="og:description" content="103 soru-cevap: Türksat kanal arama, TKGS, çanak anten ayarı, sinyal yok, LNB, DiSEqC, merkezi sistem, Digitürk DMDU LNB ve hata kodları. Çankaya Uydu, Ankara.">
     <meta property="og:url" content="https://cankayauydu.com/faq.html">
     <meta property="og:image" content="https://cankayauydu.com/images/logo-full.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -455,7 +455,7 @@
       "name": "Bir uydu kablosu iki televizyona bölünebilir mi (çoğaltıcı)?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Önerilmez. Uydu alıcıları LNB'ye hangi bandı ve yönü (yatay/dikey) istediklerini kablo üzerinden söyler; aynı kablodaki iki cihaz birbirinin seçimini bozar ve biri çalışırken diğeri donar. Her televizyon veya alıcı için çok çıkışlı LNB'den ayrı kablo çekilmeli, daha fazla nokta için multiswitch kullanılmalıdır."
+        "text": "Önerilmez. Uydu alıcıları LNB'ye hangi bandı ve yönü (yatay/dikey) istediklerini kablo üzerinden söyler; aynı kablodaki iki cihaz birbirinin seçimini bozar ve biri çalışırken diğeri donar. Her televizyon veya alıcı için çok çıkışlı LNB'den ayrı kablo çekilmeli, daha fazla nokta için multiswitch kullanılmalıdır. Bunun tek istisnası Digitürk'ün DMDU LNB'sidir; onun çıkışı splitter ile Digitürk kutularına bölünebilir."
       }
     },
     {
@@ -548,14 +548,6 @@
     },
     {
       "@type": "Question",
-      "name": "Digitürk DMDU LNB nedir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Digitürk DMDU LNB, apartman ve sitelerde (MDU: çok daireli bina) tek çanaktan birden fazla daireye Digitürk yayını dağıtmak için kullanılan LNB türüdür."
-      }
-    },
-    {
-      "@type": "Question",
       "name": "Televizyonumda uydu alıcısı var mı, nasıl anlarım?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -604,18 +596,66 @@
     },
     {
       "@type": "Question",
-      "name": "Digitürk için ayrı çanak gerekir mi?",
+      "name": "Digitürk DMDU LNB nedir?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Digitürk de Türksat 42° Doğu'dan yayın yaptığı için Türksat'a ayarlı çanak kullanılabilir. Digitürk kanallarını izlemek için Digitürk aboneliği ve Digitürk cihazı gerekir; her cihaz için LNB'den ayrı bir kablo çekilmelidir."
+        "text": "DMDU LNB, Digitürk'ün Türksat 42° Doğu'ya bakan çanakta kullandığı LNB'dir. Eutelsat uydusu döneminde kullanılan MDU5 LNB'nin yerine, aynı sistemde Türksat çanağında çalışmak üzere getirildi. Digitürk Plus ve 4K kutular bu LNB'yi ister; normal HD kutular da DMDU LNB ile çalışır."
       }
     },
     {
       "@type": "Question",
-      "name": "Digitürk'te “Sinyal seviyesinde azalma var” hatası",
+      "name": "DMDU LNB ile üniversal LNB arasındaki fark nedir?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bu hata cihaza çanaktan sinyal gelmediğini gösterir. Kablonun ucundaki F konnektörde ortadaki bakır telin kenardaki ince örgü tellere değmediğinden emin olun. F konnektörde sorun yoksa kablonun veya çanağın uzman tarafından kontrol edilmesi gerekir."
+        "text": "En önemli fark bölünebilmesidir: DMDU LNB'nin çıkışı splitter (bölücü) ile birden fazla Digitürk kutusuna bölünebilir. Üniversal LNB'de ise her alıcı LNB'den ayrı kablo ister; tek kablo splitter ile bölünemez, bölünürse cihazlar birbirinin bant ve yön seçimini bozar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Digitürk Plus ve 4K kutu hangi LNB'yi ister?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Digitürk Plus ve 4K kutular DMDU LNB ister. Normal HD Digitürk kutuları da DMDU LNB ile çalışır; bu yüzden evde Plus veya 4K kutu varsa ya da kurulacaksa LNB'nin DMDU olması gerekir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Digitürk kurulumunda LNB tipi DMDU mu BU mu seçilmeli?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Çanakta DMDU LNB takılıysa DMDU, bireysel üniversal LNB takılıysa BU seçilir. Yanlış tip seçilirse kanal araması kanalları bulamaz veya bazı kanallar gelmez. Hangi LNB'nin takılı olduğunu bilmiyorsanız LNB'nin üzerindeki etikete bakabilir ya da bize fotoğrafını gönderebilirsiniz."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Eski MDU5 LNB ile Digitürk çalışır mı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MDU5, Digitürk'ün Eutelsat uydusu döneminde kullanılan LNB'siydi. Türksat çanağındaki yeni sistemde bunun yerine DMDU LNB kullanılır; Plus ve 4K kutu için MDU5'in DMDU ile değiştirilmesi gerekir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Digitürk için splitter (bölücü) kullanılabilir mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "LNB DMDU ise evet: tek kablo splitter ile birden fazla Digitürk kutusuna bölünebilir. Üniversal LNB'de splitter kullanılmaz; her kutu için LNB'nin ayrı çıkışından ayrı kablo çekilmelidir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Digitürk için ayrı çanak gerekir mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gerekmez. Digitürk de Türksat 42° Doğu'dan yayın yaptığı için Türksat'a ayarlı çanak kullanılır; Digitürk kanallarını izlemek için Digitürk aboneliği ve Digitürk kutusu gerekir. Plus veya 4K kutu kullanılacaksa çanaktaki LNB'nin DMDU olması gerekir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Digitürk'te “Sinyal seviyesinde azalma var” hatası (E52 / E58)",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bu hata kutuya çanaktan yeterli sinyal gelmediğini gösterir. Yoğun yağmur veya kar varsa bir süre bekleyin. Değilse kutunun arkasındaki anten kablosunun sıkı takılı olduğunu ve F konnektörde ortadaki bakır telin örgü tellere değmediğini kontrol edin, kutunun fişini 10 saniye çekip takın. Düzelmezse çanak, LNB veya kablonun kontrol edilmesi gerekir."
       }
     },
     {
@@ -624,6 +664,62 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Çatıdan gelen kabloyu cihazın arkasından çıkardığınızda hata kayboluyorsa kabloda kısa devre vardır. F konnektörün içinde ortadaki kalın bakır telin, kenardaki ince örgü tellere değmediğinden emin olun; kabloda ek varsa ek yerlerini de aynı şekilde kontrol edin. Hata kablo çıkarıldığında da sürüyorsa cihaz arızalı olabilir (bazı eski modellerde, ör. 9104, bu arıza sık görülür); Digitürk'ü arayarak değişim talep edin."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Digitürk kart hatası (E04-4, E05-4, E06-4, E33-4) ne demek?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kutu Digitürk kartını göremiyor veya kart yuvasına tam oturmamış demektir. Kartı çıkarıp yönüne dikkat ederek yeniden takın; kutunun fişini 10 saniye çekip tekrar takın. Hata sürerse kart veya kutu arızalı olabilir; Digitürk'ten değişim istenir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Digitürk E16-4 hatası ne demek?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "İzlemek istediğiniz kanal üyelik paketinizde yok, ödenmemiş bir fatura var ya da üyelik yeni açılmış demektir. Teknik bir arıza değildir; üyelik bilgilerinizi Digitürk online işlemlerden veya müşteri hizmetlerinden kontrol edin."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Digitürk E30-4 hatası nasıl düzelir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kutu ve kart uzun süre (bir saatten fazla) Digitürk sinyali alamadığında çıkar; örneğin uzun süre başka kaynakta veya Türksat kanallarında kalındığında. Herhangi bir Digitürk kanalına geçip yaklaşık 5 dakika beklemek genellikle yeterlidir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Digitürk kanal bulunamadı (E37, E39) hatası",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kanalın frekansı değişmiş veya kanal o numaradan kaldırılmış olabilir. Başka bir kanala geçip geri dönün; düzelmezse kutunun kurulum menüsünden kolay kurulum (kanal araması) yapın."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Digitürk neden PIN kodu istiyor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yaş sınırı olan ya da sizin kilitlediğiniz kanallar için PIN istenir (E42); yanlış girilirse E53 hatası verir. PIN daha önce değiştirilmediyse genellikle 0000'dır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Yeni Digitürk kutusu kanalları açmıyor (E107-4, E124-4)",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kutu ile kart henüz eşleşmemiş veya üyelik yeni aktifleşiyor demektir. Kart takılıyken kutuyu bir Digitürk kanalında açık bırakın; çoğu zaman birkaç saat içinde kendiliğinden düzelir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Digitürk'te bazı kanallar neden yok?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kanal paketinizde olmayabilir, kanalın frekansı değişmiş olabilir veya LNB tipi yanlış seçilmiş olabilir. Önce kutunun kurulum menüsünden kolay kurulum yapın; LNB tipinin çanaktaki LNB'ye uygun (DMDU veya BU) seçildiğini kontrol edin. Paket kapsamını Digitürk'ten öğrenebilirsiniz."
       }
     },
     {
@@ -640,6 +736,14 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Cihaz bekleme modunda takılı kaldıysa genellikle kilitlenmiştir. Elektrik fişini çekip 5 saniye bekleyin ve geri takın. Sorun devam ederse Digitürk'ü arayıp cihaz değişim kaydı açtırmanız gerekir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Merkezi uydu sistemli apartmanda Digitürk izlenir mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet. Apartmanlarda Digitürk yayını DMDU LNB'li sistemle dairelere dağıtılabilir; DMDU çıkışı splitter ile bölünebildiği için birden fazla daire veya kutu aynı hattan beslenebilir. Mevcut merkezi sistemin Digitürk'e uygun olup olmadığını yerinde kontrol ederiz."
       }
     },
     {
@@ -949,15 +1053,15 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 col-xl-8">
-                        <p class="faq-intro">Çanak anten, Türksat kanal arama, TKGS, LNB, merkezi uydu sistemi ve Digitürk hakkında 90 soru ve cevap. Aradığınızı bulamazsanız <a href="tel:+905534502033">0553 450 20 33</a> numarasından bize ulaşın.</p>
+                        <p class="faq-intro">Çanak anten, Türksat kanal arama, TKGS, LNB, merkezi uydu sistemi ve Digitürk hakkında 103 soru ve cevap. Aradığınızı bulamazsanız <a href="tel:+905534502033">0553 450 20 33</a> numarasından bize ulaşın.</p>
                         <nav class="faq-cats" aria-label="Soru kategorileri">
                             <a href="#sss-kanal-arama">Türksat, Kanal Arama ve TKGS <span>12</span></a>
                             <a href="#sss-kurulum">Çanak Anten Kurulumu ve Ayarı <span>17</span></a>
                             <a href="#sss-sinyal">Sinyal Yok ve Arızalar <span>14</span></a>
                             <a href="#sss-lnb-kablo">LNB, Kablo ve Bağlantılar <span>12</span></a>
-                            <a href="#sss-merkezi">Merkezi Uydu Sistemi <span>8</span></a>
+                            <a href="#sss-merkezi">Merkezi Uydu Sistemi <span>7</span></a>
                             <a href="#sss-tv-alici">Televizyon ve Uydu Alıcısı <span>6</span></a>
-                            <a href="#sss-digiturk">Digitürk <span>5</span></a>
+                            <a href="#sss-digiturk">Digitürk <span>19</span></a>
                             <a href="#sss-bakim">Bakım ve Ömür <span>6</span></a>
                             <a href="#sss-servis">Servis ve Hizmetlerimiz <span>10</span></a>
                         </nav>
@@ -1204,7 +1308,7 @@
                                         <p>Gerekirse yapılır, ama bant sarılarak değil: iki ucuna F konnektör takılıp araya F-F ek parçası (ek manşonu) konur. Dış ortamdaki ek yeri su almaması için korunmalıdır. Her ek bir miktar kayıp ve arıza riski getirdiğinden mümkünse kablonun tek parça çekilmesi daha iyidir. <a class="faq-more" href="uydu-kablosu-nasil-baglanir.html">Uydu kablosu nasıl bağlanır? »</a></p>
                                     </div>
                                     <div class="animated fadeIn">
-                                        <p>Önerilmez. Uydu alıcıları LNB'ye hangi bandı ve yönü (yatay/dikey) istediklerini kablo üzerinden söyler; aynı kablodaki iki cihaz birbirinin seçimini bozar ve biri çalışırken diğeri donar. Her televizyon veya alıcı için çok çıkışlı LNB'den ayrı kablo çekilmeli, daha fazla nokta için multiswitch kullanılmalıdır.</p>
+                                        <p>Önerilmez. Uydu alıcıları LNB'ye hangi bandı ve yönü (yatay/dikey) istediklerini kablo üzerinden söyler; aynı kablodaki iki cihaz birbirinin seçimini bozar ve biri çalışırken diğeri donar. Her televizyon veya alıcı için çok çıkışlı LNB'den ayrı kablo çekilmeli, daha fazla nokta için multiswitch kullanılmalıdır. Bunun tek istisnası Digitürk'ün DMDU LNB'sidir; onun çıkışı splitter ile Digitürk kutularına bölünebilir.</p>
                                     </div>
                                     <div class="animated fadeIn">
                                         <p>Evet. Çok çıkışlı bir LNB (ikili, dörtlü, sekizli) ile her televizyona ayrı kablo çekilir; her televizyonun kendi uydu alıcısı (dahili veya harici) olmalıdır. Daha fazla daire için merkezi uydu sistemi kurulur.</p>
@@ -1233,7 +1337,6 @@
                                     <li>Multiswitch nedir?</li>
                                     <li>Merkezi sistemde kanal araması nasıl yapılır?</li>
                                     <li>Merkezi sistemde iki televizyonu aynı prize bağlayabilir miyim?</li>
-                                    <li>Digitürk DMDU LNB nedir?</li>
                                 </ul>
                                 <div class="resp-tabs-container">
                                     <div class="animated fadeIn">
@@ -1256,9 +1359,6 @@
                                     </div>
                                     <div class="animated fadeIn">
                                         <p>Bir priz çıkışına tek cihaz bağlanabilir; ayırıcıyla (splitter) ikiye bölmek iki cihazın da çalışmasını bozar. İkinci televizyon için multiswitch'ten ayrı bir hat çekilmesi gerekir.</p>
-                                    </div>
-                                    <div class="animated fadeIn">
-                                        <p>Digitürk DMDU LNB, apartman ve sitelerde (MDU: çok daireli bina) tek çanaktan birden fazla daireye Digitürk yayını dağıtmak için kullanılan LNB türüdür.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1302,27 +1402,83 @@
                             <hr>
                             <div class="responsive-tabs responsive-tabs-horizontal" data-type="accordion">
                                 <ul class="resp-tabs-list">
+                                    <li>Digitürk DMDU LNB nedir?</li>
+                                    <li>DMDU LNB ile üniversal LNB arasındaki fark nedir?</li>
+                                    <li>Digitürk Plus ve 4K kutu hangi LNB'yi ister?</li>
+                                    <li>Digitürk kurulumunda LNB tipi DMDU mu BU mu seçilmeli?</li>
+                                    <li>Eski MDU5 LNB ile Digitürk çalışır mı?</li>
+                                    <li>Digitürk için splitter (bölücü) kullanılabilir mi?</li>
                                     <li>Digitürk için ayrı çanak gerekir mi?</li>
-                                    <li>Digitürk'te “Sinyal seviyesinde azalma var” hatası</li>
+                                    <li>Digitürk'te “Sinyal seviyesinde azalma var” hatası (E52 / E58)</li>
                                     <li>Digitürk'te “Uydu sinyal kablonuzda kısa devre olmuş olabilir” hatası</li>
+                                    <li>Digitürk kart hatası (E04-4, E05-4, E06-4, E33-4) ne demek?</li>
+                                    <li>Digitürk E16-4 hatası ne demek?</li>
+                                    <li>Digitürk E30-4 hatası nasıl düzelir?</li>
+                                    <li>Digitürk kanal bulunamadı (E37, E39) hatası</li>
+                                    <li>Digitürk neden PIN kodu istiyor?</li>
+                                    <li>Yeni Digitürk kutusu kanalları açmıyor (E107-4, E124-4)</li>
+                                    <li>Digitürk'te bazı kanallar neden yok?</li>
                                     <li>Digitürk cihazı “RA” yazısında kaldı, ne yapmalıyım?</li>
                                     <li>Digitürk cihazı bekleme (standby) modunda kaldı, ne yapmalıyım?</li>
+                                    <li>Merkezi uydu sistemli apartmanda Digitürk izlenir mi?</li>
                                 </ul>
                                 <div class="resp-tabs-container">
                                     <div class="animated fadeIn">
-                                        <p>Digitürk de Türksat 42° Doğu'dan yayın yaptığı için Türksat'a ayarlı çanak kullanılabilir. Digitürk kanallarını izlemek için Digitürk aboneliği ve Digitürk cihazı gerekir; her cihaz için LNB'den ayrı bir kablo çekilmelidir.</p>
+                                        <p>DMDU LNB, Digitürk'ün Türksat 42° Doğu'ya bakan çanakta kullandığı LNB'dir. Eutelsat uydusu döneminde kullanılan MDU5 LNB'nin yerine, aynı sistemde Türksat çanağında çalışmak üzere getirildi. Digitürk Plus ve 4K kutular bu LNB'yi ister; normal HD kutular da DMDU LNB ile çalışır.</p>
                                     </div>
                                     <div class="animated fadeIn">
-                                        <p>Bu hata cihaza çanaktan sinyal gelmediğini gösterir. Kablonun ucundaki F konnektörde ortadaki bakır telin kenardaki ince örgü tellere değmediğinden emin olun. F konnektörde sorun yoksa kablonun veya çanağın uzman tarafından kontrol edilmesi gerekir.</p>
+                                        <p>En önemli fark bölünebilmesidir: DMDU LNB'nin çıkışı splitter (bölücü) ile birden fazla Digitürk kutusuna bölünebilir. Üniversal LNB'de ise her alıcı LNB'den ayrı kablo ister; tek kablo splitter ile bölünemez, bölünürse cihazlar birbirinin bant ve yön seçimini bozar. <a class="faq-more" href="lnb-nedir.html">LNB nedir? »</a></p>
                                     </div>
                                     <div class="animated fadeIn">
-                                        <p>Çatıdan gelen kabloyu cihazın arkasından çıkardığınızda hata kayboluyorsa kabloda kısa devre vardır. F konnektörün içinde ortadaki kalın bakır telin, kenardaki ince örgü tellere değmediğinden emin olun; kabloda ek varsa ek yerlerini de aynı şekilde kontrol edin. Hata kablo çıkarıldığında da sürüyorsa cihaz arızalı olabilir (bazı eski modellerde, ör. 9104, bu arıza sık görülür); Digitürk'ü arayarak değişim talep edin.</p>
+                                        <p>Digitürk Plus ve 4K kutular DMDU LNB ister. Normal HD Digitürk kutuları da DMDU LNB ile çalışır; bu yüzden evde Plus veya 4K kutu varsa ya da kurulacaksa LNB'nin DMDU olması gerekir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Çanakta DMDU LNB takılıysa DMDU, bireysel üniversal LNB takılıysa BU seçilir. Yanlış tip seçilirse kanal araması kanalları bulamaz veya bazı kanallar gelmez. Hangi LNB'nin takılı olduğunu bilmiyorsanız LNB'nin üzerindeki etikete bakabilir ya da bize fotoğrafını gönderebilirsiniz.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>MDU5, Digitürk'ün Eutelsat uydusu döneminde kullanılan LNB'siydi. Türksat çanağındaki yeni sistemde bunun yerine DMDU LNB kullanılır; Plus ve 4K kutu için MDU5'in DMDU ile değiştirilmesi gerekir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>LNB DMDU ise evet: tek kablo splitter ile birden fazla Digitürk kutusuna bölünebilir. Üniversal LNB'de splitter kullanılmaz; her kutu için LNB'nin ayrı çıkışından ayrı kablo çekilmelidir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Gerekmez. Digitürk de Türksat 42° Doğu'dan yayın yaptığı için Türksat'a ayarlı çanak kullanılır; Digitürk kanallarını izlemek için Digitürk aboneliği ve Digitürk kutusu gerekir. Plus veya 4K kutu kullanılacaksa çanaktaki LNB'nin DMDU olması gerekir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Bu hata kutuya çanaktan yeterli sinyal gelmediğini gösterir. Yoğun yağmur veya kar varsa bir süre bekleyin. Değilse kutunun arkasındaki anten kablosunun sıkı takılı olduğunu ve F konnektörde ortadaki bakır telin örgü tellere değmediğini kontrol edin, kutunun fişini 10 saniye çekip takın. Düzelmezse çanak, LNB veya kablonun kontrol edilmesi gerekir. <a class="faq-more" href="uydu-sinyal-yok-hatasi.html">Uydu sinyal yok hatası çözümü »</a></p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Çatıdan gelen kabloyu cihazın arkasından çıkardığınızda hata kayboluyorsa kabloda kısa devre vardır. F konnektörün içinde ortadaki kalın bakır telin, kenardaki ince örgü tellere değmediğinden emin olun; kabloda ek varsa ek yerlerini de aynı şekilde kontrol edin. Hata kablo çıkarıldığında da sürüyorsa cihaz arızalı olabilir (bazı eski modellerde, ör. 9104, bu arıza sık görülür); Digitürk'ü arayarak değişim talep edin. <a class="faq-more" href="uydu-kablosu-nasil-baglanir.html">F konnektör nasıl takılır? »</a></p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Kutu Digitürk kartını göremiyor veya kart yuvasına tam oturmamış demektir. Kartı çıkarıp yönüne dikkat ederek yeniden takın; kutunun fişini 10 saniye çekip tekrar takın. Hata sürerse kart veya kutu arızalı olabilir; Digitürk'ten değişim istenir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>İzlemek istediğiniz kanal üyelik paketinizde yok, ödenmemiş bir fatura var ya da üyelik yeni açılmış demektir. Teknik bir arıza değildir; üyelik bilgilerinizi Digitürk online işlemlerden veya müşteri hizmetlerinden kontrol edin.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Kutu ve kart uzun süre (bir saatten fazla) Digitürk sinyali alamadığında çıkar; örneğin uzun süre başka kaynakta veya Türksat kanallarında kalındığında. Herhangi bir Digitürk kanalına geçip yaklaşık 5 dakika beklemek genellikle yeterlidir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Kanalın frekansı değişmiş veya kanal o numaradan kaldırılmış olabilir. Başka bir kanala geçip geri dönün; düzelmezse kutunun kurulum menüsünden kolay kurulum (kanal araması) yapın.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Yaş sınırı olan ya da sizin kilitlediğiniz kanallar için PIN istenir (E42); yanlış girilirse E53 hatası verir. PIN daha önce değiştirilmediyse genellikle 0000'dır.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Kutu ile kart henüz eşleşmemiş veya üyelik yeni aktifleşiyor demektir. Kart takılıyken kutuyu bir Digitürk kanalında açık bırakın; çoğu zaman birkaç saat içinde kendiliğinden düzelir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Kanal paketinizde olmayabilir, kanalın frekansı değişmiş olabilir veya LNB tipi yanlış seçilmiş olabilir. Önce kutunun kurulum menüsünden kolay kurulum yapın; LNB tipinin çanaktaki LNB'ye uygun (DMDU veya BU) seçildiğini kontrol edin. Paket kapsamını Digitürk'ten öğrenebilirsiniz.</p>
                                     </div>
                                     <div class="animated fadeIn">
                                         <p>Ön ekranda “RA” yazısında kalan Digitürk cihazlarında sorun çoğunlukla güç adaptöründen kaynaklanır. Aynı voltaj ve amper değerinde uyumlu bir adaptörle deneyin; düzelmezse cihazın Digitürk tarafından değiştirilmesi gerekir.</p>
                                     </div>
                                     <div class="animated fadeIn">
                                         <p>Cihaz bekleme modunda takılı kaldıysa genellikle kilitlenmiştir. Elektrik fişini çekip 5 saniye bekleyin ve geri takın. Sorun devam ederse Digitürk'ü arayıp cihaz değişim kaydı açtırmanız gerekir.</p>
+                                    </div>
+                                    <div class="animated fadeIn">
+                                        <p>Evet. Apartmanlarda Digitürk yayını DMDU LNB'li sistemle dairelere dağıtılabilir; DMDU çıkışı splitter ile bölünebildiği için birden fazla daire veya kutu aynı hattan beslenebilir. Mevcut merkezi sistemin Digitürk'e uygun olup olmadığını yerinde kontrol ederiz. <a class="faq-more" href="merkezi-uydu-sistemi-nedir.html">Merkezi uydu sistemi nedir? »</a></p>
                                     </div>
                                 </div>
                             </div>
