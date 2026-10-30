@@ -109,8 +109,8 @@
  {
   "title": "Dikmen, Ayrancı, Balgat Çanak Anten Servisi",
   "url": "hizmet-bolgeleri.html",
-  "desc": "Dikmen, Ayrancı, Balgat, Öveçler, Keklikpınarı, İlker, Bahçelievler, Emek ve Maltepe'de çanak anten kurulumu, merkezi sistem arızası ve internet kablosu.",
-  "text": "Hizmet Bölgelerimiz: Dikmen, Ayrancı, Balgat ve Çevresi Dikmen Ayrancı Balgat Öveçler Keklikpınarı İlker Bahçelievler Emek Maltepe Çalışma Saatlerimiz Sık Sorulan Sorular Hangi semtlere servis veriyorsunuz? Çalışma saatleriniz nedir? Merkezi uydu sistemi arızasına geliyor musunuz?"
+  "desc": "Dikmen, Ayrancı, Balgat, Öveçler, Sokullu, Keklikpınarı, İlker, Bahçelievler, Emek, Maltepe: çanak anten kurulumu, uydu arızası, internet kablosu.",
+  "text": "Hizmet Bölgelerimiz: Dikmen, Ayrancı, Balgat ve Çevresi Dikmen Ayrancı Balgat Öveçler Sokullu Keklikpınarı İlker Bahçelievler Emek Maltepe Çalışma Saatlerimiz Sık Sorulan Sorular Hangi semtlere servis veriyorsunuz? Çalışma saatleriniz nedir? Merkezi uydu sistemi arızasına geliyor musunuz?"
  },
  {
   "title": "Çanak Anten, Merkezi Uydu ve İnternet Kablosu",
