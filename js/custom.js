@@ -86,7 +86,7 @@
   "title": "Galeri: Çanak Anten Kurulumu ve Ürünler",
   "url": "gallery.html",
   "desc": "Çanak anten kurulumu ile kullandığımız ürünler: merkezi uydu sistemi (multiswitch), çanak ve LNB, uydu alıcısı, internet kablosu ve Android TV Box.",
-  "text": "Galeri: Çanak Anten Kurulumu ve Ürünler Kurulumlar ve Kullandığımız Ürünler"
+  "text": "Galeri: Çanak Anten Kurulumu ve Ürünler Kurulumlar ve Kullandığımız Ürünler Çanak Anten LNB Merkezi Uydu Sistemi Uydu Alıcıları ve Android Box Kablo"
  },
  {
   "title": "Grundig TV Uydu Kanal Arama (Türksat 2026)",

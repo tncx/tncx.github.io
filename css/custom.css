@@ -1456,3 +1456,10 @@ img.product-img {
   .rd-navbar-static .rd-navbar-nav > li > .rd-navbar-submenu-toggle::after { color: inherit; font-size: 18px; }
   .rd-navbar-static .rd-navbar-nav > li > .rd-navbar-submenu-toggle { color: var(--cu-navy); }
 }
+
+/* Galeri kategorileri */
+.gallery-lead { max-width: 640px; margin: 18px auto 0; }
+.gallery-cat { margin: 44px 0 18px; color: var(--cu-navy); }
+.gallery-item { margin-bottom: 30px; }
+.gallery-item .thumbnail figure { background: #fff; }
+.gallery-item .thumbnail img { width: 100%; height: auto; aspect-ratio: 37 / 24; object-fit: contain; background: #fff; }
