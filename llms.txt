@@ -1,6 +1,6 @@
 # Çankaya Uydu Sistemleri
 
-> Ankara Çankaya (Dikmen) merkezli çanak anten kurulum, uydu arıza, merkezi uydu sistemi ve TV montaj servisi. Teknisyen: Tuncay Özer. Telefon / WhatsApp: +90 553 450 20 33. Çalışma saatleri: hafta içi 09:00-20:00, hafta sonu 11:00-18:00. Hizmet bölgeleri: Dikmen, Ayrancı, Öveçler, Sokullu, Balgat, Emek, Bahçelievler, İncek.
+> Ankara Çankaya (Dikmen) merkezli çanak anten kurulum, uydu arıza, merkezi uydu sistemi ve TV montaj servisi. Teknisyen: Tuncay Özer. Telefon / WhatsApp: +90 553 450 20 33. Çalışma saatleri: hafta içi 09:00-20:00, hafta sonu 11:00-18:00. Hizmet bölgeleri (Çankaya): Dikmen, Ayrancı, Balgat, Öveçler, Keklikpınarı, İlker, Bahçelievler, Emek, Maltepe. Ana hizmetler: çanak anten kurulumu, bireysel çanak anten arızası, merkezi uydu sistemi arızası, internet kablosu çekimi.
 
 Önemli bilgi (Ekim 2026): Türksat 3A'daki TV ve radyo yayınları 15-16 Ağustos 2026 gecesi aynı konumdaki (42° Doğu) yeni Türksat uydularına taşındı; çanak ayarı değişmez, kanal listesi TKGS veya şebeke aramasıyla yenilenir. Şebeke arama değeri (Türksat resmî, Türkiye-Batı): 12380 MHz Dikey, sembol oranı 27500, FEC 3/4; yedek 12423 MHz Dikey 27500. LNB: Üniversal 9750/10600.
 
@@ -43,6 +43,7 @@
 - [Merkezi Uydu Sistemi Nedir?](https://cankayauydu.com/merkezi-uydu-sistemi-nedir.html)
 - [Merkezi Uydu Sisteminde TV Kurulumu](https://cankayauydu.com/merkezi-uydu-tv-kurulumu.html)
 - [Uydu Kablosu Nasıl Bağlanır?](https://cankayauydu.com/uydu-kablosu-nasil-baglanir.html)
+- [İnternet Kablosu Çekimi](https://cankayauydu.com/internet-kablosu-cekimi.html)
 - [Uydu Sinyal Güçlendirici İşe Yarar mı?](https://cankayauydu.com/uydu-sinyal-guclendirici.html)
 - [Yağmurda ve Karda Uydu Neden Donar?](https://cankayauydu.com/yagmurda-uydu-sinyali.html)
 - [Uydudan Radyo Nasıl Dinlenir?](https://cankayauydu.com/uydudan-radyo-dinleme.html)

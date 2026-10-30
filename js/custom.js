@@ -13,7 +13,7 @@
  {
   "title": "Çankaya Uydu",
   "url": "index.html",
-  "desc": "Dikmen merkezli Çankaya Uydu Sistemleri: çanak anten kurulumu, uydu arıza tespiti, merkezi uydu sistemi ve TV montajı. Hafta sonu da açık: 0553 450 20 33",
+  "desc": "Dikmen merkezli çanak anten kurulumu, bireysel ve merkezi uydu sistemi arızası, internet kablosu çekimi. Ayrancı, Balgat, Öveçler, Emek: 0553 450 20 33",
   "text": "Çankaya'da Çanak Anten Kurulumu ve Uydu Arıza Servisi Merkezi Uydu Sistemi Arıza & Kurulum Bireysel Çanak Anten Arıza & Kurulum Yardım Konuları"
  },
  {
@@ -107,15 +107,15 @@
   "text": "Hisense TV Uydu Kanal Arama ve Şebeke Arama (Türksat 2026) Başlamadan Önce Menü Yolu (Görselli) Yöntem 1: Otomatik Kanal Arama Yöntem 2: Şebeke Araması (Manuel) Hisense TV'de Sık Karşılaşılan Sorunlar Diğer Markalar Sık Sorulan Sorular Hisense TV'de uydu ayarlama nasıl yapılır? Hisense TV'de manuel uydu araması nasıl yapılır? Hisense TV'de Türksat listede yok, ne yapmalıyım?"
  },
  {
-  "title": "Hizmet Bölgeleri: Dikmen, Ayrancı, Balgat",
+  "title": "Dikmen, Ayrancı, Balgat Çanak Anten Servisi",
   "url": "hizmet-bolgeleri.html",
-  "desc": "Dikmen, Ayrancı, Öveçler, Sokullu, Balgat, Emek, Bahçelievler ve İncek'te çanak anten kurulum, arıza ve merkezi uydu sistemi servisi.",
-  "text": "Hizmet Bölgelerimiz Dikmen Ayrancı Öveçler ve Sokullu Balgat ve Emek Bahçelievler ve İncek Çalışma Saatlerimiz Sık Sorulan Sorular Hangi semtlere servis veriyorsunuz? Çalışma saatleriniz nedir?"
+  "desc": "Dikmen, Ayrancı, Balgat, Öveçler, Keklikpınarı, İlker, Bahçelievler, Emek ve Maltepe'de çanak anten kurulumu, merkezi sistem arızası ve internet kablosu.",
+  "text": "Hizmet Bölgelerimiz: Dikmen, Ayrancı, Balgat ve Çevresi Dikmen Ayrancı Balgat Öveçler Keklikpınarı İlker Bahçelievler Emek Maltepe Çalışma Saatlerimiz Sık Sorulan Sorular Hangi semtlere servis veriyorsunuz? Çalışma saatleriniz nedir? Merkezi uydu sistemi arızasına geliyor musunuz?"
  },
  {
-  "title": "Hizmetlerimiz: Çanak Anten, Merkezi Uydu",
+  "title": "Çanak Anten, Merkezi Uydu ve İnternet Kablosu",
   "url": "hizmetlerimiz.html",
-  "desc": "Çanak anten kurulum ve arıza, merkezi uydu sistemi, internet kablosu çekimi, duvara TV montajı ve TKGS uyumlu uydu alıcısı satışı. Çankaya, Ankara.",
+  "desc": "Çanak anten kurulumu, bireysel ve merkezi uydu sistemi arızası, internet kablosu çekimi. Dikmen, Ayrancı, Balgat, Öveçler, Emek ve Çankaya geneli.",
   "text": "Hizmetlerimiz Bireysel Çanak Anten Kurulum ve Arıza Servisi Neler sunuyoruz? Neden Çankaya Uydu? Merkezi Uydu Sistemleri Neler sunuyoruz? Avantajları Nerelerde kullanılır? İnternet Kablo Çekimi Neler sunuyoruz? Duvara TV Montajı Montajda dikkat ettiklerimiz Uydu Alıcısı ve Android Box Satışı Ürünler Hizmet Sonrası Destek ve Garanti Garanti kapsamı İletişime Geçin"
  },
  {
@@ -123,6 +123,12 @@
   "url": "iletisim.html",
   "desc": "Çankaya Uydu Sistemleri, Dikmen/Çankaya. Telefon ve WhatsApp: 0553 450 20 33. Hafta içi 09:00–20:00, hafta sonu 11:00–18:00. Arızanın fotoğrafını gönderin.",
   "text": "İletişim Bize Ulaşın Mesaj Gönderin Adres Çalışma Saatleri Hizmet Bölgeleri Sosyal Medya"
+ },
+ {
+  "title": "İnternet Kablosu Çekimi: Krone Kutusundan Daireye",
+  "url": "internet-kablosu-cekimi.html",
+  "desc": "İnternet kablosu çekimi: bina girişindeki Krone kutusundan daireye CAT6 hat, modemden odalara kablo ve priz. Dikmen, Ayrancı, Balgat ve Çankaya'da servis.",
+  "text": "İnternet Kablosu Çekimi: Krone Kutusundan Daireye ve Odalara Krone Kutusu Nedir? Ne Zaman Yeni Kablo Gerekir? Neler Yapıyoruz? Kablo mu, Wi-Fi mı? Çanak Anten Kablosuyla Birlikte Hangi Bölgelerde? Sık Sorulan Sorular İnternet kablosunu kim çeker, sağlayıcı mı? Eski telefon kablosu interneti yavaşlatır mı? Hangi kablo kullanılıyor? Modemden odalara kablo çekiyor musunuz?"
  },
  {
   "title": "Kanal Sıralaması Bozuldu: Nasıl Düzeltilir?",
