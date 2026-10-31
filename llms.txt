@@ -29,6 +29,7 @@
 - [İletişim](https://cankayauydu.com/iletisim.html)
 - [Sıkça sorulan sorular](https://cankayauydu.com/faq.html)
 - [Hakkımızda](https://cankayauydu.com/hakkimizda.html)
+- [Galeri: kullandığımız Next ürünleri](https://cankayauydu.com/gallery.html)
 - [Yardım rehberleri (tüm konular)](https://cankayauydu.com/yardim.html)
 
 ## Rehberler
