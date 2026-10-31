@@ -1544,3 +1544,9 @@ h1.breadcrumbs-custom-title,
 .hero-price-value { font-size: 24px; font-weight: 800; line-height: 1.2; }
 .hero-price-note { font-size: 13px; color: #c6d6e8; }
 .hero .open-status { display: flex; width: fit-content; margin-left: auto; margin-right: auto; }
+/* işçilik ücreti: durum satırı ile butonların tam ortasında, tek satır */
+.hero .open-status { margin-bottom: 0; }
+.hero-price { display: table; margin: 18px auto; padding: 0; border: 0; background: none; font-size: 22px; font-weight: 700; color: #fff; }
+.hero-price strong { font-weight: 800; color: #fff; }
+.hero-price:hover, .hero-price:focus { background: none; color: #ffd0c9; }
+.hero .hero-price + .hero-actions { margin-top: 0; }
