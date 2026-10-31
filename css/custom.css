@@ -1473,3 +1473,58 @@ img.product-img {
 @media (min-width: 992px) { .channel-ul { columns: 3; } }
 .article-body .channel-ul li { padding-left: 0; list-style: none; }
 .article-body .channel-ul li::before { content: none !important; display: none !important; }
+
+/* İç sayfa başlık bandı: daha ince, yazılar daha küçük (2026-10-31) */
+.page section.bg-light-05 {
+	padding-top: 22px !important;
+	padding-bottom: 22px !important;
+}
+h1.breadcrumbs-custom-title,
+.bg-light-05 h1.breadcrumbs-custom-title {
+	font-size: clamp(20px, 2.1vw, 27px);
+	line-height: 1.25;
+	margin: 0;
+}
+.bg-light-05 .breadcrumbs-custom {
+	font-size: 13px;
+}
+.bg-light-05 .wrap-sm-justify-horizontal {
+	align-items: center;
+}
+@media (max-width: 767px) {
+	.page section.bg-light-05 {
+		padding-top: 16px !important;
+		padding-bottom: 16px !important;
+	}
+	.bg-light-05 .breadcrumbs-custom {
+		margin-top: 8px;
+	}
+	.bg-light-05 .offset-top-22 {
+		margin-top: 8px;
+	}
+}
+
+/* Ana sayfa: açılışta açık/kapalı durumu butonların üstünde */
+.hero .open-status {
+	margin: 4px 0 18px;
+	text-align: left;
+}
+.hero .open-status.is-open {
+	background: rgba(40, 180, 100, .18);
+	color: #c8f5d8;
+}
+.hero .open-status.is-closed {
+	background: rgba(255, 255, 255, .10);
+	color: #e1e9f2;
+}
+
+/* Menüde 8 öğe: masaüstünde tek satıra sığsın, aralar eşit */
+@media (min-width: 992px) {
+	.rd-navbar-static .rd-navbar-nav { flex: 1 1 auto; width: auto; justify-content: space-between; gap: 2px; }
+	.rd-navbar-static.rd-navbar-corporate .rd-navbar-nav-wrap .rd-navbar-nav > li { margin-left: 0 !important; margin-right: 0 !important; padding: 10px 14px; }
+	.rd-navbar-static .rd-navbar-nav-wrap { display: flex; align-items: center; gap: 12px; }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.rd-navbar-static.rd-navbar-corporate .rd-navbar-nav-wrap .rd-navbar-nav > li { padding: 9px 8px; }
+	.rd-navbar-static .rd-navbar-nav > li > .rd-nav-link { font-size: 14px; }
+}
