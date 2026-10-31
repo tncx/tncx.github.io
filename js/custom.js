@@ -13,7 +13,7 @@
  {
   "title": "Çankaya Uydu Servisi",
   "url": "index.html",
-  "desc": "Çankaya Uydu Servisi: Dikmen merkezli çanak anten kurulumu, bireysel ve merkezi uydu arızası, internet kablosu çekimi. Ankara Çankaya: 0553 450 20 33",
+  "desc": "Çankaya Uydu Servisi: Dikmen merkezli çanak anten kurulumu ve arıza. Servis ücreti 700 TL'den, Next set + kurulum 2500 TL'den. Ankara Çankaya: 0553 450 20 33",
   "text": "Çankaya'da Çanak Anten Kurulumu ve Uydu Arıza Servisi Çankaya'da Çanak Anten ve Uydu Hizmetlerimiz Bireysel Çanak Anten Kurulum ve Arıza Merkezi Uydu Sistemi Arıza ve Kurulum İnternet Kablosu Çekimi Hizmet Bölgelerimiz Yardım Konuları"
  },
  {
@@ -47,7 +47,7 @@
   "text": "Çanak Anten Kaç cm Olmalı? Ankara İçin Doğru Boyut Ankara İçin Hangi Boyut? Büyük Çanağın Avantajı ve Dezavantajı Küçük Çanak Yeterli mi? Merkezi Sistemde Neden Daha Büyük Çanak? Boyuttan Önce Ayar Sık Sorulan Sorular Çanak anten kaç cm olmalı? Çanak anten büyüdükçe görüntü kalitesi artar mı? En küçük çanak anten kaç cm? Merkezi uydu sistemi için kaç cm çanak gerekir?"
  },
  {
-  "title": "Çanak Anten Kurulum Kampanyası: Next Set + Kurulum 2500₺",
+  "title": "Çanak Anten Kampanyası: Next Set + Kurulum 2500₺",
   "url": "canak-anten-kampanya.html",
   "desc": "Çanak anten set kurulumu kampanyası: 70 cm Next çanak, Next tekli LNB, 20 m Next kablo, montaj ayağı, kurulum dahil. Dikmen ve Çankaya'da balkon 2500₺, çatı 2700₺.",
   "text": "Çanak Anten Kurulum Kampanyası: Next Set + Kurulum 2500₺'den Çanak Anten Set Kurulumu: Malzeme + Kurulum Tek Fiyat Kampanya Fiyatları (Semtlere Göre) Sette Neler Var? Kurulumda Neler Yapılıyor? Nasıl Yararlanırım? Sık Sorulan Sorular Çanak anten kurulum fiyatı ne kadar? Kampanyalı çanak anten setinde neler var? Balkon ve çatı kurulumu fiyatı neden farklı? Kampanyalı kurulumda garanti var mı? Kampanya hangi semtlerde geçerli?"
@@ -71,6 +71,12 @@
   "text": "Çanak Anten Nedir, Nasıl Çalışır? Çanak Antenin Yapısı Kurulum Kullanım Alanları Çanak Antenin Avantajları Dikkat Edilmesi Gerekenler Özet"
  },
  {
+  "title": "Çanak Anten Servis Ücreti 2026: Ankara Fiyat Listesi",
+  "url": "canak-anten-servis-ucreti.html",
+  "desc": "Çanak anten servis ücreti: Dikmen, Ayrancı, Balgat, Öveçler 700 TL; Bahçelievler, Emek, Maltepe, Cebeci 800 TL. Next set + kurulum 2500 TL'den. Parça ayrı.",
+  "text": "Çanak Anten ve Uydu Servis Ücreti 2026: Çankaya Fiyat Listesi Servis (İşçilik) Ücreti Çanak Anten Kurulum Fiyatı (Kampanya) Hangi İşler Servis Ücretiyle Yapılır? Garanti Fiyat Almak İçin Sık Sorulan Sorular Çanak anten servis ücreti ne kadar? Çanak anten tamir ücreti ne kadar? Çanak anten ayar ücreti ne kadar? Çanak anten kurulum fiyatı ne kadar? Parça ücreti servis ücretine dahil mi?"
+ },
+ {
   "title": "Diğer Marka TV'lerde Uydu Kanal Arama (2026)",
   "url": "diger-marka-tv-uydu-kanal-arama.html",
   "desc": "Hi-Level, Axen, Telefunken, Onvo ve Sunny televizyonlarda uydu kanal arama ve TKGS: menü tipinize göre adımlar, şebeke araması değerleri (Türksat 2026).",
@@ -91,7 +97,7 @@
  {
   "title": "Çanak Anten ve Uydu Sık Sorulan Sorular",
   "url": "faq.html",
-  "desc": "134 soru-cevap: Türksat kanal arama, TKGS, çanak anten ayarı, sinyal yok, LNB, DiSEqC, merkezi sistem, Digitürk DMDU LNB ve hata kodları. Çankaya Uydu, Ankara.",
+  "desc": "136 soru-cevap: Türksat kanal arama, TKGS, çanak anten ayarı, sinyal yok, LNB, DiSEqC, merkezi sistem, Digitürk DMDU LNB ve hata kodları. Çankaya Uydu, Ankara.",
   "text": "Çanak Anten ve Uydu: Sıkça Sorulan Sorular Türksat, Kanal Arama ve TKGS Çanak Anten Kurulumu ve Ayarı Sinyal Yok ve Arızalar LNB, Kablo ve Bağlantılar Merkezi Uydu Sistemi Televizyon ve Uydu Alıcısı Digitürk Bakım ve Ömür Servis ve Hizmetlerimiz"
  },
  {
@@ -127,7 +133,7 @@
  {
   "title": "Çanak Anten, Merkezi Uydu ve İnternet Kablosu",
   "url": "hizmetlerimiz.html",
-  "desc": "Çanak anten kurulumu, bireysel ve merkezi uydu sistemi arızası, internet kablosu çekimi. Dikmen, Ayrancı, Balgat, Öveçler, Emek ve Çankaya geneli.",
+  "desc": "Çanak anten kurulumu, bireysel ve merkezi uydu arızası, internet kablosu çekimi. Servis ücreti 700–800 TL, Next set + kurulum 2500 TL'den. Dikmen ve Çankaya.",
   "text": "Hizmetlerimiz: Çanak Anten, Merkezi Uydu ve İnternet Kablosu Bireysel Çanak Anten Kurulum ve Arıza Servisi Neler sunuyoruz? Neden Çankaya Uydu? Merkezi Uydu Sistemi Kurulum ve Arıza Neler sunuyoruz? Avantajları Nerelerde kullanılır? İnternet Kablosu Çekimi Neler sunuyoruz? Duvara TV Montajı Montajda dikkat ettiklerimiz Uydu Alıcısı ve Android Box Satışı Ürünler Hizmet Sonrası Destek ve Garanti Garanti kapsamı İletişime Geçin"
  },
  {

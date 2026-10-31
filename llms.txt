@@ -4,6 +4,12 @@
 
 Önemli bilgi (Ekim 2026): Türksat 3A'daki TV ve radyo yayınları 15-16 Ağustos 2026 gecesi aynı konumdaki (42° Doğu) yeni Türksat uydularına taşındı; çanak ayarı değişmez, kanal listesi TKGS veya şebeke aramasıyla yenilenir. Şebeke arama değeri (Türksat resmî, Türkiye-Batı): 12380 MHz Dikey, sembol oranı 27500, FEC 3/4; yedek 12423 MHz Dikey 27500. LNB: Üniversal 9750/10600.
 
+## Fiyatlar (31 Ekim 2026)
+- Servis (işçilik) ücreti: Dikmen, Ayrancı, Balgat, Öveçler, Sokullu, Keklikpınarı, İlker 700 TL; Bahçelievler, Emek, Maltepe, Mebusevleri, Gaziosmanpaşa, Esat, Seyranbağları, Cebeci 800 TL. Değişen parça (LNB, kablo, konnektör vb.) ayrıca ödenir.
+- Çanak anten tamiri, çanak ayarı, kanal kurulumu, merkezi sistem arızası servis ücretiyle yapılır.
+- Çanak anten set kurulumu kampanyası (70 cm Next çanak, Next tekli LNB, 20 m Next RG6/U6 kablo, montaj ayağı, kurulum dahil): Dikmen, Ayrancı, Balgat, Öveçler, Sokullu, Keklikpınarı, İlker balkon 2500 TL / çatı 2700 TL; Bahçelievler, Emek, Maltepe, Mebusevleri balkon 2800 TL / çatı 3000 TL; Gaziosmanpaşa, Esat, Seyranbağları, Cebeci balkon 3000 TL / çatı 3200 TL.
+- Fiyat listesi: https://cankayauydu.com/canak-anten-servis-ucreti.html
+
 ## Hızlı bilgiler (Ankara, Türksat 42° Doğu)
 - Çanak yönü: gerçek kuzeye göre yaklaşık 166°, pusulada yaklaşık 160° (güneyin ~14° doğusu); yükseliş (elevasyon) yaklaşık 43°; LNB eğimi yaklaşık 11°. Son ayar sinyal seviyesine değil sinyal kalitesine bakılarak yapılır.
 - LNB ayarı: Üniversal, 9750/10600 MHz, 22 kHz otomatik, LNB gücü açık.
@@ -19,6 +25,7 @@
 - [Ana sayfa](https://cankayauydu.com/)
 - [Hizmetlerimiz](https://cankayauydu.com/hizmetlerimiz.html)
 - [Hizmet bölgeleri](https://cankayauydu.com/hizmet-bolgeleri.html)
+- [Servis ücreti ve fiyat listesi](https://cankayauydu.com/canak-anten-servis-ucreti.html)
 - [İletişim](https://cankayauydu.com/iletisim.html)
 - [Sıkça sorulan sorular](https://cankayauydu.com/faq.html)
 - [Hakkımızda](https://cankayauydu.com/hakkimizda.html)
@@ -36,6 +43,7 @@
 - [Çanak Anten Nedir?](https://cankayauydu.com/canak-anten-nedir.html)
 - [Çanak Anten Kurulumu](https://cankayauydu.com/canak-anten-kurulumu.html)
 - [Çanak Anten Kurulum Kampanyası](https://cankayauydu.com/canak-anten-kampanya.html)
+- [Çanak Anten Servis Ücreti 2026](https://cankayauydu.com/canak-anten-servis-ucreti.html)
 - [Çanak Anten Nasıl Ayarlanır?](https://cankayauydu.com/canak-anten-nasil-ayarlanir.html)
 - [Çanak Anten Kaç cm Olmalı?](https://cankayauydu.com/canak-anten-kac-cm-olmali.html)
 - [Ankara Çanak Anten Açısı (Türksat)](https://cankayauydu.com/ankara-canak-anten-acisi.html)
