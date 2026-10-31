@@ -1550,3 +1550,8 @@ h1.breadcrumbs-custom-title,
 .hero-price strong { font-weight: 800; color: #fff; }
 .hero-price:hover, .hero-price:focus { background: none; color: #ffd0c9; }
 .hero .hero-price + .hero-actions { margin-top: 0; }
+
+/* Yan menü "Servis Çağırın": servis ücreti */
+.side-fee { margin-top: 12px; font-size: 16px; color: var(--cu-dark); }
+.side-fee strong { color: var(--cu-red); font-weight: 800; white-space: nowrap; }
+.side-fee a { display: inline-block; font-size: 13px; color: var(--cu-blue); }
