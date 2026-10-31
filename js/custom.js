@@ -71,10 +71,10 @@
   "text": "Hi-Level, Axen, Telefunken, Onvo, Sunny TV Uydu Kanal Arama (2026) 1. Menü Tipinizi Belirleyin 2. Marka Notları Sunny Onvo Hi-Level Axen Telefunken 3. Şebeke Araması (Tüm Markalar) Diğer Markalar Sık Sorulan Sorular Hi-Level TV'de uydu ayarlama nasıl yapılır? Sunny TV'de uydu kurulumu nasıl yapılır? Onvo TV uydu görmüyor, ne yapmalıyım?"
  },
  {
-  "title": "Digitürk Kanalları ve Kanal Listesi",
+  "title": "Digitürk Kanalları ve Kanal Numaraları",
   "url": "digiturk-kanal-listesi.html",
-  "desc": "Digitürk kanalları ve kanal listesi: film, dizi, spor, belgesel, çocuk, haber ve radyo kanalları kategorilere göre. Kanal numaraları değişebilir.",
-  "text": "Digitürk Kanalları ve Kanal Listesi Film Kanalları Dizi Kanalları Yaşam ve Belgesel Kanalları Ulusal Kanallar Spor Kanalları Müzik Kanalları Yabancı Ulusal Kanallar Mekke ve Medine Kanalları Eba Kanalları Çizgi Film Kanalları Belgesel Kanalları Box Office Kanalları Taraftar Kanalları Euro Kanalları 4K Çözünürlüklü Kanalları Türkçe Radyo Kanalları Yabancı Radyo Kanalları Yerel ve Bölgesel Kanallar"
+  "desc": "Digitürk kanalları ve kanal numaraları: TRT 1 23, ATV 25, TV8 28, tv100 37, beIN Sports 1 77, A Spor 88. Hangi kanal kaçıncı sırada, S Sport var mı?",
+  "text": "Digitürk Kanalları ve Kanal Numaraları Popüler Kanallar Digitürk'te Kaçıncı Kanalda? Digitürk'te Var mı? Kanal Numarası Kutudan Nasıl Öğrenilir? Tüm Digitürk Kanalları (Kategorilere Göre) Film Kanalları Dizi Kanalları Yaşam ve Belgesel Kanalları Ulusal Kanallar Spor Kanalları Müzik Kanalları Yabancı Ulusal Kanallar Mekke ve Medine Kanalları Eba Kanalları Çizgi Film Kanalları Belgesel Kanalları Box Office Kanalları Taraftar Kanalları Euro Kanalları 4K Çözünürlüklü Kanalları Türkçe Radyo Kanalları Yabancı Radyo Kanalları Yerel ve Bölgesel Kanallar Sık Sorulan Sorular Digitürk'te TRT 1 kaçıncı ka"
  },
  {
   "title": "DiSEqC Nedir, Ne Olmalı? 1.0, 1.1 ve Port Ayarı",
@@ -85,7 +85,7 @@
  {
   "title": "Çanak Anten ve Uydu Sık Sorulan Sorular",
   "url": "faq.html",
-  "desc": "128 soru-cevap: Türksat kanal arama, TKGS, çanak anten ayarı, sinyal yok, LNB, DiSEqC, merkezi sistem, Digitürk DMDU LNB ve hata kodları. Çankaya Uydu, Ankara.",
+  "desc": "131 soru-cevap: Türksat kanal arama, TKGS, çanak anten ayarı, sinyal yok, LNB, DiSEqC, merkezi sistem, Digitürk DMDU LNB ve hata kodları. Çankaya Uydu, Ankara.",
   "text": "Çanak Anten ve Uydu: Sıkça Sorulan Sorular Türksat, Kanal Arama ve TKGS Çanak Anten Kurulumu ve Ayarı Sinyal Yok ve Arızalar LNB, Kablo ve Bağlantılar Merkezi Uydu Sistemi Televizyon ve Uydu Alıcısı Digitürk Bakım ve Ömür Servis ve Hizmetlerimiz"
  },
  {
