@@ -1536,3 +1536,11 @@ h1.breadcrumbs-custom-title,
 .fee-table td:last-child, .fee-table th:last-child { width: 140px; text-align: center; white-space: nowrap !important; }
 .fee-table td:last-child strong { font-size: 18px; color: var(--cu-red); }
 .fee-table td { color: #2b3138; font-size: 15px; }
+
+/* Ana ekran: işçilik ücreti */
+.hero-price { display: inline-flex; align-items: baseline; flex-wrap: wrap; justify-content: center; gap: 4px 12px; margin: 2px 0 14px; padding: 8px 18px; border-radius: 14px; background: rgba(255, 255, 255, .10); border: 1px solid rgba(255, 255, 255, .22); color: #fff; text-decoration: none; }
+.hero-price:hover, .hero-price:focus { color: #fff; background: rgba(255, 255, 255, .16); text-decoration: none; }
+.hero-price-label { font-size: 14px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #ffd0c9; }
+.hero-price-value { font-size: 24px; font-weight: 800; line-height: 1.2; }
+.hero-price-note { font-size: 13px; color: #c6d6e8; }
+.hero .open-status { display: flex; width: fit-content; margin-left: auto; margin-right: auto; }
