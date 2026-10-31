@@ -1463,3 +1463,13 @@ img.product-img {
 .gallery-item { margin-bottom: 30px; }
 .gallery-item .thumbnail figure { background: #fff; }
 .gallery-item .thumbnail img { width: 100%; height: auto; aspect-ratio: 37 / 24; object-fit: contain; background: #fff; }
+
+/* Digitürk kanal listesi: numaralı, sütunlu */
+.channel-list h3 { margin-top: 28px; font-size: 20px; color: var(--cu-navy); }
+.channel-ul { columns: 2; column-gap: 24px; margin: 12px 0 0; padding: 0; list-style: none; }
+.channel-ul li { break-inside: avoid; padding: 6px 0; border-bottom: 1px solid var(--cu-line); }
+.channel-ul .ch-no { display: inline-block; min-width: 44px; font-weight: 700; color: var(--cu-blue); }
+.channel-note { margin-top: 18px; font-size: 14px; color: #5a6b7d; }
+@media (min-width: 992px) { .channel-ul { columns: 3; } }
+.article-body .channel-ul li { padding-left: 0; list-style: none; }
+.article-body .channel-ul li::before { content: none !important; display: none !important; }

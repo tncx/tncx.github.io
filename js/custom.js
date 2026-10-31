@@ -74,7 +74,7 @@
   "title": "Digitürk Kanalları ve Kanal Numaraları",
   "url": "digiturk-kanal-listesi.html",
   "desc": "Digitürk kanalları ve kanal numaraları: TRT 1 23, ATV 25, TV8 28, tv100 37, beIN Sports 1 77, A Spor 88. Hangi kanal kaçıncı sırada, S Sport var mı?",
-  "text": "Digitürk Kanalları ve Kanal Numaraları Popüler Kanallar Digitürk'te Kaçıncı Kanalda? Digitürk'te Var mı? Kanal Numarası Kutudan Nasıl Öğrenilir? Tüm Digitürk Kanalları (Kategorilere Göre) Film Kanalları Dizi Kanalları Yaşam ve Belgesel Kanalları Ulusal Kanallar Spor Kanalları Müzik Kanalları Yabancı Ulusal Kanallar Mekke ve Medine Kanalları Eba Kanalları Çizgi Film Kanalları Belgesel Kanalları Box Office Kanalları Taraftar Kanalları Euro Kanalları 4K Çözünürlüklü Kanalları Türkçe Radyo Kanalları Yabancı Radyo Kanalları Yerel ve Bölgesel Kanallar Sık Sorulan Sorular Digitürk'te TRT 1 kaçıncı ka"
+  "text": "Digitürk Kanalları ve Kanal Numaraları Popüler Kanallar Digitürk'te Kaçıncı Kanalda? Digitürk'te Var mı? Kanal Numarası Kutudan Nasıl Öğrenilir? Tüm Digitürk Kanalları (Kategorilere Göre) Ulusal Kanallar Dizi Kanalları Film Kanalları Haber Kanalları Spor Kanalları Yaşam Kanalları Belgesel Kanalları Çocuk Kanalları Müzik Kanalları Uluslararası Kanallar Radyo Kanalları Sık Sorulan Sorular Digitürk'te TRT 1 kaçıncı kanalda? Digitürk'te ATV kaçıncı kanalda? Digitürk'te TV8 kaçıncı kanalda? Digitürk'te A2 kaçıncı kanalda? Digitürk'te tv100 var mı, kaçıncı kanalda? Digitürk'te beIN Sports 1 kaçıncı "
  },
  {
   "title": "DiSEqC Nedir, Ne Olmalı? 1.0, 1.1 ve Port Ayarı",
