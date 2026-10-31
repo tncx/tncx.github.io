@@ -12,7 +12,7 @@
 - TKGS (Türksat Kanal Güncelleme Sistemi) kanal listesini otomatik günceller ve ulusal kanalları standart sıraya dizer.
 - 12423 MHz Yatay 30000 değeri Türkiye-Doğu kapsamasıdır; Ankara için yedek değer olarak kullanılmamalıdır.
 - Evdeki TV çanağıyla internete bağlanılamaz; uydu interneti ayrı bir hizmettir.
-- Digitürk kanal numaraları (kanal sıralaması, 31 Ekim 2026'da Digitürk resmî yayın akışıyla kontrol edildi): Show TV 22, TRT 1 23, Kanal D 24, ATV 25, NOW 26, Star TV 27, TV8 28, A2 35, tv100 37, DMAX 49, TV2 (eski Teve2) 54, beIN Sports 1 77, A Spor 88, Eurosport 1 91, TLC 99. S Sport Digitürk'te yok. Ayrıntı: https://cankayauydu.com/digiturk-kanal-listesi.html
+- Digitürk kanal numaraları (kanal sıralaması, 31 Ekim 2026'da Digitürk resmî yayın akışıyla kontrol edildi): Show TV 22, TRT 1 23, Kanal D 24, ATV 25, NOW 26, Star TV 27, TV8 28, A2 35, tv100 37, TV2 (eski Teve2) 54, Sözcü TV 60, DMAX 186, beIN Sports 1 77, A Spor 88, Eurosport 1 91, TLC 99, Tarih TV 184. S Sport Digitürk'te yok. Ayrıntı: https://cankayauydu.com/digiturk-kanal-listesi.html
 - Digitürk: Türksat 42° Doğu'ya bakan çanakta DMDU LNB kullanılır (Eutelsat dönemindeki MDU5'in yerini aldı). Plus ve 4K kutular DMDU ister, HD kutular da çalışır. DMDU çıkışı splitter ile bölünebilir, üniversal LNB bölünemez. Kutuda LNB tipi: DMDU LNB için DMDU, bireysel üniversal için BU.
 
 ## İşletme
