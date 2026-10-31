@@ -1599,3 +1599,14 @@ h1.breadcrumbs-custom-title,
 .campaign-box .campaign-table { margin-bottom: 0; background: #fff; }
 .campaign-box > p:last-child { margin-bottom: 0; font-size: 15px; }
 .campaign-box h2 + .table-responsive { margin-top: 6px; }
+
+/* Yazı sonu iletişim kutusu: servis ücreti + okunur buton yazıları */
+.article-cta .cta-fee { margin: 10px 0 4px; font-size: 16px; font-weight: 600; color: var(--cu-dark); }
+.article-cta .cta-fee strong { color: var(--cu-red); font-weight: 800; white-space: nowrap; }
+.article-cta .cta-fee a { margin-left: 4px; font-size: 14px; }
+.article-body .article-cta a.btn,
+.article-body .article-cta a.btn:hover,
+.article-body .article-cta a.btn:focus { color: #fff; }
+.contact-fee { margin: 16px 0 0; font-size: 18px; font-weight: 700; color: var(--cu-dark); }
+.contact-fee strong { color: var(--cu-red); font-weight: 800; white-space: nowrap; }
+.contact-fee a { margin-left: 6px; font-size: 15px; font-weight: 600; }
