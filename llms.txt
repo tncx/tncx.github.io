@@ -8,6 +8,7 @@
 - Servis ücreti: Dikmen, Ayrancı, Balgat, Öveçler, Sokullu, Keklikpınarı, İlker 700 TL; Bahçelievler, Emek, Maltepe, Mebusevleri, Gaziosmanpaşa, Esat, Seyranbağları, Cebeci 800 TL. Değişen parça (LNB, kablo, konnektör vb.) ayrıca ödenir.
 - Çanak anten tamiri, çanak ayarı, kanal kurulumu, merkezi sistem arızası servis ücretiyle yapılır.
 - Çanak anten set kurulumu kampanyası (70 cm Next çanak, Next tekli LNB, 20 m Next RG6/U6 kablo, montaj ayağı, kurulum dahil; 2500 TL'den başlayan fiyatlarla): Dikmen, Ayrancı, Balgat, Öveçler, Sokullu, Keklikpınarı, İlker balkon 2500 TL / çatı 2700 TL; Bahçelievler, Emek, Maltepe, Mebusevleri balkon 2800 TL / çatı 3000 TL; Gaziosmanpaşa, Esat, Seyranbağları, Cebeci balkon 3000 TL / çatı 3200 TL.
+- İnternet kablosu çekimi (Krone kutusundan daireye, Cat6): servis ücreti işe göre 1000-1500 TL + kablo metresi 25 TL (ör. 20 m: 1500-2000 TL).
 - Fiyat listesi: https://cankayauydu.com/canak-anten-servis-ucreti.html
 
 ## Hızlı bilgiler (Ankara, Türksat 42° Doğu)
@@ -26,11 +27,29 @@
 - [Hizmetlerimiz](https://cankayauydu.com/hizmetlerimiz.html)
 - [Hizmet bölgeleri](https://cankayauydu.com/hizmet-bolgeleri.html)
 - [Servis ücreti ve fiyat listesi](https://cankayauydu.com/canak-anten-servis-ucreti.html)
+- [Uydu Arıza Tespiti: Adım Adım](https://cankayauydu.com/uydu-arizasi-tespiti.html)
 - [İletişim](https://cankayauydu.com/iletisim.html)
 - [Sıkça sorulan sorular](https://cankayauydu.com/faq.html)
 - [Hakkımızda](https://cankayauydu.com/hakkimizda.html)
 - [Galeri: kullandığımız Next ürünleri](https://cankayauydu.com/gallery.html)
 - [Yardım rehberleri (tüm konular)](https://cankayauydu.com/yardim.html)
+
+## Semt sayfaları
+- [Dikmen çanak anten servisi](https://cankayauydu.com/dikmen-canak-anten-servisi.html)
+- [Ayrancı çanak anten servisi](https://cankayauydu.com/ayranci-canak-anten-servisi.html)
+- [Balgat çanak anten servisi](https://cankayauydu.com/balgat-canak-anten-servisi.html)
+- [Öveçler çanak anten servisi](https://cankayauydu.com/ovecler-canak-anten-servisi.html)
+- [Sokullu çanak anten servisi](https://cankayauydu.com/sokullu-canak-anten-servisi.html)
+- [Keklikpınarı çanak anten servisi](https://cankayauydu.com/keklikpinari-canak-anten-servisi.html)
+- [İlker çanak anten servisi](https://cankayauydu.com/ilker-canak-anten-servisi.html)
+- [Bahçelievler çanak anten servisi](https://cankayauydu.com/bahcelievler-canak-anten-servisi.html)
+- [Emek çanak anten servisi](https://cankayauydu.com/emek-canak-anten-servisi.html)
+- [Maltepe çanak anten servisi](https://cankayauydu.com/maltepe-canak-anten-servisi.html)
+- [Mebusevleri çanak anten servisi](https://cankayauydu.com/mebusevleri-canak-anten-servisi.html)
+- [Gaziosmanpaşa çanak anten servisi](https://cankayauydu.com/gaziosmanpasa-canak-anten-servisi.html)
+- [Esat çanak anten servisi](https://cankayauydu.com/esat-canak-anten-servisi.html)
+- [Seyranbağları çanak anten servisi](https://cankayauydu.com/seyranbaglari-canak-anten-servisi.html)
+- [Cebeci çanak anten servisi](https://cankayauydu.com/cebeci-canak-anten-servisi.html)
 
 ## Rehberler
 - [Türksat Uydu Değişikliği 2026](https://cankayauydu.com/turksat-uydu-degisikligi-2026.html)

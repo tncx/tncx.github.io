@@ -1628,3 +1628,38 @@ h1.breadcrumbs-custom-title,
 .about-hours { margin-top: 16px; font-weight: 600; color: var(--cu-dark); }
 .about-lead ~ p { font-size: 16px; line-height: 1.7; color: #3a3f45; } .about-lead { margin-bottom: 14px; }
 .about-list li { font-size: 16px; } .about-list a { color: var(--cu-dark); text-decoration: none; } .about-list a:hover { color: var(--cu-blue); }
+
+/* Fiyat hesaplama aracı */
+.fee-calc { margin: 22px 0; padding: 20px 22px; border-radius: 14px; background: #fff; border: 2px solid var(--cu-blue); box-shadow: 0 6px 20px rgba(13, 44, 79, .08); }
+.fee-calc-title { margin: 0 0 12px; font-size: 19px; font-weight: 800; color: var(--cu-navy); }
+.fee-calc-row { display: grid; grid-template-columns: 1fr 1.6fr; gap: 12px; }
+.fee-calc-field { display: block; margin: 0; }
+.fee-calc-label { display: block; margin-bottom: 4px; font-size: 13px; font-weight: 700; color: #5a6b7d; }
+.fee-calc select { width: 100%; height: 44px; padding: 0 10px; border: 1px solid var(--cu-line); border-radius: 10px; background: #fff; font-size: 15px; color: var(--cu-dark); }
+.fee-calc-out { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; margin: 14px 0 10px; }
+.fee-calc-price { font-size: 32px; font-weight: 800; line-height: 1; color: var(--cu-red); }
+.fee-calc-note { font-size: 14px; color: #4a5560; }
+.fee-calc .fee-calc-wa, .article-body .fee-calc a.fee-calc-wa { color: #fff; text-decoration: none; }
+@media (max-width: 575px) { .fee-calc-row { grid-template-columns: 1fr; } }
+.area-links a { display: inline-block; margin: 2px 0; }
+.home-campaign .fee-calc { margin: 18px 0 0; }
+
+/* Arıza tespit sihirbazı */
+.fault-wizard { margin: 22px 0; padding: 22px 24px; border-radius: 14px; background: #fff; border: 2px solid var(--cu-blue); box-shadow: 0 6px 20px rgba(13, 44, 79, .08); }
+.fw-step { margin: 0; font-size: 12px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--cu-red); }
+.fw-question, .fw-title { margin: 6px 0 14px; font-size: 21px; font-weight: 800; line-height: 1.3; color: var(--cu-navy); }
+.fw-options { display: grid; gap: 10px; }
+.fw-option { display: block; width: 100%; padding: 13px 16px; border: 1px solid var(--cu-line); border-radius: 10px; background: var(--cu-soft); color: var(--cu-dark); font-size: 16px; font-weight: 600; text-align: left; cursor: pointer; }
+.fw-option:hover, .fw-option:focus { border-color: var(--cu-blue); background: #fff; color: var(--cu-blue); }
+.fw-text { margin: 0 0 10px; font-size: 16px; line-height: 1.6; }
+.fw-links { margin: 0 0 14px; }
+.fault-wizard .fw-wa { color: #fff; text-decoration: none; }
+.fw-nav { display: flex; gap: 10px; margin-top: 14px; }
+.fw-back { padding: 6px 12px; border: 0; border-radius: 8px; background: none; color: var(--cu-blue); font-size: 14px; font-weight: 700; cursor: pointer; }
+.fw-back:hover { background: var(--cu-soft); }
+
+/* Fiyat aracı: internet kablosu metre alanı */
+.fee-calc-meter { display: none; margin-top: 12px; }
+.fee-calc-meter.is-on { display: block; }
+.fee-calc-meter input { width: 140px; height: 44px; padding: 0 10px; border: 1px solid var(--cu-line); border-radius: 10px; font-size: 15px; }
+.hero-wizard { margin: 14px 0 0; } .hero-wizard a { color: #ffd0c9; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; } .hero-wizard a:hover { color: #fff; }
