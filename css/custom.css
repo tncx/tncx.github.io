@@ -1594,3 +1594,8 @@ h1.breadcrumbs-custom-title,
 .box-content .svc-fee strong { color: var(--cu-red); font-weight: 800; white-space: nowrap; }
 .box-content .svc-fee a { margin-left: 4px; font-size: 14px; color: var(--cu-blue); }
 .box-content:has(.svc-fee) { flex-wrap: wrap; align-items: center; }
+/* Kampanya kutusu: fiyat tablosu da çerçevenin içinde */
+.campaign-box .table-responsive { margin-top: 10px; background: #fff; border-radius: 10px; }
+.campaign-box .campaign-table { margin-bottom: 0; background: #fff; }
+.campaign-box > p:last-child { margin-bottom: 0; font-size: 15px; }
+.campaign-box h2 + .table-responsive { margin-top: 6px; }
