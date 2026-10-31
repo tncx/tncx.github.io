@@ -1610,3 +1610,21 @@ h1.breadcrumbs-custom-title,
 .contact-fee { margin: 16px 0 0; font-size: 18px; font-weight: 700; color: var(--cu-dark); }
 .contact-fee strong { color: var(--cu-red); font-weight: 800; white-space: nowrap; }
 .contact-fee a { margin-left: 6px; font-size: 15px; font-weight: 600; }
+
+/* Hakkımızda (2026-10-31) */
+.about-eyebrow { margin-bottom: 6px; font-size: 13px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--cu-red); }
+.about-lead { font-size: 17px; line-height: 1.7; color: var(--cu-dark); }
+.about-stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 26px 0 0; padding: 0; list-style: none; }
+.about-stats li { padding: 14px 16px; border: 1px solid var(--cu-line); border-radius: 12px; background: #fff; box-shadow: 0 4px 14px rgba(13, 44, 79, .06); }
+.about-stats strong { display: block; font-size: 24px; line-height: 1.1; color: var(--cu-navy); }
+.about-stats span { display: block; margin-top: 4px; font-size: 14px; color: #5a6b7d; }
+.about-values { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+.about-value { padding: 22px 20px; border-radius: 14px; background: #fff; border-top: 4px solid var(--cu-red); box-shadow: 0 6px 20px rgba(13, 44, 79, .08); text-align: left; }
+.about-value h3 { margin: 0 0 8px; font-size: 18px; color: var(--cu-navy); }
+.about-value p { margin: 0; font-size: 15px; line-height: 1.6; color: #4a5560; }
+@media (max-width: 991px) { .about-values { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 575px) { .about-values, .about-stats { grid-template-columns: 1fr 1fr; } .about-values { grid-template-columns: 1fr; } }
+.about-areas { justify-content: flex-start; }
+.about-hours { margin-top: 16px; font-weight: 600; color: var(--cu-dark); }
+.about-lead ~ p { font-size: 16px; line-height: 1.7; color: #3a3f45; } .about-lead { margin-bottom: 14px; }
+.about-list li { font-size: 16px; } .about-list a { color: var(--cu-dark); text-decoration: none; } .about-list a:hover { color: var(--cu-blue); }

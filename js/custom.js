@@ -50,7 +50,7 @@
   "title": "Çanak Anten 2500₺'den Başlayan Fiyatlarla",
   "url": "canak-anten-kampanya.html",
   "desc": "Çanak anten kampanyası: 70 cm Next çanak, tekli LNB, 20 m kablo, montaj ayağı, kurulum dahil. Çankaya'da 2500₺'den başlayan fiyatlarla.",
-  "text": "Çanak Anten Kurulum Kampanyası: Next Set + Kurulum 2500₺'den Başlayan Fiyatlarla Çanak Anten Set Kurulumu: Malzeme + Kurulum Tek Fiyat Kampanya Fiyatları (Semtlere Göre) Sette Neler Var? Kurulumda Neler Yapılıyor? Nasıl Yararlanırım? Sık Sorulan Sorular Çanak anten kurulum fiyatı ne kadar? Kampanyalı çanak anten setinde neler var? Balkon ve çatı kurulumu fiyatı neden farklı? Kampanyalı kurulumda garanti var mı? Kampanya hangi semtlerde geçerli?"
+  "text": "Çanak Anten Kurulum Kampanyası: Next Set + Kurulum 2500₺'den Başlayan Fiyatlarla Çanak Anten Set Kurulumu: Malzeme ve Kurulum Dahil Kampanya Fiyatları (Semtlere Göre) Sette Neler Var? Kurulumda Neler Yapılıyor? Nasıl Yararlanırım? Sık Sorulan Sorular Çanak anten kurulum fiyatı ne kadar? Kampanyalı çanak anten setinde neler var? Balkon ve çatı kurulumu fiyatı neden farklı? Kampanyalı kurulumda garanti var mı? Kampanya hangi semtlerde geçerli?"
  },
  {
   "title": "Çanak Anten Kurulumu Ankara: Dikmen ve Çankaya",
@@ -74,7 +74,7 @@
   "title": "Çanak Anten Servis Ücreti 2026: Fiyat Listesi",
   "url": "canak-anten-servis-ucreti.html",
   "desc": "Çanak anten servis ücreti: Dikmen, Ayrancı, Balgat, Öveçler 700 TL; Emek, Maltepe, Cebeci 800 TL. Set + kurulum 2500 TL'den başlayan fiyatlarla.",
-  "text": "Çanak Anten ve Uydu Servis Ücreti 2026: Çankaya Fiyat Listesi Servis (İşçilik) Ücreti Çanak Anten Kurulum Fiyatı (Kampanya) Hangi İşler Servis Ücretiyle Yapılır? Garanti Fiyat Almak İçin Sık Sorulan Sorular Çanak anten servis ücreti ne kadar? Çanak anten tamir ücreti ne kadar? Çanak anten ayar ücreti ne kadar? Çanak anten kurulum fiyatı ne kadar? Parça ücreti servis ücretine dahil mi?"
+  "text": "Çanak Anten ve Uydu Servis Ücreti 2026: Çankaya Fiyat Listesi Servis Ücreti Çanak Anten Kurulum Fiyatı (Kampanya) Hangi İşler Servis Ücretiyle Yapılır? Garanti Fiyat Almak İçin Sık Sorulan Sorular Çanak anten servis ücreti ne kadar? Çanak anten tamir ücreti ne kadar? Çanak anten ayar ücreti ne kadar? Çanak anten kurulum fiyatı ne kadar? Parça ücreti servis ücretine dahil mi?"
  },
  {
   "title": "Diğer Marka TV'lerde Uydu Kanal Arama (2026)",
@@ -115,8 +115,8 @@
  {
   "title": "Hakkımızda: Tuncay Özer",
   "url": "hakkimizda.html",
-  "desc": "Tuncay Özer 2008'den beri elektrik-elektronik alanında; Çankaya ve çevresinde çanak anten, merkezi uydu sistemi ve TV montajı işlerini bizzat yapıyor.",
-  "text": "Hakkımızda: Tuncay Özer, Çankaya Uydu Sistemleri Merhaba, ben Tuncay Özer Teknisyen"
+  "desc": "Çankaya Uydu Sistemleri: Dikmen merkezli çanak anten ve uydu teknik servisi. Teknisyen Tuncay Özer, 2008'den beri; yerinde arıza tespiti, orijinal malzeme.",
+  "text": "Hakkımızda: Tuncay Özer, Çankaya Uydu Sistemleri Çankaya Uydu Sistemleri Çalışma İlkelerimiz Yerinde Arıza Tespiti Orijinal Malzeme Açık Fiyat Garantili İş Hizmetlerimiz Hizmet Bölgelerimiz Teknisyenimiz"
  },
  {
   "title": "Hisense TV Uydu Kanal Arama (Türksat 2026)",
@@ -128,7 +128,7 @@
   "title": "Hizmet Bölgeleri ve Servis Ücreti: Dikmen, Çankaya",
   "url": "hizmet-bolgeleri.html",
   "desc": "Çankaya Uydu hizmet bölgeleri ve servis ücreti: Dikmen, Ayrancı, Balgat, Öveçler 700 TL; Bahçelievler, Emek, Maltepe, Gaziosmanpaşa, Cebeci 800 TL.",
-  "text": "Hizmet Bölgelerimiz: Dikmen, Ayrancı, Balgat ve Çevresi Servis Ücreti (Semtlere Göre) Çanak Anten Set Kurulumu: Malzeme + Kurulum Tek Fiyat Kampanya Fiyatları (Semtlere Göre) Sette Neler Var? Dikmen Ayrancı Balgat Öveçler Sokullu Keklikpınarı İlker Bahçelievler Emek Maltepe Mebusevleri Gaziosmanpaşa Esat Seyranbağları Cebeci Çalışma Saatlerimiz Sık Sorulan Sorular Hangi semtlere servis veriyorsunuz? Servis ücreti ne kadar? Çalışma saatleriniz nedir? Merkezi uydu sistemi arızasına geliyor musunuz?"
+  "text": "Hizmet Bölgelerimiz: Dikmen, Ayrancı, Balgat ve Çevresi Servis Ücreti (Semtlere Göre) Çanak Anten Set Kurulumu: Malzeme ve Kurulum Dahil Kampanya Fiyatları (Semtlere Göre) Sette Neler Var? Dikmen Ayrancı Balgat Öveçler Sokullu Keklikpınarı İlker Bahçelievler Emek Maltepe Mebusevleri Gaziosmanpaşa Esat Seyranbağları Cebeci Çalışma Saatlerimiz Sık Sorulan Sorular Hangi semtlere servis veriyorsunuz? Servis ücreti ne kadar? Çalışma saatleriniz nedir? Merkezi uydu sistemi arızasına geliyor musunuz?"
  },
  {
   "title": "Çanak Anten, Merkezi Uydu ve İnternet Kablosu",
