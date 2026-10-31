@@ -11,9 +11,9 @@
 	// Arama dizini: build sırasında sayfalardan üretilir (başlık, açıklama, alt başlıklar)
 	var PAGES = /*PAGES*/[
  {
-  "title": "Çankaya Uydu",
+  "title": "Çankaya Uydu Servisi",
   "url": "index.html",
-  "desc": "Dikmen merkezli çanak anten kurulumu, bireysel ve merkezi uydu sistemi arızası, internet kablosu çekimi. Ayrancı, Balgat, Öveçler, Emek: 0553 450 20 33",
+  "desc": "Çankaya Uydu Servisi: Dikmen merkezli çanak anten kurulumu, bireysel ve merkezi uydu arızası, internet kablosu çekimi. Ankara Çankaya: 0553 450 20 33",
   "text": "Çankaya'da Çanak Anten Kurulumu ve Uydu Arıza Servisi Çankaya'da Çanak Anten ve Uydu Hizmetlerimiz Bireysel Çanak Anten Kurulum ve Arıza Merkezi Uydu Sistemi Arıza ve Kurulum İnternet Kablosu Çekimi Hizmet Bölgelerimiz Yardım Konuları"
  },
  {
@@ -47,6 +47,12 @@
   "text": "Çanak Anten Kaç cm Olmalı? Ankara İçin Doğru Boyut Ankara İçin Hangi Boyut? Büyük Çanağın Avantajı ve Dezavantajı Küçük Çanak Yeterli mi? Merkezi Sistemde Neden Daha Büyük Çanak? Boyuttan Önce Ayar Sık Sorulan Sorular Çanak anten kaç cm olmalı? Çanak anten büyüdükçe görüntü kalitesi artar mı? En küçük çanak anten kaç cm? Merkezi uydu sistemi için kaç cm çanak gerekir?"
  },
  {
+  "title": "Çanak Anten Kurulumu Ankara: Dikmen ve Çankaya",
+  "url": "canak-anten-kurulumu.html",
+  "desc": "Çankaya Uydu Servisi ile çanak anten kurulumu: yer tespiti, montaj, Türksat 42°E yön ayarı, LNB ve kablo, kanal kurulumu. Dikmen ve Çankaya'da yerinde servis.",
+  "text": "Çanak Anten Kurulumu: Dikmen, Çankaya ve Çevresi Kurulum Nasıl Yapılıyor? Hangi Çanak ve LNB? Apartmanlar İçin Merkezi Sistem Ücret ve Garanti Hizmet Bölgeleri ve Saatler Sık Sorulan Sorular Çanak anten kurulumu nasıl yapılır? Çanak anten kurulumu hangi bölgelerde yapılıyor? Çanak anten kurulum ücreti neye göre değişir? Kurulumdan sonra garanti var mı? Hafta sonu çanak anten kurulumu yapıyor musunuz?"
+ },
+ {
   "title": "Çanak Anten Nasıl Ayarlanır? Adım Adım",
   "url": "canak-anten-nasil-ayarlanir.html",
   "desc": "Çanak anten nasıl kurulur ve ayarlanır? Gerekli malzemeler, yer seçimi, Türksat 42°E için açı ve yön ayarı, LNB açısı ve kanal araması adım adım.",
@@ -65,10 +71,10 @@
   "text": "Hi-Level, Axen, Telefunken, Onvo, Sunny TV Uydu Kanal Arama (2026) 1. Menü Tipinizi Belirleyin 2. Marka Notları Sunny Onvo Hi-Level Axen Telefunken 3. Şebeke Araması (Tüm Markalar) Diğer Markalar Sık Sorulan Sorular Hi-Level TV'de uydu ayarlama nasıl yapılır? Sunny TV'de uydu kurulumu nasıl yapılır? Onvo TV uydu görmüyor, ne yapmalıyım?"
  },
  {
-  "title": "Digitürk Kanal Listesi (Kategorilere Göre)",
+  "title": "Digitürk Kanalları ve Kanal Listesi",
   "url": "digiturk-kanal-listesi.html",
-  "desc": "Digitürk kanal listesi: film, dizi, spor, belgesel, çocuk, haber ve radyo kanalları kategorilere göre. Kanal numaraları Digitürk tarafından değiştirilebilir.",
-  "text": "Digitürk Kanal Listesi Film Kanalları Dizi Kanalları Yaşam ve Belgesel Kanalları Ulusal Kanallar Spor Kanalları Müzik Kanalları Yabancı Ulusal Kanallar Mekke ve Medine Kanalları Eba Kanalları Çizgi Film Kanalları Belgesel Kanalları Box Office Kanalları Taraftar Kanalları Euro Kanalları 4K Çözünürlüklü Kanalları Türkçe Radyo Kanalları Yabancı Radyo Kanalları Yerel ve Bölgesel Kanallar"
+  "desc": "Digitürk kanalları ve kanal listesi: film, dizi, spor, belgesel, çocuk, haber ve radyo kanalları kategorilere göre. Kanal numaraları değişebilir.",
+  "text": "Digitürk Kanalları ve Kanal Listesi Film Kanalları Dizi Kanalları Yaşam ve Belgesel Kanalları Ulusal Kanallar Spor Kanalları Müzik Kanalları Yabancı Ulusal Kanallar Mekke ve Medine Kanalları Eba Kanalları Çizgi Film Kanalları Belgesel Kanalları Box Office Kanalları Taraftar Kanalları Euro Kanalları 4K Çözünürlüklü Kanalları Türkçe Radyo Kanalları Yabancı Radyo Kanalları Yerel ve Bölgesel Kanallar"
  },
  {
   "title": "DiSEqC Nedir, Ne Olmalı? 1.0, 1.1 ve Port Ayarı",
@@ -131,7 +137,7 @@
   "text": "İnternet Kablosu Çekimi: Krone Kutusundan Daireye ve Odalara Krone Kutusu Nedir? Ne Zaman Yeni Kablo Gerekir? Neler Yapıyoruz? Kablo mu, Wi-Fi mı? Çanak Anten Kablosuyla Birlikte Hangi Bölgelerde? Sık Sorulan Sorular İnternet kablosunu kim çeker, sağlayıcı mı? Eski telefon kablosu interneti yavaşlatır mı? Hangi kablo kullanılıyor? Modemden odalara kablo çekiyor musunuz?"
  },
  {
-  "title": "Kanal Sıralaması Bozuldu: Nasıl Düzeltilir?",
+  "title": "Uydu Kanal Sıralaması Bozuldu: Nasıl Düzeltilir?",
   "url": "kanal-siralamasi-bozuldu.html",
   "desc": "Uydu kanal sıralaması bozuldu mu? TKGS ile standart sıraya dönme, kanal taşıma, favori listesi ve kanal aramasından sonra karışan listeyi düzeltme yolları.",
   "text": "Uydu Kanal Sıralaması Bozuldu: Nasıl Düzeltilir? 1. TKGS ile Standart Sıraya Dönün (En Kolay Yol) 2. Kanal Düzenleme ile Elle Sıralayın 3. Favori Listesi Oluşturun Kanallar Çift Göründüyse Sık Sorulan Sorular Uydu kanal sıralaması neden bozulur? Kanal sıralamasını eski haline nasıl getiririm? Kanal listesinde aynı kanal iki kez çıkıyor, neden?"

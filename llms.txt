@@ -33,6 +33,7 @@
 - [Uydu "Sinyal Yok" Hatası Çözümü](https://cankayauydu.com/uydu-sinyal-yok-hatasi.html)
 - [Rüzgârdan Çanak Anten Kaydı](https://cankayauydu.com/ruzgar-canak-anten-kaydi.html)
 - [Çanak Anten Nedir?](https://cankayauydu.com/canak-anten-nedir.html)
+- [Çanak Anten Kurulumu](https://cankayauydu.com/canak-anten-kurulumu.html)
 - [Çanak Anten Nasıl Ayarlanır?](https://cankayauydu.com/canak-anten-nasil-ayarlanir.html)
 - [Çanak Anten Kaç cm Olmalı?](https://cankayauydu.com/canak-anten-kac-cm-olmali.html)
 - [Ankara Çanak Anten Açısı (Türksat)](https://cankayauydu.com/ankara-canak-anten-acisi.html)
