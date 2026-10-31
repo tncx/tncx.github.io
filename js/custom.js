@@ -47,6 +47,12 @@
   "text": "Çanak Anten Kaç cm Olmalı? Ankara İçin Doğru Boyut Ankara İçin Hangi Boyut? Büyük Çanağın Avantajı ve Dezavantajı Küçük Çanak Yeterli mi? Merkezi Sistemde Neden Daha Büyük Çanak? Boyuttan Önce Ayar Sık Sorulan Sorular Çanak anten kaç cm olmalı? Çanak anten büyüdükçe görüntü kalitesi artar mı? En küçük çanak anten kaç cm? Merkezi uydu sistemi için kaç cm çanak gerekir?"
  },
  {
+  "title": "Çanak Anten Kurulum Kampanyası: Next Set + Kurulum 2500₺",
+  "url": "canak-anten-kampanya.html",
+  "desc": "Çanak anten set kurulumu kampanyası: 70 cm Next çanak, Next tekli LNB, 20 m Next kablo, montaj ayağı, kurulum dahil. Dikmen ve Çankaya'da balkon 2500₺, çatı 2700₺.",
+  "text": "Çanak Anten Kurulum Kampanyası: Next Set + Kurulum 2500₺'den Çanak Anten Set Kurulumu: Malzeme + Kurulum Tek Fiyat Kampanya Fiyatları (Semtlere Göre) Sette Neler Var? Kurulumda Neler Yapılıyor? Nasıl Yararlanırım? Sık Sorulan Sorular Çanak anten kurulum fiyatı ne kadar? Kampanyalı çanak anten setinde neler var? Balkon ve çatı kurulumu fiyatı neden farklı? Kampanyalı kurulumda garanti var mı? Kampanya hangi semtlerde geçerli?"
+ },
+ {
   "title": "Çanak Anten Kurulumu Ankara: Dikmen ve Çankaya",
   "url": "canak-anten-kurulumu.html",
   "desc": "Çankaya Uydu Servisi ile çanak anten kurulumu: yer tespiti, montaj, Türksat 42°E yön ayarı, LNB ve kablo, kanal kurulumu. Dikmen ve Çankaya'da yerinde servis.",
@@ -85,7 +91,7 @@
  {
   "title": "Çanak Anten ve Uydu Sık Sorulan Sorular",
   "url": "faq.html",
-  "desc": "133 soru-cevap: Türksat kanal arama, TKGS, çanak anten ayarı, sinyal yok, LNB, DiSEqC, merkezi sistem, Digitürk DMDU LNB ve hata kodları. Çankaya Uydu, Ankara.",
+  "desc": "134 soru-cevap: Türksat kanal arama, TKGS, çanak anten ayarı, sinyal yok, LNB, DiSEqC, merkezi sistem, Digitürk DMDU LNB ve hata kodları. Çankaya Uydu, Ankara.",
   "text": "Çanak Anten ve Uydu: Sıkça Sorulan Sorular Türksat, Kanal Arama ve TKGS Çanak Anten Kurulumu ve Ayarı Sinyal Yok ve Arızalar LNB, Kablo ve Bağlantılar Merkezi Uydu Sistemi Televizyon ve Uydu Alıcısı Digitürk Bakım ve Ömür Servis ve Hizmetlerimiz"
  },
  {

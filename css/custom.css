@@ -1555,3 +1555,37 @@ h1.breadcrumbs-custom-title,
 .side-fee { margin-top: 12px; font-size: 16px; color: var(--cu-dark); }
 .side-fee strong { color: var(--cu-red); font-weight: 800; white-space: nowrap; }
 .side-fee a { display: inline-block; font-size: 13px; color: var(--cu-blue); }
+.hero-price a { margin-left: 6px; font-size: 16px; font-weight: 600; color: #ffd0c9; text-decoration: underline; text-underline-offset: 3px; }
+.hero-price a:hover, .hero-price a:focus { color: #fff; }
+
+/* Kampanya: ana sayfa bandı, sayfa kutusu, yan kutu */
+.home-campaign { padding: 26px 0 0; }
+.campaign-band { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 6px 18px; padding: 18px 24px; border-radius: 16px; background: linear-gradient(120deg, #fff4f2 0%, #fff 70%); border: 2px solid var(--cu-red); color: var(--cu-dark); text-decoration: none; box-shadow: 0 8px 24px rgba(229, 58, 39, .12); }
+.campaign-band:hover, .campaign-band:focus { color: var(--cu-dark); text-decoration: none; box-shadow: 0 10px 28px rgba(229, 58, 39, .22); }
+.campaign-tag { display: inline-block; padding: 4px 12px; border-radius: 999px; background: var(--cu-red); color: #fff; font-size: 13px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.campaign-title { font-size: 22px; font-weight: 800; color: var(--cu-navy); }
+.campaign-title strong { color: var(--cu-red); }
+.campaign-list { grid-column: 2; font-size: 14.5px; color: #4a5560; }
+.campaign-more { grid-column: 3; grid-row: 1 / span 2; font-weight: 700; color: var(--cu-red); white-space: nowrap; }
+@media (max-width: 767px) {
+	.campaign-band { grid-template-columns: 1fr; text-align: center; padding: 16px; }
+	.campaign-tag { justify-self: center; }
+	.campaign-list, .campaign-more { grid-column: 1; grid-row: auto; }
+	.campaign-title { font-size: 19px; }
+}
+.campaign-box { margin: 18px 0 8px; padding: 20px 24px; border-radius: 14px; border: 2px solid var(--cu-red); background: #fff7f5; }
+.campaign-box h2 { margin-top: 8px; }
+.campaign-items { margin: 0; padding-left: 0; list-style: none; }
+.campaign-items li { position: relative; padding: 4px 0 4px 28px; font-weight: 600; }
+.campaign-items li::before { content: "✓"; position: absolute; left: 4px; color: var(--cu-green); font-weight: 800; }
+.campaign-table td strong { font-size: 17px; color: var(--cu-red); }
+.campaign-table td:nth-child(2), .campaign-table td:nth-child(3), .campaign-table th:nth-child(2), .campaign-table th:nth-child(3) { width: 110px; text-align: center; white-space: nowrap !important; }
+.campaign-inline { padding: 12px 16px; border-radius: 12px; background: #fff4f2; border-left: 4px solid var(--cu-red); }
+.side-campaign { margin-top: 10px; }
+.side-campaign a { display: block; padding: 10px 12px; border-radius: 10px; background: #fff4f2; border: 1px solid #f5c6bf; color: var(--cu-dark); font-size: 14px; font-weight: 600; text-decoration: none; }
+.side-campaign a:hover { border-color: var(--cu-red); color: var(--cu-dark); }
+.side-campaign span { display: inline-block; margin-right: 6px; padding: 1px 8px; border-radius: 999px; background: var(--cu-red); color: #fff; font-size: 11px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+.side-campaign strong { color: var(--cu-red); }
+.home-campaign { padding-bottom: 40px; }
+.home-campaign + .home-intro .turksat-notice, .home-campaign ~ * .turksat-notice { margin-top: 0; }
+.article-body .campaign-items { padding-left: 0; } .article-body .campaign-items li { list-style: none; }
