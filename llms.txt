@@ -4,14 +4,24 @@
 
 Önemli bilgi (Ekim 2026): Türksat 3A'daki TV ve radyo yayınları 15-16 Ağustos 2026 gecesi aynı konumdaki (42° Doğu) yeni Türksat uydularına taşındı; çanak ayarı değişmez, kanal listesi TKGS veya şebeke aramasıyla yenilenir. Şebeke arama değeri (Türksat resmî, Türkiye-Batı): 12380 MHz Dikey, sembol oranı 27500, FEC 3/4; yedek 12423 MHz Dikey 27500. LNB: Üniversal 9750/10600.
 
-## Fiyatlar (31 Ekim 2026)
+## Fiyatlar (1 Kasım 2026)
 - Servis ücreti: Dikmen, Ayrancı, Balgat, Öveçler, Sokullu, Keklikpınarı, İlker 700 TL; Bahçelievler, Emek, Maltepe, Mebusevleri, Gaziosmanpaşa, Esat, Seyranbağları, Cebeci 800 TL. Değişen parça (LNB, kablo, konnektör vb.) ayrıca ödenir.
 - Çanak anten tamiri, çanak ayarı, kanal kurulumu, merkezi sistem arızası servis ücretiyle yapılır.
 - Çanak anten set kurulumu kampanyası (70 cm Next çanak, Next tekli LNB, 20 m Next RG6/U6 kablo, montaj ayağı, kurulum dahil; 20 m'yi aşan her metre kablo 25 TL; 2500 TL'den başlayan fiyatlarla): Dikmen, Ayrancı, Balgat, Öveçler, Sokullu, Keklikpınarı, İlker balkon 2500 TL / çatı 2700 TL; Bahçelievler, Emek, Maltepe, Mebusevleri balkon 2800 TL / çatı 3000 TL; Gaziosmanpaşa, Esat, Seyranbağları, Cebeci balkon 3000 TL / çatı 3200 TL.
 - Kendi çanağının kurulumu (müşterinin kendi malzemesiyle; kullanılacak her malzeme ek ücretli): Dikmen, Ayrancı, Balgat, Öveçler, Sokullu, Keklikpınarı, İlker balkon 800 TL / çatı 900 TL; Bahçelievler, Emek, Maltepe, Mebusevleri balkon 900 TL / çatı 1000 TL; Gaziosmanpaşa, Esat, Seyranbağları, Cebeci balkon 1000 TL / çatı 1100 TL.
-- Malzeme fiyatları: anten kablosu metresi 25 TL, Next tekli LNB 250 TL, Next 2'li LNB 500 TL, Next 4'lü LNB 700 TL, montaj ayağı 300 TL, L ayak 500 TL, montaj kelepçesi (2 adet) 200 TL.
+- Malzeme fiyatları: anten kablosu metresi 25 TL, Next tekli LNB 250 TL, Next 2'li LNB 500 TL, Next 4'lü LNB 700 TL, montaj ayağı 300 TL, L ayak 500 TL, montaj kelepçesi (2 adet) 200 TL, çelik dübel (4 adet) 200 TL.
 - İnternet kablosu çekimi (Krone kutusundan daireye, Cat6): servis ücreti işe göre 1000-1500 TL + kablo metresi 25 TL (ör. 20 m: 1500-2000 TL).
 - Fiyat listesi: https://cankayauydu.com/canak-anten-servis-ucreti.html
+
+## Fiyat hesaplama kuralları
+- Araç ve tam tablo: [Çanak anten fiyat hesaplama](https://cankayauydu.com/canak-anten-fiyat-hesaplama.html); makine okunur liste: https://cankayauydu.com/fiyatlar.json
+- Arıza, ayar, kanal kurulumu: semtin servis ücreti + değişen malzeme.
+- Set + kurulum: semtin kampanya fiyatı; 20 m'yi aşan her metre kablo 25 TL; sete ek malzeme malzeme fiyatıyla eklenir.
+- Kendi çanağının kurulumu: semtin kurulum fiyatı + bizden alınan her malzeme (fiyat yalnızca müşterinin kendi malzemesiyle geçerli).
+- İnternet kablosu: işe göre 1000-1500 TL + Cat6 metresi 25 TL.
+- Hesaplanan tutar ön bilgidir; kesin fiyat iş yerinde görülünce, işe başlamadan söylenir.
+- Malzeme: Anten kablosu (metre) 25 TL, Next tekli LNB 250 TL, Next 2'li LNB 500 TL, Next 4'lü LNB 700 TL, Montaj ayağı 300 TL, L ayak 500 TL, Montaj kelepçesi (2 adet) 200 TL, Çelik dübel (4 adet) 200 TL.
+- Örnekler: Dikmen, balkona set kurulumu, 20 m kablo: 2500 TL; Bahçelievler, çatıya set kurulumu, 30 m kablo, L ayak: 3750 TL; Esat, kendi çanağınızın balkona kurulumu, bizden Next tekli LNB ve 15 m kablo: 1625 TL; Balgat, uydu arızası, LNB 4'lü olarak değişiyor: 1400 TL; internet kablosu 20 m: 1500-2000 TL.
 
 ## Hızlı bilgiler (Ankara, Türksat 42° Doğu)
 - Çanak yönü: gerçek kuzeye göre yaklaşık 166°, pusulada yaklaşık 160° (güneyin ~14° doğusu); yükseliş (elevasyon) yaklaşık 43°; LNB eğimi yaklaşık 11°. Son ayar sinyal seviyesine değil sinyal kalitesine bakılarak yapılır.
@@ -29,6 +39,7 @@
 - [Hizmetlerimiz](https://cankayauydu.com/hizmetlerimiz.html)
 - [Hizmet bölgeleri](https://cankayauydu.com/hizmet-bolgeleri.html)
 - [Servis ücreti ve fiyat listesi](https://cankayauydu.com/canak-anten-servis-ucreti.html)
+- [Çanak Anten Fiyat Hesaplama](https://cankayauydu.com/canak-anten-fiyat-hesaplama.html)
 - [Uydu Arıza Tespiti: Adım Adım](https://cankayauydu.com/uydu-arizasi-tespiti.html)
 - [İletişim](https://cankayauydu.com/iletisim.html)
 - [Sıkça sorulan sorular](https://cankayauydu.com/faq.html)

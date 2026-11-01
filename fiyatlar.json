@@ -1,0 +1,86 @@
+{
+  "isletme": "Çankaya Uydu Sistemleri",
+  "telefon": "+905534502033",
+  "web": "https://cankayauydu.com/",
+  "guncelleme": "2026-11-01",
+  "para_birimi": "TRY",
+  "kaynak": "https://cankayauydu.com/canak-anten-fiyat-hesaplama.html",
+  "semt_gruplari": [
+    {
+      "semtler": [
+        "Dikmen",
+        "Ayrancı",
+        "Balgat",
+        "Öveçler",
+        "Sokullu",
+        "Keklikpınarı",
+        "İlker"
+      ],
+      "servis_ucreti": 700,
+      "set_kurulum_balkon": 2500,
+      "set_kurulum_cati": 2700,
+      "kendi_canagi_kurulum_balkon": 800,
+      "kendi_canagi_kurulum_cati": 900
+    },
+    {
+      "semtler": [
+        "Bahçelievler",
+        "Emek",
+        "Maltepe",
+        "Mebusevleri"
+      ],
+      "servis_ucreti": 800,
+      "set_kurulum_balkon": 2800,
+      "set_kurulum_cati": 3000,
+      "kendi_canagi_kurulum_balkon": 900,
+      "kendi_canagi_kurulum_cati": 1000
+    },
+    {
+      "semtler": [
+        "Gaziosmanpaşa",
+        "Esat",
+        "Seyranbağları",
+        "Cebeci"
+      ],
+      "servis_ucreti": 800,
+      "set_kurulum_balkon": 3000,
+      "set_kurulum_cati": 3200,
+      "kendi_canagi_kurulum_balkon": 1000,
+      "kendi_canagi_kurulum_cati": 1100
+    }
+  ],
+  "set_icerigi": [
+    "70 cm orijinal Next çanak anten",
+    "Next tekli LNB",
+    "20 m Next RG6/U6 anten kablosu",
+    "Montaj ayağı",
+    "Kurulum ve Türksat yön ayarı"
+  ],
+  "set_dahil_kablo_metre": 20,
+  "malzeme": {
+    "Anten kablosu (metre)": 25,
+    "Next tekli LNB": 250,
+    "Next 2'li LNB": 500,
+    "Next 4'lü LNB": 700,
+    "Montaj ayağı": 300,
+    "L ayak": 500,
+    "Montaj kelepçesi (2 adet)": 200,
+    "Çelik dübel (4 adet)": 200
+  },
+  "internet_kablosu": {
+    "servis_ucreti_min": 1000,
+    "servis_ucreti_max": 1500,
+    "cat6_kablo_metre": 25
+  },
+  "kurallar": [
+    "Arıza, ayar, kanal kurulumu: semtin servis ücreti + değişen malzeme.",
+    "Set + kurulum: semtin kampanya fiyatı; 20 m'yi aşan her metre kablo 25 TL; sete ek malzeme malzeme fiyatıyla eklenir.",
+    "Kendi çanağının kurulumu: semtin kurulum fiyatı + bizden alınan her malzeme (fiyat yalnızca müşterinin kendi malzemesiyle geçerli).",
+    "İnternet kablosu: işe göre 1000-1500 TL + Cat6 metresi 25 TL.",
+    "Hesaplanan tutar ön bilgidir; kesin fiyat iş yerinde görülünce, işe başlamadan söylenir."
+  ],
+  "garanti": {
+    "iscilik_ay": 1,
+    "dis_kurulum_malzemesi_ay": 2
+  }
+}

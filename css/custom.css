@@ -1676,3 +1676,9 @@ h1.breadcrumbs-custom-title,
 .fee-calc-incl ul { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 4px 0 0; padding: 0; list-style: none; }
 .fee-calc-incl li { position: relative; padding-left: 22px; font-size: 15px; }
 .fee-calc-incl li::before { content: '✓'; position: absolute; left: 0; top: 0; color: #1a8f45; font-weight: 800; }
+
+/* Fiyat hesaplama: tüm fiyatlar bağlantısı, JS'siz özet, güncellik notu, fiyat matrisi */
+.fee-calc-all { display: inline-block; margin: 14px 0 0 18px; font-weight: 700; }
+.fee-calc-static { margin: 0; }
+.price-updated { font-size: 14px; color: #5b6472; }
+.table.fee-table.price-matrix td, .table.fee-table.price-matrix th { padding: 8px 6px; font-size: 14px; vertical-align: middle; }

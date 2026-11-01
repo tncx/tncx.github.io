@@ -59,6 +59,12 @@
   "text": "Beko TV Uydu Kanal Arama ve Şebeke Arama (Türksat 2026) Başlamadan Önce Menü Yolu (Görselli) Yöntem 1: TKGS ile Otomatik Güncelleme Yöntem 2: Otomatik Kanal Arama Yöntem 3: Şebeke Araması (Manuel) Menünüz Hangisi? (Arçelik Grubu Menü Tipleri) Beko TV'de Sık Karşılaşılan Sorunlar Diğer Markalar Sık Sorulan Sorular Beko TV'de uydu kanal arama nasıl yapılır? Beko kendinden uydulu TV'de manuel arama nasıl yapılır? Beko TV'de mevcut kanalları korumalı mıyım?"
  },
  {
+  "title": "Çanak Anten Fiyat Hesaplama 2026: Ankara Çankaya",
+  "url": "canak-anten-fiyat-hesaplama.html",
+  "desc": "Çanak anten fiyat hesaplama: semtinizi ve işi seçin, fiyatı anında görün. Servis 700 TL'den, set + kurulum 2500 TL'den, kendi çanağınızın kurulumu 800 TL'den.",
+  "text": "Çanak Anten Fiyat Hesaplama: Semtinize Göre Anında Fiyat Fiyat Nasıl Hesaplanır? Semtlere Göre Tüm Fiyatlar Malzeme Fiyatları Örnek Hesaplamalar Fiyata Neler Dahil? Sık Sorulan Sorular Çanak anten fiyatı nasıl hesaplanır? Ankara'da çanak anten kurulumu ne kadar? LNB değişimi ne kadar? Anten kablosunun metresi ne kadar? Hesaplanan fiyat kesin mi?"
+ },
+ {
   "title": "Çanak Anten Kaç cm Olmalı? Doğru Boyut Seçimi",
   "url": "canak-anten-kac-cm-olmali.html",
   "desc": "Çanak anten kaç cm olmalı? Ankara'da Türksat için tek dairede genellikle 60–80 cm yeterli. Merkezi sistem, ikinci uydu ve yağmurda kesinti için doğru boyut seçimi.",
@@ -775,7 +781,7 @@
 	var JOBS = ['Arıza, ayar veya kanal kurulumu (servis ücreti)', 'Çanak anten set + kurulum (balkon)', 'Çanak anten set + kurulum (çatı)', 'İnternet kablosu çekimi (Krone kutusundan, Cat6)', 'Kendi çanağımın kurulumu (balkon)', 'Kendi çanağımın kurulumu (çatı)'];
 	var NET_FEE = [1000, 1500], NET_METER = 25;
 	var OWN = { 1: [800, 900], 2: [900, 1000], 3: [1000, 1100] }; // own dish install (balkon, çatı), every material extra
-	var MATS = [['Next tekli LNB', 250], ['Next 2\'li LNB', 500], ['Next 4\'lü LNB', 700], ['Montaj ayağı', 300], ['L ayak', 500], ['Montaj kelepçesi (2 adet)', 200]];
+	var MATS = [['Next tekli LNB', 250], ['Next 2\'li LNB', 500], ['Next 4\'lü LNB', 700], ['Montaj ayağı', 300], ['L ayak', 500], ['Montaj kelepçesi (2 adet)', 200], ['Çelik dübel (4 adet)', 200]];
 	var SET_ITEMS = ['70 cm orijinal Next çanak anten', 'Next tekli LNB', '20 m Next RG6/U6 anten kablosu', 'Montaj ayağı', 'Kurulum ve Türksat yön ayarı'];
 	var SET_METER = 20, EXTRA_METER = 25; // set includes 20 m cable, each extra metre 25₺
 	var NOTES = ['Değişen parça (LNB, kablo vb.) ayrıca ödenir.', '70 cm Next çanak, Next tekli LNB, 20 m kablo ve montaj ayağı dahil.', '70 cm Next çanak, Next tekli LNB, 20 m kablo ve montaj ayağı dahil.'];
@@ -807,6 +813,7 @@
 		meterWrap.appendChild(meter); box.insertBefore(meterWrap, out);
 		var wa = el('a', 'btn btn-wa fee-calc-wa', 'WhatsApp\'tan randevu alın');
 		wa.target = '_blank'; wa.rel = 'noopener'; box.appendChild(wa);
+		if (location.pathname.indexOf('canak-anten-fiyat-hesaplama.html') < 0) { var all = el('a', 'fee-calc-all', 'Semtlere göre tüm fiyatlar ve örnek hesaplar »'); all.href = 'canak-anten-fiyat-hesaplama.html'; box.appendChild(all); }
 		var mats = el('div', 'fee-calc-field fee-calc-mats');
 		var matsLabel = el('span', 'fee-calc-label', 'Bizden alınacak malzeme');
 		mats.appendChild(matsLabel);
@@ -836,6 +843,11 @@
 			meterWrap.classList.toggle('is-on', true);
 			mats.classList.toggle('is-on', j !== 3);
 			incl.classList.toggle('is-on', j === 1 || j === 2);
+			var inSet = j === 1 || j === 2; // the set already has a single LNB
+			[0, 3, 6].forEach(function (k) { // tekli LNB, montaj ayağı (in the set) and dübel: not offered with the set
+				if (inSet) matBoxes[k].checked = false;
+				matBoxes[k].parentNode.style.display = inSet ? 'none' : '';
+			});
 			if (mat) {
 				var base = own ? OWN[tier(name)][j - 4] : PRICES[tier(name)][0], add = m * EXTRA_METER;
 				if (m) extras.push(m + ' m kablo');
