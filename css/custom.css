@@ -1663,3 +1663,9 @@ h1.breadcrumbs-custom-title,
 .fee-calc-meter.is-on { display: block; }
 .fee-calc-meter input { width: 140px; height: 44px; padding: 0 10px; border: 1px solid var(--cu-line); border-radius: 10px; font-size: 15px; }
 .hero-wizard { margin: 14px 0 0; } .hero-wizard a { color: #ffd0c9; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; } .hero-wizard a:hover { color: #fff; }
+
+/* Fiyat aracı: kendi çanağının kurulumunda bizden alınacak malzemeler */
+.fee-calc-mats { display: none; margin-top: 12px; }
+.fee-calc-mats.is-on { display: block; }
+.fee-calc-check { display: inline-flex; align-items: center; gap: 6px; margin: 4px 18px 4px 0; font-size: 15px; font-weight: 400; cursor: pointer; }
+.fee-calc-check input { width: 18px; height: 18px; accent-color: var(--cu-blue); }

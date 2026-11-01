@@ -68,7 +68,7 @@
   "title": "Çanak Anten 2500₺'den Başlayan Fiyatlarla",
   "url": "canak-anten-kampanya.html",
   "desc": "Çanak anten kampanyası: 70 cm Next çanak, tekli LNB, 20 m kablo, montaj ayağı, kurulum dahil. Çankaya'da 2500₺'den başlayan fiyatlarla.",
-  "text": "Çanak Anten Kurulum Kampanyası: Next Set + Kurulum 2500₺'den Başlayan Fiyatlarla Çanak Anten Set Kurulumu: Malzeme ve Kurulum Dahil Kampanya Fiyatları (Semtlere Göre) Sette Neler Var? Kurulumda Neler Yapılıyor? Nasıl Yararlanırım? Sık Sorulan Sorular Çanak anten kurulum fiyatı ne kadar? Kampanyalı çanak anten setinde neler var? Balkon ve çatı kurulumu fiyatı neden farklı? Kampanyalı kurulumda garanti var mı? Kampanya hangi semtlerde geçerli?"
+  "text": "Çanak Anten Kurulum Kampanyası: Next Set + Kurulum 2500₺'den Başlayan Fiyatlarla Çanak Anten Set Kurulumu: Malzeme ve Kurulum Dahil Kampanya Fiyatları (Semtlere Göre) Sette Neler Var? Kurulumda Neler Yapılıyor? Çanağınız Zaten Varsa: Kendi Malzemenizle Kurulum Malzeme Fiyatları Nasıl Yararlanırım? Sık Sorulan Sorular Kendi çanak antenimi kurdurmak ne kadar? Çanak anten kurulum fiyatı ne kadar? Kampanyalı çanak anten setinde neler var? Balkon ve çatı kurulumu fiyatı neden farklı? Kampanyalı kurulumda garanti var mı? Kampanya hangi semtlerde geçerli?"
  },
  {
   "title": "Çanak Anten Kurulumu Ankara: Dikmen ve Çankaya",
@@ -92,7 +92,7 @@
   "title": "Çanak Anten Servis Ücreti 2026: Fiyat Listesi",
   "url": "canak-anten-servis-ucreti.html",
   "desc": "Çanak anten servis ücreti: Dikmen, Ayrancı, Balgat, Öveçler 700 TL; Emek, Maltepe, Cebeci 800 TL. Set + kurulum 2500 TL'den başlayan fiyatlarla.",
-  "text": "Çanak Anten ve Uydu Servis Ücreti 2026: Çankaya Fiyat Listesi Servis Ücreti Çanak Anten Kurulum Fiyatı (Kampanya) İnternet Kablosu Çekimi Fiyatı Hangi İşler Servis Ücretiyle Yapılır? Garanti Fiyat Almak İçin Sık Sorulan Sorular Çanak anten servis ücreti ne kadar? Çanak anten tamir ücreti ne kadar? Çanak anten ayar ücreti ne kadar? Çanak anten kurulum fiyatı ne kadar? Parça ücreti servis ücretine dahil mi?"
+  "text": "Çanak Anten ve Uydu Servis Ücreti 2026: Çankaya Fiyat Listesi Servis Ücreti Çanak Anten Kurulum Fiyatı (Kampanya) Kendi Çanağınızın Kurulumu (Semtlere Göre) Malzeme Fiyatları İnternet Kablosu Çekimi Fiyatı Hangi İşler Servis Ücretiyle Yapılır? Garanti Fiyat Almak İçin Sık Sorulan Sorular Kendi çanak antenimi kurdurmak ne kadar? Çanak anten servis ücreti ne kadar? Çanak anten tamir ücreti ne kadar? Çanak anten ayar ücreti ne kadar? Çanak anten kurulum fiyatı ne kadar? Parça ücreti servis ücretine dahil mi?"
  },
  {
   "title": "Cebeci Çanak Anten Servisi",
@@ -176,7 +176,7 @@
   "title": "Hizmet Bölgeleri ve Servis Ücreti: Dikmen, Çankaya",
   "url": "hizmet-bolgeleri.html",
   "desc": "Çankaya Uydu hizmet bölgeleri ve servis ücreti: Dikmen, Ayrancı, Balgat, Öveçler 700 TL; Bahçelievler, Emek, Maltepe, Gaziosmanpaşa, Cebeci 800 TL.",
-  "text": "Hizmet Bölgelerimiz: Dikmen, Ayrancı, Balgat ve Çevresi Servis Ücreti (Semtlere Göre) Çanak Anten Set Kurulumu: Malzeme ve Kurulum Dahil Kampanya Fiyatları (Semtlere Göre) Sette Neler Var? Dikmen Ayrancı Balgat Öveçler Sokullu Keklikpınarı İlker Bahçelievler Emek Maltepe Mebusevleri Gaziosmanpaşa Esat Seyranbağları Cebeci Çalışma Saatlerimiz Sık Sorulan Sorular Hangi semtlere servis veriyorsunuz? Servis ücreti ne kadar? Çalışma saatleriniz nedir? Merkezi uydu sistemi arızasına geliyor musunuz?"
+  "text": "Hizmet Bölgelerimiz: Dikmen, Ayrancı, Balgat ve Çevresi Servis Ücreti (Semtlere Göre) Çanak Anten Set Kurulumu: Malzeme ve Kurulum Dahil Kampanya Fiyatları (Semtlere Göre) Sette Neler Var? Kendi Çanağınızın Kurulumu (Semtlere Göre) Malzeme Fiyatları Dikmen Ayrancı Balgat Öveçler Sokullu Keklikpınarı İlker Bahçelievler Emek Maltepe Mebusevleri Gaziosmanpaşa Esat Seyranbağları Cebeci Çalışma Saatlerimiz Sık Sorulan Sorular Hangi semtlere servis veriyorsunuz? Servis ücreti ne kadar? Çalışma saatleriniz nedir? Merkezi uydu sistemi arızasına geliyor musunuz?"
  },
  {
   "title": "Çanak Anten, Merkezi Uydu ve İnternet Kablosu",
@@ -772,8 +772,10 @@
 	var T2 = ['Bahçelievler', 'Emek', 'Maltepe', 'Mebusevleri'];
 	var T3 = ['Gaziosmanpaşa', 'Esat', 'Seyranbağları', 'Cebeci'];
 	var PRICES = { 1: [700, 2500, 2700], 2: [800, 2800, 3000], 3: [800, 3000, 3200] };
-	var JOBS = ['Arıza, ayar veya kanal kurulumu (servis ücreti)', 'Çanak anten set + kurulum (balkon)', 'Çanak anten set + kurulum (çatı)', 'İnternet kablosu çekimi (Krone kutusundan, Cat6)'];
+	var JOBS = ['Arıza, ayar veya kanal kurulumu (servis ücreti)', 'Çanak anten set + kurulum (balkon)', 'Çanak anten set + kurulum (çatı)', 'İnternet kablosu çekimi (Krone kutusundan, Cat6)', 'Kendi çanağımın kurulumu (balkon)', 'Kendi çanağımın kurulumu (çatı)'];
 	var NET_FEE = [1000, 1500], NET_METER = 25;
+	var OWN = { 1: [800, 900], 2: [900, 1000], 3: [1000, 1100] }; // own dish install (balkon, çatı), every material extra
+	var MATS = [['Next tekli LNB', 250], ['Montaj ayağı', 300], ['L ayak', 500], ['Montaj kelepçesi (2 adet)', 200]];
 	var SET_METER = 20, EXTRA_METER = 25; // set includes 20 m cable, each extra metre 25₺
 	var NOTES = ['Değişen parça (LNB, kablo vb.) ayrıca ödenir.', '70 cm Next çanak, Next tekli LNB, 20 m kablo ve montaj ayağı dahil.', '70 cm Next çanak, Next tekli LNB, 20 m kablo ve montaj ayağı dahil.'];
 	function tier(name) { return T1.indexOf(name) > -1 ? 1 : T2.indexOf(name) > -1 ? 2 : 3; }
@@ -804,17 +806,33 @@
 		meterWrap.appendChild(meter); box.insertBefore(meterWrap, out);
 		var wa = el('a', 'btn btn-wa fee-calc-wa', 'WhatsApp\'tan randevu alın');
 		wa.target = '_blank'; wa.rel = 'noopener'; box.appendChild(wa);
+		var mats = el('div', 'fee-calc-field fee-calc-mats');
+		mats.appendChild(el('span', 'fee-calc-label', 'Bizden alınacak malzeme'));
+		var matBoxes = MATS.map(function (mt, k) {
+			var l = el('label', 'fee-calc-check'), c = el('input'); c.type = 'checkbox'; c.id = 'fee-mat-' + n + '-' + k;
+			l.setAttribute('for', c.id); l.appendChild(c); l.appendChild(document.createTextNode(' ' + mt[0] + ' (' + mt[1] + '₺)'));
+			c.addEventListener('change', update); mats.appendChild(l); return c;
+		});
+		box.insertBefore(mats, out);
 		var lastJob = -1;
 		function update() {
-			var name = ALL[+semt.select.value], j = +job.select.value, p;
-			if (j !== lastJob) { // new job: default length (set 20 m, internet 10 m)
-				if (j === 1 || j === 2) meter.value = String(SET_METER); else if (j === 3) meter.value = '10';
-				meterLabel.textContent = j === 3 ? 'Yaklaşık kablo uzunluğu (metre)' : 'Tahmini kaç metre kablo gider?';
+			var name = ALL[+semt.select.value], j = +job.select.value, own = j >= 4, p, extras = [];
+			if (j !== lastJob) { // new job: default cable length (set 20 m, internet 10 m, own dish 0 m)
+				meter.value = j === 1 || j === 2 ? String(SET_METER) : j === 3 ? '10' : '0';
+				meter.min = own ? '0' : '1';
+				meterLabel.textContent = j === 3 ? 'Yaklaşık kablo uzunluğu (metre)' : own ? 'Bizden kaç metre kablo gerekir?' : 'Tahmini kaç metre kablo gider?';
 				lastJob = j;
 			}
-			var m = Math.max(1, Math.min(500, parseInt(meter.value, 10) || 1));
+			var m = Math.max(own ? 0 : 1, Math.min(500, parseInt(meter.value, 10) || 0));
 			meterWrap.classList.toggle('is-on', j > 0);
-			if (j === 1 || j === 2) {
+			mats.classList.toggle('is-on', own);
+			if (own) {
+				var base = OWN[tier(name)][j - 4], add = m * EXTRA_METER;
+				if (m) extras.push(m + ' m kablo');
+				matBoxes.forEach(function (c, k) { if (c.checked) { add += MATS[k][1]; extras.push(MATS[k][0]); } });
+				p = base + add;
+				note.textContent = 'Kendi malzemenizle kurulum ' + base + '₺' + (add ? ' + malzeme ' + add + '₺ (' + extras.join(', ') + ').' : '.') + ' Kullanılacak her malzeme ek ücretlidir.';
+			} else if (j === 1 || j === 2) {
 				var extra = Math.max(0, m - SET_METER);
 				p = PRICES[tier(name)][j] + extra * EXTRA_METER;
 				note.textContent = NOTES[j] + (extra ? ' Ek ' + extra + ' m kablo × ' + EXTRA_METER + '₺ = ' + (extra * EXTRA_METER) + '₺.' : ' 20 m\'yi aşan her metre ' + EXTRA_METER + '₺.');
@@ -826,7 +844,7 @@
 				note.textContent = NOTES[j];
 			}
 			price.textContent = p + '₺';
-			wa.href = 'https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent('Merhaba, ' + name + ' için randevu almak istiyorum. İş: ' + JOBS[j] + (j > 0 ? ' (~' + m + ' m kablo)' : '') + ', ' + p + '₺.');
+			wa.href = 'https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent('Merhaba, ' + name + ' için randevu almak istiyorum. İş: ' + JOBS[j] + (own ? ' (' + (extras.length ? 'bizden: ' + extras.join(', ') : 'malzemeler bende') + ')' : j > 0 ? ' (~' + m + ' m kablo)' : '') + ', ' + p + '₺.');
 		}
 		semt.select.addEventListener('change', update); job.select.addEventListener('change', update); meter.addEventListener('input', update);
 		update();
@@ -869,7 +887,7 @@
 			l: [['kanal-siralamasi-bozuldu.html', 'Kanal sıralaması bozuldu'], ['tkgs-nedir.html', 'TKGS nedir?']] },
 		r_digi: { t: 'Digitürk hata kodları', d: 'E16, E30, E37, E42 gibi kodların anlamı ve çözümleri SSS sayfamızda. Kod sinyalle ilgiliyse (ör. E16-4) çanak ve LNB kontrol edilmelidir.',
 			l: [['faq.html#sss-digiturk', 'Digitürk sorunları ve çözümleri'], ['digiturk-kanal-listesi.html', 'Digitürk kanal numaraları']] },
-		r_kurulum: { t: 'Çanak anten kurulumu', d: 'Next çanak anten seti kurulum dahil 2500₺\'den başlayan fiyatlarla. Semtinize göre fiyatı kampanya sayfasında görebilirsiniz.', s: 1,
+		r_kurulum: { t: 'Çanak anten kurulumu', d: 'Next çanak anten seti kurulum dahil 2500₺\'den başlayan fiyatlarla. Çanağınız varsa kendi malzemenizle kurulum 800₺\'den başlar; kullanılacak malzeme ek ücretlidir. Semtinize göre fiyatları kampanya sayfasında görebilirsiniz.', s: 1,
 			l: [['canak-anten-kampanya.html', 'Kampanya fiyatları'], ['canak-anten-kurulumu.html', 'Kurulum nasıl yapılıyor?']] },
 		r_internet: { t: 'İnternet kablosu çekimi', d: 'Binadaki Krone kutusundan dairenize Cat6 kablo çekiyoruz. Servis ücreti işe göre 1000₺ - 1500₺, buna Cat6 kablonun metresi 25₺ eklenir. Kesin fiyatı yerinde görerek söylüyoruz.', s: 1,
 			l: [['internet-kablosu-cekimi.html', 'İnternet kablosu çekimi']] }
