@@ -822,12 +822,12 @@
 				meter.value = j === 1 || j === 2 ? String(SET_METER) : j === 3 ? '10' : '0';
 				meter.min = mat ? '0' : '1';
 				meterLabel.textContent = j === 3 ? 'Yaklaşık kablo uzunluğu (metre)' : own ? 'Bizden kaç metre kablo gerekir?' : j === 0 ? 'Değişecek kablo (metre, yoksa 0)' : 'Tahmini kaç metre kablo gider?';
-				matsLabel.textContent = j === 0 ? 'Değişecek malzeme varsa seçin' : 'Bizden alınacak malzeme';
+				matsLabel.textContent = j === 0 ? 'Değişecek malzeme varsa seçin' : own ? 'Bizden alınacak malzeme' : 'Sete ek malzeme gerekirse seçin';
 				lastJob = j;
 			}
 			var m = Math.max(mat ? 0 : 1, Math.min(500, parseInt(meter.value, 10) || 0));
 			meterWrap.classList.toggle('is-on', true);
-			mats.classList.toggle('is-on', mat);
+			mats.classList.toggle('is-on', j !== 3);
 			if (mat) {
 				var base = own ? OWN[tier(name)][j - 4] : PRICES[tier(name)][0], add = m * EXTRA_METER;
 				if (m) extras.push(m + ' m kablo');
@@ -835,9 +835,11 @@
 				p = base + add;
 				note.textContent = (own ? 'Kendi malzemenizle kurulum ' : 'Servis ücreti ') + base + '₺' + (add ? ' + malzeme ' + add + '₺ (' + extras.join(', ') + ').' : '.') + (own ? ' Kullanılacak her malzeme ek ücretlidir.' : (add ? ' Başka parça gerekirse yerinde söylenir.' : ' Değişen parça ayrıca ödenir.'));
 			} else if (j === 1 || j === 2) {
-				var extra = Math.max(0, m - SET_METER);
-				p = PRICES[tier(name)][j] + extra * EXTRA_METER;
-				note.textContent = NOTES[j] + (extra ? ' Ek ' + extra + ' m kablo × ' + EXTRA_METER + '₺ = ' + (extra * EXTRA_METER) + '₺.' : ' 20 m\'yi aşan her metre ' + EXTRA_METER + '₺.');
+				var extra = Math.max(0, m - SET_METER), setAdd = 0;
+				matBoxes.forEach(function (c, k) { if (c.checked) { setAdd += MATS[k][1]; extras.push(MATS[k][0]); } });
+				p = PRICES[tier(name)][j] + extra * EXTRA_METER + setAdd;
+				note.textContent = NOTES[j] + (extra ? ' Ek ' + extra + ' m kablo × ' + EXTRA_METER + '₺ = ' + (extra * EXTRA_METER) + '₺.' : ' 20 m\'yi aşan her metre ' + EXTRA_METER + '₺.') +
+					(setAdd ? ' Ek malzeme ' + setAdd + '₺ (' + extras.join(', ') + ').' : '');
 			} else if (j === 3) {
 				p = (NET_FEE[0] + m * NET_METER) + '₺ - ' + (NET_FEE[1] + m * NET_METER);
 				note.textContent = 'Servis ücreti işe göre ' + NET_FEE[0] + '₺ - ' + NET_FEE[1] + '₺ + ' + m + ' m Cat6 kablo × ' + NET_METER + '₺. Kesin fiyat yerinde belirlenir.';
@@ -846,7 +848,7 @@
 				note.textContent = NOTES[j];
 			}
 			price.textContent = p + '₺';
-			wa.href = 'https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent('Merhaba, ' + name + ' için randevu almak istiyorum. İş: ' + JOBS[j] + (own ? ' (' + (extras.length ? 'bizden: ' + extras.join(', ') : 'malzemeler bende') + ')' : j === 0 ? (extras.length ? ' (malzeme: ' + extras.join(', ') + ')' : '') : j > 0 ? ' (~' + m + ' m kablo)' : '') + ', ' + p + '₺.');
+			wa.href = 'https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent('Merhaba, ' + name + ' için randevu almak istiyorum. İş: ' + JOBS[j] + (own ? ' (' + (extras.length ? 'bizden: ' + extras.join(', ') : 'malzemeler bende') + ')' : j === 0 ? (extras.length ? ' (malzeme: ' + extras.join(', ') + ')' : '') : j > 0 ? ' (~' + m + ' m kablo' + (extras.length ? ', ek: ' + extras.join(', ') : '') + ')' : '') + ', ' + p + '₺.');
 		}
 		semt.select.addEventListener('change', update); job.select.addEventListener('change', update); meter.addEventListener('input', update);
 		update();
