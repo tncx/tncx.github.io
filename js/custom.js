@@ -807,7 +807,8 @@
 		var wa = el('a', 'btn btn-wa fee-calc-wa', 'WhatsApp\'tan randevu alın');
 		wa.target = '_blank'; wa.rel = 'noopener'; box.appendChild(wa);
 		var mats = el('div', 'fee-calc-field fee-calc-mats');
-		mats.appendChild(el('span', 'fee-calc-label', 'Bizden alınacak malzeme'));
+		var matsLabel = el('span', 'fee-calc-label', 'Bizden alınacak malzeme');
+		mats.appendChild(matsLabel);
 		var matBoxes = MATS.map(function (mt, k) {
 			var l = el('label', 'fee-calc-check'), c = el('input'); c.type = 'checkbox'; c.id = 'fee-mat-' + n + '-' + k;
 			l.setAttribute('for', c.id); l.appendChild(c); l.appendChild(document.createTextNode(' ' + mt[0] + ' (' + mt[1] + '₺)'));
@@ -816,22 +817,23 @@
 		box.insertBefore(mats, out);
 		var lastJob = -1;
 		function update() {
-			var name = ALL[+semt.select.value], j = +job.select.value, own = j >= 4, p, extras = [];
+			var name = ALL[+semt.select.value], j = +job.select.value, own = j >= 4, mat = own || j === 0, p, extras = [];
 			if (j !== lastJob) { // new job: default cable length (set 20 m, internet 10 m, own dish 0 m)
 				meter.value = j === 1 || j === 2 ? String(SET_METER) : j === 3 ? '10' : '0';
-				meter.min = own ? '0' : '1';
-				meterLabel.textContent = j === 3 ? 'Yaklaşık kablo uzunluğu (metre)' : own ? 'Bizden kaç metre kablo gerekir?' : 'Tahmini kaç metre kablo gider?';
+				meter.min = mat ? '0' : '1';
+				meterLabel.textContent = j === 3 ? 'Yaklaşık kablo uzunluğu (metre)' : own ? 'Bizden kaç metre kablo gerekir?' : j === 0 ? 'Değişecek kablo (metre, yoksa 0)' : 'Tahmini kaç metre kablo gider?';
+				matsLabel.textContent = j === 0 ? 'Değişecek malzeme varsa seçin' : 'Bizden alınacak malzeme';
 				lastJob = j;
 			}
-			var m = Math.max(own ? 0 : 1, Math.min(500, parseInt(meter.value, 10) || 0));
-			meterWrap.classList.toggle('is-on', j > 0);
-			mats.classList.toggle('is-on', own);
-			if (own) {
-				var base = OWN[tier(name)][j - 4], add = m * EXTRA_METER;
+			var m = Math.max(mat ? 0 : 1, Math.min(500, parseInt(meter.value, 10) || 0));
+			meterWrap.classList.toggle('is-on', true);
+			mats.classList.toggle('is-on', mat);
+			if (mat) {
+				var base = own ? OWN[tier(name)][j - 4] : PRICES[tier(name)][0], add = m * EXTRA_METER;
 				if (m) extras.push(m + ' m kablo');
 				matBoxes.forEach(function (c, k) { if (c.checked) { add += MATS[k][1]; extras.push(MATS[k][0]); } });
 				p = base + add;
-				note.textContent = 'Kendi malzemenizle kurulum ' + base + '₺' + (add ? ' + malzeme ' + add + '₺ (' + extras.join(', ') + ').' : '.') + ' Kullanılacak her malzeme ek ücretlidir.';
+				note.textContent = (own ? 'Kendi malzemenizle kurulum ' : 'Servis ücreti ') + base + '₺' + (add ? ' + malzeme ' + add + '₺ (' + extras.join(', ') + ').' : '.') + (own ? ' Kullanılacak her malzeme ek ücretlidir.' : (add ? ' Başka parça gerekirse yerinde söylenir.' : ' Değişen parça ayrıca ödenir.'));
 			} else if (j === 1 || j === 2) {
 				var extra = Math.max(0, m - SET_METER);
 				p = PRICES[tier(name)][j] + extra * EXTRA_METER;
@@ -844,7 +846,7 @@
 				note.textContent = NOTES[j];
 			}
 			price.textContent = p + '₺';
-			wa.href = 'https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent('Merhaba, ' + name + ' için randevu almak istiyorum. İş: ' + JOBS[j] + (own ? ' (' + (extras.length ? 'bizden: ' + extras.join(', ') : 'malzemeler bende') + ')' : j > 0 ? ' (~' + m + ' m kablo)' : '') + ', ' + p + '₺.');
+			wa.href = 'https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent('Merhaba, ' + name + ' için randevu almak istiyorum. İş: ' + JOBS[j] + (own ? ' (' + (extras.length ? 'bizden: ' + extras.join(', ') : 'malzemeler bende') + ')' : j === 0 ? (extras.length ? ' (malzeme: ' + extras.join(', ') + ')' : '') : j > 0 ? ' (~' + m + ' m kablo)' : '') + ', ' + p + '₺.');
 		}
 		semt.select.addEventListener('change', update); job.select.addEventListener('change', update); meter.addEventListener('input', update);
 		update();
