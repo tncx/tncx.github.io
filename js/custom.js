@@ -776,6 +776,7 @@
 	var NET_FEE = [1000, 1500], NET_METER = 25;
 	var OWN = { 1: [800, 900], 2: [900, 1000], 3: [1000, 1100] }; // own dish install (balkon, çatı), every material extra
 	var MATS = [['Next tekli LNB', 250], ['Next 2\'li LNB', 500], ['Next 4\'lü LNB', 700], ['Montaj ayağı', 300], ['L ayak', 500], ['Montaj kelepçesi (2 adet)', 200]];
+	var SET_ITEMS = ['70 cm orijinal Next çanak anten', 'Next tekli LNB', '20 m Next RG6/U6 anten kablosu', 'Montaj ayağı', 'Kurulum ve Türksat yön ayarı'];
 	var SET_METER = 20, EXTRA_METER = 25; // set includes 20 m cable, each extra metre 25₺
 	var NOTES = ['Değişen parça (LNB, kablo vb.) ayrıca ödenir.', '70 cm Next çanak, Next tekli LNB, 20 m kablo ve montaj ayağı dahil.', '70 cm Next çanak, Next tekli LNB, 20 m kablo ve montaj ayağı dahil.'];
 	function tier(name) { return T1.indexOf(name) > -1 ? 1 : T2.indexOf(name) > -1 ? 2 : 3; }
@@ -814,6 +815,12 @@
 			l.setAttribute('for', c.id); l.appendChild(c); l.appendChild(document.createTextNode(' ' + mt[0] + ' (' + mt[1] + '₺)'));
 			c.addEventListener('change', update); mats.appendChild(l); return c;
 		});
+		var incl = el('div', 'fee-calc-field fee-calc-incl');
+		incl.appendChild(el('span', 'fee-calc-label', 'Kampanyaya dahil malzemeler'));
+		var inclList = el('ul');
+		SET_ITEMS.forEach(function (t) { inclList.appendChild(el('li', null, t)); });
+		incl.appendChild(inclList);
+		box.insertBefore(incl, meterWrap);
 		box.insertBefore(mats, out);
 		var lastJob = -1;
 		function update() {
@@ -828,6 +835,7 @@
 			var m = Math.max(mat ? 0 : 1, Math.min(500, parseInt(meter.value, 10) || 0));
 			meterWrap.classList.toggle('is-on', true);
 			mats.classList.toggle('is-on', j !== 3);
+			incl.classList.toggle('is-on', j === 1 || j === 2);
 			if (mat) {
 				var base = own ? OWN[tier(name)][j - 4] : PRICES[tier(name)][0], add = m * EXTRA_METER;
 				if (m) extras.push(m + ' m kablo');
@@ -838,7 +846,7 @@
 				var extra = Math.max(0, m - SET_METER), setAdd = 0;
 				matBoxes.forEach(function (c, k) { if (c.checked) { setAdd += MATS[k][1]; extras.push(MATS[k][0]); } });
 				p = PRICES[tier(name)][j] + extra * EXTRA_METER + setAdd;
-				note.textContent = NOTES[j] + (extra ? ' Ek ' + extra + ' m kablo × ' + EXTRA_METER + '₺ = ' + (extra * EXTRA_METER) + '₺.' : ' 20 m\'yi aşan her metre ' + EXTRA_METER + '₺.') +
+				note.textContent = 'Kampanya fiyatı, malzeme ve kurulum dahil.' + (extra ? ' Ek ' + extra + ' m kablo × ' + EXTRA_METER + '₺ = ' + (extra * EXTRA_METER) + '₺.' : ' 20 m\'yi aşan her metre ' + EXTRA_METER + '₺.') +
 					(setAdd ? ' Ek malzeme ' + setAdd + '₺ (' + extras.join(', ') + ').' : '');
 			} else if (j === 3) {
 				p = (NET_FEE[0] + m * NET_METER) + '₺ - ' + (NET_FEE[1] + m * NET_METER);

@@ -1669,3 +1669,10 @@ h1.breadcrumbs-custom-title,
 .fee-calc-mats.is-on { display: block; }
 .fee-calc-check { display: inline-flex; align-items: center; gap: 6px; margin: 4px 18px 4px 0; font-size: 15px; font-weight: 400; cursor: pointer; }
 .fee-calc-check input { width: 18px; height: 18px; accent-color: var(--cu-blue); }
+
+/* Fiyat aracı: set kurulumunda kampanyaya dahil malzemeler */
+.fee-calc-incl { display: none; margin-top: 12px; }
+.fee-calc-incl.is-on { display: block; }
+.fee-calc-incl ul { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 4px 0 0; padding: 0; list-style: none; }
+.fee-calc-incl li { position: relative; padding-left: 22px; font-size: 15px; }
+.fee-calc-incl li::before { content: '✓'; position: absolute; left: 0; top: 0; color: #1a8f45; font-weight: 800; }
