@@ -73,7 +73,7 @@
  {
   "title": "Çanak Anten 2500₺'den Başlayan Fiyatlarla",
   "url": "canak-anten-kampanya.html",
-  "desc": "Çanak anten kampanyası: 70 cm Next çanak, tekli LNB, 20 m kablo, montaj ayağı, kurulum dahil. Çankaya'da 2500₺'den başlayan fiyatlarla.",
+  "desc": "Çanak anten kampanyası: 70 cm Next çanak, tekli LNB, 20 m kablo, montaj ayağı, 2 adet montaj kelepçesi, kurulum dahil. Çankaya'da 2500₺'den başlayan fiyatlarla.",
   "text": "Çanak Anten Kurulum Kampanyası: Next Set + Kurulum 2500₺'den Başlayan Fiyatlarla Çanak Anten Set Kurulumu: Malzeme ve Kurulum Dahil Kampanya Fiyatları (Semtlere Göre) Sette Neler Var? Kurulumda Neler Yapılıyor? Çanağınız Zaten Varsa: Kendi Malzemenizle Kurulum Malzeme Fiyatları Nasıl Yararlanırım? Sık Sorulan Sorular Kendi çanak antenimi kurdurmak ne kadar? Çanak anten kurulum fiyatı ne kadar? Kampanyalı çanak anten setinde neler var? Balkon ve çatı kurulumu fiyatı neden farklı? Kampanyalı kurulumda garanti var mı? Kampanya hangi semtlerde geçerli?"
  },
  {
@@ -782,9 +782,9 @@
 	var NET_FEE = [1000, 1500], NET_METER = 25;
 	var OWN = { 1: [800, 900], 2: [900, 1000], 3: [1000, 1100] }; // own dish install (balkon, çatı), every material extra
 	var MATS = [['Next tekli LNB', 250], ['Next 2\'li LNB', 500], ['Next 4\'lü LNB', 700], ['Montaj ayağı', 300], ['L ayak', 500], ['Montaj kelepçesi (2 adet)', 200], ['Çelik dübel (4 adet)', 200]];
-	var SET_ITEMS = ['70 cm orijinal Next çanak anten', 'Next tekli LNB', '20 m Next RG6/U6 anten kablosu', 'Montaj ayağı', 'Kurulum ve Türksat yön ayarı'];
+	var SET_ITEMS = ['70 cm orijinal Next çanak anten', 'Next tekli LNB', '20 m Next RG6/U6 anten kablosu', 'Montaj ayağı', '2 adet montaj kelepçesi', 'Kurulum ve Türksat yön ayarı'];
 	var SET_METER = 20, EXTRA_METER = 25; // set includes 20 m cable, each extra metre 25₺
-	var NOTES = ['Değişen parça (LNB, kablo vb.) ayrıca ödenir.', '70 cm Next çanak, Next tekli LNB, 20 m kablo ve montaj ayağı dahil.', '70 cm Next çanak, Next tekli LNB, 20 m kablo ve montaj ayağı dahil.'];
+	var NOTES = ['Değişen parça (LNB, kablo vb.) ayrıca ödenir.', '70 cm Next çanak, Next tekli LNB, 20 m kablo, montaj ayağı ve 2 adet montaj kelepçesi dahil.', '70 cm Next çanak, Next tekli LNB, 20 m kablo, montaj ayağı ve 2 adet montaj kelepçesi dahil.'];
 	function tier(name) { return T1.indexOf(name) > -1 ? 1 : T2.indexOf(name) > -1 ? 2 : 3; }
 	function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text) e.textContent = text; return e; }
 	function select(id, label, options, value) {
@@ -844,7 +844,7 @@
 			mats.classList.toggle('is-on', j !== 3);
 			incl.classList.toggle('is-on', j === 1 || j === 2);
 			var inSet = j === 1 || j === 2; // the set already has a single LNB
-			[0, 3, 6].forEach(function (k) { // tekli LNB, montaj ayağı (in the set) and dübel: not offered with the set
+			[0, 3, 5, 6].forEach(function (k) { // tekli LNB, montaj ayağı, kelepçe (in the set) and dübel: not offered with the set
 				if (inSet) matBoxes[k].checked = false;
 				matBoxes[k].parentNode.style.display = inSet ? 'none' : '';
 			});
