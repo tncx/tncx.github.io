@@ -775,7 +775,7 @@
 	var JOBS = ['Arıza, ayar veya kanal kurulumu (servis ücreti)', 'Çanak anten set + kurulum (balkon)', 'Çanak anten set + kurulum (çatı)', 'İnternet kablosu çekimi (Krone kutusundan, Cat6)', 'Kendi çanağımın kurulumu (balkon)', 'Kendi çanağımın kurulumu (çatı)'];
 	var NET_FEE = [1000, 1500], NET_METER = 25;
 	var OWN = { 1: [800, 900], 2: [900, 1000], 3: [1000, 1100] }; // own dish install (balkon, çatı), every material extra
-	var MATS = [['Next tekli LNB', 250], ['Montaj ayağı', 300], ['L ayak', 500], ['Montaj kelepçesi (2 adet)', 200]];
+	var MATS = [['Next tekli LNB', 250], ['Next 2\'li LNB', 500], ['Next 4\'lü LNB', 700], ['Montaj ayağı', 300], ['L ayak', 500], ['Montaj kelepçesi (2 adet)', 200]];
 	var SET_METER = 20, EXTRA_METER = 25; // set includes 20 m cable, each extra metre 25₺
 	var NOTES = ['Değişen parça (LNB, kablo vb.) ayrıca ödenir.', '70 cm Next çanak, Next tekli LNB, 20 m kablo ve montaj ayağı dahil.', '70 cm Next çanak, Next tekli LNB, 20 m kablo ve montaj ayağı dahil.'];
 	function tier(name) { return T1.indexOf(name) > -1 ? 1 : T2.indexOf(name) > -1 ? 2 : 3; }
