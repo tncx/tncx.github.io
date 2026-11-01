@@ -774,6 +774,7 @@
 	var PRICES = { 1: [700, 2500, 2700], 2: [800, 2800, 3000], 3: [800, 3000, 3200] };
 	var JOBS = ['Arıza, ayar veya kanal kurulumu (servis ücreti)', 'Çanak anten set + kurulum (balkon)', 'Çanak anten set + kurulum (çatı)', 'İnternet kablosu çekimi (Krone kutusundan, Cat6)'];
 	var NET_FEE = [1000, 1500], NET_METER = 25;
+	var SET_METER = 20, EXTRA_METER = 25; // set includes 20 m cable, each extra metre 25₺
 	var NOTES = ['Değişen parça (LNB, kablo vb.) ayrıca ödenir.', '70 cm Next çanak, Next tekli LNB, 20 m kablo ve montaj ayağı dahil.', '70 cm Next çanak, Next tekli LNB, 20 m kablo ve montaj ayağı dahil.'];
 	function tier(name) { return T1.indexOf(name) > -1 ? 1 : T2.indexOf(name) > -1 ? 2 : 3; }
 	function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text) e.textContent = text; return e; }
@@ -797,15 +798,27 @@
 		var price = el('strong', 'fee-calc-price'); var note = el('span', 'fee-calc-note');
 		out.appendChild(price); out.appendChild(note); box.appendChild(out);
 		var meterWrap = el('label', 'fee-calc-field fee-calc-meter'); meterWrap.setAttribute('for', 'fee-m-' + n);
-		meterWrap.appendChild(el('span', 'fee-calc-label', 'Yaklaşık kablo uzunluğu (metre)'));
+		var meterLabel = el('span', 'fee-calc-label', 'Yaklaşık kablo uzunluğu (metre)');
+		meterWrap.appendChild(meterLabel);
 		var meter = el('input'); meter.id = 'fee-m-' + n; meter.type = 'number'; meter.min = '1'; meter.max = '500'; meter.value = '10'; meter.inputMode = 'numeric';
 		meterWrap.appendChild(meter); box.insertBefore(meterWrap, out);
 		var wa = el('a', 'btn btn-wa fee-calc-wa', 'WhatsApp\'tan randevu alın');
 		wa.target = '_blank'; wa.rel = 'noopener'; box.appendChild(wa);
+		var lastJob = -1;
 		function update() {
-			var name = ALL[+semt.select.value], j = +job.select.value, p, m = Math.max(1, Math.min(500, parseInt(meter.value, 10) || 1));
-			meterWrap.classList.toggle('is-on', j === 3);
-			if (j === 3) {
+			var name = ALL[+semt.select.value], j = +job.select.value, p;
+			if (j !== lastJob) { // new job: default length (set 20 m, internet 10 m)
+				if (j === 1 || j === 2) meter.value = String(SET_METER); else if (j === 3) meter.value = '10';
+				meterLabel.textContent = j === 3 ? 'Yaklaşık kablo uzunluğu (metre)' : 'Tahmini kaç metre kablo gider?';
+				lastJob = j;
+			}
+			var m = Math.max(1, Math.min(500, parseInt(meter.value, 10) || 1));
+			meterWrap.classList.toggle('is-on', j > 0);
+			if (j === 1 || j === 2) {
+				var extra = Math.max(0, m - SET_METER);
+				p = PRICES[tier(name)][j] + extra * EXTRA_METER;
+				note.textContent = NOTES[j] + (extra ? ' Ek ' + extra + ' m kablo × ' + EXTRA_METER + '₺ = ' + (extra * EXTRA_METER) + '₺.' : ' 20 m\'yi aşan her metre ' + EXTRA_METER + '₺.');
+			} else if (j === 3) {
 				p = (NET_FEE[0] + m * NET_METER) + '₺ - ' + (NET_FEE[1] + m * NET_METER);
 				note.textContent = 'Servis ücreti işe göre ' + NET_FEE[0] + '₺ - ' + NET_FEE[1] + '₺ + ' + m + ' m Cat6 kablo × ' + NET_METER + '₺. Kesin fiyat yerinde belirlenir.';
 			} else {
@@ -813,7 +826,7 @@
 				note.textContent = NOTES[j];
 			}
 			price.textContent = p + '₺';
-			wa.href = 'https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent('Merhaba, ' + name + ' için randevu almak istiyorum. İş: ' + JOBS[j] + (j === 3 ? ' (~' + m + ' m)' : '') + ', ' + p + '₺.');
+			wa.href = 'https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent('Merhaba, ' + name + ' için randevu almak istiyorum. İş: ' + JOBS[j] + (j > 0 ? ' (~' + m + ' m kablo)' : '') + ', ' + p + '₺.');
 		}
 		semt.select.addEventListener('change', update); job.select.addEventListener('change', update); meter.addEventListener('input', update);
 		update();
