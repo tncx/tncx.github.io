@@ -70,6 +70,7 @@
 - [TKGS Nedir, Nasıl Açılır?](https://cankayauydu.com/tkgs-nedir.html)
 - [TV'de Uydu Kanal Arama (Markalara Göre)](https://cankayauydu.com/tv-uydu-kanal-arama.html)
 - [Uydu Kanalları Gitti, Ne Yapmalı?](https://cankayauydu.com/uydu-kanallari-gitti.html)
+- [Kanal Aramada ATV Çıkmıyor](https://cankayauydu.com/kanal-aramada-atv-cikmiyor.html)
 - [Kanal Sıralaması Bozuldu](https://cankayauydu.com/kanal-siralamasi-bozuldu.html)
 - [Uydu "Sinyal Yok" Hatası Çözümü](https://cankayauydu.com/uydu-sinyal-yok-hatasi.html)
 - [Rüzgârdan Çanak Anten Kaydı](https://cankayauydu.com/ruzgar-canak-anten-kaydi.html)

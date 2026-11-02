@@ -209,6 +209,12 @@
   "text": "İnternet Kablosu Çekimi: Krone Kutusundan Daireye ve Odalara Krone Kutusu Nedir? Ne Zaman Yeni Kablo Gerekir? Neler Yapıyoruz? Kablo mu, Wi-Fi mı? Çanak Anten Kablosuyla Birlikte Fiyat: Servis Ücreti ve Kablo Hangi Bölgelerde? Sık Sorulan Sorular İnternet kablosu çekimi ne kadar? İnternet kablosunu kim çeker, sağlayıcı mı? Eski telefon kablosu interneti yavaşlatır mı? Hangi kablo kullanılıyor? Modemden odalara kablo çekiyor musunuz?"
  },
  {
+  "title": "Kanal Aramada ATV Çıkmıyor: Nedeni ve Çözümü",
+  "url": "kanal-aramada-atv-cikmiyor.html",
+  "desc": "Kanal aramada ATV, A Haber, A Spor, A2 çıkmıyor mu? Güncel frekans 12207 MHz Yatay 27500 (DVB-S2). TKGS, şebeke arama ve elle ekleme adımları.",
+  "text": "Kanal Aramada ATV Çıkmıyor: Nedeni ve Çözümü (2026) ATV Hangi Frekansta? Hangi Kanallar Eksik? Önce Buna Bakın Çözüm 1: TKGS Güncellemesi Çözüm 2: Şebeke Araması Çözüm 3: Frekansı Elle Ekleyip Tarayın Cihaz DVB-S2 Desteklemiyorsa ATV Bulundu Ama Yerinde Değilse Sık Sorulan Sorular ATV'nin uydu frekansı nedir? Kanal aramada ATV neden çıkmıyor? ATV için çanak ayarını değiştirmek gerekir mi? A Haber ve A Spor da çıkmıyorsa ne yapmalıyım? Eski uydu alıcısında ATV çıkar mı?"
+ },
+ {
   "title": "Uydu Kanal Sıralaması Bozuldu: Nasıl Düzeltilir?",
   "url": "kanal-siralamasi-bozuldu.html",
   "desc": "Uydu kanal sıralaması bozuldu mu? TKGS ile standart sıraya dönme, kanal taşıma, favori listesi ve kanal aramasından sonra karışan listeyi düzeltme yolları.",
