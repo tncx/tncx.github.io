@@ -215,6 +215,12 @@
   "text": "Kanal Aramada ATV Çıkmıyor: Nedeni ve Çözümü (2026) ATV Hangi Frekansta? Hangi Kanallar Eksik? Önce Buna Bakın Çözüm 1: TKGS Güncellemesi Çözüm 2: Şebeke Araması Çözüm 3: Frekansı Elle Ekleyip Tarayın Cihaz DVB-S2 Desteklemiyorsa ATV Bulundu Ama Yerinde Değilse Sık Sorulan Sorular ATV'nin uydu frekansı nedir? Kanal aramada ATV neden çıkmıyor? ATV için çanak ayarını değiştirmek gerekir mi? A Haber ve A Spor da çıkmıyorsa ne yapmalıyım? Eski uydu alıcısında ATV çıkar mı?"
  },
  {
+  "title": "Kanal Aramada DTV Ne Demek? ATV ve DTV Farkı",
+  "url": "kanal-aramada-dtv-ne-demek.html",
+  "desc": "Kanal aramada DTV dijital televizyon, ATV analog televizyon demektir. Uydu kanalları dijitaldir; doğru arama türü, DTV+Radyo ve ATV kanalı karışıklığı.",
+  "text": "Kanal Aramada DTV Ne Demek? ATV ve DTV Farkı DTV ve ATV Ne Demek? Uydu Kanalları Neden DTV'dir? Çanak Antenle Kanal Ararken Ne Seçilmeli? Arama Sonucunda Hiç DTV Kanalı Yoksa \"ATV\" Kanalı ile Karıştırmayın Sık Sorulan Sorular Kanal aramada DTV ne demek? ATV ile DTV arasındaki fark nedir? Çanak antenle kanal ararken DTV mi ATV mi seçmeliyim? Kanal aramada DTV 0 çıkıyorsa ne yapmalıyım? Menüdeki ATV, ATV kanalı mı demek?"
+ },
+ {
   "title": "Uydu Kanal Sıralaması Bozuldu: Nasıl Düzeltilir?",
   "url": "kanal-siralamasi-bozuldu.html",
   "desc": "Uydu kanal sıralaması bozuldu mu? TKGS ile standart sıraya dönme, kanal taşıma, favori listesi ve kanal aramasından sonra karışan listeyi düzeltme yolları.",
