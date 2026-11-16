@@ -61,8 +61,8 @@
  {
   "title": "Çanak Anten Fiyat Hesaplama 2026: Ankara Çankaya",
   "url": "canak-anten-fiyat-hesaplama.html",
-  "desc": "Çanak anten fiyat hesaplama: semtinizi ve işi seçin, fiyatı anında görün. Servis 700 TL'den, set + kurulum 3000 TL'den, kendi çanağınızın kurulumu 800 TL'den.",
-  "text": "Çanak Anten Fiyat Hesaplama: Semtinize Göre Anında Fiyat Fiyat Nasıl Hesaplanır? Çanak Anten Seti + Kurulum (Tüm Semtlerde Tek Fiyat) Semtlere Göre Servis ve Kurulum Fiyatları Malzeme Fiyatları Örnek Hesaplamalar Fiyata Neler Dahil? Sık Sorulan Sorular Çanak anten fiyatı nasıl hesaplanır? Ankara'da çanak anten kurulumu ne kadar? LNB değişimi ne kadar? Anten kablosunun metresi ne kadar? Hesaplanan fiyat kesin mi?"
+  "desc": "Çanak anten fiyat hesaplama: semtinizi ve işi seçin, fiyatı anında görün. Servis 700 TL'den, set + kurulum 3000 TL'den, kendi çanağınızın kurulumu 1000 TL.",
+  "text": "Çanak Anten Fiyat Hesaplama: Semtinize Göre Anında Fiyat Fiyat Nasıl Hesaplanır? Çanak Anten Seti + Kurulum (Tüm Semtlerde Tek Fiyat) Semtlere Göre Servis Ücreti Malzeme Fiyatları Örnek Hesaplamalar Fiyata Neler Dahil? Sık Sorulan Sorular Çanak anten fiyatı nasıl hesaplanır? Ankara'da çanak anten kurulumu ne kadar? LNB değişimi ne kadar? Anten kablosunun metresi ne kadar? Hesaplanan fiyat kesin mi?"
  },
  {
   "title": "Çanak Anten Kaç cm Olmalı? Doğru Boyut Seçimi",
@@ -98,7 +98,7 @@
   "title": "Çanak Anten Servis Ücreti 2026: Fiyat Listesi",
   "url": "canak-anten-servis-ucreti.html",
   "desc": "Çanak anten servis ücreti: Dikmen, Balgat, Öveçler 700 TL; Ayrancı, Emek, Maltepe 800 TL; Esat, Cebeci 1000 TL. Set + kurulum 3000 TL'den başlayan fiyatlarla.",
-  "text": "Çanak Anten ve Uydu Servis Ücreti 2026: Çankaya Fiyat Listesi Servis Ücreti Çanak Anten Seti + Kurulum Fiyatı Kendi Çanağınızın Kurulumu (Semtlere Göre) Malzeme Fiyatları İnternet Kablosu Çekimi Fiyatı Hangi İşler Servis Ücretiyle Yapılır? Garanti Fiyat Almak İçin Sık Sorulan Sorular Kendi çanak antenimi kurdurmak ne kadar? Çanak anten servis ücreti ne kadar? Çanak anten tamir ücreti ne kadar? Çanak anten ayar ücreti ne kadar? Çanak anten kurulum fiyatı ne kadar? Parça ücreti servis ücretine dahil mi?"
+  "text": "Çanak Anten ve Uydu Servis Ücreti 2026: Çankaya Fiyat Listesi Servis Ücreti Çanak Anten Seti + Kurulum Fiyatı Kendi Çanağınızın Kurulumu: Her Semtte 1000₺ Malzeme Fiyatları İnternet Kablosu Çekimi Fiyatı Hangi İşler Servis Ücretiyle Yapılır? Garanti Fiyat Almak İçin Sık Sorulan Sorular Kendi çanak antenimi kurdurmak ne kadar? Çanak anten servis ücreti ne kadar? Çanak anten tamir ücreti ne kadar? Çanak anten ayar ücreti ne kadar? Çanak anten kurulum fiyatı ne kadar? Parça ücreti servis ücretine dahil mi?"
  },
  {
   "title": "Cebeci Çanak Anten Servisi",
@@ -188,7 +188,7 @@
   "title": "Hizmet Bölgeleri ve Servis Ücreti: Dikmen, Çankaya",
   "url": "hizmet-bolgeleri.html",
   "desc": "Çankaya Uydu hizmet bölgeleri ve servis ücreti: Dikmen, Balgat, Öveçler 700 TL; Ayrancı, Emek, Maltepe 800 TL; Esat, Cebeci 1000 TL.",
-  "text": "Hizmet Bölgelerimiz: Dikmen, Ayrancı, Balgat ve Çevresi Servis Ücreti (Semtlere Göre) Çanak Anten Seti + Kurulum: Her Semtte Tek Fiyat Sette Neler Var? Kendi Çanağınızın Kurulumu (Semtlere Göre) Malzeme Fiyatları Dikmen Ayrancı Balgat Öveçler Sokullu Keklikpınarı İlker Bahçelievler Emek Maltepe Mebusevleri Gaziosmanpaşa Esat Seyranbağları Cebeci Çalışma Saatlerimiz Sık Sorulan Sorular Hangi semtlere servis veriyorsunuz? Servis ücreti ne kadar? Çalışma saatleriniz nedir? Merkezi uydu sistemi arızasına geliyor musunuz?"
+  "text": "Hizmet Bölgelerimiz: Dikmen, Ayrancı, Balgat ve Çevresi Servis Ücreti (Semtlere Göre) Çanak Anten Seti + Kurulum: Her Semtte Tek Fiyat Sette Neler Var? Kendi Çanağınızın Kurulumu: Her Semtte 1000₺ Malzeme Fiyatları Dikmen Ayrancı Balgat Öveçler Sokullu Keklikpınarı İlker Bahçelievler Emek Maltepe Mebusevleri Gaziosmanpaşa Esat Seyranbağları Cebeci Çalışma Saatlerimiz Sık Sorulan Sorular Hangi semtlere servis veriyorsunuz? Servis ücreti ne kadar? Çalışma saatleriniz nedir? Merkezi uydu sistemi arızasına geliyor musunuz?"
  },
  {
   "title": "Çanak Anten, Merkezi Uydu ve İnternet Kablosu",
@@ -797,7 +797,7 @@
 	var T3 = ['Gaziosmanpaşa', 'Esat', 'Seyranbağları', 'Cebeci'];
 	var SERVICE_FEE = { 700: ['Dikmen', 'Balgat', 'Öveçler', 'Sokullu', 'Keklikpınarı', 'İlker'], 800: ['Ayrancı', 'Bahçelievler', 'Emek', 'Maltepe', 'Mebusevleri'], 1000: ['Gaziosmanpaşa', 'Esat', 'Seyranbağları', 'Cebeci'] };
 	function service(name) { for (var f in SERVICE_FEE) if (SERVICE_FEE[f].indexOf(name) > -1) return +f; return 1000; }
-	var OWN = { 1: [800, 900], 2: [900, 1000], 3: [1000, 1100] }; // own dish install (balkon, çatı), every material extra
+	var OWN = 1000; // own dish install, every semt, balkon or çatı; every material extra
 	var NET_FEE = [1000, 1500], NET_METER = 25;
 	var SET_METER = 20, EXTRA_METER = 25; // every set includes 20 m cable, each extra metre 25₺
 	var SET_COMMON = ['Next tekli LNB', '20 m anten kablosu', '4 adet çelik dübel veya 2 adet montaj kelepçesi', '1 adet montaj borusu', 'Kurulum ve Türksat yön ayarı'];
@@ -810,10 +810,8 @@
 		{ kind: 'set', name: 'Next 70 cm çanak anten (Ges Mount) seti + kurulum', price: 4000, dish: 'Next 70 cm çanak anten (Ges Mount)', img: 'images/urunler/next-70cm-canak-anten.png', detail: 'images/urunler/next-70cm-ges-mount-baglanti.webp', note: 'NOT: Next & NextStar üst seviye çanak antenidir. 2 kat mount kalınlığı ile esneme yapmaz. Çatı için idealdir.' },
 		{ kind: 'set', name: 'Next 80 cm Profesyonel Click System seti + kurulum', price: 5000, dish: 'Next 80 cm Profesyonel Click System çanak anten', img: 'images/urunler/next-80cm-click-system.png', detail: 'images/urunler/next-80cm-click-system-on.png', detailFit: 'fee-calc-incl-img', note: 'NOT: Next & NextStar profesyonel seri çanak antendir. Kalın sac gövdesi ve sağlam profesyonel mount\'u sayesinde rüzgâra ve zamana karşı uzun yıllar dayanır. Bireysel ve merkezi sistemlerde güvenle kullanılır.' },
 		{ kind: 'net', name: 'İnternet kablosu çekimi (Krone kutusundan, Cat6)' },
-		{ kind: 'own', name: 'Kendi çanağımın kurulumu (balkon)', place: 0 },
-		{ kind: 'own', name: 'Kendi çanağımın kurulumu (çatı)', place: 1 }
+		{ kind: 'own', name: 'Kendi çanağımın kurulumu (balkon veya çatı)' }
 	];
-	function tier(name) { return T1.indexOf(name) > -1 ? 1 : T2.indexOf(name) > -1 ? 2 : 3; }
 	function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text) e.textContent = text; return e; }
 	function select(id, label, options, value) {
 		var wrap = el('label', 'fee-calc-field'); wrap.setAttribute('for', id);
@@ -890,7 +888,7 @@
 				p = (NET_FEE[0] + m * NET_METER) + '₺ - ' + (NET_FEE[1] + m * NET_METER);
 				note.textContent = 'Servis ücreti işe göre ' + NET_FEE[0] + '₺ - ' + NET_FEE[1] + '₺ + ' + m + ' m Cat6 kablo × ' + NET_METER + '₺. Kesin fiyat yerinde belirlenir.';
 			} else {
-				var base = k === 'own' ? OWN[tier(name)][J.place] : service(name);
+				var base = k === 'own' ? OWN : service(name);
 				add += m * EXTRA_METER;
 				if (m) extras.unshift(m + ' m kablo');
 				p = base + add;
@@ -945,7 +943,7 @@
 			l: [['kanal-siralamasi-bozuldu.html', 'Kanal sıralaması bozuldu'], ['tkgs-nedir.html', 'TKGS nedir?']] },
 		r_digi: { t: 'Digitürk hata kodları', d: 'E16, E30, E37, E42 gibi kodların anlamı ve çözümleri SSS sayfamızda. Kod sinyalle ilgiliyse (ör. E16-4) çanak ve LNB kontrol edilmelidir.',
 			l: [['faq.html#sss-digiturk', 'Digitürk sorunları ve çözümleri'], ['digiturk-kanal-listesi.html', 'Digitürk kanal numaraları']] },
-		r_kurulum: { t: 'Çanak anten kurulumu', d: 'Next çanak anten seti kurulum dahil 3000₺\'den başlayan fiyatlarla: 70 cm 3000₺, 70 cm Ges Mount 4000₺, 80 cm Profesyonel Click System 5000₺ (her semtte aynı). Çanağınız varsa kendi malzemenizle kurulum 800₺\'den başlar; kullanılacak malzeme ek ücretlidir.', s: 1,
+		r_kurulum: { t: 'Çanak anten kurulumu', d: 'Next çanak anten seti kurulum dahil 3000₺\'den başlayan fiyatlarla: 70 cm 3000₺, 70 cm Ges Mount 4000₺, 80 cm Profesyonel Click System 5000₺ (her semtte aynı). Çanağınız varsa kendi malzemenizle kurulum 1000₺; kullanılacak malzeme ek ücretlidir.', s: 1,
 			l: [['canak-anten-kampanya.html', 'Kampanya fiyatları'], ['canak-anten-kurulumu.html', 'Kurulum nasıl yapılıyor?']] },
 		r_internet: { t: 'İnternet kablosu çekimi', d: 'Binadaki Krone kutusundan dairenize Cat6 kablo çekiyoruz. Servis ücreti işe göre 1000₺ - 1500₺, buna Cat6 kablonun metresi 25₺ eklenir. Kesin fiyatı yerinde görerek söylüyoruz.', s: 1,
 			l: [['internet-kablosu-cekimi.html', 'İnternet kablosu çekimi']] }

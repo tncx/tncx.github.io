@@ -1,6 +1,6 @@
 # Çankaya Uydu Sistemleri
 
-> Ankara Çankaya (Dikmen) merkezli çanak anten kurulum, uydu arıza, merkezi uydu sistemi ve TV montaj servisi. Teknisyen: Tuncay Özer. Telefon / WhatsApp: +90 553 450 20 33. Çalışma saatleri: hafta içi 09:00-20:00, hafta sonu 11:00-18:00. Hizmet bölgeleri (Çankaya): Dikmen, Ayrancı, Balgat, Öveçler, Sokullu, Keklikpınarı, İlker, Bahçelievler, Emek, Maltepe, Mebusevleri, Gaziosmanpaşa, Esat, Seyranbağları, Cebeci. Servis ücreti: Dikmen, Balgat, Öveçler, Sokullu, Keklikpınarı, İlker 700 TL; Ayrancı, Bahçelievler, Emek, Maltepe, Mebusevleri 800 TL; Gaziosmanpaşa, Esat, Seyranbağları, Cebeci 1000 TL (değişen parça ayrıca ödenir). Çanak anten seti + kurulum her semtte tek fiyat: Next 70 cm 3000 TL, Next 70 cm Ges Mount 4000 TL, Next 80 cm Profesyonel Click System 5000 TL. Kendi çanağının kurulumu (kendi malzemesiyle): balkon 800-1000 TL, çatı 900-1100 TL; malzeme ek ücretli. Ana hizmetler: çanak anten kurulumu, bireysel çanak anten arızası, merkezi uydu sistemi arızası, internet kablosu çekimi.
+> Ankara Çankaya (Dikmen) merkezli çanak anten kurulum, uydu arıza, merkezi uydu sistemi ve TV montaj servisi. Teknisyen: Tuncay Özer. Telefon / WhatsApp: +90 553 450 20 33. Çalışma saatleri: hafta içi 09:00-20:00, hafta sonu 11:00-18:00. Hizmet bölgeleri (Çankaya): Dikmen, Ayrancı, Balgat, Öveçler, Sokullu, Keklikpınarı, İlker, Bahçelievler, Emek, Maltepe, Mebusevleri, Gaziosmanpaşa, Esat, Seyranbağları, Cebeci. Servis ücreti: Dikmen, Balgat, Öveçler, Sokullu, Keklikpınarı, İlker 700 TL; Ayrancı, Bahçelievler, Emek, Maltepe, Mebusevleri 800 TL; Gaziosmanpaşa, Esat, Seyranbağları, Cebeci 1000 TL (değişen parça ayrıca ödenir). Çanak anten seti + kurulum her semtte tek fiyat: Next 70 cm 3000 TL, Next 70 cm Ges Mount 4000 TL, Next 80 cm Profesyonel Click System 5000 TL. Kendi çanağının kurulumu (kendi malzemesiyle): her semtte 1000 TL (balkon veya çatı); malzeme ek ücretli. Ana hizmetler: çanak anten kurulumu, bireysel çanak anten arızası, merkezi uydu sistemi arızası, internet kablosu çekimi.
 
 Önemli bilgi (Ekim 2026): Türksat 3A'daki TV ve radyo yayınları 15-16 Ağustos 2026 gecesi aynı konumdaki (42° Doğu) yeni Türksat uydularına taşındı; çanak ayarı değişmez, kanal listesi TKGS veya şebeke aramasıyla yenilenir. Şebeke arama değeri (Türksat resmî, Türkiye-Batı): 12380 MHz Dikey, sembol oranı 27500, FEC 3/4; yedek 12423 MHz Dikey 27500. LNB: Üniversal 9750/10600.
 
@@ -8,7 +8,7 @@
 - Servis ücreti: Dikmen, Balgat, Öveçler, Sokullu, Keklikpınarı, İlker 700 TL; Ayrancı, Bahçelievler, Emek, Maltepe, Mebusevleri 800 TL; Gaziosmanpaşa, Esat, Seyranbağları, Cebeci 1000 TL. Değişen parça (LNB, kablo, konnektör vb.) ayrıca ödenir.
 - Çanak anten tamiri, çanak ayarı, kanal kurulumu, merkezi sistem arızası servis ücretiyle yapılır.
 - Çanak anten seti + kurulum (her semtte ve balkon/çatıda tek fiyat): Next 70 cm 3000 TL, Next 70 cm Ges Mount 4000 TL, Next 80 cm Profesyonel Click System 5000 TL. Her sette Next tekli LNB, 20 m kablo, 4 çelik dübel veya 2 montaj kelepçesi, montaj borusu ve kurulum dahil; 20 m'yi aşan her metre kablo 25 TL.
-- Kendi çanağının kurulumu (müşterinin kendi malzemesiyle; kullanılacak her malzeme ek ücretli): Dikmen, Ayrancı, Balgat, Öveçler, Sokullu, Keklikpınarı, İlker balkon 800 TL / çatı 900 TL; Bahçelievler, Emek, Maltepe, Mebusevleri balkon 900 TL / çatı 1000 TL; Gaziosmanpaşa, Esat, Seyranbağları, Cebeci balkon 1000 TL / çatı 1100 TL.
+- Kendi çanağının kurulumu (müşterinin kendi malzemesiyle; kullanılacak her malzeme ek ücretli): her semtte, balkon veya çatı 1000 TL.
 - Malzeme fiyatları: anten kablosu metresi 25 TL, Next tekli LNB 250 TL, Next 2'li LNB 500 TL, Next 4'lü LNB 700 TL, montaj ayağı 300 TL, L ayak 500 TL, montaj kelepçesi (2 adet) 200 TL, çelik dübel (4 adet) 200 TL.
 - İnternet kablosu çekimi (Krone kutusundan daireye, Cat6): servis ücreti işe göre 1000-1500 TL + kablo metresi 25 TL (ör. 20 m: 1500-2000 TL).
 - Fiyat listesi: https://cankayauydu.com/canak-anten-servis-ucreti.html
@@ -17,7 +17,7 @@
 - Araç ve tam tablo: [Çanak anten fiyat hesaplama](https://cankayauydu.com/canak-anten-fiyat-hesaplama.html); makine okunur liste: https://cankayauydu.com/fiyatlar.json
 - Arıza, ayar, kanal kurulumu: semtin servis ücreti + değişen malzeme.
 - Çanak anten seti + kurulum: setin fiyatı (her semtte ve balkon/çatıda aynı); 20 m'yi aşan her metre kablo 25 TL; sete ek malzeme malzeme fiyatıyla eklenir.
-- Kendi çanağının kurulumu: semtin kurulum fiyatı + bizden alınan her malzeme (fiyat yalnızca müşterinin kendi malzemesiyle geçerli).
+- Kendi çanağının kurulumu: 1000 TL (her semtte, balkon veya çatı) + bizden alınan her malzeme (fiyat yalnızca müşterinin kendi malzemesiyle geçerli).
 - İnternet kablosu: işe göre 1000-1500 TL + Cat6 metresi 25 TL.
 - Hesaplanan tutar ön bilgidir; kesin fiyat iş yerinde görülünce, işe başlamadan söylenir.
 - Malzeme: Anten kablosu (metre) 25 TL, Next tekli LNB 250 TL, Next 2'li LNB 500 TL, Next 4'lü LNB 700 TL, Montaj ayağı 300 TL, L ayak 500 TL, Montaj kelepçesi (2 adet) 200 TL, Çelik dübel (4 adet) 200 TL.

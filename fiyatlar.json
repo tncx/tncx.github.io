@@ -63,41 +63,10 @@
       "servis_ucreti": 1000
     }
   ],
-  "kendi_canagi_kurulum_gruplari": [
-    {
-      "semtler": [
-        "Dikmen",
-        "Ayrancı",
-        "Balgat",
-        "Öveçler",
-        "Sokullu",
-        "Keklikpınarı",
-        "İlker"
-      ],
-      "balkon": 800,
-      "cati": 900
-    },
-    {
-      "semtler": [
-        "Bahçelievler",
-        "Emek",
-        "Maltepe",
-        "Mebusevleri"
-      ],
-      "balkon": 900,
-      "cati": 1000
-    },
-    {
-      "semtler": [
-        "Gaziosmanpaşa",
-        "Esat",
-        "Seyranbağları",
-        "Cebeci"
-      ],
-      "balkon": 1000,
-      "cati": 1100
-    }
-  ],
+  "kendi_canagi_kurulum": {
+    "fiyat": 1000,
+    "not": "Her semtte, balkon veya çatı; müşterinin kendi malzemesiyle, kullanılacak her malzeme ek ücretli."
+  },
   "malzeme": {
     "Anten kablosu (metre)": 25,
     "Next tekli LNB": 250,
@@ -116,7 +85,7 @@
   "kurallar": [
     "Arıza, ayar, kanal kurulumu: semtin servis ücreti + değişen malzeme.",
     "Çanak anten seti + kurulum: setin fiyatı (her semtte ve balkon/çatıda aynı); 20 m'yi aşan her metre kablo 25 TL; sete ek malzeme malzeme fiyatıyla eklenir.",
-    "Kendi çanağının kurulumu: semtin kurulum fiyatı + bizden alınan her malzeme (fiyat yalnızca müşterinin kendi malzemesiyle geçerli).",
+    "Kendi çanağının kurulumu: 1000 TL (her semtte, balkon veya çatı) + bizden alınan her malzeme (fiyat yalnızca müşterinin kendi malzemesiyle geçerli).",
     "İnternet kablosu: işe göre 1000-1500 TL + Cat6 metresi 25 TL.",
     "Hesaplanan tutar ön bilgidir; kesin fiyat iş yerinde görülünce, işe başlamadan söylenir."
   ],
