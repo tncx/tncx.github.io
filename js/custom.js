@@ -808,7 +808,7 @@
 		{ kind: 'service', name: 'Arıza, ayar veya kanal kurulumu (servis ücreti)' },
 		{ kind: 'set', name: 'Next 70 cm çanak anten seti + kurulum', price: 3000, dish: 'Next 70 cm çanak anten', img: 'images/urunler/next-70cm-canak-anten.png', note: 'NOT: Next & NextStar giriş seviye çanak antenidir. Balkonlar için idealdir.' },
 		{ kind: 'set', name: 'Next 70 cm çanak anten (Ges Mount) seti + kurulum', price: 4000, dish: 'Next 70 cm çanak anten (Ges Mount)', img: 'images/urunler/next-70cm-canak-anten.png', detail: 'images/urunler/next-70cm-ges-mount-baglanti.webp', note: 'NOT: Next & NextStar üst seviye çanak antenidir. 2 kat mount kalınlığı ile esneme yapmaz. Çatı için idealdir.' },
-		{ kind: 'set', name: 'Next 80 cm Profesyonel Click System seti + kurulum', price: 5000, dish: 'Next 80 cm Profesyonel Click System çanak anten', img: 'images/urunler/next-80cm-click-system.png', detail: 'images/urunler/next-80cm-click-system-on.png', detailFit: 'fee-calc-incl-img' },
+		{ kind: 'set', name: 'Next 80 cm Profesyonel Click System seti + kurulum', price: 5000, dish: 'Next 80 cm Profesyonel Click System çanak anten', img: 'images/urunler/next-80cm-click-system.png', detail: 'images/urunler/next-80cm-click-system-on.png', detailFit: 'fee-calc-incl-img', note: 'NOT: Next & NextStar profesyonel çanak antendir. Bireysel ve merkezi sistemde kullanıma uygundur. Hem sac kalınlığı hem profesyonel mount bakımından en uzun ömürlü çanak antendir. Yerel pazardaki en iyi çanak antendir.' },
 		{ kind: 'net', name: 'İnternet kablosu çekimi (Krone kutusundan, Cat6)' },
 		{ kind: 'own', name: 'Kendi çanağımın kurulumu (balkon)', place: 0 },
 		{ kind: 'own', name: 'Kendi çanağımın kurulumu (çatı)', place: 1 }
