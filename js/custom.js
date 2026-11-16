@@ -37,7 +37,7 @@
  {
   "title": "Ayrancı Çanak Anten Servisi",
   "url": "ayranci-canak-anten-servisi.html",
-  "desc": "Ayrancı'da çanak anten kurulumu, uydu arızası ve merkezi sistem servisi. Servis ücreti 700 TL, Next set + kurulum 3000 TL'den başlayan fiyatlarla.",
+  "desc": "Ayrancı'da çanak anten kurulumu, uydu arızası ve merkezi sistem servisi. Servis ücreti 800 TL, Next set + kurulum 3000 TL'den başlayan fiyatlarla.",
   "text": "Ayrancı Çanak Anten Servisi: Kurulum ve Uydu Arıza Ayrancı'da Hangi Hizmetleri Veriyoruz? Ayrancı Servis Ücreti ve Çanak Anten Seti Fiyatı Ayrancı İçin Çanak Ayarı Çalışma Saatleri ve İletişim Diğer Hizmet Bölgelerimiz Sık Sorulan Sorular Ayrancı'da çanak anten servis ücreti ne kadar? Ayrancı'da çanak anten kurulumu ne kadar? Ayrancı'ya hafta sonu servis var mı? Ayrancı'da merkezi uydu sistemi arızasına bakıyor musunuz?"
  },
  {
@@ -74,7 +74,7 @@
   "title": "Çanak Anten Seti + Kurulum 3000₺'den",
   "url": "canak-anten-kampanya.html",
   "desc": "Next çanak anten seti + kurulum her semtte tek fiyat: 70 cm 3000₺, 70 cm Ges Mount 4000₺, 80 cm Click System 5000₺. LNB, 20 m kablo ve montaj borusu dahil.",
-  "text": "Çanak Anten Seti + Kurulum: Her Semtte Tek Fiyat, 3000₺'den Çanak Anten Seti + Kurulum: Her Semtte Tek Fiyat Sette Neler Var? Kurulumda Neler Yapılıyor? Çanağınız Zaten Varsa: Kendi Malzemenizle Kurulum Malzeme Fiyatları Nasıl Yararlanırım? Sık Sorulan Sorular Kendi çanak antenimi kurdurmak ne kadar? Çanak anten kurulum fiyatı ne kadar? Çanak anten setinde neler var? Set fiyatı semte veya balkon/çatıya göre değişir mi? Set kurulumunda garanti var mı? Set fiyatı hangi semtlerde geçerli?"
+  "text": "Çanak Anten Seti + Kurulum: Her Semtte Tek Fiyat, 3000₺'den Çanak Anten Seti + Kurulum: Her Semtte Tek Fiyat Set Seçenekleri Sette Neler Var? Kurulumda Neler Yapılıyor? Çanağınız Zaten Varsa: Kendi Malzemenizle Kurulum Malzeme Fiyatları Nasıl Yararlanırım? Sık Sorulan Sorular Kendi çanak antenimi kurdurmak ne kadar? Çanak anten kurulum fiyatı ne kadar? Çanak anten setinde neler var? Set fiyatı semte veya balkon/çatıya göre değişir mi? Set kurulumunda garanti var mı? Set fiyatı hangi semtlerde geçerli?"
  },
  {
   "title": "Çanak Anten Kurulumu Ankara: Dikmen ve Çankaya",
@@ -97,13 +97,13 @@
  {
   "title": "Çanak Anten Servis Ücreti 2026: Fiyat Listesi",
   "url": "canak-anten-servis-ucreti.html",
-  "desc": "Çanak anten servis ücreti: Dikmen, Ayrancı, Balgat, Öveçler 700 TL; Emek, Maltepe, Cebeci 800 TL. Set + kurulum 3000 TL'den başlayan fiyatlarla.",
+  "desc": "Çanak anten servis ücreti: Dikmen, Balgat, Öveçler 700 TL; Ayrancı, Emek, Maltepe 800 TL; Esat, Cebeci 1000 TL. Set + kurulum 3000 TL'den başlayan fiyatlarla.",
   "text": "Çanak Anten ve Uydu Servis Ücreti 2026: Çankaya Fiyat Listesi Servis Ücreti Çanak Anten Seti + Kurulum Fiyatı Kendi Çanağınızın Kurulumu (Semtlere Göre) Malzeme Fiyatları İnternet Kablosu Çekimi Fiyatı Hangi İşler Servis Ücretiyle Yapılır? Garanti Fiyat Almak İçin Sık Sorulan Sorular Kendi çanak antenimi kurdurmak ne kadar? Çanak anten servis ücreti ne kadar? Çanak anten tamir ücreti ne kadar? Çanak anten ayar ücreti ne kadar? Çanak anten kurulum fiyatı ne kadar? Parça ücreti servis ücretine dahil mi?"
  },
  {
   "title": "Cebeci Çanak Anten Servisi",
   "url": "cebeci-canak-anten-servisi.html",
-  "desc": "Cebeci'de çanak anten kurulumu, uydu arızası ve merkezi sistem servisi. Servis ücreti 800 TL, Next set + kurulum 3000 TL'den başlayan fiyatlarla.",
+  "desc": "Cebeci'de çanak anten kurulumu, uydu arızası ve merkezi sistem servisi. Servis ücreti 1000 TL, Next set + kurulum 3000 TL'den başlayan fiyatlarla.",
   "text": "Cebeci Çanak Anten Servisi: Kurulum ve Uydu Arıza Cebeci'de Hangi Hizmetleri Veriyoruz? Cebeci Servis Ücreti ve Çanak Anten Seti Fiyatı Cebeci İçin Çanak Ayarı Çalışma Saatleri ve İletişim Diğer Hizmet Bölgelerimiz Sık Sorulan Sorular Cebeci'de çanak anten servis ücreti ne kadar? Cebeci'de çanak anten kurulumu ne kadar? Cebeci'ye hafta sonu servis var mı? Cebeci'de merkezi uydu sistemi arızasına bakıyor musunuz?"
  },
  {
@@ -139,7 +139,7 @@
  {
   "title": "Esat Çanak Anten Servisi",
   "url": "esat-canak-anten-servisi.html",
-  "desc": "Esat'ta çanak anten kurulumu, uydu arızası ve merkezi sistem servisi. Servis ücreti 800 TL, Next set + kurulum 3000 TL'den başlayan fiyatlarla.",
+  "desc": "Esat'ta çanak anten kurulumu, uydu arızası ve merkezi sistem servisi. Servis ücreti 1000 TL, Next set + kurulum 3000 TL'den başlayan fiyatlarla.",
   "text": "Esat Çanak Anten Servisi: Kurulum ve Uydu Arıza Esat'ta Hangi Hizmetleri Veriyoruz? Esat Servis Ücreti ve Çanak Anten Seti Fiyatı Esat İçin Çanak Ayarı Çalışma Saatleri ve İletişim Diğer Hizmet Bölgelerimiz Sık Sorulan Sorular Esat'ta çanak anten servis ücreti ne kadar? Esat'ta çanak anten kurulumu ne kadar? Esat'a hafta sonu servis var mı? Esat'ta merkezi uydu sistemi arızasına bakıyor musunuz?"
  },
  {
@@ -157,7 +157,7 @@
  {
   "title": "Gaziosmanpaşa Çanak Anten Servisi",
   "url": "gaziosmanpasa-canak-anten-servisi.html",
-  "desc": "Gaziosmanpaşa'da çanak anten kurulumu, uydu arızası ve merkezi sistem servisi. Servis ücreti 800 TL, Next set + kurulum 3000 TL'den başlayan fiyatlarla.",
+  "desc": "Gaziosmanpaşa'da çanak anten kurulumu, uydu arızası ve merkezi sistem servisi. Servis ücreti 1000 TL, Next set + kurulum 3000 TL'den başlayan fiyatlarla.",
   "text": "Gaziosmanpaşa Çanak Anten Servisi: Kurulum ve Uydu Arıza Gaziosmanpaşa'da Hangi Hizmetleri Veriyoruz? Gaziosmanpaşa Servis Ücreti ve Çanak Anten Seti Fiyatı Gaziosmanpaşa İçin Çanak Ayarı Çalışma Saatleri ve İletişim Diğer Hizmet Bölgelerimiz Sık Sorulan Sorular Gaziosmanpaşa'da çanak anten servis ücreti ne kadar? Gaziosmanpaşa'da çanak anten kurulumu ne kadar? Gaziosmanpaşa'ya hafta sonu servis var mı? Gaziosmanpaşa'da merkezi uydu sistemi arızasına bakıyor musunuz?"
  },
  {
@@ -187,13 +187,13 @@
  {
   "title": "Hizmet Bölgeleri ve Servis Ücreti: Dikmen, Çankaya",
   "url": "hizmet-bolgeleri.html",
-  "desc": "Çankaya Uydu hizmet bölgeleri ve servis ücreti: Dikmen, Ayrancı, Balgat, Öveçler 700 TL; Bahçelievler, Emek, Maltepe, Gaziosmanpaşa, Cebeci 800 TL.",
+  "desc": "Çankaya Uydu hizmet bölgeleri ve servis ücreti: Dikmen, Balgat, Öveçler 700 TL; Ayrancı, Emek, Maltepe 800 TL; Esat, Cebeci 1000 TL.",
   "text": "Hizmet Bölgelerimiz: Dikmen, Ayrancı, Balgat ve Çevresi Servis Ücreti (Semtlere Göre) Çanak Anten Seti + Kurulum: Her Semtte Tek Fiyat Sette Neler Var? Kendi Çanağınızın Kurulumu (Semtlere Göre) Malzeme Fiyatları Dikmen Ayrancı Balgat Öveçler Sokullu Keklikpınarı İlker Bahçelievler Emek Maltepe Mebusevleri Gaziosmanpaşa Esat Seyranbağları Cebeci Çalışma Saatlerimiz Sık Sorulan Sorular Hangi semtlere servis veriyorsunuz? Servis ücreti ne kadar? Çalışma saatleriniz nedir? Merkezi uydu sistemi arızasına geliyor musunuz?"
  },
  {
   "title": "Çanak Anten, Merkezi Uydu ve İnternet Kablosu",
   "url": "hizmetlerimiz.html",
-  "desc": "Çanak anten kurulumu, uydu arızası, internet kablosu çekimi. Servis ücreti 700–800 TL, set + kurulum 3000 TL'den başlayan fiyatlarla. Dikmen, Çankaya.",
+  "desc": "Çanak anten kurulumu, uydu arızası, internet kablosu çekimi. Servis ücreti 700–1000 TL, set + kurulum 3000 TL'den başlayan fiyatlarla. Dikmen, Çankaya.",
   "text": "Hizmetlerimiz: Çanak Anten, Merkezi Uydu ve İnternet Kablosu Bireysel Çanak Anten Kurulum ve Arıza Servisi Neler sunuyoruz? Neden Çankaya Uydu? Merkezi Uydu Sistemi Kurulum ve Arıza Neler sunuyoruz? Avantajları Nerelerde kullanılır? İnternet Kablosu Çekimi Neler sunuyoruz? Duvara TV Montajı Montajda dikkat ettiklerimiz Uydu Alıcısı ve Android Box Satışı Ürünler Hizmet Sonrası Destek ve Garanti Garanti kapsamı İletişime Geçin"
  },
  {
@@ -325,7 +325,7 @@
  {
   "title": "Seyranbağları Çanak Anten Servisi",
   "url": "seyranbaglari-canak-anten-servisi.html",
-  "desc": "Seyranbağları'nda çanak anten kurulumu, uydu arızası ve merkezi sistem servisi. Servis ücreti 800 TL, Next set + kurulum 3000 TL'den başlayan fiyatlarla.",
+  "desc": "Seyranbağları'nda çanak anten kurulumu, uydu arızası ve merkezi sistem servisi. Servis ücreti 1000 TL, Next set + kurulum 3000 TL'den başlayan fiyatlarla.",
   "text": "Seyranbağları Çanak Anten Servisi: Kurulum ve Uydu Arıza Seyranbağları'nda Hangi Hizmetleri Veriyoruz? Seyranbağları Servis Ücreti ve Çanak Anten Seti Fiyatı Seyranbağları İçin Çanak Ayarı Çalışma Saatleri ve İletişim Diğer Hizmet Bölgelerimiz Sık Sorulan Sorular Seyranbağları'nda çanak anten servis ücreti ne kadar? Seyranbağları'nda çanak anten kurulumu ne kadar? Seyranbağları'na hafta sonu servis var mı? Seyranbağları'nda merkezi uydu sistemi arızasına bakıyor musunuz?"
  },
  {
@@ -795,7 +795,8 @@
 	var T1 = ['Dikmen', 'Ayrancı', 'Balgat', 'Öveçler', 'Sokullu', 'Keklikpınarı', 'İlker'];
 	var T2 = ['Bahçelievler', 'Emek', 'Maltepe', 'Mebusevleri'];
 	var T3 = ['Gaziosmanpaşa', 'Esat', 'Seyranbağları', 'Cebeci'];
-	var SERVICE = { 1: 700, 2: 800, 3: 800 };
+	var SERVICE_FEE = { 700: ['Dikmen', 'Balgat', 'Öveçler', 'Sokullu', 'Keklikpınarı', 'İlker'], 800: ['Ayrancı', 'Bahçelievler', 'Emek', 'Maltepe', 'Mebusevleri'], 1000: ['Gaziosmanpaşa', 'Esat', 'Seyranbağları', 'Cebeci'] };
+	function service(name) { for (var f in SERVICE_FEE) if (SERVICE_FEE[f].indexOf(name) > -1) return +f; return 1000; }
 	var OWN = { 1: [800, 900], 2: [900, 1000], 3: [1000, 1100] }; // own dish install (balkon, çatı), every material extra
 	var NET_FEE = [1000, 1500], NET_METER = 25;
 	var SET_METER = 20, EXTRA_METER = 25; // every set includes 20 m cable, each extra metre 25₺
@@ -887,7 +888,7 @@
 				p = (NET_FEE[0] + m * NET_METER) + '₺ - ' + (NET_FEE[1] + m * NET_METER);
 				note.textContent = 'Servis ücreti işe göre ' + NET_FEE[0] + '₺ - ' + NET_FEE[1] + '₺ + ' + m + ' m Cat6 kablo × ' + NET_METER + '₺. Kesin fiyat yerinde belirlenir.';
 			} else {
-				var base = k === 'own' ? OWN[tier(name)][J.place] : SERVICE[tier(name)];
+				var base = k === 'own' ? OWN[tier(name)][J.place] : service(name);
 				add += m * EXTRA_METER;
 				if (m) extras.unshift(m + ' m kablo');
 				p = base + add;

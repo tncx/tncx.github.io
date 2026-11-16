@@ -1708,3 +1708,9 @@ h1.breadcrumbs-custom-title,
 .fee-calc .fee-calc-incl li { list-style: none; }
 .fee-calc-incl-body ul { flex: 1; margin: 0; }
 @media (max-width: 575px) { .fee-calc-incl-body { flex-direction: column; align-items: flex-start; } }
+
+/* Fiyat aracı: set görselleri yan yana, aynı boyutta */
+.fee-calc-incl-media { flex: 0 0 auto; height: auto; gap: 10px; background: none; }
+.fee-calc-incl-media img { position: static; display: block; width: 150px; height: 140px; padding: 6px; border: 0; border-radius: 10px; background: linear-gradient(180deg, #f3f6fa, #e7edf4); box-shadow: none; max-width: none; max-height: none; object-fit: contain; }
+.fee-calc-incl-media img.fee-calc-incl-detail { padding: 0; object-fit: cover; }
+@media (max-width: 575px) { .fee-calc-incl-media img { width: 130px; height: 122px; } }

@@ -31,7 +31,39 @@
     "dahil_kablo_metre": 20,
     "asan_kablo_metre_fiyati": 25
   },
-  "semt_gruplari": [
+  "servis_ucreti_gruplari": [
+    {
+      "semtler": [
+        "Dikmen",
+        "Balgat",
+        "Öveçler",
+        "Sokullu",
+        "Keklikpınarı",
+        "İlker"
+      ],
+      "servis_ucreti": 700
+    },
+    {
+      "semtler": [
+        "Ayrancı",
+        "Bahçelievler",
+        "Emek",
+        "Maltepe",
+        "Mebusevleri"
+      ],
+      "servis_ucreti": 800
+    },
+    {
+      "semtler": [
+        "Gaziosmanpaşa",
+        "Esat",
+        "Seyranbağları",
+        "Cebeci"
+      ],
+      "servis_ucreti": 1000
+    }
+  ],
+  "kendi_canagi_kurulum_gruplari": [
     {
       "semtler": [
         "Dikmen",
@@ -42,9 +74,8 @@
         "Keklikpınarı",
         "İlker"
       ],
-      "servis_ucreti": 700,
-      "kendi_canagi_kurulum_balkon": 800,
-      "kendi_canagi_kurulum_cati": 900
+      "balkon": 800,
+      "cati": 900
     },
     {
       "semtler": [
@@ -53,9 +84,8 @@
         "Maltepe",
         "Mebusevleri"
       ],
-      "servis_ucreti": 800,
-      "kendi_canagi_kurulum_balkon": 900,
-      "kendi_canagi_kurulum_cati": 1000
+      "balkon": 900,
+      "cati": 1000
     },
     {
       "semtler": [
@@ -64,9 +94,8 @@
         "Seyranbağları",
         "Cebeci"
       ],
-      "servis_ucreti": 800,
-      "kendi_canagi_kurulum_balkon": 1000,
-      "kendi_canagi_kurulum_cati": 1100
+      "balkon": 1000,
+      "cati": 1100
     }
   ],
   "malzeme": {
