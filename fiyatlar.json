@@ -2,9 +2,35 @@
   "isletme": "Çankaya Uydu Sistemleri",
   "telefon": "+905534502033",
   "web": "https://cankayauydu.com/",
-  "guncelleme": "2026-11-01",
+  "guncelleme": "2026-11-16",
   "para_birimi": "TRY",
   "kaynak": "https://cankayauydu.com/canak-anten-fiyat-hesaplama.html",
+  "canak_anten_setleri": {
+    "not": "Kurulum dahil; tüm semtlerde ve balkon/çatıda tek fiyat.",
+    "setler": [
+      {
+        "ad": "Next 70 cm çanak anten seti",
+        "fiyat": 3000
+      },
+      {
+        "ad": "Next 70 cm çanak anten (Ges Mount) seti",
+        "fiyat": 4000
+      },
+      {
+        "ad": "Next 80 cm Profesyonel Click System seti",
+        "fiyat": 5000
+      }
+    ],
+    "her_sette": [
+      "1 adet Next tekli LNB",
+      "20 metre anten kablosu",
+      "4 adet çelik dübel veya 2 adet montaj kelepçesi",
+      "1 adet montaj borusu",
+      "Kurulum ve Türksat yön ayarı"
+    ],
+    "dahil_kablo_metre": 20,
+    "asan_kablo_metre_fiyati": 25
+  },
   "semt_gruplari": [
     {
       "semtler": [
@@ -17,8 +43,6 @@
         "İlker"
       ],
       "servis_ucreti": 700,
-      "set_kurulum_balkon": 2500,
-      "set_kurulum_cati": 2700,
       "kendi_canagi_kurulum_balkon": 800,
       "kendi_canagi_kurulum_cati": 900
     },
@@ -30,8 +54,6 @@
         "Mebusevleri"
       ],
       "servis_ucreti": 800,
-      "set_kurulum_balkon": 2800,
-      "set_kurulum_cati": 3000,
       "kendi_canagi_kurulum_balkon": 900,
       "kendi_canagi_kurulum_cati": 1000
     },
@@ -43,21 +65,10 @@
         "Cebeci"
       ],
       "servis_ucreti": 800,
-      "set_kurulum_balkon": 3000,
-      "set_kurulum_cati": 3200,
       "kendi_canagi_kurulum_balkon": 1000,
       "kendi_canagi_kurulum_cati": 1100
     }
   ],
-  "set_icerigi": [
-    "70 cm orijinal Next çanak anten",
-    "Next tekli LNB",
-    "20 m Next RG6/U6 anten kablosu",
-    "Montaj ayağı",
-    "2 adet montaj kelepçesi",
-    "Kurulum ve Türksat yön ayarı"
-  ],
-  "set_dahil_kablo_metre": 20,
   "malzeme": {
     "Anten kablosu (metre)": 25,
     "Next tekli LNB": 250,
@@ -75,7 +86,7 @@
   },
   "kurallar": [
     "Arıza, ayar, kanal kurulumu: semtin servis ücreti + değişen malzeme.",
-    "Set + kurulum: semtin kampanya fiyatı; 20 m'yi aşan her metre kablo 25 TL; sete ek malzeme malzeme fiyatıyla eklenir.",
+    "Çanak anten seti + kurulum: setin fiyatı (her semtte ve balkon/çatıda aynı); 20 m'yi aşan her metre kablo 25 TL; sete ek malzeme malzeme fiyatıyla eklenir.",
     "Kendi çanağının kurulumu: semtin kurulum fiyatı + bizden alınan her malzeme (fiyat yalnızca müşterinin kendi malzemesiyle geçerli).",
     "İnternet kablosu: işe göre 1000-1500 TL + Cat6 metresi 25 TL.",
     "Hesaplanan tutar ön bilgidir; kesin fiyat iş yerinde görülünce, işe başlamadan söylenir."
