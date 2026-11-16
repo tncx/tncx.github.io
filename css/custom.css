@@ -1733,3 +1733,4 @@ h1.breadcrumbs-custom-title,
 .fee-calc-job-note { margin: 12px 0 0; padding: 8px 12px; border-left: 3px solid var(--cu-blue); border-radius: 6px; background: #f3f6fa; font-size: 14px; line-height: 1.45; color: #3d4652; }
 .quick-answer-lines p { margin: 10px 0 0; }
 .quick-answer-lines p + ul { margin-top: 4px; }
+.quick-answer-lines ul.qa-gap { margin-top: 10px; }
