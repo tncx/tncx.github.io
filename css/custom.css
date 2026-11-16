@@ -1728,3 +1728,6 @@ h1.breadcrumbs-custom-title,
 .fee-calc-incl-imgs { display: flex; gap: 10px; }
 .fee-calc-incl-media .fee-calc-incl-note { max-width: 150px; }
 .fee-calc-incl-imgs:has(img + img) + .fee-calc-incl-note { max-width: 310px; }
+
+/* Fiyat aracı: iş notu (ör. internet kablosu) */
+.fee-calc-job-note { margin: 12px 0 0; padding: 8px 12px; border-left: 3px solid var(--cu-blue); border-radius: 6px; background: #f3f6fa; font-size: 14px; line-height: 1.45; color: #3d4652; }

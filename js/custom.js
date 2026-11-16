@@ -809,7 +809,7 @@
 		{ kind: 'set', name: 'Next 70 cm çanak anten seti + kurulum', price: 3000, dish: 'Next 70 cm çanak anten', img: 'images/urunler/next-70cm-canak-anten.png', note: 'NOT: Next & NextStar orta seviye çanak antenidir. Balkonlar için idealdir.' },
 		{ kind: 'set', name: 'Next 70 cm çanak anten (Ges Mount) seti + kurulum', price: 4000, dish: 'Next 70 cm çanak anten (Ges Mount)', img: 'images/urunler/next-70cm-canak-anten.png', detail: 'images/urunler/next-70cm-ges-mount-baglanti.webp', note: 'NOT: Next & NextStar üst seviye çanak antenidir. 2 kat mount kalınlığı ile esneme yapmaz. Çatı için idealdir.' },
 		{ kind: 'set', name: 'Next 80 cm Profesyonel Click System seti + kurulum', price: 5000, dish: 'Next 80 cm Profesyonel Click System çanak anten', img: 'images/urunler/next-80cm-click-system.png', detail: 'images/urunler/next-80cm-click-system-on.png', detailFit: 'fee-calc-incl-img', note: 'NOT: Next & NextStar profesyonel seri çanak antendir. Kalın sac gövdesi ve sağlam profesyonel mount\'u sayesinde rüzgâra ve zamana karşı uzun yıllar dayanır. Bireysel ve merkezi sistemlerde güvenle kullanılır.' },
-		{ kind: 'net', name: 'İnternet kablosu çekimi (Krone kutusundan, Cat6)' },
+		{ kind: 'net', name: 'İnternet kablosu çekimi (Krone kutusundan, Cat6)', note: 'NOT: Bina girişindeki Krone kutusundan (Türk Telekom panosu) daire içine kadar Cat6 kablo çekiyoruz.' },
 		{ kind: 'own', name: 'Kendi çanağımın kurulumu (balkon veya çatı)' }
 	];
 	function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text) e.textContent = text; return e; }
@@ -833,6 +833,7 @@
 		incl.appendChild(el('span', 'fee-calc-label', 'Sete dahil malzemeler'));
 		var inclBody = el('div', 'fee-calc-incl-body'), inclMedia = el('div', 'fee-calc-incl-media'), inclList = el('ul');
 		inclBody.appendChild(inclMedia); inclBody.appendChild(inclList); incl.appendChild(inclBody); box.appendChild(incl);
+		var jobNote = el('p', 'fee-calc-job-note'); box.appendChild(jobNote); // note for jobs without a set picture
 		var meterWrap = el('label', 'fee-calc-field fee-calc-meter is-on'); meterWrap.setAttribute('for', 'fee-m-' + n);
 		var meterLabel = el('span', 'fee-calc-label');
 		var meter = el('input'); meter.id = 'fee-m-' + n; meter.type = 'number'; meter.max = '500'; meter.inputMode = 'numeric';
@@ -873,6 +874,7 @@
 			}
 			var m = Math.max(+meter.min, Math.min(500, parseInt(meter.value, 10) || 0));
 			incl.classList.toggle('is-on', k === 'set');
+			jobNote.textContent = k !== 'set' && J.note ? J.note : ''; jobNote.style.display = jobNote.textContent ? '' : 'none';
 			mats.classList.toggle('is-on', k !== 'net');
 			IN_SET.forEach(function (i) { // already in the set: not offered as an extra
 				if (k === 'set') matBoxes[i].checked = false;
