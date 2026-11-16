@@ -173,6 +173,12 @@
   "text": "Hakkımızda: Tuncay Özer, Çankaya Uydu Sistemleri Çankaya Uydu Sistemleri Çalışma İlkelerimiz Yerinde Arıza Tespiti Orijinal Malzeme Açık Fiyat Garantili İş Hizmetlerimiz Hizmet Bölgelerimiz Teknisyenimiz"
  },
  {
+  "title": "HD Kanallar Çekmiyor: Nedenleri ve Çözümü",
+  "url": "hd-kanallar-cekmiyor.html",
+  "desc": "Uyduda HD kanallar çekmiyor, sinyal yok diyor ya da ses var görüntü yok mu? MPEG-4/DVB-S2 desteği, eksik frekans, zayıf sinyal ve kanal arama ayarları.",
+  "text": "HD Kanallar Çekmiyor: Nedenleri ve Çözümü Belirtiye Göre Olası Neden 1. Cihazınız HD Yayını Destekliyor mu? 2. Kanal Araması Eksik Kalmış Olabilir 3. Sinyal Kalitesi Sınırda Olabilir 4. LNB Ayarlarını Kontrol Edin Merkezi Sistemde (Apartman) HD Kanallar Gelmiyorsa Sık Sorulan Sorular HD kanallar neden çekmiyor? HD kanalda ses var görüntü yok, neden? SD kanallar geliyor HD kanallarda sinyal yok diyor, çanak mı bozuk? HD kanallar için şebeke arama frekansı nedir? Eski uydu alıcısı HD kanalları açar mı?"
+ },
+ {
   "title": "Hisense TV Uydu Kanal Arama (Türksat 2026)",
   "url": "hisense-tv-uydu-kanal-arama.html",
   "desc": "Hisense VIDAA TV'de uydu otomatik tarama ve manuel ağ araması; listede Türksat adı, LNB ayarı ve Türksat 2026 sonrası 12380 MHz değerleri.",

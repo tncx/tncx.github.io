@@ -72,6 +72,7 @@
 - [Uydu Kanalları Gitti, Ne Yapmalı?](https://cankayauydu.com/uydu-kanallari-gitti.html)
 - [Kanal Aramada ATV Çıkmıyor](https://cankayauydu.com/kanal-aramada-atv-cikmiyor.html)
 - [Kanal Aramada DTV Ne Demek](https://cankayauydu.com/kanal-aramada-dtv-ne-demek.html)
+- [HD Kanallar Çekmiyor](https://cankayauydu.com/hd-kanallar-cekmiyor.html)
 - [Kanal Sıralaması Bozuldu](https://cankayauydu.com/kanal-siralamasi-bozuldu.html)
 - [Uydu "Sinyal Yok" Hatası Çözümü](https://cankayauydu.com/uydu-sinyal-yok-hatasi.html)
 - [Rüzgârdan Çanak Anten Kaydı](https://cankayauydu.com/ruzgar-canak-anten-kaydi.html)
