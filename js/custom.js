@@ -857,9 +857,9 @@
 		function update() {
 			var name = ALL[+semt.select.value], J = JOBS[+job.select.value], k = J.kind, p, extras = [], add = 0;
 			if (J !== last) { // new job: default cable length and labels
-				meter.value = k === 'set' ? String(SET_METER) : k === 'net' ? '10' : '0';
-				meter.min = k === 'set' || k === 'net' ? '1' : '0';
-				meterLabel.textContent = k === 'net' ? 'Yaklaşık kablo uzunluğu (metre)' : k === 'own' ? 'Bizden kaç metre kablo gerekir?' : k === 'service' ? 'Değişecek kablo (metre, yoksa 0)' : 'Tahmini kaç metre kablo gider?';
+				meter.value = k === 'net' ? '10' : '0';
+				meter.min = k === 'net' ? '1' : '0';
+				meterLabel.textContent = k === 'net' ? 'Yaklaşık kablo uzunluğu (metre)' : k === 'own' ? 'Bizden kaç metre kablo gerekir?' : k === 'service' ? 'Değişecek kablo (metre, yoksa 0)' : 'Ek kablo istiyorum (metre, sette 20 m var)';
 				matsLabel.textContent = k === 'service' ? 'Değişecek malzeme varsa seçin' : k === 'own' ? 'Bizden alınacak malzeme' : 'Sete ek malzeme gerekirse seçin';
 				if (k === 'set') {
 					inclList.textContent = ''; [J.dish].concat(SET_COMMON).forEach(function (t) { inclList.appendChild(el('li', null, t)); });
@@ -880,9 +880,9 @@
 			});
 			if (k !== 'net') matBoxes.forEach(function (c, i) { if (c.checked) { add += MATS[i][1]; extras.push(MATS[i][0]); } });
 			if (k === 'set') {
-				var extra = Math.max(0, m - SET_METER);
+				var extra = m; // metres on top of the 20 m in the set
 				p = J.price + extra * EXTRA_METER + add;
-				note.textContent = 'Set fiyatı, malzeme ve kurulum dahil; her semtte aynı.' + (extra ? ' Ek ' + extra + ' m kablo × ' + EXTRA_METER + '₺ = ' + (extra * EXTRA_METER) + '₺.' : ' 20 m\'yi aşan her metre ' + EXTRA_METER + '₺.') +
+				note.textContent = 'Set fiyatı, malzeme ve kurulum dahil (20 m kablo sette); her semtte aynı.' + (extra ? ' Ek ' + extra + ' m kablo × ' + EXTRA_METER + '₺ = ' + (extra * EXTRA_METER) + '₺.' : ' Ek kablonun metresi ' + EXTRA_METER + '₺.') +
 					(add ? ' Ek malzeme ' + add + '₺ (' + extras.join(', ') + ').' : '');
 			} else if (k === 'net') {
 				p = (NET_FEE[0] + m * NET_METER) + '₺ - ' + (NET_FEE[1] + m * NET_METER);
@@ -898,6 +898,7 @@
 			price.textContent = p + '₺';
 			var detail = k === 'own' ? ' (' + (extras.length ? 'bizden: ' + extras.join(', ') : 'malzemeler bende') + ')' :
 				k === 'service' ? (extras.length ? ' (malzeme: ' + extras.join(', ') + ')' : '') :
+				k === 'set' ? (m || extras.length ? ' (' + [m ? 'ek ' + m + ' m kablo' : ''].concat(extras).filter(Boolean).join(', ') + ')' : '') :
 				' (~' + m + ' m kablo' + (extras.length ? ', ek: ' + extras.join(', ') : '') + ')';
 			wa.href = 'https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent('Merhaba, ' + name + ' için randevu almak istiyorum. İş: ' + J.name + detail + ', ' + p + '₺.');
 		}
