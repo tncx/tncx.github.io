@@ -805,8 +805,8 @@
 	// kind: service | set | net | own; one set price everywhere (user, 2026-11-16)
 	var JOBS = [
 		{ kind: 'service', name: 'Arıza, ayar veya kanal kurulumu (servis ücreti)' },
-		{ kind: 'set', name: 'Next 70 cm çanak anten seti + kurulum', price: 3000, dish: 'Next 70 cm çanak anten' },
-		{ kind: 'set', name: 'Next 70 cm çanak anten (Ges Mount) seti + kurulum', price: 4000, dish: 'Next 70 cm çanak anten (Ges Mount)' },
+		{ kind: 'set', name: 'Next 70 cm çanak anten seti + kurulum', price: 3000, dish: 'Next 70 cm çanak anten', img: 'images/urunler/next-70cm-canak-anten.png' },
+		{ kind: 'set', name: 'Next 70 cm çanak anten (Ges Mount) seti + kurulum', price: 4000, dish: 'Next 70 cm çanak anten (Ges Mount)', img: 'images/urunler/next-70cm-canak-anten.png', detail: 'images/urunler/next-70cm-ges-mount-baglanti.webp' },
 		{ kind: 'set', name: 'Next 80 cm Profesyonel Click System seti + kurulum', price: 5000, dish: 'Next 80 cm Profesyonel Click System çanak anten' },
 		{ kind: 'net', name: 'İnternet kablosu çekimi (Krone kutusundan, Cat6)' },
 		{ kind: 'own', name: 'Kendi çanağımın kurulumu (balkon)', place: 0 },
@@ -832,7 +832,8 @@
 		row.appendChild(semt.wrap); row.appendChild(job.wrap); box.appendChild(row);
 		var incl = el('div', 'fee-calc-field fee-calc-incl');
 		incl.appendChild(el('span', 'fee-calc-label', 'Sete dahil malzemeler'));
-		var inclList = el('ul'); incl.appendChild(inclList); box.appendChild(incl);
+		var inclBody = el('div', 'fee-calc-incl-body'), inclMedia = el('div', 'fee-calc-incl-media'), inclList = el('ul');
+		inclBody.appendChild(inclMedia); inclBody.appendChild(inclList); incl.appendChild(inclBody); box.appendChild(incl);
 		var meterWrap = el('label', 'fee-calc-field fee-calc-meter is-on'); meterWrap.setAttribute('for', 'fee-m-' + n);
 		var meterLabel = el('span', 'fee-calc-label');
 		var meter = el('input'); meter.id = 'fee-m-' + n; meter.type = 'number'; meter.max = '500'; meter.inputMode = 'numeric';
@@ -859,7 +860,14 @@
 				meter.min = k === 'set' || k === 'net' ? '1' : '0';
 				meterLabel.textContent = k === 'net' ? 'Yaklaşık kablo uzunluğu (metre)' : k === 'own' ? 'Bizden kaç metre kablo gerekir?' : k === 'service' ? 'Değişecek kablo (metre, yoksa 0)' : 'Tahmini kaç metre kablo gider?';
 				matsLabel.textContent = k === 'service' ? 'Değişecek malzeme varsa seçin' : k === 'own' ? 'Bizden alınacak malzeme' : 'Sete ek malzeme gerekirse seçin';
-				if (k === 'set') { inclList.textContent = ''; [J.dish].concat(SET_COMMON).forEach(function (t) { inclList.appendChild(el('li', null, t)); }); }
+				if (k === 'set') {
+					inclList.textContent = ''; [J.dish].concat(SET_COMMON).forEach(function (t) { inclList.appendChild(el('li', null, t)); });
+					inclMedia.textContent = ''; inclMedia.style.display = J.img ? '' : 'none';
+					[[J.img, J.dish, 'fee-calc-incl-img'], [J.detail, J.dish + ' bağlantı parçası', 'fee-calc-incl-detail']].forEach(function (m) {
+						if (!m[0]) return;
+						var im = el('img', m[2]); im.src = m[0]; im.alt = m[1]; im.loading = 'lazy'; inclMedia.appendChild(im);
+					});
+				}
 				last = J;
 			}
 			var m = Math.max(+meter.min, Math.min(500, parseInt(meter.value, 10) || 0));

@@ -1694,3 +1694,17 @@ h1.breadcrumbs-custom-title,
 .set-card-price { margin: 6px 0 2px; font-size: 26px; font-weight: 800; color: var(--cu-red, #e5352b); }
 .set-card-note { margin: 0; font-size: 13px; color: #5b6472; }
 @media (max-width: 767px) { .set-cards { grid-template-columns: 1fr; } .set-card-media { height: 210px; } }
+
+/* Kısa cevap: satır satır liste */
+.quick-answer-lines ul { margin: 8px 0 0; padding: 0; list-style: none; }
+.quick-answer-lines ul + ul { margin-top: 12px; }
+.quick-answer.quick-answer-lines li { margin: 2px 0; list-style: none; }
+
+/* Fiyat aracı: set görseli + dahil malzemeler */
+.fee-calc-incl-body { display: flex; align-items: center; gap: 16px; margin-top: 6px; }
+.fee-calc-incl-media { position: relative; flex: 0 0 150px; height: 140px; display: flex; align-items: center; justify-content: center; border-radius: 10px; background: linear-gradient(180deg, #f3f6fa, #e7edf4); }
+.fee-calc-incl-img { max-width: 130px; max-height: 124px; width: auto; height: auto; }
+.fee-calc-incl-detail { position: absolute; right: -8px; bottom: -8px; width: 58px; height: 55px; object-fit: cover; border-radius: 8px; border: 2px solid #fff; box-shadow: 0 2px 8px rgba(0,0,0,.18); }
+.fee-calc .fee-calc-incl li { list-style: none; }
+.fee-calc-incl-body ul { flex: 1; margin: 0; }
+@media (max-width: 575px) { .fee-calc-incl-body { flex-direction: column; align-items: flex-start; } }
