@@ -859,7 +859,7 @@
 			if (J !== last) { // new job: default cable length and labels
 				meter.value = k === 'net' ? '10' : '0';
 				meter.min = k === 'net' ? '1' : '0';
-				meterLabel.textContent = k === 'net' ? 'Yaklaşık kablo uzunluğu (metre)' : k === 'own' ? 'Bizden kaç metre kablo gerekir?' : k === 'service' ? 'Değişecek kablo (metre, yoksa 0)' : 'Ek kablo istiyorum (metre, sette 20 m var)';
+				meterLabel.textContent = k === 'net' ? 'Yaklaşık kablo uzunluğu (metre)' : k === 'own' ? 'Bizden kaç metre kablo gerekir?' : k === 'service' ? 'Değişecek kablo (metre, yoksa 0)' : 'Ek kablo istiyorum. (1 mt 25₺) (Set içerisinde 20 mt kablo mevcut)';
 				matsLabel.textContent = k === 'service' ? 'Değişecek malzeme varsa seçin' : k === 'own' ? 'Bizden alınacak malzeme' : 'Sete ek malzeme gerekirse seçin';
 				if (k === 'set') {
 					inclList.textContent = ''; [J.dish].concat(SET_COMMON).forEach(function (t) { inclList.appendChild(el('li', null, t)); });
