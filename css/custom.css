@@ -1682,3 +1682,15 @@ h1.breadcrumbs-custom-title,
 .fee-calc-static { margin: 0; }
 .price-updated { font-size: 14px; color: #5b6472; }
 .table.fee-table.price-matrix td, .table.fee-table.price-matrix th { padding: 8px 6px; font-size: 14px; vertical-align: middle; }
+
+/* Çanak anten seti kartları (kampanya sayfası) */
+.set-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 0 0 24px; }
+.set-card { display: flex; flex-direction: column; border: 1px solid var(--cu-line); border-radius: 14px; padding: 14px; background: #fff; text-align: center; }
+.set-card-media { position: relative; display: flex; align-items: center; justify-content: center; height: 190px; margin-bottom: 10px; border-radius: 10px; background: linear-gradient(180deg, #f3f6fa, #e7edf4); }
+.set-card-img { max-width: 88%; max-height: 172px; width: auto; height: auto; object-fit: contain; }
+.set-card-detail { position: absolute; right: 8px; bottom: 8px; width: 74px; height: 70px; object-fit: cover; border-radius: 8px; border: 2px solid #fff; box-shadow: 0 2px 8px rgba(0,0,0,.18); }
+.set-card-noimg span { font-size: 44px; font-weight: 800; color: #b9c4d3; }
+.set-card-name { flex: 1; margin: 0; font-weight: 700; font-size: 15px; line-height: 1.35; }
+.set-card-price { margin: 6px 0 2px; font-size: 26px; font-weight: 800; color: var(--cu-red, #e5352b); }
+.set-card-note { margin: 0; font-size: 13px; color: #5b6472; }
+@media (max-width: 767px) { .set-cards { grid-template-columns: 1fr; } .set-card-media { height: 210px; } }
