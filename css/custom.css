@@ -1715,3 +1715,10 @@ h1.breadcrumbs-custom-title,
 .fee-calc-incl-media img.fee-calc-incl-detail { padding: 0; object-fit: cover; }
 @media (max-width: 575px) { .fee-calc-incl-media img { width: 130px; height: 122px; } }
 .set-card-detail.set-card-detail-contain { object-fit: contain; background: #fff; padding: 3px; }
+
+/* Fiyat aracı: set görseli altındaki not */
+.fee-calc-incl-media { flex-wrap: wrap; align-content: flex-start; }
+.fee-calc-incl-note { flex: 0 0 100%; max-width: 160px; margin: 6px 0 0; font-size: 12.5px; line-height: 1.4; color: #5b6472; }
+.fee-calc-incl-media img + img ~ .fee-calc-incl-note { max-width: 310px; }
+.fee-calc-incl-media:has(.fee-calc-incl-note) { flex-direction: column; align-items: flex-start; flex-wrap: nowrap; }
+.fee-calc-incl-note { color: #3d4652; }
