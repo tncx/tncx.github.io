@@ -807,7 +807,7 @@
 	var JOBS = [
 		{ kind: 'service', name: 'Arıza, ayar veya kanal kurulumu (servis ücreti)' },
 		{ kind: 'set', name: 'Next 70 cm çanak anten seti + kurulum', price: 3000, dish: 'Next 70 cm çanak anten', img: 'images/urunler/next-70cm-canak-anten.png', note: 'NOT: Next & NextStar giriş seviye çanak antenidir. Balkonlar için idealdir.' },
-		{ kind: 'set', name: 'Next 70 cm çanak anten (Ges Mount) seti + kurulum', price: 4000, dish: 'Next 70 cm çanak anten (Ges Mount)', img: 'images/urunler/next-70cm-canak-anten.png', detail: 'images/urunler/next-70cm-ges-mount-baglanti.webp' },
+		{ kind: 'set', name: 'Next 70 cm çanak anten (Ges Mount) seti + kurulum', price: 4000, dish: 'Next 70 cm çanak anten (Ges Mount)', img: 'images/urunler/next-70cm-canak-anten.png', detail: 'images/urunler/next-70cm-ges-mount-baglanti.webp', note: 'NOT: Next & NextStar üst seviye çanak antenidir. 2 kat mount kalınlığı ile esneme yapmaz. Çatı için idealdir.' },
 		{ kind: 'set', name: 'Next 80 cm Profesyonel Click System seti + kurulum', price: 5000, dish: 'Next 80 cm Profesyonel Click System çanak anten', img: 'images/urunler/next-80cm-click-system.png', detail: 'images/urunler/next-80cm-click-system-on.png', detailFit: 'fee-calc-incl-img' },
 		{ kind: 'net', name: 'İnternet kablosu çekimi (Krone kutusundan, Cat6)' },
 		{ kind: 'own', name: 'Kendi çanağımın kurulumu (balkon)', place: 0 },
@@ -864,9 +864,10 @@
 				if (k === 'set') {
 					inclList.textContent = ''; [J.dish].concat(SET_COMMON).forEach(function (t) { inclList.appendChild(el('li', null, t)); });
 					inclMedia.textContent = ''; inclMedia.style.display = J.img ? '' : 'none';
+					var imgRow = el('div', 'fee-calc-incl-imgs'); inclMedia.appendChild(imgRow);
 					[[J.img, J.dish, 'fee-calc-incl-img'], [J.detail, J.dish + (J.detailFit ? ', önden' : ' bağlantı parçası'), J.detailFit || 'fee-calc-incl-detail']].forEach(function (m) {
 						if (!m[0]) return;
-						var im = el('img', m[2]); im.src = m[0]; im.alt = m[1]; im.loading = 'lazy'; inclMedia.appendChild(im);
+						var im = el('img', m[2]); im.src = m[0]; im.alt = m[1]; im.loading = 'lazy'; imgRow.appendChild(im);
 					});
 					if (J.note) inclMedia.appendChild(el('p', 'fee-calc-incl-note', J.note));
 				}

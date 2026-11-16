@@ -1722,3 +1722,9 @@ h1.breadcrumbs-custom-title,
 .fee-calc-incl-media img + img ~ .fee-calc-incl-note { max-width: 310px; }
 .fee-calc-incl-media:has(.fee-calc-incl-note) { flex-direction: column; align-items: flex-start; flex-wrap: nowrap; }
 .fee-calc-incl-note { color: #3d4652; }
+
+/* Fiyat aracı: görseller bir satırda, not altında */
+.fee-calc-incl-media { flex-direction: column; align-items: flex-start; flex-wrap: nowrap; }
+.fee-calc-incl-imgs { display: flex; gap: 10px; }
+.fee-calc-incl-media .fee-calc-incl-note { max-width: 150px; }
+.fee-calc-incl-imgs:has(img + img) + .fee-calc-incl-note { max-width: 310px; }
